@@ -1,0 +1,59 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"angularCompilerOptions": {
+		"allowEmptyCodegenFiles": false,
+		"enableIvy": true,
+		"enableResourceInlining": true,
+		"fullTemplateTypeCheck": true,
+		"preserveSymlinks": true,
+		"strictInjectionParameters": true,
+		"strictTemplates": true
+	},
+	"buildOnSave": false,
+	"compileOnSave": true,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"declaration": false,
+		"downlevelIteration": true,
+		"emitDecoratorMetadata": false,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"lib": ["es2018", "dom"],
+		"module": "es2020",
+		"moduleResolution": "node",
+		"noEmitHelpers": true,
+		"noImplicitAny": true,
+		"outDir": "./development",
+		"paths": {
+			"_application/*": ["source/application/*"],
+//			"@angular/*": ["./node_modules/@angular/*"],
+//			"@fortawesome/*": ["./node_modules/@fortawesome/*"],
+//			"@interface-agency/password-validation": ["../password-validation/public"],
+		},
+		"pretty": true,
+		"resolveJsonModule": true,
+		"rootDir": ".",
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"target": "es2015",
+		"typeRoots": ["./node_modules/@types"],
+		"types": ["node", "webpack"],
+	},
+//	"include": [
+//		"../field-validation/public/**/*",
+//		"./source/**/*.ts",
+//		"./source/**/*.d.ts"
+//	],
+	"exclude": [
+		"./source/production.ts",
+//		"./source/application/industry/auto/used-car/website/preview/theme-a/client/**/*.ts",
+//		"./source/application/industry/auto/used-car/website/preview/theme-b/client/**/*.ts",
+//		"./source/application/industry/auto/used-car/website/preview/shared/**/*.ts",
+//		"./source/application/industry/legal/family/website/preview/theme-a/client/**/*.ts",
+//		"./source/application/industry/legal/family/website/preview/theme-b/client/**/*.ts",
+//		"./source/application/industry/legal/family/website/preview/shared/**/*.ts"
+
+	]
+}

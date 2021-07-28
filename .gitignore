@@ -1,0 +1,26 @@
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.atom
+.idea
+.vscode
+
+# Node Files #
+npm-debug.log
+/node_modules/
+
+# Analysis
+/development/
+/production/
+
+# Typing #
+/client/typings/tsd/
+/typings/
+/tsd_typings/
+
+# Coverage #
+/coverage/
+/**/*.ngfactory.ts
+/**/*.css.ts
+/**/*.css.shim.ts

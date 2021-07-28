@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"esModuleInterop": true,
+	},
+	"files": [
+		"./development/configuration.ts",
+		"./production/configuration.ts",
+	],
+	"include": [
+		"./**/*.ts"
+	],
+	"exclude": [
+		"./../source/**/*.ts"
+	]
+}
