@@ -17,11 +17,7 @@ import { RootRoutingModule } from './routes';
 import { SharedModule } from './shared/module';
 
 @NgModule({
-	declarations: [
-		RootComponent,
-		HeaderComponent,
-		FooterComponent
-	],
+	declarations: [RootComponent, HeaderComponent, FooterComponent],
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,

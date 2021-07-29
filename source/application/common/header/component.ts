@@ -37,10 +37,9 @@ export class HeaderComponent implements OnInit {
 
 	private panelStateSubscription: Subscription;
 
-	constructor(private router: Router, private store: Store) {}
+	constructor(private router: Router) {}
 
 	ngOnInit() {}
 
-	public openPanel(option: string = ''): void {
-	}
+	public openPanel(option: string = ''): void {}
 }

@@ -1,0 +1,28 @@
+<h1>HEY THis is test</h1>
+<div class="lga-search">
+	<!--	<form [formGroup]="searchForm">-->
+	<form>
+		<div class="lga-search__container">
+			<div class="lga-search__category">
+				<div class="lga-field">
+					<!--					<ia-select formControlName="category"></ia-select>-->
+				</div>
+			</div>
+			<div class="lga-search__subcategory">
+				<div class="lga-field">
+					<!--					<ia-select formControlName="sub_category"></ia-select>-->
+				</div>
+			</div>
+
+			<div class="lga-search__filter">
+				<input formControlName="filter" placeholder="" />
+			</div>
+			<div class="lga-search__reset" (click)="resetSearchForm()">
+				<!--				<fa-icon [icon]="faTimes" class="fa-times"> </fa-icon>-->
+			</div>
+		</div>
+		<div class="lga-search__tag" (click)="resetSearchForm()">
+			<!--			<fa-icon [icon]="faTimes" class="fa-times"></fa-icon>-->
+		</div>
+	</form>
+</div>

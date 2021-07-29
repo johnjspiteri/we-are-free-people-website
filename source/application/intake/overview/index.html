@@ -1,0 +1,21 @@
+<!--<form class="lga-intake__form" [formGroup]="intakeOverviewForm" (ngSubmit)="submit()">-->
+<form class="lga-intake__form">
+	<div class="lga-intake__section">
+		<div class="lga-intake__title">
+			<div class="lga-intake__center">
+				<h1>Case Overview</h1>
+			</div>
+		</div>
+		<div class="lga-intake__title">
+			<div class="lga-intake__center">
+				<h6>What happened?</h6>
+			</div>
+		</div>
+		<div class="lga-intake__input">
+			<textarea type="text" formControlName="overview" placeholder=""></textarea>
+		</div>
+	</div>
+	<div class="lga-intake__buttons">
+		<button>Submit <span class="fas fa-check"></span></button>
+	</div>
+</form>

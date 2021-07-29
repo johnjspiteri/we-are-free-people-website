@@ -1,0 +1,247 @@
+.lga-intake
+	width 360px
+
+.lga-tabs
+	width 360px
+	height 35px
+	border-radius 6px 0 0 0
+
+	&__container
+		height 35px
+		width 360px
+
+.lga-tab
+	height 34px
+	padding 0 21px
+
+	h2
+		font-size 19px
+		line-height 33px
+
+	&__check
+		font-size 17px
+		line-height 33px
+
+.lga-tab.first
+	border-radius 6px 0 0 0
+
+.lga-tab.last
+	border-radius 0 6px 0 0
+
+.lga-tab.active
+	height 35px
+
+.lga-intake
+	&__form
+		width: 340px
+		padding 28px 10px 14px 10px
+		margin 0 0 44px 0
+
+		h1
+			font-size 24px
+			line-height 24px
+			text-align center
+			margin 0 0 40px 0
+
+	&__section
+		outline none
+
+	&__row
+		margin 0 0 20px 0px
+
+	&__title-top
+		margin 0 0 8px 0
+
+	&__center
+		display inline-block
+		margin 0
+		padding: 0
+
+		h6
+			font-size 16px
+			line-height 16px
+			margin 0 0 20px 0
+
+	&__checkbox-holder
+		width 298px
+		height 50px
+
+	&__checkbox
+		width: 60px
+		height: 15px
+		margin:18px auto
+		border-radius: 50px
+
+		label
+			width: 20px
+			height: 20px
+			top: -3px;
+			left: -5px;
+			border-radius: 50px;
+
+		input[type=checkbox]
+			visibility: hidden;
+
+			&:checked + label
+				left: 41px;
+				background #f4f4f4
+
+	&__sliderOne
+		h4
+			font-size 18px
+			line-height 18px
+			top -4px
+
+		&--left
+			h4
+				left -55px
+
+		&--right
+			h4
+				right -50px
+
+	&__sliderTwo
+		h4
+			font-size 18px
+			line-height 18px
+			top -4px
+
+		&--left
+			h4
+				left -55px
+
+		&--right
+			h4
+				right -50px
+
+
+	&__title
+		margin 0 0 8px 0
+		text-align left
+
+	&__center
+		padding: 0
+
+		h6
+			font-size 16px
+			line-height 16px
+			margin 0 0 20px 0
+
+	&__input
+		width 298px
+
+		input
+		select
+		textarea
+			padding-left: 5px
+			font-size 22px
+
+		input
+			height 44px
+
+		select
+			height 46px
+
+		textarea
+			padding 20px 0 0 10px
+
+		input.areacode
+			border-right 1px solid $color-black
+
+		input.number
+			border-right 1px solid $color-black
+
+	&__mask--full
+		width 300px
+		height 44px
+
+		h4
+			font-size 22px
+			line-height 46px
+			text-align center
+
+	&__mask--half
+		height 44px
+
+		h4
+			font-size 22px
+			line-height 46px
+
+	&__caret
+		font-size 18px
+		top 16px
+		right 10px
+
+		input
+			width 340px
+
+		&--full
+			width 300px
+			margin 0 0 20px 0px
+
+			h1
+				font-size 32px
+				line-height 32px
+				margin 0 0 20px 0
+
+		input
+			width 340px
+
+		&--half
+			display none
+
+	&__confirmation
+		width 300px
+
+		h1
+			margin 0 0 12px 0
+			padding-bottom: 12px
+			font-size 25px
+			line-height 28px
+
+	&__paragraph
+		width 300px
+
+		p
+			font-size 16px
+			line-height 20px
+			padding-bottom: 12px
+			margin 0 0 8px 0
+
+	&__submit
+		width 300px
+		padding-bottom: 20px
+		margin 12px 0 12px 0
+
+		h3
+			font-size 15px
+			line-height 42px
+			height 42px
+
+	&__id
+		width 300px
+		p
+			font-size 12px
+			font-style italic
+
+	&__buttons
+		outline none
+
+		button
+			width 340px
+			height 48px
+			margin 10px 0 20px 0
+			font-size 25px
+			&:hover
+				color $color-white
+
+			.lga-intake__check
+				margin-left: 14px
+				font-size 21px
+				line-height 15px
+
+		button[disabled]
+			background $form-input
+
+			&:hover
+				color $color-black

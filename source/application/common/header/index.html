@@ -1,1 +1,28 @@
-<h1>Header</h1>
+<header id="lga-header">
+	<div id="lga-header-banner">
+		<div id="lga-header-banner__container">
+			<h1>Get A Free Consultation</h1>
+		</div>
+	</div>
+	<div id="lga-header__container">
+		<div id="lga-header__brand">
+			<div id="lga-header__logo" routerLink="/"></div>
+		</div>
+		<div id="lga-header__name">
+			<!--			<h1>{{identity.brand.name}}</h1>-->
+			<!--			<h2>{{identity.brand.tag}}</h2>-->
+		</div>
+		<div id="lga-header__mobile" (click)="openPanel()">
+			<fa-icon id="lga-header__bars" [icon]="faBars"> </fa-icon>
+		</div>
+	</div>
+</header>
+<div id="lga-header-navigation">
+	<nav id="lga-header-navigation__container">
+		<h2 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h2>
+		<h2 routerLink="./articles" routerLinkActive="active">Articles</h2>
+		<h2 routerLink="./media" routerLinkActive="active">Media</h2>
+		<h2 routerLink="./about" routerLinkActive="active">About</h2>
+		<h2 routerLink="./contact" routerLinkActive="active">Contact</h2>
+	</nav>
+</div>

@@ -1,0 +1,232 @@
+#lga-listings
+	float left
+	width 300px
+	padding 0
+	margin 0 0 32px 10px
+
+.lga-listing
+	display inline-block
+	vertical-align top
+	width 300px
+	padding-top: 10px
+	margin-bottom:0 22px
+	font-size 16px
+	cursor pointer
+	overflow hidden
+	background $color-primary
+
+	&__image
+		float left
+		width 280px
+		padding 0
+		margin 0 0 10px 10px
+		background $color-white
+		border $color-background-border
+		border-radius $border-radius
+		overflow hidden
+
+		img
+			float left
+			width 100%
+			height 176px
+			padding 0
+			margin 0
+
+	&__content
+		float left
+		width 280px
+		padding 16px 10px 18px 10px
+		margin 0
+		background $color-white
+		border none
+		border-top $border-white
+		border-radius $border-radius-bottom
+
+	&__title
+		float left
+		width 100%
+		padding 0
+		margin-bottom:0 25px
+
+		h1
+			float left
+			width 260px
+			padding 10px
+			margin 0
+			font-size 15px
+			line-height 27px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			color $color-black
+			background #f4f4f4
+			border $color-background-border
+			border-radius $border-radius
+			text-align center
+
+	&__caption
+		width 100%
+		padding 0
+		margin 0
+		text-align center
+
+	&__center
+		display inline-block
+		position relative
+		padding 0
+		margin-bottom:0 7px
+		z-index 99
+
+		h5
+			float left
+			padding 0
+			margin 0
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			font-size 13px
+			line-height 13px
+			color $color-paragraph
+			text-align center
+
+	&__square
+		float left
+		padding 0
+		margin-bottom: 25px
+
+		h2
+			float left
+			padding 8px 10px 8px 10px
+			margin 0
+			font-size 15px
+			line-height 20px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			color $color-black
+			background #f4f4f4
+			border $color-background-border
+			border-radius $border-radius
+
+		p
+			float left
+			padding 0
+			margin 0
+			font-size 15px
+			line-height 27px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			color $color-paragraph
+
+	&__square.price
+		margin 0 20px 22px 0
+
+	&__square.author
+		margin-bottom: 30px
+
+	&__square.category
+		margin 0 60px 30px 0
+
+	&__square.sku
+		margin-bottom: 22px
+
+	&__buttons
+		float left
+		width 280px
+		padding 0
+		margin 0
+
+	&__button
+		float left
+		width 135px
+		height 40px
+		padding 0
+		margin 0
+		background $color-black
+		border-radius $border-radius
+
+		h4
+			float left
+			width 100%
+			padding 0
+			margin 0
+			font-size 14px
+			line-height 40px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			color $color-white
+			text-align center
+
+	&__button.red
+		width 135px
+		margin 0 10px 0 0
+		background $red
+
+	&__buttons
+		float left
+		width 100%
+		padding 0
+		margin 0
+
+.lga-listing-empty
+	float left
+	width 280px
+	padding 10px
+	margin 0
+	border-radius: 8px
+	background $color-secondary-border
+	border $color-primary-border
+	border-radius $border-radius
+
+	h1
+		float left
+		width 100%
+		margin-bottom: 10px
+		padding-bottom: 6px
+		font-family: $font-primary
+		font-weight $font-primary-weight-400
+		font-size 18px
+		line-height 28px
+		color $color-black
+		border-bottom 3px solid $color-accent
+		text-align center
+
+	p
+		float left
+		width 100%
+		margin-bottom: 20px
+		padding 0
+		font-family $font-secondary
+		font-weight $font-secondary-weight-400
+		font-size 14px
+		line-height 22px
+		color $color-paragraph
+		text-align center
+
+.lga-listing__buttonB
+	float left
+	width 135px
+	height 40px
+	padding 0
+	margin 10px 10px 15px 0
+	font-family $font-primary
+	font-weight $font-weight-primary-400
+	font-size 25px
+	background $color-accent
+	border $border
+	text-align center
+	border-radius $border-radius
+	box-sizing border-box
+
+	h3
+		float left
+		width: 100%
+		padding 0
+		margin 0
+		font-family $font-primary
+		font-weight $font-primary-weight-400
+		font-size 15px
+		line-height 39px
+		color $color-white
+		text-align center
+
+.lga-listing__buttonB.right
+	width 135px
+	margin 10px 0 0 0

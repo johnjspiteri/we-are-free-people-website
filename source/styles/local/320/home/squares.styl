@@ -1,0 +1,79 @@
+#lga-squares
+	float left
+	display grid
+	grid-template-columns 1fr
+	grid-template-rows auto
+	width 320px
+	margin 0 0 50px 0
+	background $color-secondary
+	border-top $border-secondary
+
+
+.lga-square
+	// width 100%
+	padding 24px 0 38px 0
+	margin 0
+	border-bottom $border-secondary
+	// background #978
+
+	&__row
+		float left
+		width 320px
+		padding 0
+		margin 0
+
+		img
+			float left
+			width 285px
+			height 160px
+			margin 0 0 24px 15px
+			padding 0
+			background #e2e2e2
+
+		h3
+			float left
+			padding-bottom: 8px
+			margin 0 0 14px 15px
+			font-size 17px
+			line-height 17px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			border-bottom 2px solid $color-accent
+			color $color-black
+			text-align left
+
+		p
+			float left
+			width 300px
+			padding: 0
+			margin-left: 15px
+			font-size 14px
+			line-height 26px
+			font-family $font-primary
+			font-weight $font-weight-primary-400
+			color $color-paragraph
+			text-align left
+
+	&__buttonholder
+		float left
+		padding 10px
+		width 300px
+
+	&__button
+		float left
+		width 140px
+		height 36px
+		background $color-accent
+		border-radius $border-radius
+		border-bottom 1px $red-border-bottom
+
+		h4
+			float left
+			width 100%
+			margin 0
+			padding 0
+			color $color-white
+			text-align center
+			font-size 16px
+			line-height 36px
+			background: $button

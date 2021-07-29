@@ -1,0 +1,80 @@
+<!--<div id="career-application">-->
+<!--	<form id="career-application__container" [formGroup]="careerApplicationForm" (ngSubmit)="submit()" novalidate>-->
+<!--		<div id="career-application__holder">-->
+<!--			<fa-icon id="career-application__times" [icon]="faTimes" (click)="closeModal()"></fa-icon>-->
+<!--		</div>-->
+<!--		<h1>{{career.position.role}}</h1>-->
+<!--		<p>{{career.content.description}}</p>-->
+<!--		<div id="career-application-career">-->
+<!--			<div formGroupName="name" id="career-application-career-name">-->
+<!--				<label id="career-application-career-name-first__label" for="career-application-career-name-first__field">FIRST NAME</label>-->
+<!--				<input id="career-application-career-name-first__field" formControlName="first" />-->
+<!--				<label id="career-application-career-name-last__label" for="career-application-career-name-last__field">LAST NAME</label>-->
+<!--				<input id="career-application-career-name-last__field" formControlName="last" />-->
+<!--			</div>-->
+<!--			<label id="career-application-career-email__label" for="career-application-career-email__field">EMAIL ADDRESS</label>-->
+<!--			<input id="career-application-career-email__field" formControlName="email" />-->
+<!--			<label id="career-application-career-resume__label" for="career-application-career-resume__field">UPLOAD YOUR CV</label>-->
+<!--			<div class="career-application-career-section" id="career-application-career-resume__field">-->
+<!--				<input type="file" formControlName="resume">-->
+<!--			</div>-->
+<!--			<label id="career-application-career-document__label" for="career-application-career-document__field">SUPPORTING DOCUMENTS?</label>-->
+<!--			<div class="career-application-career-section" id="career-application-career-document__field">-->
+<!--				<input type="file" formControlName="supporting_document">-->
+<!--			</div>-->
+
+<!--			<div formGroupName="based" id="career-application-career-based">-->
+<!--&lt;!&ndash;				<label id="career-application-career-based-country__label" for="career-application-career-based-country__field">WHERE ARE YOU CURRENTLY BASED?</label>&ndash;&gt;-->
+<!--&lt;!&ndash;				<select id="career-application-career-based-country__field" formControlName="country">&ndash;&gt;-->
+<!--&lt;!&ndash;					<option></option>&ndash;&gt;-->
+<!--&lt;!&ndash;				</select>&ndash;&gt;-->
+<!--&lt;!&ndash;				<h4 id="career-application-career-based-country__mask">{{ this.careerApplicationForm.get('based.country').value }}</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;				<fa-icon class='career-application-caret' id='career-application-career-based-country__caret' [icon]="faCaretDown"></fa-icon>&ndash;&gt;-->
+
+<!--				<label id="career-application-career-based-country__label" for="career-application-career-based-country__field">WHERE ARE YOU CURRENTLY BASED?</label>-->
+<!--				<div class="aua-financing-form-field">-->
+<!--					<ia-select formControlName="country" [items]=""></ia-select>-->
+<!--				</div>-->
+
+<!--&lt;!&ndash;				<select id="career-application-career-based-province__field" formControlName="province" *ngIf="!country_state">&ndash;&gt;-->
+<!--&lt;!&ndash;					<option></option>&ndash;&gt;-->
+<!--&lt;!&ndash;				</select>&ndash;&gt;-->
+<!--&lt;!&ndash;				<h4 id="career-application-career-based-province__mask" *ngIf="!country_state">{{ this.careerApplicationForm.get('based.province').value }}</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;				<fa-icon class='career-application-caret' id='career-application-career-based-province__caret' *ngIf="!country_state" [icon]="faCaretDown"></fa-icon>&ndash;&gt;-->
+
+<!--						<div class="aua-financing-form-field">-->
+<!--							<ia-select formControlName="province" [items]=""></ia-select>-->
+<!--						</div>	-->
+
+<!--				<select id="career-application-career-based-state__field" formControlName="state" *ngIf="country_state">-->
+<!--					<option></option>-->
+<!--				</select>-->
+<!--				<h4 id="career-application-career-based-state__mask" *ngIf="country_state">{{ this.careerApplicationForm.get('based.state').value }}</h4>-->
+<!--				<fa-icon class='career-application-caret' id='career-application-career-based-state__caret' *ngIf="country_state" [icon]="faCaretDown"></fa-icon>-->
+
+<!--				<div class="aua-financing-form-field">-->
+<!--					<ia-select formControlName="state" [items]=""></ia-select>-->
+<!--				</div>	-->
+
+<!--					<div class="aua-financing-form-field">-->
+<!--						<ia-select formControlName="state" [items]="" *ngIf="country_state"></ia-select>-->
+<!--					</div>-->
+
+<!--					<div class="aua-financing-form-field">-->
+<!--						<ia-select formControlName="city" [items]=""></ia-select>-->
+<!--					</div>-->
+
+<!--				<div class="aua-financing-form-field">-->
+<!--					<ia-select formControlName="city" [items]=""></ia-select>-->
+<!--				</div>-->
+<!--			</div>-->
+
+<!--			<label id="career-application-career-current__label" for="career-application-career-current__field">WHAT IS YOUR CURRENT JOB TITLE?</label>-->
+<!--			<input id="career-application-career-current__field" formControlName="current_role" />-->
+<!--			<label id="career-application-career-cover__label" for="career-application-career-cover__field">YOUR COVER MESSAGE</label>-->
+<!--			<textarea id="career-application-career-cover__field" formControlName="cover"></textarea>-->
+<!--		</div>-->
+<!--		<button type="submit" [disabled]="careerApplicationForm.status === 'INVALID' || careerApplicationForm.status === 'PENDING' || submitted">APPLY NOW</button>-->
+<!--	</form>-->
+<!--</div>-->
+<!--<div id="backdrop" (click)="closeModal()"></div>-->

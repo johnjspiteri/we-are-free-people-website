@@ -1,0 +1,28 @@
+*
+	padding 0
+	margin 0
+
+#lga-container
+	position: relative;
+	width 100%
+	height: 100vh
+	overflow-y: scroll;
+	overscroll-behavior: contain;
+
+#lga-container.locked
+	overflow: hidden;
+
+#lga-structure
+	width: 100%
+	min-height: 100vh
+	display grid
+	grid-template-rows auto 1fr auto
+	background $color-background
+	grid-template-areas:
+		"legal-header"\
+		"legal-main"\
+		"legal-footer";
+
+	&__main
+		grid-area: legal-main
+		margin: 34px auto 40px auto

@@ -61,7 +61,7 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 	private panelLoadingStateSubscription: Subscription;
 	private body = document.getElementById('body');
 
-	constructor(private activatedRoute: ActivatedRoute, private router: Router, private store: Store) {}
+	constructor(private activatedRoute: ActivatedRoute, private router: Router) {}
 
 	@HostListener('document:keydown.esc') escape() {
 		return this.closeNavigationPanel();
@@ -69,21 +69,19 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 
 	ngOnInit(): void {
 		// this.store.dispatch(fromPanelActions.OPEN({ option: '' }));
-
 		// this.globalLoadingStateSubscription = this.store.select(fromLoaderSelectors.LOADER_GLOBAL).subscribe((state) => {
 		// 	// console.log('global loading state:', state);
 		// 	setTimeout(() => {
 		// 		this.state.loading.global = state;
 		// 	});
 		// });
-
 		// this.panelLoadingStateSubscription = this.store.select(fromLoaderSelectors.LOADER_PANEL).subscribe((state) => (this.state.loading.panel = state));
 	}
 
 	ngAfterViewInit(): void {}
 
 	ngOnDestroy(): void {
-		this.panelStateSubscription.unsubscribe();
+		// this.panelStateSubscription.unsubscribe();
 		// this.globalLoadingStateSubscription.unsubscribe();
 		// this.panelLoadingStateSubscription.unsubscribe();
 	}
@@ -92,11 +90,9 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 		return a.value.order - b.value.order;
 	}
 
-	public closeNavigationPanel(): void {
-	}
+	public closeNavigationPanel(): void {}
 
 	public triggerRefresh(): void {
 		this.state.refresh = false;
 	}
-
 }
