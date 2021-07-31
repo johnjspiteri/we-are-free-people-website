@@ -1,22 +1,22 @@
-<!--<form class="lga-intake__form" [formGroup]="intakeDetailForm" (ngSubmit)="submit()"><h1>Civil Issue Details</h1>-->
-<form class="lga-intake__form">
+<!--<form class="community-intake__form" [formGroup]="intakeDetailForm" (ngSubmit)="submit()"><h1>Civil Issue Details</h1>-->
+<form class="community-intake__form">
 	<h1>Civil Issue Details</h1>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title-top">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title-top">
+				<div class="community-intake__center">
 					<h6>Does a proceeding exist?</h6>
 				</div>
 			</div>
-			<div class="lga-intake__checkbox-holder">
-				<div class="lga-intake__checkbox">
-					<div class="lga-intake__sliderOne">
-						<div class="lga-intake__sliderOne--left">
+			<div class="community-intake__checkbox-holder">
+				<div class="community-intake__checkbox">
+					<div class="community-intake__sliderOne">
+						<div class="community-intake__sliderOne--left">
 							<h4>Yes</h4>
 						</div>
 						<input type="checkbox" id="sliderOne" tabindex="5" required />
 						<label for="sliderOne"></label>
-						<div class="lga-intake__sliderOne--right">
+						<div class="community-intake__sliderOne--right">
 							<h4>No</h4>
 						</div>
 					</div>
@@ -24,22 +24,22 @@
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title-top">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title-top">
+				<div class="community-intake__center">
 					<h6>Do you have legal counsel?</h6>
 				</div>
 			</div>
-			<div class="lga-intake__checkbox-holder">
-				<div class="lga-intake__checkbox">
-					<div class="lga-intake__sliderTwo">
-						<div class="lga-intake__sliderTwo--left">
+			<div class="community-intake__checkbox-holder">
+				<div class="community-intake__checkbox">
+					<div class="community-intake__sliderTwo">
+						<div class="community-intake__sliderTwo--left">
 							<h4>Yes</h4>
 						</div>
 						<input type="checkbox" id="sliderTwo" tabindex="5" required />
 						<label for="sliderTwo"> </label>
-						<div class="lga-intake__sliderTwo--right">
+						<div class="community-intake__sliderTwo--right">
 							<h4>No</h4>
 						</div>
 					</div>
@@ -47,55 +47,55 @@
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Case Number</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="text" formControlName="caseNumber" placeholder="" />
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Name of the other party?</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="text" formControlName="otherParty" placeholder="" />
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Name of counsel?</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="text" formControlName="counselName" placeholder="" />
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Reason for changing counsel?</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<textarea formControlName="description"> </textarea>
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__buttons">
+	<div class="community-intake__buttons">
 		<button type="submit" [disabled]="intakeDetailForm.status === 'INVALID' || intakeDetailForm.status === 'PENDING' || submitted">Submit</button>
 	</div>
 </form>

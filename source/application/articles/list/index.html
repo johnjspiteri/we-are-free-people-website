@@ -1,60 +1,60 @@
-<!--<div id="lga-search">-->
+<!--<div id="community-search">-->
 <!--	<form [formGroup]="searchForm">-->
-<!--		<div id="lga-search__container">-->
-<!--			<div id="lga-search__category">-->
-<!--				<div class="lga-field">-->
+<!--		<div id="community-search__container">-->
+<!--			<div id="community-search__category">-->
+<!--				<div class="community-field">-->
 <!--					&lt;!&ndash;					<ia-select formControlName="category" [items]="search.categories"></ia-select>&ndash;&gt;-->
 <!--				</div>-->
 <!--			</div>-->
-<!--			<div id="lga-search__subcategory">-->
-<!--				<div class="lga-field">-->
+<!--			<div id="community-search__subcategory">-->
+<!--				<div class="community-field">-->
 <!--					&lt;!&ndash;					<ia-select formControlName="sub_category" [items]="search.sub_categories"></ia-select>&ndash;&gt;-->
 <!--				</div>-->
 <!--			</div>-->
-<!--			<div id="lga-search__filter">-->
+<!--			<div id="community-search__filter">-->
 <!--				<input formControlName="filter" placeholder="" />-->
 <!--			</div>-->
-<!--			<div id="lga-search__reset" (click)="resetSearchForm()">-->
-<!--				<fa-icon class="lga-search__resetIcon" [icon]="faTimes"></fa-icon>-->
+<!--			<div id="community-search__reset" (click)="resetSearchForm()">-->
+<!--				<fa-icon class="community-search__resetIcon" [icon]="faTimes"></fa-icon>-->
 <!--			</div>-->
 <!--		</div>-->
 <!--	</form>-->
 
-<!--	<div id="lga-listings">-->
-<!--		<div class="lga-listing" &lt;!&ndash; *ngFor="let article of articles | categoryFilter: searchForm.get('category').value | topicFilter: searchForm.get('sub_category').value | textFilter: searchForm.get('filter').value">-->
+<!--	<div id="community-listings">-->
+<!--		<div class="community-listing" &lt;!&ndash; *ngFor="let article of articles | categoryFilter: searchForm.get('category').value | topicFilter: searchForm.get('sub_category').value | textFilter: searchForm.get('filter').value">-->
 <!--			&ndash;&gt;-->
-<!--			<div class="lga-listing__image">-->
+<!--			<div class="community-listing__image">-->
 <!--				<img />-->
 <!--			</div>-->
-<!--			<div class="lga-listing__content">-->
-<!--				<div class="lga-listing__title">-->
+<!--			<div class="community-listing__content">-->
+<!--				<div class="community-listing__title">-->
 <!--					&lt;!&ndash;                    <h1>{{article.title}}</h1>&ndash;&gt;-->
 <!--				</div>-->
-<!--				<div class="lga-listing__square category">-->
-<!--					<div class="lga-listing__caption">-->
-<!--						<div class="lga-listing__center">-->
+<!--				<div class="community-listing__square category">-->
+<!--					<div class="community-listing__caption">-->
+<!--						<div class="community-listing__center">-->
 <!--							<h5>Category</h5>-->
 <!--						</div>-->
 <!--					</div>-->
 <!--					&lt;!&ndash;                    <h2>{{article.category}}</h2>&ndash;&gt;-->
 <!--				</div>-->
 
-<!--				<div class="lga-listing__square author">-->
-<!--					<div class="lga-listing__caption">-->
-<!--						<div class="lga-listing__center">-->
+<!--				<div class="community-listing__square author">-->
+<!--					<div class="community-listing__caption">-->
+<!--						<div class="community-listing__center">-->
 <!--							<h5>Author</h5>-->
 <!--						</div>-->
 <!--					</div>-->
 <!--					&lt;!&ndash;                    <h2>{{article.creator.name}}</h2>&ndash;&gt;-->
 <!--				</div>-->
-<!--				<div class="lga-listing__square">-->
+<!--				<div class="community-listing__square">-->
 <!--					&lt;!&ndash;                    <p>{{article.description.summary}}</p>&ndash;&gt;-->
 <!--				</div>-->
-<!--				<div class="lga-listing__buttons">-->
-<!--					<div class="lga-listing__button red">-->
+<!--				<div class="community-listing__buttons">-->
+<!--					<div class="community-listing__button red">-->
 <!--						<h4>Buy Now</h4>-->
 <!--					</div>-->
-<!--					<div class="lga-listing__button">-->
+<!--					<div class="community-listing__button">-->
 <!--						<h4>Learn More</h4>-->
 <!--					</div>-->
 <!--				</div>-->
@@ -62,14 +62,14 @@
 <!--		</div>-->
 <!--	</div>-->
 
-<!--	<div class="lga-listing-empty">-->
+<!--	<div class="community-listing-empty">-->
 <!--		<h1>Nothing Matches Your Search Values!</h1>-->
 <!--		<p>Please feel free to contact us if you need any help or have any questions?</p>-->
-<!--		<div id="lga-listing__buttons">-->
-<!--			<div class="lga-listing__buttonB">-->
+<!--		<div id="community-listing__buttons">-->
+<!--			<div class="community-listing__buttonB">-->
 <!--				<h3>Start Over</h3>-->
 <!--			</div>-->
-<!--			<div class="lga-listing__buttonB right">-->
+<!--			<div class="community-listing__buttonB right">-->
 <!--				<h3>Contact Sales</h3>-->
 <!--			</div>-->
 <!--		</div>-->

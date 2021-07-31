@@ -12,4 +12,4 @@ import { ConsultationRoutingModule } from './routes';
 	exports: [],
 	providers: [ConsultationState],
 })
-export class ConsultationModule {}
+export class DonateModule {}

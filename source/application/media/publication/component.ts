@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'legal-terms',
+	selector: 'media-publication',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class TermsComponent {}
+export class MediaPublicationComponent {}

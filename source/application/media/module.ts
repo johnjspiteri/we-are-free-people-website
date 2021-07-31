@@ -7,9 +7,12 @@ import { ComposeBase64ImagePipe } from './list/search/pipe/base64';
 import { SubCategoryFilterPipe } from './list/search/pipe/topic';
 import { TextFilterPipe } from './list/search/pipe/filter';
 import { MediaRoutingModule } from './routes';
+import { MediaAwardComponent } from './award/component';
+import { MediaPublicationComponent } from './publication/component';
+import { MediaVideoComponent } from './video/component';
 
 @NgModule({
-	declarations: [CategoryFilterPipe, ComposeBase64ImagePipe, SubCategoryFilterPipe, TextFilterPipe, MediaListComponent, MediaFindComponent],
+	declarations: [CategoryFilterPipe, ComposeBase64ImagePipe, SubCategoryFilterPipe, TextFilterPipe, MediaListComponent, MediaFindComponent, MediaAwardComponent, MediaPublicationComponent, MediaVideoComponent],
 	entryComponents: [],
 	imports: [MediaRoutingModule],
 	exports: [],

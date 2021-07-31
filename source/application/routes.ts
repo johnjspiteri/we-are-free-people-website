@@ -14,6 +14,14 @@ const routes: Routes = [
 				loadChildren: () => import('./home/module').then((module) => module.HomeModule),
 			},
 			{
+				path: 'legal',
+				loadChildren: () => import('./legal/module').then((module) => module.LegalModule),
+			},
+			{
+				path: 'volunteer',
+				loadChildren: () => import('./volunteer/module').then((module) => module.VolunteerModule),
+			},
+			{
 				path: 'about',
 				loadChildren: () => import('./about/module').then((module) => module.AboutModule),
 			},
@@ -30,8 +38,8 @@ const routes: Routes = [
 				loadChildren: () => import('./contact/module').then((module) => module.ContactModule),
 			},
 			{
-				path: 'free-consultation',
-				loadChildren: () => import('./consultation/module').then((module) => module.ConsultationModule),
+				path: 'donate',
+				loadChildren: () => import('./donate/module').then((module) => module.DonateModule),
 			},
 			{
 				path: 'intake',
@@ -44,14 +52,6 @@ const routes: Routes = [
 			{
 				path: 'page-not-found',
 				component: ErrorComponent,
-			},
-			{
-				path: 'privacy-policy',
-				loadChildren: () => import('./privacy/module').then((module) => module.PrivacyModule),
-			},
-			{
-				path: 'terms-and-conditions',
-				loadChildren: () => import('./terms/module').then((module) => module.TermsModule),
 			},
 			{
 				path: '**',

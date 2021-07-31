@@ -1,116 +1,116 @@
-<!--<form class="lga-intake__form" [formGroup]="intakePersonalForm" (ngSubmit)="submit()">-->
-<form class="lga-intake__form">
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+<!--<form class="community-intake__form" [formGroup]="intakePersonalForm" (ngSubmit)="submit()">-->
+<form class="community-intake__form">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h1>Personal Details</h1>
 				</div>
 			</div>
 
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>First Name</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="text" formControlName="firstName" placeholder="" />
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Last Name</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="text" formControlName="lastName" placeholder="" />
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center"><h6>Email Address</h6></div>
+	<div class="community-intake__section">
+		<div class="community-intake__row">
+			<div class="community-intake__title">
+				<div class="community-intake__center"><h6>Email Address</h6></div>
 			</div>
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input type="email" formControlName="email" placeholder="" />
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row--full">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row--full">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Phone</h6>
 				</div>
 			</div>
 
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input class="areacode" type="number" formControlName="areaCode" placeholder="" />
 				<input class="number" type="number" formControlName="number" placeholder="" />
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row--half">
-			<div class="lga-intake__title--half">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row--half">
+			<div class="community-intake__title--half">
+				<div class="community-intake__center">
 					<h6>Phone</h6>
 				</div>
 			</div>
 
-			<div class="lga-intake__input">
+			<div class="community-intake__input">
 				<input class="areacode" type="number" formControlName="areaCode" placeholder="" />
 				<input class="number" type="number" formControlName="number" placeholder="" />
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row--full">
-			<div class="lga-intake__title">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row--full">
+			<div class="community-intake__title">
+				<div class="community-intake__center">
 					<h6>Contact Method</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
-				<div class="lga-field">
+			<div class="community-intake__input">
+				<div class="community-field">
 					<!--					<ia-select formControlName="contactMethod" [items]="methods"></ia-select>-->
 				</div>
-				<div class="lga-intake__mask--full">
+				<div class="community-intake__mask--full">
 					<h4>{{ getContactMethod }}</h4>
 				</div>
-				<!--				<fa-icon class="lga-intake__caret" [icon]="faCaretDown"> </fa-icon>-->
+				<!--				<fa-icon class="community-intake__caret" [icon]="faCaretDown"> </fa-icon>-->
 			</div>
 		</div>
 	</div>
 
-	<div class="lga-intake__section">
-		<div class="lga-intake__row--half">
-			<div class="lga-intake__title--half">
-				<div class="lga-intake__center">
+	<div class="community-intake__section">
+		<div class="community-intake__row--half">
+			<div class="community-intake__title--half">
+				<div class="community-intake__center">
 					<h6>Contact Method</h6>
 				</div>
 			</div>
-			<div class="lga-intake__input">
-				<div class="lga-field">
+			<div class="community-intake__input">
+				<div class="community-field">
 					<!--					<ia-select formControlName="contactMethod" [items]="methods"></ia-select>-->
 				</div>
-				<div class="lga-intake__mask--half">
+				<div class="community-intake__mask--half">
 					<h4>{{ getContactMethod }}</h4>
 				</div>
-				<!--				<fa-icon class="lga-intake__caret" [icon]="faCaretDown"> </fa-icon>-->
+				<!--				<fa-icon class="community-intake__caret" [icon]="faCaretDown"> </fa-icon>-->
 			</div>
 		</div>
 	</div>
-	<div class="lga-intake__buttons">
+	<div class="community-intake__buttons">
 		<button>Submit <span class="fas fa-check"></span></button>
 	</div>
 </form>
