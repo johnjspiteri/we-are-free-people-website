@@ -1,106 +1,224 @@
 #community-listings
+	float: left
 	width 340px
+	padding: 0
 	margin 0 0 32px 10px
 
 .community-listing
+	display inline-block
+	vertical-align top
 	width 338px
 	padding-top: 10px
 	margin-bottom: 22px
 	font-size 16px
+	cursor pointer
+	overflow hidden
+	background $color-primary
 
 	&__image
+		float left
 		width 318px
 		margin 0 0 10px 10px
+		background $color-white
+		border $color-background-border
+		border-radius $border-radius
+		overflow hidden
 
 		img
+			float left
+			width 100%
 			height 176px
+			padding 0
+			margin 0
 
 	&__content
+		float left
 		width 300px
 		padding 16px 20px 18px 20px
+		margin 0
+		background $color-white
+		border none
+		border-top $border-white
+		border-radius $border-radius-bottom
 
 	&__title
-		margin-bottom: 30px
+		float left
+		width 100%
+		padding 0
+		margin-bottom:0 25px
 
 		h1
+			float left
+			margin: 0
 			width 260px
 			padding 10px 20px 10px 20px
 			font-size 16px
 			line-height 27px
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			color $color-black
+			background #f4f4f4
+			border $color-background-border
+			border-radius $border-radius
+			text-align center
 
 	&__caption
+		width 100%
+		padding 0
+		margin 0
 		text-align center
-
 	&__center
-		margin-bottom: 7px
+		display inline-block
+		position relative
+		padding 0
+		margin-bottom:0 7px
 		z-index 99
 
 		h5
-			font-size 14px
-			line-height 14px
+			float left
+			padding 0
+			margin 0
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			font-size 13px
+			line-height 13px
+			color $color-paragraph
+			text-align center
 
 	&__square
-		margin-bottom: 36px
+		float left
+		padding 0
+		margin-bottom: 25px
 
 		h2
-			padding 8px 20px 8px 20px
+			float left
+			padding 8px 10px 8px 10px
+			margin 0
 			font-size 15px
-			line-height 25px
+			line-height 20px
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			color $color-black
+			background #f4f4f4
+			border $color-background-border
+			border-radius $border-radius
 
 		p
+			float left
+			padding 0
+			margin 0
 			font-size 15px
 			line-height 27px
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			color $color-paragraph
 
 	&__square.price
-		margin 0 20px 30px 0
+		margin 0 20px 22px 0
 
 	&__square.author
 		margin-bottom: 30px
 
 	&__square.category
-		margin 0 45px 22px 0
+		margin 0 60px 30px 0
 
 	&__square.sku
 		margin-bottom: 22px
 
 	&__buttons
+		float left
 		width 300px
+		padding 0
+		margin 0
 
 	&__button
+		float: left
 		width 140px
 		height 46px
+		padding 0
+		margin 0
+		background $color-black
+		border-radius $border-radius
 
 		h4
-			font-size 16px
-			line-height 47px
+			float left
+			width 100%
+			padding 0
+			margin 0
+			font-size 14px
+			line-height 40px
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			color $color-white
+			text-align center
 
 	&__button.red
 		width 140px
-		margin-bottom: 20px 0 0
-
-	&__buttons
-		width 100%
+		margin 0 10px 0 0
+		background $red
 
 .community-listing-empty
+	float: left
 	width 320px
 	padding 10px
+	margin 0
 	border-radius: 8px
+	background $color-secondary-border
+	border $color-primary-border
+	border-radius $border-radius
+
 
 	h1
-		font-size 19px
-		line-height 30px
+		float left
+		width 100%
+		margin-bottom: 10px
+		padding-bottom: 6px
+		font-family: $primary-font
+		font-weight $primary-font-weight-400
+		font-size 18px
+		line-height 28px
+		color $color-black
+		border-bottom 3px solid $color-accent
+		text-align center
 
 	p
-		margin 0 0 20px 0
-		font-size 16px
-		line-height 25px
+		float left
+		width 100%
+		margin-bottom: 20px
+		padding 0
+		font-family $font-secondary
+		font-weight $font-secondary-weight-400
+		font-size 14px
+		line-height 22px
+		color $color-paragraph
+		text-align center
 
 .community-listing__buttonB
-	width 155px
+	float left
+	width 135px
+	height 40px
+	padding 0
+	margin 10px 10px 15px 0
+	font-family $primary-font
+	font-weight $font-weight-primary-400
+	font-size 25px
+	background $color-accent
+	border $border
+	text-align center
+	border-radius $border-radius
+	box-sizing border-box
 
 	h3
+		float left
+		width: 100%
+		padding 0
+		margin 0
+		font-family $primary-font
+		font-weight $primary-font-weight-400
 		font-size 15px
 		line-height 40px
+		color $color-white
+		text-align center
 
 .community-listing__buttonB.right
 	width 155px
