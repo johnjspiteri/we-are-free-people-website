@@ -5,8 +5,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import WebpackBar from 'webpackbar';
 
-// import ESLintPlugin from 'eslint-webpack-plugin';
-// import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
+import ESLintPlugin from 'eslint-webpack-plugin';
+import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 
 interface Configuration extends webpack.Configuration {
 	devServer?: {

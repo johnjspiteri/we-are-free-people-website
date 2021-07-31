@@ -14,7 +14,9 @@ export class HomeComponent implements OnInit {
 	public homeIntroductionForm: FormGroup;
 	public options: string[] = ['Websites', 'Marketing', 'Email', 'Domains'];
 
-	ngOnInit() {}
+	ngOnInit() {
+		console.log('home');
+	}
 
 	constructor(public formBuilder: FormBuilder) {
 		this.homeIntroductionForm = this.formBuilder.group({
