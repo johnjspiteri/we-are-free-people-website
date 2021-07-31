@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'legal-about-award-list',
+	selector: 'about-organization',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class AboutAwardListComponent {}
+export class AboutOrganizationComponent {}

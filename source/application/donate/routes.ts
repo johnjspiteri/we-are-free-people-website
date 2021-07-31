@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ConsultationComponent } from './component';
+import { donateComponent } from './component';
 import { ConsultationFormComponent } from './form/component';
 import { ConsultationConfirmationComponent } from './confirmation/component';
 // import { ConsultationConfirmationCanActivateGuard } from './confirmation/guard';
@@ -9,16 +9,19 @@ import { ConsultationConfirmationComponent } from './confirmation/component';
 const routes: Routes = [
 	{
 		path: '',
-		component: ConsultationComponent,
+		component: donateComponent,
 		children: [
 			{
 				path: '',
-				component: ConsultationFormComponent,
+				redirectTo: 'confirmation',
 			},
 			{
 				path: 'confirmation',
-				// canActivate: [ConsultationConfirmationCanActivateGuard],
 				component: ConsultationConfirmationComponent,
+			},
+			{
+				path: 'form',
+				component: ConsultationFormComponent,
 			},
 		],
 	},

@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'common-about-award-find',
+	selector: 'about',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class AboutAwardFindComponent {}
+export class AboutComponent {}

@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { volunteerRoutingModule } from './routes';
 
+import { VolunteerComponent } from './component';
 import { VolunteerJoinComponent } from './join/component';
-import { VolunteerCommunityComponent } from './community/component';
+import { VolunteerCompleteComponent } from './complete/component';
 
 @NgModule({
-	declarations: [VolunteerJoinComponent, VolunteerCommunityComponent],
+	declarations: [VolunteerComponent, VolunteerJoinComponent, VolunteerCompleteComponent],
 	entryComponents: [],
 	imports: [volunteerRoutingModule],
 	exports: [],

@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'legal-about-history',
+	selector: 'about-purpose',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class AboutHistoryComponent {}
+export class AboutPurposeComponent {}

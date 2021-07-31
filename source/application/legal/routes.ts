@@ -3,19 +3,22 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LegalPrivacyComponent } from './privacy/component';
 import { LegalTermsComponent } from './terms/component';
+import { LegalComponent } from './component';
 
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: 'legal',
-	},
-	{
-		path: 'privacy',
-		component: LegalPrivacyComponent,
-	},
-	{
-		path: 'terms',
-		component: LegalTermsComponent,
+		component: LegalComponent,
+		children: [
+			{
+				path: 'privacy',
+				component: LegalPrivacyComponent,
+			},
+			{
+				path: 'terms',
+				component: LegalTermsComponent,
+			},
+		],
 	},
 ];
 

@@ -2,14 +2,13 @@ import { NgModule } from '@angular/core';
 import { AboutRoutingModule } from './routes';
 // import { SharedModule } from './shared/module';
 
-import { AboutAwardListComponent } from './award/list/component';
-import { AboutAwardFindComponent } from './award/find/component';
-import { AboutHistoryComponent } from './history/component';
-import { AboutTeamListComponent } from './team/list/component';
-import { AboutTeamFindComponent } from './team/find/component';
+import { AboutPurposeComponent } from './purpose/component';
+import { AboutPhilosophyComponent } from './philosophy/component';
+import { AboutOrganizationComponent } from './organization/component';
+import { AboutComponent } from './component';
 
 @NgModule({
-	declarations: [AboutAwardListComponent, AboutAwardFindComponent, AboutTeamListComponent, AboutTeamFindComponent, AboutHistoryComponent],
+	declarations: [AboutPurposeComponent, AboutPhilosophyComponent, AboutOrganizationComponent, AboutComponent],
 	imports: [AboutRoutingModule],
 	providers: [],
 })
