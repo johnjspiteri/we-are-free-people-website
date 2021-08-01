@@ -5,6 +5,7 @@ import { AboutComponent } from './component';
 import { AboutOrganizationComponent } from './organization/component';
 import { AboutPhilosophyComponent } from './philosophy/component';
 import { AboutPurposeComponent } from './purpose/component';
+import { AboutFinancesComponent } from './finances/component';
 
 const routes: Routes = [
 	{
@@ -26,6 +27,10 @@ const routes: Routes = [
 			{
 				path: 'purpose',
 				component: AboutPurposeComponent,
+			},
+			{
+				path: 'finances',
+				component: AboutFinancesComponent,
 			},
 		],
 	},

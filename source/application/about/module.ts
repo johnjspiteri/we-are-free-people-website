@@ -6,9 +6,10 @@ import { AboutPurposeComponent } from './purpose/component';
 import { AboutPhilosophyComponent } from './philosophy/component';
 import { AboutOrganizationComponent } from './organization/component';
 import { AboutComponent } from './component';
+import { AboutFinancesComponent } from './finances/component';
 
 @NgModule({
-	declarations: [AboutPurposeComponent, AboutPhilosophyComponent, AboutOrganizationComponent, AboutComponent],
+	declarations: [AboutPurposeComponent, AboutPhilosophyComponent, AboutOrganizationComponent, AboutFinancesComponent, AboutComponent],
 	imports: [AboutRoutingModule],
 	providers: [],
 })
