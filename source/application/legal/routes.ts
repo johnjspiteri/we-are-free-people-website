@@ -11,11 +11,11 @@ const routes: Routes = [
 		component: LegalComponent,
 		children: [
 			{
-				path: 'privacy',
+				path: 'privacy-policy',
 				component: LegalPrivacyComponent,
 			},
 			{
-				path: 'terms',
+				path: 'terms-of-use',
 				component: LegalTermsComponent,
 			},
 		],
