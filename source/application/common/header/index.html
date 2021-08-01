@@ -15,14 +15,14 @@
 		<div id="community-header__mobile" (click)="openPanel()">
 			<fa-icon id="community-header__bars" [icon]="faBars"> </fa-icon>
 		</div>
+		<div id="community-header-navigation">
+			<nav id="community-header-navigation__container">
+				<h3 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h3>
+				<h3 routerLink="./articles" routerLinkActive="active">Articles</h3>
+				<h3 routerLink="./media" routerLinkActive="active">Media</h3>
+				<h3 routerLink="./about" routerLinkActive="active">About</h3>
+				<h3 routerLink="./contact" routerLinkActive="active">Contact</h3>
+			</nav>
+		</div>
 	</div>
 </header>
-<div id="community-header-navigation">
-	<nav id="community-header-navigation__container">
-		<h2 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h2>
-		<h2 routerLink="./articles" routerLinkActive="active">Articles</h2>
-		<h2 routerLink="./media" routerLinkActive="active">Media</h2>
-		<h2 routerLink="./about" routerLinkActive="active">About</h2>
-		<h2 routerLink="./contact" routerLinkActive="active">Contact</h2>
-	</nav>
-</div>
