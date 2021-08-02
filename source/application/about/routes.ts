@@ -17,6 +17,10 @@ const routes: Routes = [
 				redirectTo: 'organization',
 			},
 			{
+				path: 'careers',
+				loadChildren: () => import('./career/module').then((module) => module.CareerModule),
+			},
+			{
 				path: 'organization',
 				component: AboutOrganizationComponent,
 			},

@@ -1,0 +1,90 @@
+<router-outlet></router-outlet>
+<div id="structure-container">
+	<div id="find__tabs">
+		<div class="find-tab">
+			<h4>MAKE INQUIRY</h4>
+		</div>
+		<div class="find-tab" [routerLink]="['./apply-now']">
+			<h4>APPLY NOW</h4>
+		</div>
+	</div>
+
+	<div id="find">
+		<div id="find__content">
+			<div id="find__details">
+				<h4>{{ career.role | titleCaseDash }}</h4>
+				<h4>/</h4>
+				<h4>{{ career.team | titleCaseDash }}</h4>
+				<h4>/</h4>
+				<h4>{{ career.category | titleCaseDash }}</h4>
+				<h4>/</h4>
+				<h4>{{ career.department | titleCaseDash }}</h4>
+			</div>
+
+			<div id="find__title">
+				<div id="find__underline">
+					<h1>{{ career.role }}</h1>
+				</div>
+			</div>
+
+			<div id="find-author">
+				<img src="{{ career.contact.image }}" alt="{{ career.contact.name.first }} + ' ' {{ career.contact.name.last }} + ' image'" />
+
+				<div class="find-author-row">
+					<h3>{{ career.contact.name.first + ' ' + career.contact.name.last }}</h3>
+				</div>
+				<div class="find-author-row">
+					<h3>{{ career.contact.role }}</h3>
+				</div>
+				<div class="find-author-row">
+					<h4>Post on {{ career.posted | date: 'longDate' }}</h4>
+				</div>
+			</div>
+			<div class="find-section">
+				<h2>DETAIL</h2>
+				<p>{{ career.content.detail }}</p>
+			</div>
+
+			<div class="find-section">
+				<h2>GROWTH</h2>
+				<p>{{ career.content.growth }}</p>
+			</div>
+
+			<div class="find-section">
+				<h2>IMPACT</h2>
+				<p>{{ career.content.impact }}</p>
+			</div>
+		</div>
+
+		<!--    <div id="find__aside"></div>-->
+		<div class="find-section">
+			<h2>QUALIFICATIONS</h2>
+			<div id="find__tags">
+				<ng-container *ngFor="let qualification of career.content.qualifications">
+					<div class="find-tag">
+						<div class="find-end">
+							<div class="find-end__top"></div>
+							<div class="find-end__middle"></div>
+							<div class="find-end__bottom"></div>
+						</div>
+						<div class="find-body">
+							<h6>{{ qualification }}</h6>
+						</div>
+					</div>
+				</ng-container>
+			</div>
+		</div>
+		<div class="find-section">
+			<h2>SUMMARY</h2>
+			<p>{{ career.content.summary }}</p>
+		</div>
+
+		<div class="find-section">
+			<h2>WORK</h2>
+			<p>{{ career.content.work }}</p>
+		</div>
+
+		<button>GET MORE HELP!</button>
+		<router-outlet></router-outlet>
+	</div>
+</div>

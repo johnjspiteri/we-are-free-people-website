@@ -1,0 +1,99 @@
+<div id="career-application">
+	<form id="career-application__container" [formGroup]="careerApplicationForm" (ngSubmit)="submit()" novalidate="novalidate">
+		<div id="career-application__holder">
+			<fa-icon id="career-application__times" [icon]="faTimes" (click)="closeModal()"></fa-icon>
+		</div>
+		<!--		<h1>{{ career.role }}</h1>-->
+		<!--		<p>{{ career.content.description }}</p>-->
+
+		<div id="career-application-career">
+			<div formGroupName="name">
+				<div class="career-application-section-two">
+					<div class="career-application-section">
+						<label for="career-application-career-first">FIRST NAME</label>
+						<div class="career-application-field">
+							<input id="career-application-career-first" formControlName="first" />
+						</div>
+					</div>
+
+					<div class="career-application-section">
+						<label for="career-application-career-last">LAST NAME</label>
+						<div class="career-application-field">
+							<input id="career-application-career-last" formControlName="last" />
+						</div>
+					</div>
+				</div>
+
+				<div class="career-application-section">
+					<label for="career-application-career-email">EMAIL ADDRESS</label>
+					<div class="career-application-field">
+						<input id="career-application-career-email" formControlName="email" />
+					</div>
+				</div>
+
+				<div class="career-application-section">
+					<label for="career-application-career-resume">UPLOAD YOUR CV</label>
+					<div class="career-application-field">
+						<div class="career-application-career-section" id="career-application-career-resume">
+							<input type="file" formControlName="resume" />
+						</div>
+					</div>
+				</div>
+
+				<div class="career-application-section">
+					<label for="career-application-career-document">SUPPORTING DOCUMENTS?</label>
+					<div class="career-application-field">
+						<div class="career-application-career-section" id="career-application-career-document">
+							<input type="file" formControlName="supporting_document" />
+						</div>
+					</div>
+				</div>
+
+				<div class="career-application-section">
+					<label id="career-application-career-based-country">WHERE ARE YOU CURRENTLY BASED?</label>
+					<div class="career-application-section-four">
+						<div class="career-application-section">
+							<div class="career-application-field">
+								<ia-select formControlName="country_state" tabindex="1"></ia-select>
+							</div>
+						</div>
+
+						<div class="career-application-section">
+							<div class="career-application-field">
+								<ia-select formControlName="province" [items]=""></ia-select>
+							</div>
+						</div>
+
+						<div class="career-application-section">
+							<div class="career-application-field">
+								<ia-select formControlName="state" [items]=""></ia-select>
+							</div>
+						</div>
+
+						<div class="career-application-section">
+							<div class="career-application-field">
+								<ia-select formControlName="city" [items]=""></ia-select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="career-application-section">
+					<label for="career-application-career-current">WHAT IS YOUR CURRENT JOB TITLE?</label>
+					<div class="career-application-field">
+						<input id="career-application-career-current" formControlName="current_role" />
+					</div>
+				</div>
+
+				<div class="career-application-section">
+					<label for="career-application-career-cover">YOUR COVER MESSAGE</label>
+					<textarea id="career-application-career-cover" formControlName="cover"></textarea>
+				</div>
+			</div>
+		</div>
+
+		<div class="career-application-section">
+			<button type="submit" [disabled]="careerApplicationForm.status === 'INVALID' || careerApplicationForm.status === 'PENDING' || submitted">APPLY NOW</button>
+		</div>
+	</form>
+</div>
+<div class="backdrop" (click)="closeModal()"></div>
