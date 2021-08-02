@@ -1,20 +1,36 @@
-<!--<ng-container *ngIf="state.loading.global">-->
-<!--	<div class="backdrop"></div>-->
-<!--</ng-container>-->
+<ng-container *ngIf="state.loading.global">
+	<div class="backdrop"></div>
+</ng-container>
 
 <!--<h1>TEsting</h1>-->
 <!--<router-outlet></router-outlet>-->
 
-<!--<mat-sidenav-container [hasBackdrop]="false">-->
-<!--	<mat-sidenav #navigation mode="over" [opened]="false" disableClose="true"></mat-sidenav>-->
+<mat-sidenav-container [hasBackdrop]="false">
+	<mat-sidenav #navigation mode="over" [opened]="false" disableClose="true">
+		<div class="community-panel">
+			<div class="community-panel__container">
+				<div class="community-panel__buttons">
+					<h1 routerLink="./" routerLinkActive="active" (click)="closePanel()">Home</h1>
+					<h1 routerLink="./articles" routerLinkActive="active" (click)="closePanel()">Articles</h1>
+					<h1 routerLink="./media" routerLinkActive="active" (click)="closePanel()">Media</h1>
+					<h1 routerLink="./about" routerLinkActive="active" (click)="closePanel()">About</h1>
+					<h1 routerLink="./contact" routerLinkActive="active" (click)="closePanel()">Contact</h1>
+				</div>
+			</div>
+			<div class="community-panel__close" (click)="closePanel()">
+				<fa-icon class="community-panel__caret" [icon]="faCaretLeft"></fa-icon>
+			</div>
+		</div>
+		<div class="community-backdrop" (click)="closePanel()"></div>
+	</mat-sidenav>
 
-<!--	<mat-sidenav-content>-->
-<!--<div id="structure">-->
-<website-header></website-header>
-<main id="structure__main">
-	<router-outlet></router-outlet>
-</main>
-<website-footer></website-footer>
-<!--</div>-->
-<!--	</mat-sidenav-content>-->
-<!--</mat-sidenav-container>-->
+	<mat-sidenav-content>
+		<div id="structure">
+			<website-header></website-header>
+			<main id="structure__main">
+				<router-outlet></router-outlet>
+			</main>
+			<website-footer></website-footer>
+		</div>
+	</mat-sidenav-content>
+</mat-sidenav-container>

@@ -4,7 +4,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { faCookieBite, faLongArrowAltLeft } from '@fortawesome/pro-duotone-svg-icons';
 import { faCheck, faCog, faCommentAlt, faCommentAltCheck, faEnvelope, faVolumeMute, faPaperPlane, faCloudUploadAlt, faTimes } from '@fortawesome/pro-regular-svg-icons';
-import { faCaretRight, faCaretDown } from '@fortawesome/pro-solid-svg-icons';
+import { faCaretRight, faCaretDown, faCaretLeft } from '@fortawesome/pro-solid-svg-icons';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Observable, Subject } from 'rxjs';
 import { Subscription } from 'rxjs/internal/Subscription';
@@ -38,6 +38,7 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 	public faTimes: IconProp = faTimes;
 	public faEnvelope: IconProp = faEnvelope;
 	public faCog: IconProp = faCog;
+	public faCaretLeft: IconProp = faCaretLeft;
 	public faCommentAltCheck: IconProp = faCommentAltCheck;
 	public faCommentAlt: IconProp = faCommentAlt;
 	public faCaretRight: IconProp = faCaretRight;
@@ -94,5 +95,8 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 
 	public triggerRefresh(): void {
 		this.state.refresh = false;
+	}
+	closePanel() {
+		close();
 	}
 }
