@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, HostListener, OnDestroy, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
-import { KeyValue } from '@angular/common';
 import { MatSidenav } from '@angular/material/sidenav';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { faCookieBite, faLongArrowAltLeft } from '@fortawesome/pro-duotone-svg-icons';
@@ -9,6 +8,8 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Observable, Subject } from 'rxjs';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { Store } from '@ngrx/store';
+import { PANEL } from '_application/common/store/panel/selectors';
+import * as fromPanelActions from '_application/common/store/panel/actions';
 
 interface State {
 	pitch: boolean;
@@ -43,7 +44,8 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 	public faCommentAlt: IconProp = faCommentAlt;
 	public faCaretRight: IconProp = faCaretRight;
 	public faCookieBite: IconProp = faCookieBite;
-	public cookiesURL: string = 'https://www.interfaceagency.com/company/cookies';
+	public panel: boolean = false;
+	public cookiesURL: string = 'https://www.focusfreedom.com/company/cookies';
 	public state: State = {
 		pitch: false,
 		cookies: false,
@@ -56,47 +58,45 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 		refresh: false,
 	};
 	private subscription: Observable<NavigationEnd>;
-	private onDestroy$ = new Subject();
 	private panelStateSubscription: Subscription;
-	private globalLoadingStateSubscription: Subscription;
-	private panelLoadingStateSubscription: Subscription;
 	private body = document.getElementById('body');
 
-	constructor(private activatedRoute: ActivatedRoute, private router: Router) {}
+	constructor(private activatedRoute: ActivatedRoute, private router: Router, private store: Store) {}
 
 	@HostListener('document:keydown.esc') escape() {
 		return this.closeNavigationPanel();
 	}
 
 	ngOnInit(): void {
-		// this.store.dispatch(fromPanelActions.OPEN({ option: '' }));
-		// this.globalLoadingStateSubscription = this.store.select(fromLoaderSelectors.LOADER_GLOBAL).subscribe((state) => {
-		// 	// console.log('global loading state:', state);
-		// 	setTimeout(() => {
-		// 		this.state.loading.global = state;
-		// 	});
-		// });
-		// this.panelLoadingStateSubscription = this.store.select(fromLoaderSelectors.LOADER_PANEL).subscribe((state) => (this.state.loading.panel = state));
+		this.panelStateSubscription = this.store.select(PANEL).subscribe((panel: boolean) => {
+			this.panel = panel;
+			console.log('panel:', this.panel);
+		});
 	}
 
 	ngAfterViewInit(): void {}
 
 	ngOnDestroy(): void {
-		// this.panelStateSubscription.unsubscribe();
-		// this.globalLoadingStateSubscription.unsubscribe();
-		// this.panelLoadingStateSubscription.unsubscribe();
+		this.panelStateSubscription.unsubscribe();
 	}
 
-	public sortOrder(a: KeyValue<string, any>, b: KeyValue<string, any>): number {
-		return a.value.order - b.value.order;
+	public closeNavigationPanel(): void {
+		this.store.dispatch(fromPanelActions.CLOSE());
 	}
 
-	public closeNavigationPanel(): void {}
+	public closePitchPanel(): void {
+		this.state.pitch = false;
+	}
+
+	public closeCookiePanel(): void {
+		this.state.cookies = false;
+	}
+
+	public closeExitPanel(): void {
+		this.state.exit = false;
+	}
 
 	public triggerRefresh(): void {
 		this.state.refresh = false;
-	}
-	closePanel() {
-		close();
 	}
 }

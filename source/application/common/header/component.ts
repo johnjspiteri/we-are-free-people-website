@@ -1,5 +1,4 @@
 import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
-import { KeyValue } from '@angular/common';
 import { faComment, faReceipt, faCaretDown, faCaretRight, faMoneyCheck } from '@fortawesome/pro-solid-svg-icons';
 import { faBars, faTimes } from '@fortawesome/pro-light-svg-icons';
 import { faLock } from '@fortawesome/pro-duotone-svg-icons';
@@ -8,6 +7,8 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { Router } from '@angular/router';
+import { PANEL } from '_application/common/store/panel/selectors';
+import * as fromPanelActions from '_application/common/store/panel/actions';
 interface State {
 	[key: string]: boolean;
 }
@@ -28,6 +29,7 @@ export class HeaderComponent implements OnInit {
 	public faTimes: IconProp = faTimes;
 	public faLongArrowAltRight: IconProp = faLongArrowAltRight;
 	public applicationURL: string = 'https://app.interfaceagency.com/login';
+	public panel: boolean = false;
 	public state: State = {
 		industry: false,
 		category: false,
@@ -37,9 +39,16 @@ export class HeaderComponent implements OnInit {
 
 	private panelStateSubscription: Subscription;
 
-	constructor(private router: Router) {}
+	constructor(private router: Router, private store: Store) {}
 
-	ngOnInit() {}
+	ngOnInit() {
+		this.panelStateSubscription = this.store.select(PANEL).subscribe((panel: boolean) => {
+			this.panel = panel;
+			// console.log('p:', this.panel);
+		});
+	}
 
-	public openPanel(option: string = ''): void {}
+	public openPanel(): void {
+		this.store.dispatch(fromPanelActions.OPEN());
+	}
 }
