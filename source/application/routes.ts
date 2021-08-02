@@ -8,24 +8,12 @@ const routes: Routes = [
 		loadChildren: () => import('./home/module').then((module) => module.HomeModule),
 	},
 	{
-		path: 'legal',
-		loadChildren: () => import('./legal/module').then((module) => module.LegalModule),
-	},
-	{
-		path: 'video',
-		loadChildren: () => import('./video/module').then((module) => module.VideoModule),
-	},
-	{
-		path: 'volunteer',
-		loadChildren: () => import('./volunteer/module').then((module) => module.VolunteerModule),
-	},
-	{
 		path: 'about',
 		loadChildren: () => import('./about/module').then((module) => module.AboutModule),
 	},
 	{
 		path: 'articles',
-		loadChildren: () => import('./articles/module').then((module) => module.ArticleModule),
+		loadChildren: () => import('./article/module').then((module) => module.ArticleModule),
 	},
 	{
 		path: 'careers',
@@ -39,13 +27,21 @@ const routes: Routes = [
 		path: 'donate',
 		loadChildren: () => import('./donate/module').then((module) => module.DonateModule),
 	},
-	// {
-	// 	path: 'intake',
-	// 	loadChildren: () => import('./intake/module').then((module) => module.IntakeModule),
-	// },
+	{
+		path: 'legal',
+		loadChildren: () => import('./legal/module').then((module) => module.LegalModule),
+	},
 	{
 		path: 'media',
 		loadChildren: () => import('./media/module').then((module) => module.MediaModule),
+	},
+	{
+		path: 'video',
+		loadChildren: () => import('./video/module').then((module) => module.VideoModule),
+	},
+	{
+		path: 'volunteer',
+		loadChildren: () => import('./volunteer/module').then((module) => module.VolunteerModule),
 	},
 	{
 		path: 'page-not-found',

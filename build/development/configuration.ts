@@ -228,7 +228,7 @@ const config: Configuration = {
 		}),
 		new WebpackBar({
 			color: '#c8c8c8',
-			name: 'Website',
+			name: 'Free People',
 			basic: false,
 			profile: true,
 			fancy: true,
