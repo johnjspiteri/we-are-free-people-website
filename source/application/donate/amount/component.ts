@@ -6,7 +6,7 @@ import { ConsultationState } from '../state';
 import { ConsultationSubmitService } from './service';
 
 @Component({
-	selector: 'legal-donate-form',
+	selector: 'legal-donate-amount',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })

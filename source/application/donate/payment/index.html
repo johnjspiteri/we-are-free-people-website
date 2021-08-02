@@ -2,18 +2,16 @@
 	<div id="community-donate-form__title">
 		<h1>Your payment info</h1>
 	</div>
-	<div class="subscribe-form-section">
-		<div class="subscribe-form-apple" id="subscribe-form__card" (click)="changeCreditCardState()" [class.active]="payment_card"><h5>CREDIT CARD</h5></div>
-		<div id="subscribe-form__cards">
-			<div id="subscribe-form__holder">
-				<fa-icon class="subscribe-form-cards" [icon]="faCcVisa"></fa-icon>
-				<fa-icon class="subscribe-form-cards" [icon]="faCcMastercard"></fa-icon>
-				<fa-icon class="subscribe-form-cards" [icon]="faCcAmazonPay"></fa-icon>
+	<div class="community-donate-form-section">
+		<div class="community-donate-form-apple" id="community-donate-form__card" (click)="changeCreditCardState()" [class.active]="payment_card"><h5>CREDIT CARD</h5></div>
+		<div id="community-donate-form__cards">
+			<div id="community-donate-form__holder">
+				<fa-icon class="community-donate-form-cards" [icon]="faCcVisa"></fa-icon>
+				<fa-icon class="community-donate-form-cards" [icon]="faCcMastercard"></fa-icon>
+				<fa-icon class="community-donate-form-cards" [icon]="faCcAmazonPay"></fa-icon>
 			</div>
 		</div>
 	</div>
-	<!--  <ng-container *ngIf="payment_card">-->
-	<!--  </ng-container>-->
 
 	<div class="community-donate-form-section">
 		<label for="community-donate-form-number">CREDIT CARD</label>

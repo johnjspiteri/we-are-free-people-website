@@ -9,7 +9,7 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 // import { SharedModule } from '_application/shared/module';
 
 @Component({
-	selector: 'legal-donate-form',
+	selector: 'legal-donate-payment',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
