@@ -5,4 +5,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class AboutPurposeComponent {}
+export class PurposeComponent {}

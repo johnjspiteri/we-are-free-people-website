@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './component';
-import { AboutOrganizationComponent } from './organization/component';
-import { AboutPhilosophyComponent } from './philosophy/component';
-import { AboutPurposeComponent } from './purpose/component';
-import { AboutFinancesComponent } from './finances/component';
+import { OrganizationComponent } from './organization/component';
+import { PhilosophyComponent } from './philosophy/component';
+import { PurposeComponent } from './purpose/component';
+import { FinancesComponent } from './finances/component';
 
 const routes: Routes = [
 	{
@@ -22,19 +22,19 @@ const routes: Routes = [
 			},
 			{
 				path: 'organization',
-				component: AboutOrganizationComponent,
+				loadChildren: () => import('./organization/module').then((module) => module.OrganizationModule),
 			},
 			{
 				path: 'philosophy',
-				component: AboutPhilosophyComponent,
+				loadChildren: () => import('./philosophy/module').then((module) => module.PhilosophyModule),
 			},
 			{
 				path: 'purpose',
-				component: AboutPurposeComponent,
+				loadChildren: () => import('./purpose/module').then((module) => module.PurposeModule),
 			},
 			{
 				path: 'finances',
-				component: AboutFinancesComponent,
+				loadChildren: () => import('./finances/module').then((module) => module.FinancesModule),
 			},
 		],
 	},

@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { AboutRoutingModule } from './routes';
 // import { SharedModule } from './shared/module';
 
-import { AboutPurposeComponent } from './purpose/component';
-import { AboutPhilosophyComponent } from './philosophy/component';
-import { AboutOrganizationComponent } from './organization/component';
+import { PurposeComponent } from './purpose/component';
+import { PhilosophyComponent } from './philosophy/component';
+import { OrganizationComponent } from './organization/component';
 import { AboutComponent } from './component';
-import { AboutFinancesComponent } from './finances/component';
+import { FinancesComponent } from './finances/component';
 
 @NgModule({
-	declarations: [AboutPurposeComponent, AboutPhilosophyComponent, AboutOrganizationComponent, AboutFinancesComponent, AboutComponent],
+	declarations: [PurposeComponent, PhilosophyComponent, OrganizationComponent, FinancesComponent, AboutComponent],
 	imports: [AboutRoutingModule],
 	providers: [],
 })
