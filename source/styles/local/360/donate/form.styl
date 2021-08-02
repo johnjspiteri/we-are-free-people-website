@@ -2,7 +2,7 @@
 	float: left
 	width 100%
 	margin 0 0 36px 0
-	padding 28px 20px 22px 20px
+	padding 18px 10px 12px 10px
 	border $primary-on-base-border
 	box-sizing border-box
 	background: #f8f
@@ -39,3 +39,120 @@
 				margin 0
 				padding 0 0 7px 0
 				border-bottom 5px solid $blue-color
+
+	&__title
+		float: left
+		width: 100%
+		margin: 0
+		padding: 0
+
+		h1
+			float: left
+			width: 100%
+			margin 0 0 12px 0
+			padding 0
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			font-size 17px
+			line-height 34px
+			color $color-title
+			text-align left
+
+	&__buttons
+		display grid
+		width 100%
+		margin 0 0 15px 0
+		padding 0
+		grid-template-columns 1fr 1fr 1fr
+		grid-template-rows auto
+		grid-row-gap 10px
+		grid-column-gap 10px
+
+	&__other
+		float: left
+		width: 100%
+		margin: 0
+		padding: 0
+
+		h3
+			display flex
+			float: left
+			width: 100%
+			margin 0 0 10px 0
+			padding 0
+			font-family $primary-font
+			font-weight $font-weight-primary-400
+			font-size 15px
+			color $color-title
+			justify-self center
+			align-items center
+
+.community-donate-form-section
+	float: left
+	width: 100%
+	margin: 0 0 15px 0
+	padding: 0
+
+	label
+		float left
+		width 100%
+		margin 0 0 8px 0
+		padding 0
+		font-family $primary-font
+		font-weight $primary-font-weight-500
+		font-size 13px
+		line-height 13px
+		color #000
+		text-align left
+
+	input
+		float left
+		width 100%
+		height: 42px
+		margin 0
+		padding 0
+		font-family $secondary-font
+		font-weight $secondary-font-weight-400
+		font-size $subscribe-form-field-font-size-360
+		border $secondary-field-border
+		border-radius 8px
+		color: #000
+		background #fff
+		appearance none
+		-webkit-appearance none
+		-moz-appearance none
+		outline none
+		text-align center
+		box-sizing border-box
+
+.community-donate-form-button
+	float left
+	width 100%
+	margin 0
+	padding 0
+	border-radius 8px
+	background: #33333b
+	text-align center
+	outline none
+	border none
+	user-select none
+	box-sizing border-box
+	cursor pointer
+
+	h2
+		display flex
+		float: left
+		width: 100%
+		height: 34px
+		margin 0
+		padding 0
+		font-family $primary-font
+		font-weight $font-weight-primary-400
+		font-size 15px
+		color #fff
+		justify-self center
+		align-items center
+		justify-content: center
+
+.community-donate-form-button:last-child
+	margin: 0

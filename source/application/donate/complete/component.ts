@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'common-consultation-confirmation',
+	selector: 'common-donate-Complete',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class ConsultationConfirmationComponent {}
+export class DonateCompleteComponent {}

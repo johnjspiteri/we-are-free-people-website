@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { donateComponent } from './component';
-import { ConsultationFormComponent } from './form/component';
-import { ConsultationConfirmationComponent } from './confirmation/component';
+import { DonateAmountComponent } from './amount/component';
+import { DonateCompleteComponent } from './complete/component';
+import { DonateInformationComponent } from './information/component';
+import { DonatePaymentComponent } from './payment/component';
 // import { ConsultationConfirmationCanActivateGuard } from './confirmation/guard';
 
 const routes: Routes = [
@@ -16,12 +18,20 @@ const routes: Routes = [
 				redirectTo: 'confirmation',
 			},
 			{
-				path: 'confirmation',
-				component: ConsultationConfirmationComponent,
+				path: 'complete',
+				component: DonateCompleteComponent,
 			},
 			{
-				path: 'form',
-				component: ConsultationFormComponent,
+				path: 'amount',
+				component: DonateAmountComponent,
+			},
+			{
+				path: 'information',
+				component: DonateInformationComponent,
+			},
+			{
+				path: 'payment',
+				component: DonatePaymentComponent,
 			},
 		],
 	},
