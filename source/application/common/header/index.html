@@ -1,28 +1,45 @@
-<header id="community-header">
-	<div id="community-header-banner">
-		<div id="community-header-banner__container">
+<header>
+	<div id="header-banner">
+		<div id="header-banner__container">
 			<h1>Add Event Notice Here</h1>
 		</div>
 	</div>
-	<div id="community-header__container">
-		<div id="community-header__brand">
-			<div id="community-header__logo" routerLink="/"></div>
+
+	<div id="header">
+		<div id="header__container">
+			<div id="header__brand">
+				<div id="header__logo" routerLink="/">
+					<div id="header__outline">
+						<div id="header__white"></div>
+					</div>
+				</div>
+				<h1>FREE PEOPLE</h1>
+				<h2>Born With Natural Human Rights</h2>
+			</div>
+
+			<div id="header__mobile" (click)="openPanel()">
+				<fa-icon id="header__bars" [icon]="faBars"> </fa-icon>
+			</div>
 		</div>
-		<div id="community-header__name">
-			<h1>FREE PEOPLE</h1>
-			<h2>Born With Human Rights</h2>
-		</div>
-		<div id="community-header__mobile" (click)="openPanel()">
-			<fa-icon id="community-header__bars" [icon]="faBars"> </fa-icon>
-		</div>
-		<div id="community-header-navigation">
-			<nav id="community-header-navigation__container">
-				<h3 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h3>
-				<h3 routerLink="./articles" routerLinkActive="active">Articles</h3>
-				<h3 routerLink="./media" routerLinkActive="active">Media</h3>
-				<h3 routerLink="./about" routerLinkActive="active">About</h3>
-				<h3 routerLink="./contact" routerLinkActive="active">Contact</h3>
-			</nav>
-		</div>
+	</div>
+
+	<div id="header__navigation">
+		<nav id="header__navigation__container">
+			<div class="header__tile active">
+				<h3 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">HOME</h3>
+			</div>
+			<div class="header__tile">
+				<h3 routerLink="./articles" routerLinkActive="active">ARTICLES</h3>
+			</div>
+			<div class="header__tile">
+				<h3 routerLink="./media" routerLinkActive="active">MEDIA</h3>
+			</div>
+			<div class="header__tile">
+				<h3 routerLink="./about" routerLinkActive="active">ABOUT</h3>
+			</div>
+			<div class="header__tile">
+				<h3 routerLink="./contact" routerLinkActive="active">CONTACT</h3>
+			</div>
+		</nav>
 	</div>
 </header>
