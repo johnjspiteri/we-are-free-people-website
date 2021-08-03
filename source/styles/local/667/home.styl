@@ -1,0 +1,80 @@
+#home
+	&__slider
+		height 410px
+		margin 0 0 22px 0
+
+		h1
+			font-size 20px
+			line-height 220px
+
+	&__squares
+		grid-template-columns 1fr 1fr
+		width 667px
+		margin 0 0 20px 0
+		border none
+		border-left $white-border-color
+
+	&__statements
+		grid-template-columns 1fr 1fr
+		width 646px
+		margin 0 0 20px 10px
+		grid-column-gap 10px
+
+.home-square:first-child
+	border-right $secondary-dotted-border
+.home-square:nth-child(3)
+	border-right $secondary-dotted-border
+.home-square:nth-child(4)
+	border-bottom $secondary-dotted-border
+
+.home-square
+	padding 24px 0 20px 0
+
+	&__row
+		width 100%
+		padding: 0 20px
+
+		img
+			width 292px
+			height 153px
+			margin-bottom: 20px
+
+		h3
+			margin 0 0 14px 0
+			padding-bottom: 8px
+			font-size 17px
+			line-height 17px
+
+		p
+			font-size 15px
+			line-height 28px
+
+	&__buttonholder
+		padding 10px
+		width 200px
+
+	&__button
+		margin: 18px 0 0 0
+		padding 6px 18px 8px 18px
+
+		h4
+			font-size 14px
+			line-height 20px
+
+.home-statement
+	padding 24px 20px 38px 20px
+
+	&__image
+		width 65px
+		height 65px
+		margin 0 10px 0 0
+
+	p
+		margin 0 0 20px 0
+		font-size 13px
+		line-height 25px
+
+	h6
+		margin 0 40px 0 0
+		font-size 16px
+		line-height 16px

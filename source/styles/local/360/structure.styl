@@ -3,16 +3,6 @@ body
 	padding 0
 	background $base-background-color
 
-//#community-container
-//	position relative;
-//	width 100%
-//	height 100vh
-//	overflow-y scroll;
-//	overscroll-behavior contain;
-//
-//#community-container.locked
-//	overflow hidden;
-
 #structure
 	width 100%
 	min-height 100vh
@@ -20,10 +10,19 @@ body
 	grid-template-rows auto 1fr auto
 	background $base-background-color
 	grid-template-areas:
-		"application-header"\
-		"application-main"\
-		"application-footer";
+		"header"\
+		"main"\
+		"footer";
 
 	&__main
-		grid-area: application-main
-		margin: 28px auto 40px auto
+		float: left
+		grid-area: main
+		width 100%
+		justify-self center
+		background: $base-background-color
+
+.structure-container
+	position relative
+	width: 360px
+	margin: 0 auto
+	z-index $z-index-structure-container
