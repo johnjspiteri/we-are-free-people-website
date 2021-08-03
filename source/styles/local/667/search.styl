@@ -1,64 +1,134 @@
 #search
 	width 627px
-	margin 0 0 28px 20px
+	margin 0 20px 0 20px
+	padding 25px 20px 0 20px
+	grid-template-columns: 1fr 1fr 1fr 1fr
 
-	&__container
-		width 595px
-		padding 20px 0 20px 30px
+	&__tags
+		margin -1px 20px 0 0
 
-	&__category
-		width 267px
-		margin 0 30px 20px 0
+	&__caret-up
+	&__caret-down
+	&__times
+		margin 0 0 0 10px
+		font-size 12px
 
-	&__subcategory
-		width 267px
+	label
+		margin 0 0 6px 0
+		padding 0 5px 0 5px
+		font-size 14px
+		line-height 14px
 
-		&__select
-			width 100%
+.search-section:nth-child(7)
+	grid-column 3 / 5
 
-			select
-				height 54px
-				font-size 19px
-				line-height 56px
+.search-field
+	height $height-search-field-667
 
-	&__mask
-		width 233px
-		height 52px
-		padding 0 20px
+	ia-select
+		height: $height-search-field-667
 
-		h4
-			font-size 17px
-			line-height 58px
+	ia-select.ia-select__value h4
+		height $height-search-field-667
+		font-size $search-font-size-667
 
-			&__caret-down
-				right 22px
-				font-size 19px
-				line-height 54px
+	ia-select .ia-select__option
+		height $height-search-field-667
 
-	&__filter
-		width 492px
-		margin 0 19px 0 0
+	ia-select .ia-select__caret
+		height $height-search-field-667
 
-		input
-			width: 450px
-			height 52px
-			padding 0 20px
-			font-size 18px
+.search-section
+	margin: 0 0 $margin-bottom-search-field-667 0
 
-	&__reset
-		display block
-		float left
-		width 52px
-		height 52px
-		padding 0
-		margin 0
-		background $accent-color-light
-		border $black-border-color
-		border-radius 8px
+//h4
+//	font-size 18px
+//
+//select
+//	font-size 16px
+//
+//input
+//	padding: 0 15px
+//	font-size 14px
 
-	&__tag
-		display: none
+//.select
+//	height:  $height-subscribe-field-667
 
-	&__resetIcon
-		font-size 16px
-		line-height 56px
+//	&__relative
+//		height: 42px
+//
+//	&__absolute
+//		height: $height-subscribe-field-667
+//
+//	&__select
+//		height $height-subscribe-field-667
+//		padding 0 10px
+//		font-size 20px
+//
+//		h4
+//			font-size 12px
+//
+//	&__flag
+//		width: 20px
+//		height: 20px
+//		margin: 0 10px 0 0
+//
+//	&__option
+//		height $height-subscribe-field-667
+//		padding: 0 10px
+//
+//		h4
+//			font-size 12px
+
+//	&__tag
+//		margin: 0 10px 0 0
+//		padding: 0 10px
+//		height $height-search-field-667
+//
+//		h4
+//			font-size 12px
+//
+//	&__times
+//		width: 22px
+//		height 18px
+//		font-size 14px
+//
+//	&__end
+//		width 10px
+//
+//	&__top
+//		border-bottom: 10px solid $primary-background-color
+//		border-left: 10px solid transparent;
+//
+//	&__middle
+//		width: 10px
+//		height: 14px;
+
+.structure-account-holder
+	height: $height-subscribe-field-667
+
+.structure-account-relative
+	height: 42px
+
+.structure-account-absolute
+	height: $height-subscribe-field-667
+
+.structure-account-select
+	height $height-subscribe-field-667
+	padding 0 10px
+	font-size 20px
+
+	h4
+		font-size 12px
+
+.structure-account-flag
+	width: 20px
+	height: 20px
+	margin: 0 10px 0 0
+
+.structure-account-option
+	height $height-subscribe-field-667
+	padding: 0 10px
+
+	h4
+		font-size 12px

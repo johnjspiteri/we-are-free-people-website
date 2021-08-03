@@ -1,58 +1,57 @@
 #search
 	width 460px
-	margin 0 0 28px 10px
+	margin 0 10px 0 10px
+	padding 20px 10px 0 10px
 
-	&__container
-		width 398px
-		padding 20px 30px 20px 30px
+	&__tags
+		margin -1px 20px 0 0
 
-	&__category
-		width 184px
-		margin 0 30px 20px 0
+	&__caret-down
+	&__caret-up
+	&__times
+		margin-left: 10px
+		font-size 12px
 
-	&__subcategory
-		width 184px
+	label
+		margin 0 0 6px 0
+		padding 0 5px 4px 5px
+		font-size 14px
+		line-height 14px
 
-		&__select
-			width 100%
+.search-field
+	height $height-search-field-480
 
-			select
-				height 54px
-				font-size 18px
-				line-height 52px
+	ia-select
+		height: $height-search-field-480
 
-	&__mask
-		width 376px
-		height 52px
-		padding 0 10px
+	ia-select.ia-select__value h4
+		height $height-search-field-480
+		font-size $search-font-size-480
 
-		h4
-			font-size 17px
-			line-height 58px
+	ia-select .ia-select__option
+		height $height-search-field-480
 
-			&__caret-down
-				right 22px
-				font-size 19px
-				line-height 54px
+	ia-select .ia-select__caret
+		height $height-search-field-480
 
-	&__filter
-		width 398px
+.search-section
+	margin: 0 0 $margin-bottom-search-field-480 0
 
-		input
-			width 356px
-			height 52px
-			padding 0 20px
-			font-size 18px
+//h4
+//	font-size 18px
+//
+//select
+//	font-size 16px
+//
+//input
+//	padding: 0 15px
+//	font-size 14px
 
-	&__tag
-		width 40px
-		height 32px
-		margin -1px 0 0 378px
+.search-tag
+	height 30px
+	margin-left: 10px
+	padding 0 10px
 
-		&__times
-			font-size 15px
-			line-height 33px
-
-	&__resetIcon
-		font-size 15px !important
-		line-height 39px
+	h5
+		font-size 11px
+		line-height: 30px
