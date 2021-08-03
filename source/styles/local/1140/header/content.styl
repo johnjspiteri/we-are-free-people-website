@@ -1,80 +1,91 @@
-#community-header-navigation
-	display none
-
 #community-header
-	grid-area: application-header
-	float left
-	width 100%
-	margin 0
-	padding-bottom: 12px
-	background $secondary-color
-	border-bottom $secondary-border
-
-	&__consultation
-	&__language
-		display none
+	padding-bottom: 18px
 
 	&__container
-		position relative
-		width 300px
-		margin 0 auto
-		padding 0
+		width 984px
 
 	&__brand
-		float left
-		width 38px
+		width 40px
 		height 50px
 		margin 0 14px 0 0
-		padding 0
-		background $grey-color
 
 	&__name
-		float left
-		width 206px
-		margin 0
-		padding 0
+		width: 346px
+		margin 0 220px 0 0
 
 		h1
-			float left
-			width 100%
-			margin-bottom: 8px
-			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
+			margin 0 0 8px 0
 			font-size 18px
 			line-height 25px
-			color $black-color
-			// border none
-			text-align left
 
 		h2
-			float left
-			width 100%
-			margin 0
-			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
 			font-size 15px
 			line-height 15px
-			font-style: italic
-			color $paragraph-color
-			// border none
-			text-align left
 
-	&__mobile
-		float right
-		margin 2px 0 0 0
-		padding 0
-		outline none
-		cursor pointer
+	// &__language
+	// 	left 800px
+	//
+	// &__button
+	// 	height 54px
+	// 	padding 0 33px
+	// 	margin 0
+	// 	border-top $white-border-color
+	// 	border-right $white-border-color
+	// 	border-bottom none
+	//
+	// 	h2
+	// 		font-size 15px
+	// 		line-height 57px
+	//
+	// &__button.first
+	// 	border-radius 10px 0 0 0
+	// 	border-left $white-border-color
+	//
+	// &__button.last
+	// 	border-radius 0
+	//
+	// &__button.active
+	// 	margin 0
+	// 	height 55px
+	// 	background $base-color
+	// 	border-top $white-border-color
+	// 	border-right $white-border-color
+	// 	border-bottom none
 
-	&__bars
-		float right
-		margin 0
-		padding 0
-		font-size 25px
-		line-height 19px
-		color $black-color
-		border none
-		text-align right
-		cursor pointer
+	&__consultation.large
+		display: none;
+		float: left;
+		width: 100px
+		background: $accent-color
+		border-radius: 10px
+		padding: 10px
+
+		h3
+			float: left;
+			width: 100%
+			margin: 0
+			padding: 0
+			font-size: 16px
+			text-align: center;
+
+	&__consultation.small
+		display: block;
+		position relative
+		right 80px
+
+#community-header-navigation
+	&__container
+		width 1024px
+
+		h2
+			height 51px
+			padding 0 33px
+			font-size 15px
+			line-height 53px
+
+		h2.active
+			height 52px
+			margin -1px 0 0 0
+
+		h2:last-child
+			border-radius 0 0 10px 0

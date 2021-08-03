@@ -1,467 +1,131 @@
-*
-	padding 0
-	margin 0
+.community-home-placeholder
+	width 482px
+	height 846px
+	margin 0 20px 0 50px
 
 .community-intake
-	float left
 	width 320px
-	padding 0
-	margin 0
 
 .community-tabs
-	float left
-	width 280px
-	height 35px
-	padding 0
-	// margin-left: 75px
-	border-left $tertiary-border-color
-	border-radius 6px 0 0 0
-
-	&__container
-		position absolute
-		width 280px
-		height 35px
-		padding 0
-		margin 0
+	width 290px
+	height 39px
+	margin-left: 130px
 
 .community-tab
-	float left
-	height 34px
-	padding 0 21px
-	margin 0
-	background $primary-color
-	border-top $primary-color-border
-	border-right $primary-color-border
-	outline none
-	cursor pointer
+	height 38px
+	padding 0 23px
+
+	&__container
+		width 300px
+		height 38px
 
 	h2
-		float left
-		padding 0
-		margin 0
-		font-family $primary-font
-		font-weight $primary-font-weight-400
-		font-size 19px
-		line-height 33px
-		color $black-color
+		font-size 22px
+		line-height 40px
 
 	&__check
-		float left
-		padding 0
-		margin 0
 		font-size 17px
-		line-height 33px
-		color $black-color
-
-.community-tab.first
-	border-radius 6px 0 0 0
-
-.community-tab.last
-	border-radius 0 6px 0 0
+		line-height 40px
 
 .community-tab.active
-	background $tertiary-color
-	height 35px
+	height 38px
 
 .community-intake
 	&__form
-		float: left
-		width: 300px
-		padding 28px 10px 14px 10px
+		width 402px
+		padding 18px 0 14px 20px
 		margin 0 0 44px 0
-		background $white-color
-		border-top $white-border-color
-		border-bottom $white-border-color
-		overflow-x hidden
 
 		h1
-			float left
-			width 100%
-			font-size 24px
-			line-height 24px
-			text-align center
-			margin 0 0 40px 0
-			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			color $black-color
-
-	&__section
-		float left
-		margin 0
-		padding 0
-		border none
-		outline none
-
-	&__row
-		float left
-		width 100%
-		padding 0
-		margin 0 0 20px 0px
-
-	&__title-top
-		float left
-		width 290px
-		padding 0
-		margin 0 0 8px 0
-		text-align center
-
-	&__center
-		display inline-block
-		margin 0
-		padding: 0
-
-		h6
-			float left
-			width 100%
-			font-size 16px
-			line-height 16px
-			text-align center
-			margin 0 0 20px 0
-			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			color $black-color
-
-	&__checkbox-holder
-		float left
-		width 298px
-		height 50px
-		// background rgba(34,34,34,0.2)
-		box-shadow: $inset-shadow
-		// border $border
-
-	&__checkbox
-		position: relative
-		top 0px
-		width: 60px
-		height: 15px
-		background: $form-input
-		margin:18px auto
-		border-radius: 50px
-		box-shadow: $inset-shadow
-
-		label
-			display: block
-			width: 20px
-			height: 20px
-			position: absolute
-			top: -3px;
-			left: -5px;
-			cursor: pointer;
-			background: $accent-color
-			border-radius: 50px;
-			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
-			transition: all 0.25s ease;
-
-		input[type=checkbox]
-			visibility: hidden;
-
-			&:checked + label
-				left: 41px;
-				background #f4f4f4
-
-	&__sliderOne
-		h4
-			position absolute
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			font-size 18px
-			line-height 18px
-			color $black-color
-			text-align left
-			top -4px
-
-		&--left
-			h4
-				left -55px
-
-		&--right
-			h4
-				right -50px
-
-	&__sliderTwo
-		h4
-			position absolute
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			font-size 18px
-			line-height 18px
-			color $black-color
-			text-align left
-			top -4px
-
-		&--left
-			h4
-				left -55px
-
-		&--right
-			h4
-				right -50px
-
+			width 382px
 
 	&__title
-		float left
-		width 100%
-		padding 0
-		margin 0 0 8px 0
-		text-align left
-		// background: #f2f
+		width 382px
 
-	&__center
-		display inline-block
-		margin 0
-		padding: 0
+	&__title-top
+		width 382px
 
-		h6
-			float left
-			width 100%
-			font-size 16px
-			line-height 16px
-			text-align left
-			margin 0 0 20px 0
-			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			color $black-color
-			// background: #ccff00
+	&__checkbox-holder
+		width 382px
 
 	&__input
-		float left
-		width 280px
-		padding 0
-		margin 0
 
 		input
 		select
 		textarea
-			width 100%
-			float left
-			padding-left: 5px
-			margin 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
 			font-size 22px
-			color $black-color
-			background $form-input
-			border $border
-			box-shadow none
-			outline none
-			text-align center
 
-		input
-			height 44px
-
-		select
-			height 46px
-
-		textarea
-			padding 20px 0 0 10px
-			background: $red
 
 		input.areacode
-			border-right 1px solid $black-color
+			width calc(0.25 * 100% - 12px)
 
 		input.number
-			border-right 1px solid $black-color
+			width calc(0.75 * 100% - 2px)
 
-	&__mask--full
-		display block
-		position: absolute;
-		width 300px
-		padding 0
-		margin 0
-		height 44px
-		background $form-input
-		// background: #ccff00
-		border $border
-		outline none
-		cursor pointer
-		-webkit-appearance none
-		-moz-appearance none
-		pointer-events none
-		appearance none
-		text-align: left;
-		z-index: 99999
-
-		h4
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 22px
-			line-height 46px
-			color $black-color
-			border none
-			box-shadow none
-			outline none
-			text-align center
+		select
+			width 184px
 
 	&__mask--half
-		display none
-		position: absolute;
-		padding 0
-		margin 0
-		height 44px
-		background $form-input
-		border $border
-		outline none
-		cursor pointer
-		-webkit-appearance none
-		-moz-appearance none
-		pointer-events none
-		appearance none
-		text-align: left;
-		z-index: 99
+		width 184px
 
-		h4
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 22px
-			line-height 46px
-			color $black-color
-			border none
-			box-shadow none
-			outline none
-			text-align left
-
-	&__caret
-		position absolute
-		font-size 18px
-		color $black-color
-		background $black-color
-		top 16px
-		right 10px
-
-		input
-			width 298px
-			padding: 0
-			margin: 0
-			background: #ccc
-
-		&--full
-			display block
-			float left
-			width 300px
-			padding 0
-			margin 0 0 20px 0px
-			background: #fff
-
-			h1
-				font-size 32px
-				line-height 32px
-				text-align left
-				margin 0 0 20px 0
-				padding 0
-				font-family $primary-font
-				font-weight $font-weight-primary-400
-				color $black-color
-
-		input
-			width 298px
-			padding: 0
-			margin: 0
-
-		&--half
-			display none
-
-	&__confirmation
-		width 300px
-		margin 0
-		padding 0
-		border none
-		outline none;
+	&__row
+		width 382px
+		margin 0 10px 20px 0px
 
 		h1
-			float left
 			width 100%
-			padding-bottom: 12px
-			margin 0 0 12px 0
+			font-size 32px
+			line-height 32px
+			margin 0 0 20px 0
+
+		&--half
+			float left
+			display block
+			width 186px
+			margin 0 10px 20px 0
+
+			h1
+				width 186px
+				font-size 32px
+				line-height 32px
+				margin 0 0 20px 0
+
+			h6
+				width 186px
+
+	&__buttons
+		button
+			width 382px
 			font-size 25px
+
+	&__confirmation
+		width 382px
+
+		h1
+			width 382px
+			padding-bottom: 24px
+			font-size 28px
 			line-height 28px
-			color $black-color
-			text-align left
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			border-bottom 2px solid rgba(57, 0, 26, 0.3)
 
 	&__paragraph
-		width 300px
-		margin 0
-		padding 0
-		border none;
-		outline none;
+		width 382px
 
 		p
-			float left
 			width 100%
 			font-size 16px
 			line-height 20px
 			padding-bottom: 12px
-			margin 0 0 8px 0
-			font-family $font-secondary
-			font-weight $font-weight-secondary-500
-			color $black-color
-			text-align left
 
 	&__submit
-		float left
-		width 300px
+		width 382px
 		padding-bottom: 20px
 		margin 12px 0 12px 0
 
 		h3
-			text-transform uppercase
-			margin 0
-			padding 0
-			color $black-color
-			text-align left
-			font-size 15px
-			line-height 42px
-			height 42px
-			// background $accent-color
+			width 382px
 
 	&__id
-		width 300px
+		width 382px
+
 		p
 			font-size 12px
-			font-style italic
-			text-align left
-
-	&__buttons
-		float left
-		margin 0
-		padding 0
-		outline none
-
-		button
-			float left
-			width 300px
-			height 48px
-			padding 0
-			margin 10px 0 20px 0
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 25px
-			color $black-color
-			background $accent-color
-			border $border
-			text-align center
-			outline none
-			cursor pointer
-			&:hover
-				color $white-color
-
-			.community-intake__check
-				position absolute
-				padding 0
-				margin-left: 14px
-				font-size 21px
-				line-height 15px
-				color $black-color
-				text-align left
-				background: $red
-
-		button[disabled]
-			background $form-input
-			border $border
-			&:hover
-				color $black-color

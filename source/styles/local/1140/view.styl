@@ -1,233 +1,101 @@
 .community-view
-	float left
-	width 320px
-	padding 16px 20px 28px 20px
-	margin 0 0 50px 0
-	background $white-color
-	border-top $field-color-border
-	border-bottom $field-color-border
-	border-radius none
-	cursor pointer
-
-	&__aside
-		display none
+	width 864px
+	padding 22px 50px 28px 50px
+	margin 0 0 70px 30px
 
 	&__top
-		float left
-		width 100%
-		padding 0
-		margin 0
+		width 664px
+		margin 0 60px 0 0
 
-	&__title
-		float left
-		width 100%
-		padding 0
-		margin 0 0 18px 0
-
-		h1
-			float left
-			max-width 238px
-			padding 10px 20px 10px 20px
-			margin 0
-			font-size 17px
-			line-height 28px
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			color $black-color
-			background #f4f4f4
-			border $base-border-color
-			border-radius $border-radius
-			text-align center
-
-	&__purchase
-		float left
-		height 45px
-		padding 0
-		margin 0 10px 32px 0
-		background $red
-		border $red-border
-		border-radius $border-radius
-
-		h3
-			float left
-			padding 0 26px 0 26px
-			margin 0
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 16px
-			line-height 47px
-			color $white-color
-			text-align center
-
-	&__arrow
-		float right
-		width 45px
-		height 45px
-		padding 0
-		margin 0 0 32px 0
-		background $black-color
-		border $black-border-color
-		border-radius 1000px
-		cursor: pointer
-
-		&__arrow-left
-			float right
-			width 100%
-			padding 0
-			margin 0
-			font-size 20px
-			line-height 47px
-			color $white-color
-			text-align center
-			text-decoration none
-			cursor pointer
-
-	&__square
-		float left
-		padding 0
-		margin 0 0 30px 0
-
-		h2
-			float left
-			padding 8px 20px 8px 20px
-			margin 0
-			font-size 16px
-			line-height 26px
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			color $black-color
-			background #f4f4f4
-			border $base-border-color
-			border-radius $border-radius
-
-	&__square.author
-		margin 0 14px 30px 0
-
-	&__square.category
-		margin 0 0 30px 0
-
-	&__caption
-		width 100%
-		padding 0
-		margin 0
-		text-align center
-
-	&__center
-		display inline-block
-		position relative
-		padding 0
-		margin 0 0 9px 0
-		z-index 99
-
-		h5
-			float left
-			padding 0
-			margin 0
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 15px
-			line-height 15px
-			color $paragraph-color
-			text-align center
-
-	&__description
-		float left
-		width 100%
-		padding 0
+	&__aside
+		width 110px
+		padding 15px 14px 0 14px
 		margin 0 0 38px 0
 
-		p
-			float left
-			padding 0
-			margin 0
-			font-size 16px
-			line-height 30px
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			color $paragraph-color
+	&__title
+		margin 0 0 20px 0
 
-		p.large
-			display none
+		h1
+			max-width 582px
+			padding 13px 30px 13px 30px
+			font-size 18px
+			line-height 29px
+
+	&__purchase
+		height 48px
+		margin 0 0 32px 0
+
+		h3
+			padding 0 28px 0 28px
+			font-size 17px
+			line-height 50px
+
+	&__arrow
+		width 48px
+		height 48px
+		margin 0 0 32px 0
+
+		&__arrow-left
+			font-size 22px
+			line-height 49px
+
+	&__square
+		margin 0 0 24px 0
+
+		h2
+			width 90px
+			padding 7px 10px 7px 10px
+			font-size 16px
+			line-height 23px
+
+	&__center
+		margin 0 0 8px 0
+
+		h5
+			font-size 15px
+			line-height 15px
+
+	&__description
+		margin 0 0 52px 0
+
+		p
+			font-size 17px
+			line-height 31px
+
+	&__headshot
+		width 80px
+		height 80px
+		margin 0 0 20px 15px
 
 	&__button
-		float left
-		width 280px
-		height 56px
-		padding 0
-		margin 0 0 30px 0
-		background $red
-		border $red-border
-		border-radius $border-radius
+		width 864px
+		height 58px
+		margin 0 0 40px 0
 
 		h4
-			float left
-			width 100%
-			padding 0
-			margin 0
-			font-size 17px
-			line-height 57px
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			color $white-color
-			text-align center
+			font-size 19px
+			line-height 58px
 
 	&__statement
-		float left
-		width 100%
-		padding 0
 		margin 0 0 10px 0
 
 		h3
-			float right
-			padding 0
-			margin 0 30px 0 22px
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 17px
-			line-height 50px
-			color $black-color
-			text-align right
+			margin 0 110px 0 24px
+			font-size 18px
+			line-height 58px
 
 	&__bubble
-		float left
-		width 240px
-		padding 16px 20px 18px 20px
-		margin 0
-		background #f4f4f4
-		border-radius 20px
+		width 540px
+		padding 16px 40px 19px 40px
+		margin-left: 244px
 
 		p
-			float left
-			width 100%
-			padding 0
-			margin 0
-			font-family $primary-font
-			font-weight $font-weight-primary-400
-			font-size 16px
-			line-height 29px
-			color $paragraph-color
-			text-align center
+			font-size 17px
+			line-height 30px
 
 	&__caret
-		float left
-		padding 0
-		margin 0 80px 6px 190px
-		width 0
-		height 0
-		border-left 16px solid transparent
-		border-right 16px solid transparent
-		border-top 16px solid #f4f4f4
+		margin 0 0 6px 690px
 
 	&__picture
-		float right
-		width 50px
-		height 50px
-		padding 0
-		margin 0
-		background #f4f4f4
-		border-radius 1000px
-
-		img
-			float left
-			width 100%
-			border-radius 1000px
+		width 58px
+		height 58px
