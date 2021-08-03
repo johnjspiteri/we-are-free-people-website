@@ -4,9 +4,9 @@
 
 <mat-sidenav-container [hasBackdrop]="false">
 	<mat-sidenav #navigation mode="over" [opened]="panel" disableClose="true">
-		<div class="community-panel">
-			<div class="community-panel__container">
-				<div class="community-panel__buttons">
+		<div class="panel">
+			<div class="panel__container">
+				<div class="panel__buttons">
 					<h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1>
 					<h1 routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()">Articles</h1>
 					<h1 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()">Media</h1>
@@ -14,11 +14,11 @@
 					<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
 				</div>
 			</div>
-			<div class="community-panel__close" (click)="closeNavigationPanel()">
-				<fa-icon class="community-panel__caret" [icon]="faCaretLeft"></fa-icon>
+			<div class="panel__close" (click)="closeNavigationPanel()">
+				<fa-icon class="panel__caret" [icon]="faCaretLeft"></fa-icon>
 			</div>
 		</div>
-		<div class="community-backdrop" (click)="closeNavigationPanel()"></div>
+		<div class="backdrop" (click)="closeNavigationPanel()"></div>
 	</mat-sidenav>
 
 	<mat-sidenav-content>
