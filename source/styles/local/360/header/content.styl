@@ -2,13 +2,13 @@
 	display none
 
 #community-header
-	grid-area: legal-header
+	grid-area application-header
 	float left
 	width 100%
 	margin 0
-	padding-bottom: 12px
-	background $color-secondary
-	border-bottom $border-secondary
+	padding-bottom 13px
+	background $secondary-color
+	border-bottom $secondary-border
 
 	&__consultation
 	&__language
@@ -16,21 +16,22 @@
 
 	&__container
 		position relative
-		width 340px
+		width 360px
 		margin 0 auto
 		padding 0
 
 	&__brand
 		float left
-		width 38px
+		width 58px
 		height 50px
 		margin 0 14px 0 0
 		padding 0
-		background $color-grey
+		background $temporary-background
+		border-radius: 0 5px 5px 0
 
 	&__name
 		float: left
-		width 246px
+		width 226px
 		margin 0
 		padding 0
 
@@ -40,10 +41,10 @@
 		margin-bottom: 8px
 		padding 0
 		font-family $primary-font
-		font-weight $font-weight-primary-400
+		font-weight $primary-font-weight-400
 		font-size 18px
 		line-height 25px
-		color $color-black
+		color $black-color
 		// border none
 		text-align left
 
@@ -53,17 +54,17 @@
 		margin 0
 		padding 0
 		font-family $primary-font
-		font-weight $font-weight-primary-400
-		font-size 15px
-		line-height 15px
+		font-weight $primary-font-weight-400
+		font-size 14px
+		line-height 14px
 		font-style: italic
-		color $color-paragraph
+		color $paragraph-color
 		// border none
 		text-align left
 
 	&__mobile
 		float right
-		margin 2px 0 0 0
+		margin 0
 		padding 0
 		outline none
 		cursor pointer
@@ -74,7 +75,7 @@
 		padding 0
 		font-size 25px
 		line-height 19px
-		color $color-black
+		color $black-color
 		border none
 		text-align right
 		cursor pointer

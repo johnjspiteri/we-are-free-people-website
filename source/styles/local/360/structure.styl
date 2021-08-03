@@ -1,28 +1,29 @@
-*
-	padding 0
+body
 	margin 0
+	padding 0
+	background $base-color
 
-#community-container
-	position: relative;
+//#community-container
+//	position relative;
+//	width 100%
+//	height 100vh
+//	overflow-y scroll;
+//	overscroll-behavior contain;
+//
+//#community-container.locked
+//	overflow hidden;
+
+#structure
 	width 100%
-	height: 100vh
-	overflow-y: scroll;
-	overscroll-behavior: contain;
-
-#community-container.locked
-	overflow: hidden;
-
-#community-structure
-	width: 100%
-	min-height: 100vh
+	min-height 100vh
 	display grid
 	grid-template-rows auto 1fr auto
-	background $color-background
+	background $base-color
 	grid-template-areas:
-		"legal-header"\
-		"legal-main"\
-		"legal-footer";
+		"application-header"\
+		"application-main"\
+		"application-footer";
 
 	&__main
-		grid-area: legal-main
-		margin: 34px auto 40px auto
+		grid-area: application-main
+		margin: 28px auto 40px auto
