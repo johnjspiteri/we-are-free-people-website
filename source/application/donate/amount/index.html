@@ -1,4 +1,4 @@
-<div id="donate-form">
+<div id="donate-form" [formGroup]="form">
 	<div id="donate-form__title">
 		<h1>Choose your donation amount</h1>
 	</div>
@@ -23,10 +23,11 @@
 		</div>
 	</div>
 
-	<div id="donate-form__other" [formGroup]="form">
+	<div id="donate-form__other">
 		<h1>Other amount</h1>
 		<div class="donate-form-field">
-			<input formControlName="other_amount" placeholder="$500" />
+			<input formControlName="other_amount" placeholder="$500" tabindex="2" />
+			<!--			<input formControlName="other_amount" tabindex="2" />-->
 		</div>
 	</div>
 

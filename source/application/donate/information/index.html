@@ -1,19 +1,16 @@
-<div id="donate-form">
-	<div id="donate-form__title">
-		<h1>Your personal information</h1>
-	</div>
-	<div class="donate-form-section-two">
+<div id="donate-form" [formGroup]="form">
+	<div formGroupName="name" class="donate-form-section-two">
 		<div class="donate-form-section">
 			<label for="donate-form-first">FIRST NAME</label>
 			<div class="donate-form-field">
-				<input id="donate-form-first" />
+				<input id="donate-form-first" formControlName="first" />
 			</div>
 		</div>
 
 		<div class="donate-form-section">
 			<label for="donate-form-last">LAST NAME</label>
 			<div class="donate-form-field">
-				<input id="donate-form-last" />
+				<input id="donate-form-last" formControlName="last" />
 			</div>
 		</div>
 	</div>
@@ -21,7 +18,7 @@
 	<div class="donate-form-section">
 		<label for="donate-form-email">EMAIL ADDRESS</label>
 		<div class="donate-form-field">
-			<input id="donate-form-email" />
+			<input id="donate-form-email" formControlName="email" />
 		</div>
 	</div>
 
@@ -29,14 +26,14 @@
 		<div class="donate-form-section">
 			<label for="donate-form-address">ADDRESS</label>
 			<div class="donate-form-field">
-				<input id="donate-form-address" />
+				<input id="donate-form-address" formControlName="address" />
 			</div>
 		</div>
 
 		<div class="donate-form-section">
 			<label for="donate-form-city">CITY</label>
 			<div class="donate-form-field">
-				<input id="donate-form-city" />
+				<input id="donate-form-city" formControlName="city" />
 			</div>
 		</div>
 	</div>
@@ -45,15 +42,18 @@
 		<div class="donate-form-section">
 			<label for="donate-form-province">PROVINCE</label>
 			<div class="donate-form-field">
-				<input id="donate-form-province" />
+				<input id="donate-form-province" formControlName="province" />
 			</div>
 		</div>
 
 		<div class="donate-form-section">
 			<label for="donate-form-country">COUNTRY</label>
 			<div class="donate-form-field">
-				<input id="donate-form-country" />
+				<input id="donate-form-country" formControlName="country" />
 			</div>
 		</div>
+	</div>
+	<div class="donate-form-section">
+		<button>SUBMIT</button>
 	</div>
 </div>

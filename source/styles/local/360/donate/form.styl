@@ -129,21 +129,36 @@
 		padding 0
 		background: #ff9966
 
+.donate-form-payment
+	display flex
+	width: 100%
+	height 100%
+	margin 0
+	padding 0
+	font-size 36px
+	color $primary-title-color
+	align-items center
+	justify-content center
+
+//.donate-form-apple:nth-child(2)
+.donate-form-apple:last-child
+	margin: 0
+
 .donate-form-apple
 	float left
 	width 100%
 	height 48px
-	margin 0
+	margin 0 0 15px 0
 	padding 0
 	font-family $primary-font
-	font-weight $primary-font-weight-500
+	font-weight $primary-font-weight-400
 	border-radius: $radius
-	border $blue-border
+	border blue
 	font-size 20px
 	color #fff
 	text-align center
 	box-sizing border-box
-	background: #E9ECEA
+	background #33333b
 
 .donate-form-cards
 	float: left
@@ -196,18 +211,6 @@
 			padding 0 0 7px 0
 			border-bottom 5px solid $blue-color
 
-	label
-		float left
-		width 100%
-		margin 0 0 8px 0
-		padding 0
-		font-family $primary-font
-		font-weight $primary-font-weight-500
-		font-size 13px
-		line-height 13px
-		color #000
-		text-align left
-
 	input
 		float left
 		width 100%
@@ -228,11 +231,40 @@
 		text-align center
 		box-sizing border-box
 
+.donate-form-section-two
+	display grid
+	width: 100%
+	margin: 0
+	padding: 0
+	grid-template-columns 1fr
+	//grid-column-gap 10px
+	//grid-row-gap 10px
+
+.donate-form-section-three
+	display grid
+	width: 100%
+	margin: 0
+	padding: 0
+	grid-template-columns 1fr 1fr 1fr
+	grid-column-gap 10px
+
 .donate-form-section
 	float: left
 	width: 100%
 	margin: 0 0 15px 0
 	padding: 0
+
+	label
+		float left
+		width 100%
+		margin 0 0 8px 0
+		padding 0
+		font-family $primary-font
+		font-weight $primary-font-weight-500
+		font-size 11px
+		line-height 13px
+		color #000
+		text-align left
 
 	button
 		float left

@@ -4,7 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Consultation } from '../interface';
 import { ConsultationState } from '../state';
 import { ConsultationSubmitService } from './service';
-import { faCcVisa, faPaypal, faCcMastercard, faCcAmazonPay } from '@fortawesome/free-brands-svg-icons';
+import { faApplePay, faGooglePay, faCcVisa, faPaypal, faCcMastercard, faCcAmazonPay } from '@fortawesome/free-brands-svg-icons';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 // import { SharedModule } from '_application/shared/module';
 
@@ -14,10 +14,12 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 	encapsulation: ViewEncapsulation.None,
 })
 export class DonatePaymentComponent {
-	public consultationForm: FormGroup;
+	public form: FormGroup;
 	public submitted: boolean = false;
 	public options: string[] = ['Email', 'Phone', 'Text'];
 	private payload: Consultation;
+	public faApplePay: IconProp = faApplePay;
+	public faGooglePay: IconProp = faGooglePay;
 	public faCcVisa: IconProp = faCcVisa;
 	public faPaypal: IconProp = faPaypal;
 	public faCcMastercard: IconProp = faCcMastercard;
@@ -25,53 +27,22 @@ export class DonatePaymentComponent {
 	public payment_card: boolean = false;
 
 	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private consultationState: ConsultationState, private formBuilder: FormBuilder, private router: Router) {
-		this.consultationForm = this.formBuilder.group({
-			firstName: ['', { validators: [Validators.required] }],
-			lastName: ['', { validators: [Validators.required] }],
-			email: [null, { validators: [Validators.required, Validators.email] }],
-			areaCode: ['', { validators: [Validators.required] }],
-			number: ['', { validators: [Validators.required] }],
-			contactMethod: ['', { validators: [Validators.required] }],
-			description: ['', { validators: [Validators.required] }],
+		this.form = this.formBuilder.group({
+			number: ['', { validators: [Validators.required, Validators.minLength(19), Validators.maxLength(19)] }],
+			name: ['', { validators: [Validators.required, Validators.minLength(19), Validators.maxLength(19)] }],
+			exp_month: ['', { validators: [Validators.required, Validators.minLength(2), Validators.maxLength(2), Validators.pattern('^[0-9]*$')] }],
+			exp_year: ['', { validators: [Validators.required, Validators.minLength(2), Validators.maxLength(2), Validators.pattern('^[0-9]*$')] }],
+			cvc: ['', { validators: [Validators.required, Validators.minLength(3), Validators.maxLength(10)] }],
 		});
 	}
 
 	getMethod() {
-		return this.consultationForm.get('contactMethod').value;
+		return this.form.get('contactMethod').value;
 	}
 
 	changeCreditCardState() {
 		this.payment_card = !this.payment_card;
 	}
 
-	submit() {
-		this.submitted = true;
-		if (this.consultationForm.status === 'VALID') {
-			this.payload = {
-				contact_method: this.consultationForm.value.contactMethod,
-				created: new Date(),
-				description: this.consultationForm.value.description,
-				email: this.consultationForm.value.email,
-				name: {
-					first: this.consultationForm.value.firstName,
-					last: this.consultationForm.value.lastName,
-				},
-				phone: {
-					area_code: this.consultationForm.value.areaCode,
-					number: this.consultationForm.value.number,
-				},
-			};
-			this.consultationState.set(this.payload);
-			this.consultationSubmitService
-				.post(this.payload)
-				.then(() => {
-					this.router.navigate(['consultation'], { relativeTo: this.activatedRoute });
-				})
-				.catch((error) => {
-					this.submitted = false;
-				});
-		} else {
-			this.submitted = false;
-		}
-	}
+	submit() {}
 }
