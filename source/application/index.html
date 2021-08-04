@@ -22,12 +22,84 @@
 	</mat-sidenav>
 
 	<mat-sidenav-content>
+		<ng-container *ngIf="state.cookies">
+			<!--      <div id="cookie" [class.close]="!state.cookies">-->
+			<div id="cookie">
+				<div id="cookie__content">
+					<div id="cookie__container">
+						<div id="cookie__title">
+							<fa-icon id="cookie__icon" [icon]="faCookieBite"></fa-icon>
+							<h1>COOKIE POLICY</h1>
+						</div>
+						<div id="cookie__paragraph">
+							<p>This website and its third party tools use cookies for the purposes outlined in our <a [href]="cookiesURL">privacy policy</a>.</p>
+						</div>
+						<div id="cookie__buttons">
+							<div class="cookie-button">
+								<fa-icon id="cookie__check" [icon]="faCheck"></fa-icon>
+								<h4 (click)="closeCookiePanel()">ACCEPT</h4>
+							</div>
+							<div class="cookie-button">
+								<fa-icon id="cookie__times" [icon]="faTimes"></fa-icon>
+								<h4 (click)="closeCookiePanel()">REJECT</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="cookie__clouds">
+					<div class="cookie-cloud a"></div>
+					<div class="cookie-cloud b"></div>
+					<div class="cookie-cloud c"></div>
+					<div class="cookie-cloud d"></div>
+					<div class="cookie-cloud e"></div>
+					<div class="cookie-cloud f"></div>
+
+					<div class="cookie-cloud g"></div>
+					<div class="cookie-cloud h"></div>
+					<div class="cookie-cloud i"></div>
+					<div class="cookie-cloud j"></div>
+					<div class="cookie-cloud k"></div>
+					<div class="cookie-cloud l"></div>
+					<div class="cookie-cloud m"></div>
+					<div class="cookie-cloud n"></div>
+					<div class="cookie-cloud o"></div>
+					<div class="cookie-cloud p"></div>
+					<div class="cookie-cloud q"></div>
+				</div>
+			</div>
+		</ng-container>
+
+		<ng-container *ngIf="state.refresh">
+			<div id="refresh">
+				<div id="refresh__container">
+					<fa-icon id="refresh__upload" [icon]="faCloudUploadAlt" (click)="triggerRefresh()"></fa-icon>
+					<p>A newer version of this site is available. Please refresh this page to activate it.</p>
+				</div>
+			</div>
+		</ng-container>
+
+		<ng-container *ngIf="state.exit">
+			<div id="exit">
+				<div id="exit__holder" (click)="closeExitPanel()">
+					<fa-icon id="exit__icon" [icon]="faTimes"></fa-icon>
+				</div>
+				<div id="exit__container">
+					<h1>HOW MUCH MORE TRAFFIC SHOULD YOU ACTUALLY BE GETTING</h1>
+					<p>Take my traffic quiz and ge customized advice the will walk you through how can get more traffic and rank higher on Google in less than 30 days.</p>
+					<div id="exit__button">
+						<h2>START THE QUIZ</h2>
+					</div>
+					<h3>Take 3 minutes</h3>
+				</div>
+			</div>
+		</ng-container>
+
 		<div id="structure">
 			<website-header></website-header>
 			<main id="structure__main">
 				<router-outlet></router-outlet>
 			</main>
-<!--			<website-footer></website-footer>-->
+			<!--			<website-footer></website-footer>-->
 		</div>
 	</mat-sidenav-content>
 </mat-sidenav-container>
