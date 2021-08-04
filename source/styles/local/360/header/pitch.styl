@@ -1,13 +1,12 @@
 #header-pitch
-	display none
+	//display none
 	float left
 	width 100%
 	margin 0
 	padding 0 0 11px 0
-	//background #f3f0e7
-	background #e8e8e8
+	background $tertiary-background-color
 	border none
-	border-bottom 3px solid #888
+	border-bottom $tertiary-border-bottom
 
 	&__content
 		position relative
@@ -21,11 +20,11 @@
 			width: 100%
 			margin 0
 			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
+			font-family $secondary-font
+			font-weight $secondary-font-weight-400
 			font-size 13px
-			line-height 19px
-			color $black-color
+			line-height 20px
+			color $tertiary-paragraph-color
 			text-align center
 
 		p.small
@@ -37,11 +36,11 @@
 	&__title
 		float left
 		width 108px
-		margin 0 10px 0 0
-		padding 12px 0 5px 14px
-		background #424242
-		border $accent-border
-		border-bottom 3px solid #322f2b
+		margin 0 12px 0 0
+		padding 3px 0 6px 12px
+		background $tertiary-button-background-inactive-color
+		border $tertiary-button-inactive-border
+		border-bottom $tertiary-button-inactive-border-bottom
 		border-top none
 		border-radius $radius-bottom
 		box-sizing border-box
@@ -53,32 +52,32 @@
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 12px
-			line-height 19px
-			color $white-color
+			font-size 14px
+			line-height 18px
+			color $tertiary-button-text-inactive-color
 			text-align left
 
 	&__arrow
 		position: absolute
-		margin 0 0 0 6px
+		margin 2px 0 0 8px
 		padding 0
-		font-size 19px
-		--fa-primary-color $white-color
-		--fa-secondary-color $white-color
+		font-size 18px
+		--fa-primary-color $tertiary-button-text-inactive-color
+		--fa-secondary-color $tertiary-button-text-inactive-color
 		--fa-primary-opacity 1
 		--fa-secondary-opacity 1
 
 	&__time
 		float left
-		width 222px
-		margin 0
+		width 216px
+		margin 6px 0 0 0
 		padding 0
 
 	&__paragraph
 		float left
 		width 100%
 		margin 12px 0 12px 0
-		padding 0
+		padding 0 5px
 		box-sizing border-box
 
 	&__buttons
@@ -91,7 +90,7 @@
 
 .header-pitch-square
 	float: left
-	width: 70px
+	width: 68px
 	margin 5px 6px 0 0
 	padding 0
 	box-sizing border-box
@@ -99,18 +98,18 @@
 	h3
 		float left
 		width 100%
-		height 17px
+		height 18px
 		margin 0
 		padding 0
-		font-family $primary-font
-		font-weight $primary-font-weight-400
-		font-size 10px
+		font-family $secondary-font
+		font-weight $secondary-font-weight-400
+		font-size 9px
 		color $tertiary-label-color
 		text-align center
 
 	&__value
 		float: left
-		width: 33px
+		width: 32px
 		height: 36px
 		margin 0 4px 0 0
 		padding 0
@@ -120,7 +119,7 @@
 
 	&__half
 		float left
-		width 33px
+		width 32px
 		height 18px
 		margin 0
 		background #d2d2d2
@@ -138,8 +137,8 @@
 
 	&__number
 		position absolute
-		width 33px
-		height 33px
+		width 32px
+		height 34px
 		margin 0
 		padding 0
 
@@ -149,10 +148,10 @@
 			height 100%
 			margin 0
 			padding 0
-			font-family $primary-font
-			font-size 19px
-			font-weight $primary-font-weight-400
-			color #383838
+			font-family $secondary-font
+			font-size 18px
+			font-weight $secondary-font-weight-400
+			color $tertiary-paragraph-color
 			align-items center
 			justify-content center
 			text-align center
@@ -162,12 +161,12 @@
 
 .header-pitch-button
 	float left
-	width 280px
-	margin 0 0 0 30px
-	padding 10px 0 11px 0
-	background #424242
-	//border $tertiary-button-active-border
-	//border-bottom $tertiary-button-active-bottom-border
+	width 260px
+	margin 0 0 0 40px
+	padding 9px 0 11px 0
+	background $tertiary-button-background-inactive-color
+	border $tertiary-button-inactive-border
+	border-bottom $tertiary-button-inactive-border-bottom
 	border-radius $radius
 	box-shadow none
 	cursor pointer
@@ -183,9 +182,9 @@
 		padding 0
 		font-family $primary-font
 		font-weight $primary-font-weight-400
-		font-size 13px
-		line-height 13px
-		color $white-color
+		font-size 15px
+		line-height 15px
+		color $tertiary-button-text-inactive-color
 		align-items center
 		justify-content center
 		text-align center

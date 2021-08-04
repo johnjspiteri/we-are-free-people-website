@@ -3,7 +3,7 @@
 	float left
 	width 100%
 	margin 0
-	padding 13px 0 13px 0
+	padding 15px 0 15px 0
 	background $secondary-background-color
 	border-bottom $secondary-border
 
@@ -20,7 +20,7 @@
 
 	&__brand
 		float left
-		width 226px
+		width 316px
 		margin 0
 		padding 0
 
@@ -31,32 +31,33 @@
 			font-family $primary-font
 			font-weight $primary-font-weight-400
 			font-size 18px
-			line-height 23px
+			line-height 25px
 			color $black-color
 			text-align left
+			cursor pointer
 
 		h2
 			float left
 			width 100%
 			margin 0
 			padding 0
-			font-family $primary-font
-			font-weight $primary-font-weight-400
-			font-size 14px
-			line-height 14px
-			font-style: italic
-			color $paragraph-color
-			// border none
+			font-family $alternate-font
+			font-weight $alternate-font-weight-400
+			font-size 24px
+			line-height 24px
+			color #787878
 			text-align left
+			cursor pointer
 
 	&__outline
 		float left
 		width 24px
 		height 24px
 		padding 0
-		margin 0 12px 8px 0
+		margin 0 10px 1px 0
 		background $accent-color
-		border-radius 10px 0 10px 0
+		border-radius 8px 0 8px 0
+		cursor pointer
 
 	&__white
 		float left
@@ -65,20 +66,29 @@
 		background $white-color
 		margin 8px 0 0 8px
 
-	&__mobile
+	&__dots
 		float right
-		margin 0
+		width 20px
+		margin 3px 0 0 0
 		padding 0
-		outline none
 		cursor pointer
 
-	&__bars
-		float right
-		margin 0
-		padding 0
-		font-size 24px
-		line-height 19px
-		color $black-color
-		border none
-		text-align right
-		cursor pointer
+.header-banner-dot-row
+	float: left
+	width: 100%
+	margin: 0 0 4px 0
+	padding: 0
+
+.header-banner-dot
+	float right
+	width 3px
+	height 3px
+	background $black-color
+	margin 0 0 0 4px
+	padding 0
+	border-radius 2px
+//border-radius $radius-circle
+
+.header-banner-dot-row:last-child
+.header-banner-dot:last-child
+	margin 0
