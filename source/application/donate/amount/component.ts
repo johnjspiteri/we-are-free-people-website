@@ -11,42 +11,36 @@ import { ConsultationSubmitService } from './service';
 	encapsulation: ViewEncapsulation.None,
 })
 export class DonateAmountComponent {
-	public consultationForm: FormGroup;
+	public form: FormGroup;
 	public submitted: boolean = false;
 	public options: string[] = ['Email', 'Phone', 'Text'];
 	private payload: Consultation;
 
 	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private consultationState: ConsultationState, private formBuilder: FormBuilder, private router: Router) {
-		this.consultationForm = this.formBuilder.group({
-			firstName: ['', { validators: [Validators.required] }],
-			lastName: ['', { validators: [Validators.required] }],
-			email: [null, { validators: [Validators.required, Validators.email] }],
-			areaCode: ['', { validators: [Validators.required] }],
-			number: ['', { validators: [Validators.required] }],
-			contactMethod: ['', { validators: [Validators.required] }],
-			description: ['', { validators: [Validators.required] }],
+		this.form = this.formBuilder.group({
+			other_amount: ['', { validators: [Validators.required] }],
 		});
 	}
 
 	getMethod() {
-		return this.consultationForm.get('contactMethod').value;
+		return this.form.get('contactMethod').value;
 	}
 
 	submit() {
 		this.submitted = true;
-		if (this.consultationForm.status === 'VALID') {
+		if (this.form.status === 'VALID') {
 			this.payload = {
-				contact_method: this.consultationForm.value.contactMethod,
+				contact_method: this.form.value.contactMethod,
 				created: new Date(),
-				description: this.consultationForm.value.description,
-				email: this.consultationForm.value.email,
+				description: this.form.value.description,
+				email: this.form.value.email,
 				name: {
-					first: this.consultationForm.value.firstName,
-					last: this.consultationForm.value.lastName,
+					first: this.form.value.firstName,
+					last: this.form.value.lastName,
 				},
 				phone: {
-					area_code: this.consultationForm.value.areaCode,
-					number: this.consultationForm.value.number,
+					area_code: this.form.value.areaCode,
+					number: this.form.value.number,
 				},
 			};
 			this.consultationState.set(this.payload);

@@ -137,7 +137,7 @@
 	padding 0
 	font-family $primary-font
 	font-weight $primary-font-weight-500
-	border-radius 8px
+	border-radius: $radius
 	border $blue-border
 	font-size 20px
 	color #fff
@@ -163,7 +163,7 @@
 	&:last-child
 		margin: 0
 
-.donate-form-section
+.donate-form-field
 	float: left
 	width: 100%
 	margin: 0 0 15px 0
@@ -214,11 +214,11 @@
 		height: 42px
 		margin 0
 		padding 0
-		font-family $secondary-font
-		font-weight $secondary-font-weight-400
-		font-size $subscribe-form-field-font-size-360
-		border $secondary-field-border
-		border-radius 8px
+		font-family $primary-font
+		font-weight $primary-font-weight-400
+		border $secondary-button-border
+		border-radius $radius
+		font-size 15px
 		color: #000
 		background #fff
 		appearance none
@@ -227,6 +227,12 @@
 		outline none
 		text-align center
 		box-sizing border-box
+
+.donate-form-section
+	float: left
+	width: 100%
+	margin: 0 0 15px 0
+	padding: 0
 
 	button
 		float left
@@ -242,7 +248,7 @@
 		background blue
 		border $primary-button-active-border
 		border-bottom $secondary-title-border-bottom
-		border-radius 8px
+		border-radius: $radius
 		text-align center
 		outline none
 		border none
@@ -261,7 +267,7 @@
 	width 100%
 	margin 0
 	padding 0
-	border-radius 8px
+	border-radius: $radius
 	background: #33333b
 	text-align center
 	outline none

@@ -69,7 +69,7 @@
 		background $accent-color-light
 		border $black-border-color
 		border-left none
-		border-radius 0 6px 6px 0
+		border-radius: $radius-right
 		cursor pointer
 		outline none
 
@@ -93,14 +93,14 @@
 		margin 0
 
 	&__flag
-		border-radius 6px
+		border-radius: $radius
 		background $accent-color
 		float left
 		margin 0
 		padding 4px 18px 4px 4px
 
 		img
-			border-radius 6px
+			border-radius: $radius
 			width 40px
 			height 30px
 
@@ -118,11 +118,11 @@
 		margin 0
 		padding 0
 		backgorund $accent-color
-		border-radius 8px
+		border-radius: $radius
 		img
 			float left
 			width 40px
-			border-radius 4px
+			border-radius: $radius
 			margin 0 0px 4px 0
 
 	&__holder
@@ -131,7 +131,7 @@
 		max-width 40px
 		padding 8px
 		margin 0
-		border-radius 8px
+		border-radius: $radius
 
 .panel::-webkit-scrollbar
 	width: 0 !important

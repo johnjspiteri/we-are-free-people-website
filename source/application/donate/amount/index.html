@@ -23,10 +23,14 @@
 		</div>
 	</div>
 
-	<div id="donate-form__other">
+	<div id="donate-form__other" [formGroup]="form">
 		<h1>Other amount</h1>
 		<div class="donate-form-field">
-			<input />
+			<input formControlName="other_amount" placeholder="$500" />
 		</div>
+	</div>
+
+	<div class="donate-form-section">
+		<button>SUBMIT</button>
 	</div>
 </div>
