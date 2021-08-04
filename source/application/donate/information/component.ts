@@ -27,6 +27,7 @@ export class DonateInformationComponent {
 			city: ['', { validators: [Validators.required] }],
 			province: ['', { validators: [Validators.required] }],
 			country: ['', { validators: [Validators.required] }],
+			number: ['', { validators: [Validators.required] }],
 		});
 	}
 
