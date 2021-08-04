@@ -2,7 +2,7 @@
 	grid-area: application-footer
 	float left
 	width 100%
-	padding 0
+	padding 20px 0 20px 0
 	margin 0
 	background $primary-background-color
 	border-top $border-primary
@@ -10,8 +10,18 @@
 	&__container
 		position relative
 		width 340px
-		padding 20px 10px 0 10px
+		padding 0
 		margin 0 auto
+
+		h3
+			margin: 0
+			padding: 0
+			text-align left
+			font-family $secondary-font
+			font-weight: $secondary-font-weight-400
+			font-size: 14px
+			line-height 24px
+			color $paragraph-color
 
 	&__company
 		float left
@@ -19,50 +29,59 @@
 		padding 0
 		margin 0 0 30px 0
 
-	&__logo
-		float: left
-		margin: 0 20px 10px 0
-		padding: 0
-		width 50px
-		height 50px
-		background #444
-
 	&__brand
 		float left
-		width 220px
+		width 316px
+		margin 0 0 20px 0
 		padding 0
-		margin-bottom: 20px
 
-	h1
-		float left
-		width 100%
-		margin 0 0 11px 0
-		font-size 18px
-		line-height 21px
-		text-align left
-		border none
-		color $black-color
-		font-family $primary-font
-		font-weight $primary-font-weight-400
+		h1
+			float left
+			margin 0
+			padding 0
+			font-family $primary-font
+			font-weight $primary-font-weight-400
+			font-size 18px
+			line-height 25px
+			color $black-color
+			text-align left
+			cursor pointer
 
-	h2
+		h2
+			float left
+			width 100%
+			margin 0
+			padding 0
+			font-family $alternate-font
+			font-weight $alternate-font-weight-400
+			font-size 24px
+			line-height 24px
+			color #787878
+			text-align left
+			cursor pointer
+
+	&__outline
 		float left
-		width 100%
+		width 24px
+		height 24px
 		padding 0
-		margin 0
-		font-style italic
-		font-size 15px
-		line-height 15px
-		border none
-		font-family $primary-font
-		font-weight $primary-font-weight-400
-		color #686868
+		margin 0 10px 1px 0
+		background $accent-color
+		border-radius 8px 0 8px 0
+		cursor pointer
+
+	&__white
+		float left
+		width 8px
+		height 8px
+		background $white-color
+		margin 8px 0 0 8px
 
 	&__address
 		float left
 		width 100%
 		padding 0
-		margin-bottom: 10px
+		margin-bottom 4px
 
 	&__contact
 		float left
@@ -73,8 +92,32 @@
 	&__about
 		float left
 		width 100%
-		padding 0
+		padding 0 10px 0 0
 		margin 0
+		box-sizing border-box
+
+		h1
+			float left
+			margin 0 0 8px 0
+			padding 0
+			font-family $primary-font
+			font-weight $primary-font-weight-400
+			font-size 18px
+			line-height 25px
+			color $black-color
+			text-align left
+			cursor pointer
+
+		p
+			float: left
+			width 100%
+			padding 0
+			margin 0
+			font-size 14px
+			line-height 23px
+			font-family $primary-font
+			font-weight: $primary-font-weight-400
+			color $paragraph-color
 
 	&__cv
 		float left
@@ -85,7 +128,7 @@
 	&__navigation
 		float left
 		padding 0
-		margin-bottom: 20px
+		margin-bottom 40px
 
 .footer-row
 	float: left
@@ -93,54 +136,38 @@
 	padding: 0
 	margin 0 0 10px 0
 
-	p
-		float: left
-		width 100%
-		padding 0
-		margin 0
-		font-size 14px
-		line-height 30px
-		font-family $primary-font
-		font-weight: $primary-font-weight-400
-		color $paragraph-color
-
 .footer-address-line
 	float left
-	width 200px
+	width 100%
 	margin: 0
 	padding: 0
-	font-size 14px
-	line-height 25px
-	font-family: $primary-font
-	font-weight: $primary-font-weight-400
 
 .footer-contact-line
 	float left
-	width 200px
+	width 100%
 	padding 0
-	margin 0
-	font-size 14px
-	line-height 25px
-	font-family: $primary-font
-	font-weight: $primary-font-weight-400
+	margin 0 0 4px 0
 
 .footer-social
 	float left
 	width 100%
 	padding 0
-	margin 0
+	margin 18px 0 0 0
 
 .footer-social-facebook
 .footer-social-twitter
 .footer-social-instagram
 	float left
 	padding 0
-	margin 0 10px 0 0
+	margin 0 24px 0 0
 	font-size 22px
 	line-height 22px
-	text-align: center;
-	cursor: pointer;
-	color: $paragraph-color
+	color $paragraph-color
+	text-align center
+	cursor pointer
+
+.footer-social-twitter
+	font-size 23px
 
 .footer-column
 	float: left
@@ -151,13 +178,3 @@
 		display: inline
 		margin: 0
 		color $black-color
-
-		h3
-			margin: 0
-			padding: 0
-			text-align left
-			font-family $primary-font
-			font-weight: $primary-font-weight-400
-			font-size: 14px
-			line-height 24px
-			color $paragraph-color
