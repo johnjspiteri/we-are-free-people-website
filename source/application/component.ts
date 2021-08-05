@@ -5,7 +5,7 @@ import { faCookieBite, faLongArrowAltLeft } from '@fortawesome/pro-duotone-svg-i
 import { faCheck, faCog, faCommentAlt, faCommentAltCheck, faEnvelope, faVolumeMute, faPaperPlane, faCloudUploadAlt, faTimes } from '@fortawesome/pro-regular-svg-icons';
 import { faCaretRight, faCaretDown, faCaretLeft } from '@fortawesome/pro-solid-svg-icons';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { Observable, Subject } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { Store } from '@ngrx/store';
 import { PANEL } from '_application/common/store/panel/selectors';
@@ -72,6 +72,8 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 			this.panel = panel;
 			console.log('panel:', this.panel);
 		});
+
+		this.store.dispatch(fromPanelActions.OPEN());
 	}
 
 	ngAfterViewInit(): void {}

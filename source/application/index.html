@@ -1,12 +1,9 @@
-<ng-container *ngIf="state.loading.global">
-	<div class="backdrop"></div>
-</ng-container>
+<!--<ng-container *ngIf="state.loading.global">-->
+<!--	<div class="backdrop"></div>-->
+<!--</ng-container>-->
 
 <mat-sidenav-container [hasBackdrop]="false">
 	<mat-sidenav #navigation mode="over" [opened]="panel" disableClose="true">
-		<ng-container *ngIf="state.loading.panel">
-			<div class="backdrop" (click)="closeNavigationPanel()"></div>
-		</ng-container>
 		<div class="panel">
 			<div class="panel__container">
 				<div class="panel__buttons">
@@ -21,6 +18,7 @@
 				<fa-icon class="panel__caret" [icon]="faCaretLeft"></fa-icon>
 			</div>
 		</div>
+		<div class="backdrop" (click)="closeNavigationPanel()"></div>
 	</mat-sidenav>
 
 	<mat-sidenav-content>
@@ -97,10 +95,10 @@
 		</ng-container>
 
 		<div id="structure">
-<!--			<website-header></website-header>-->
-<!--			<main id="structure__main">-->
-<!--				<router-outlet></router-outlet>-->
-<!--			</main>-->
+			<website-header></website-header>
+			<main id="structure__main">
+				<router-outlet></router-outlet>
+			</main>
 			<website-footer></website-footer>
 		</div>
 	</mat-sidenav-content>
