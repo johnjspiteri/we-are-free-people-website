@@ -4,11 +4,16 @@
 	margin: 0
 	padding: 0
 
-	&__slider
-		grid-area slider
+	&__video
+		float: left
 		width 100%
+<<<<<<< Updated upstream
 		height 240px
 		margin 0 0 40px 0
+=======
+		height 220px
+		margin 0
+>>>>>>> Stashed changes
 		padding 0
 		border-bottom $secondary-image-border
 		border-top $secondary-image-border
@@ -27,6 +32,17 @@
 			font-weight $primary-font-weight-400
 			color $black-color
 			text-align center
+
+	&__details
+		float: left
+		width: 300px
+		height: 70px
+		margin: 0 30px 20px
+		padding: 0
+		background: #f9f
+		border-radius: $radius-bottom
+		border: $secondary-image-border
+		border-top none
 
 	&__squares
 		display grid
@@ -96,11 +112,6 @@
 			font-weight $secondary-font-weight-400
 			color $secondary-paragraph-color
 			text-align left
-
-	&__buttonholder
-		float left
-		padding 10px
-		width 340px
 
 	&__button
 		float left
