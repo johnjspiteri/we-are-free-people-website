@@ -1,27 +1,27 @@
 <div class="structure-container">
 	<form id="search" [formGroup]="form" novalidate="novalidate">
 		<div class="search-section">
-			<label id="search-area">AREA</label>
+			<label id="search-area">Area</label>
 			<div class="search-field">
 				<ia-select formControlName="area" [items]="state.area.options" (change)="updateArea()"></ia-select>
 			</div>
 		</div>
 		<div class="search-section">
-			<label id="search-section">SECTION</label>
+			<label id="search-section">Section</label>
 			<div class="search-field">
 				<ia-select [ngClass]="{ disabled: !state.area.selected }" formControlName="section" [items]="state.section.options" (change)="updateSection()"></ia-select>
 			</div>
 		</div>
 
 		<div class="search-section">
-			<label id="search-category">CATEGORY</label>
+			<label id="search-category">Category</label>
 			<div class="search-field">
 				<ia-select [ngClass]="{ disabled: !state.section.selected }" formControlName="category" [items]="state.category.options" (change)="updateCategory()"></ia-select>
 			</div>
 		</div>
 
 		<div class="search-section">
-			<label id="search-topic">TOPIC</label>
+			<label id="search-topic">Topic</label>
 			<div class="search-field">
 				<ia-select [ngClass]="{ disabled: !state.category.selected }" formControlName="topic" [items]="state.topic.options" (change)="updateTopic()"></ia-select>
 			</div>
@@ -29,21 +29,21 @@
 
 		<ng-container *ngIf="state.state">
 			<div class="search-section">
-				<label id="search-sort">SORT</label>
+				<label id="search-sort">Sort</label>
 				<div class="search-field">
 					<ia-select formControlName="sort" [items]="state.sort.options" (change)="updateSort()"></ia-select>
 				</div>
 			</div>
 
 			<div class="search-section">
-				<label id="search-type">TYPE</label>
+				<label id="search-type">Type</label>
 				<div class="search-field">
 					<ia-select formControlName="type" [items]="state.type.options" (change)="updateType()"></ia-select>
 				</div>
 			</div>
 
 			<div class="search-section">
-				<label id="search-tags">TAGS</label>
+				<label id="search-tags">Tags</label>
 				<div class="search-field">
 					<ia-select-tag [items]="state.tag.options" [limit]="3" (change)="updateTags($event)"></ia-select-tag>
 				</div>
@@ -54,13 +54,13 @@
 	<div id="search__tags">
 		<div class="search-tag">
 			<h5 (click)="resetSearchForm()">
-				RESET
+				Reset
 				<fa-icon id="search__times" [icon]="faTimes"></fa-icon>
 			</h5>
 		</div>
 		<div class="search-tag">
 			<h5 (click)="toggleSearchState()">
-				ADVANCED
+				Advanced
 				<ng-container *ngIf="state.state">
 					<fa-icon id="search__caret-up" [icon]="faCaretUp"></fa-icon>
 				</ng-container>

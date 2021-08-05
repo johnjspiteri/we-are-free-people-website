@@ -3,16 +3,16 @@
 	width 275px
 	height 100%
 	min-height 100%
+	top 0
+	left 0
 	bottom 0
-	padding 0
 	margin 0
+	padding 0
 	background nonew
 	outline none
-	left 0
-	top 0
 	z-index 9999
-	-webkit-transform translate3d(0%, 0, 0)
-	transform translate3d(0%, 0, 0)
+	//-webkit-transform translate3d(0%, 0, 0)
+	//transform translate3d(0%, 0, 0)
 	overflow scroll
 
 .panel
@@ -30,7 +30,7 @@
 		min-height 100%
 		padding 0
 		margin 0
-		background $base-background-color
+		background $tertiary-background-color
 		border-right $black-border
 		z-index: 100;
 
@@ -50,14 +50,18 @@
 			width 118px
 			padding 9px 10px 6px 10px
 			margin 0 0 11px 0
-			color $base-button-active-text-color
-			background $base-button-active-background-color
-			border $base-button-active-border
+			color $tertiary-button-active-text-color
+			background $tertiary-button-active-background-color
+			border $tertiary-button-active-border
 			border-radius $radius
 			text-align center
 			text-decoration none
 			cursor pointer
 			outline none
+
+		h1.active
+			background: #000
+			border 1px solid #000
 
 	&__spacer
 		float left
@@ -83,7 +87,7 @@
 		height 100%
 		padding 0 4px 0 0
 		margin 14px 0 0 -1px
-		background $base-background-color
+		background $tertiary-background-color
 		border $black-border
 		border-left none
 		border-radius: $radius-right

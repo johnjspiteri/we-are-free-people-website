@@ -124,19 +124,28 @@
 	<div id="header__navigation">
 		<nav id="header__navigation__container">
 			<div class="header__tile active">
-				<h3 routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">HOME</h3>
+				<h3 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="./articles" routerLinkActive="active">ARTICLES</h3>
+				<h3 routerLink="/articles" routerLinkActive="active">Articles</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="./media" routerLinkActive="active">MEDIA</h3>
+				<h3 routerLink="/video" routerLinkActive="active">Video</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="./about" routerLinkActive="active">ABOUT</h3>
+				<h3 routerLink="/events" routerLinkActive="active">Events</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="./contact" routerLinkActive="active">CONTACT</h3>
+				<h3 routerLink="/donate/amount" routerLinkActive="active">Donate</h3>
+			</div>
+			<div class="header__tile">
+				<h3 routerLink="/media" routerLinkActive="active">Media</h3>
+			</div>
+<!--			<div class="header__tile">-->
+<!--				<h3 routerLink="/about" routerLinkActive="active">About</h3>-->
+<!--			</div>-->
+			<div class="header__tile">
+				<h3 routerLink="/contact" routerLinkActive="active">Contact</h3>
 			</div>
 		</nav>
 	</div>
