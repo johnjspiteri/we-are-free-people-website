@@ -1,100 +1,139 @@
 #list
-	width 627px
-	margin 0 0 32px 20px
+	width 748px
+	margin 0 10px
 
-.article-list
-	width 302px
-	padding-top: 10px
-	margin 0 11px 24px 0
+	&__container
+		grid-template-columns: 1fr 1fr
+		grid-column-gap: 15px
 
-	&__image
-		width 284px
-		margin 0 0 10px 10px
+	&__career
+		grid-template-columns: 1fr 1fr
+		grid-column-gap: 10px
+		padding: 0
 
-	&__content
-		width 266px
-		padding 16px 20px 18px 20px
-
-	&__title
-		margin-bottom: 20px
+	&__empty
+		width: 548px
+		margin-left: 105px
+		padding 20px 30px 16px 30px
 
 		h1
-			max-width 224px
-			padding 10px 20px 10px 20px
+			margin 0 auto 10px auto
+			padding 0 10px 4px 10px
 			font-size 16px
-			line-height 27px
+			line-height 22px
 
-	&__caption
+		p
+			margin-bottom: 15px
+			font-size 14px
+			line-height 25px
 
-	&__center
+	&__buttons
+		width 349px
+
+.list-button
+	width 164px
+	height 37px
+	margin: 0 20px 0 0
+
+	h2
+		font-size 13px
+		line-height: 13px
+
+.list-button:last-child
+	margin 0
+
+.list-item
+	padding 15px
+
+	h1
+		margin-bottom: 20px
+		padding-bottom: 6px
+		font-size 17px
+		line-height 20px
+
+	h4
 		margin-bottom: 7px
+		font-size 13px
+		line-height 13px
 
-		h5
+	p
+		margin-bottom: 10px
+		font-size 14px
+		line-height 20px
+
+	&__content
+		padding 0 10px
+
+	&__detail
+		padding 10px
+
+	&__half
+		padding 0 5px
+		margin: 0 0 10px 0
+
+		h2
+			padding 10px 0
 			font-size 14px
 			line-height 14px
 
-	&__square
-		width 122px
-		margin-bottom: 26px
+	&__full
+		width 272px
 
-		h2
-			padding 8px 10px 8px 10px
-			font-size 15px
-			line-height 25px
+	&__tags
+		h3
+			margin 0 5px
+			padding 7px 14px 7px 14px
+			font-size 12px
+			line-height 15px
 
-		p
-			font-size 15px
-			line-height 27px
+	&__career
+		width: 75%
+		padding-right: 10px
 
-	&__square.price
-		margin 0 20px 22px 0
+	&__holder
+		margin-bottom: 20px
 
-	&__square.author
-		margin-bottom: 22px
-
-	&__square.category
-		margin 0 20px 22px 0
-
-	&__square.sku
-		margin-bottom: 22px
-
-	&__buttons
-		width 276px
-
-	&__button
-		width 131px
-		height 46px
-
-		h4
-			font-size 16px
-			line-height 47px
-
-	&__button.red
-		width 131px
+	&__team
 		margin 0 10px 0 0
 
-.article-list-empty
-	width 577px
-	padding 25px
-	margin-bottom: 70px
+		h2
+			padding 0 9px
+			font-size 10px
+			line-height 14px
 
-	h1
-		font-size 20px
-		line-height 35px
+		h3
+			margin-bottom: 5px
+			font-size 10px
+			line-height 10px
 
-	p
+	&__contact
+		width 25%
+		padding 15px 10px
+
+	&__square
 		margin-bottom: 20px
-		font-size 17px
-		line-height 30px
 
-.article-list__buttonB
-	width 278px
-	margin 10px 20px 25px 0
+		h4
+			margin-bottom: 10px
+			font-size 11px
+			line-height 12px
 
-	h3
-		font-size 19px
-		line-height 40px
+		h5
+			margin-bottom: 5px
+			font-size 13px
+			line-height 13px
 
-.article-list__buttonB.right
-	width 278px
-	margin 10px 0 0 0
+		img
+			width 50px
+			height 50px
+
+	&__square:nth-child(1)
+		margin 0 0 10px 0
+
+	&__button
+		height: 25px
+		margin: 0 0 10px 0
+
+		h6
+			height 27px
+			font-size 11px
