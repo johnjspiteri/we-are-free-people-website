@@ -2,7 +2,11 @@
 	width 400px
 
 .panel
+	width: 230px
 	min-height 100%
+
+	&__container
+		width: 190px
 
 	&__buttons
 		width 160px
@@ -16,21 +20,43 @@
 	&__spacer
 		height 20px
 
+	&__left
+		width 26px
+		height 41px
+
 	&__close
-		width 30px
-		height 42px
-		padding-right: 5px
-		margin 18px 0 0 -2px
-		border-radius: $radius-right
+		padding 0 4px 0 0
+		margin 14px 0 0 -1px
 
 	&__caret
-		font-size 30px
-		line-height 42px
+		font-size 18px
 
 	&__language
-		bottom 5px
-		left 94px
+		max-height 40px
+		bottom 30px
+		right 120px
+
+	&__flag
+		padding 4px 18px 4px 4px
+
+		img
+			width 40px
+			height 30px
+
+	&__lang-caret
+		font-size 18px
+		line-height 25px
+		margin 4px 0 0 10px
 
 	&__languages
-		bottom 120px
-		left 10px
+		bottom 200px
+		left 40px
+
+		img
+			width 40px
+			margin 0 0 4px 0
+
+	&__holder
+		max-width 40px
+		padding 8px
+		margin 0

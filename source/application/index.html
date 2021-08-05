@@ -14,8 +14,10 @@
 					<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
 				</div>
 			</div>
-			<div class="panel__close" (click)="closeNavigationPanel()">
-				<fa-icon class="panel__caret" [icon]="faCaretLeft"></fa-icon>
+			<div class="panel__left">
+				<div class="panel__close" (click)="closeNavigationPanel()">
+					<fa-icon class="panel__caret" [icon]="faCaretLeft"></fa-icon>
+				</div>
 			</div>
 		</div>
 		<div class="backdrop" (click)="closeNavigationPanel()"></div>
