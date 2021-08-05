@@ -70,10 +70,9 @@ export class RootComponent implements OnInit, AfterViewInit, OnDestroy {
 	ngOnInit(): void {
 		this.panelStateSubscription = this.store.select(PANEL).subscribe((panel: boolean) => {
 			this.panel = panel;
-			console.log('panel:', this.panel);
 		});
 
-		this.store.dispatch(fromPanelActions.OPEN());
+		// this.store.dispatch(fromPanelActions.OPEN());
 	}
 
 	ngAfterViewInit(): void {}

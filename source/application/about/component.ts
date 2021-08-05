@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
 	selector: 'about',
-	templateUrl: './index.html',
+	template: `<router-outlet></router-outlet>`,
 	encapsulation: ViewEncapsulation.None,
 })
 export class AboutComponent {}

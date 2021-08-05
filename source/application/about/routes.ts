@@ -2,10 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './component';
-import { OrganizationComponent } from './organization/component';
-import { PhilosophyComponent } from './philosophy/component';
-import { PurposeComponent } from './purpose/component';
-import { FinancesComponent } from './finances/component';
 
 const routes: Routes = [
 	{
@@ -14,7 +10,7 @@ const routes: Routes = [
 		children: [
 			{
 				path: '',
-				redirectTo: 'organization',
+				redirectTo: 'philosophy',
 			},
 			{
 				path: 'careers',
