@@ -3,9 +3,10 @@
 	float left
 	width 100%
 	margin 0
-	padding 15px 0 15px 0
-	background $secondary-background-color
-	border-bottom $secondary-border
+	padding 8px 0 0 0
+	background $primary-background-color
+	border-bottom $primary-on-base-border
+	overflow: hidden
 
 	&__navigation
 	&__consultation
@@ -20,58 +21,66 @@
 
 	&__brand
 		float left
-		width 316px
+		width 312px
 		margin 0
 		padding 0
 
 		h1
 			float left
-			margin 0
+			margin 10px 0 2px 0
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 18px
-			line-height 25px
+			font-size 17px
+			line-height 17px
 			color $black-color
 			text-align left
+			focus none
 			cursor pointer
 
 		h2
 			float left
-			width 100%
 			margin 0
 			padding 0
 			font-family $alternate-font
 			font-weight $alternate-font-weight-400
-			font-size 24px
-			line-height 24px
-			color #787878
+			font-size 22px
+			line-height 22px
+			color #888
 			text-align left
+			focus none
 			cursor pointer
 
-	&__outline
+	&__logo
 		float left
-		width 24px
-		height 24px
-		padding 0
-		margin 0 10px 1px 0
-		background $teal-color
-		border-radius 8px 0 8px 0
-		cursor pointer
+		width 60px
+		overflow: hidden
 
-	&__white
-		float left
-		width 8px
-		height 8px
-		background $white-color
-		margin 8px 0 0 8px
+	&__two
+		position absolute
+		width: 25px
+		margin: 18px 0 0 23px
+
+		svg
+			width 52px
+			margin: 0 0 0 -14px
 
 	&__dots
 		float right
 		width 20px
-		margin 3px 0 0 0
+		margin 9px 0 0 0
 		padding 0
 		cursor pointer
+
+.header-leaf
+	float: left
+	width: 35px
+	//background: #ccc
+
+	svg
+		float: left
+		width: 62px
+		margin: 0 0 0 -14px
 
 .header-banner-dot-row
 	float: left
@@ -83,11 +92,10 @@
 	float right
 	width 3px
 	height 3px
-	background $black-color
+	background $teal-color
 	margin 0 0 0 4px
 	padding 0
-	border-radius 2px
-//border-radius $radius-circle
+	border-radius $radius
 
 .header-banner-dot-row:last-child
 .header-banner-dot:last-child
