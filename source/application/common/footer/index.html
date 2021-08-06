@@ -7,26 +7,26 @@
 						<div id="footer__white"></div>
 					</div>
 				</div>
-				<h1 routerLink="/">We Are Free People</h1>
+				<div id="footer__name">
+					<h1 routerLink="/">We Are Free People</h1>
+					<a href="https://www.facebook.com" target="_blank">
+						<fa-icon class="footer-social-facebook" [icon]="faFacebookF"></fa-icon>
+					</a>
+					<a href="https://twitter.com" target="_blank">
+						<fa-icon class="footer-social-twitter" [icon]="faTwitter"></fa-icon>
+					</a>
+					<a href="https://www.instagram.com" target="_blank">
+						<fa-icon class="footer-social-instagram" [icon]="faInstagramSquare"></fa-icon>
+					</a>
+				</div>
 				<h2 routerLink="/">Born with natural human rights</h2>
 			</div>
 
-			<div class="footer-social">
-				<a href="https://www.facebook.com" target="_blank">
-					<fa-icon class="footer-social-facebook" [icon]="faFacebookF"></fa-icon>
-				</a>
-				<a href="https://twitter.com" target="_blank">
-					<fa-icon class="footer-social-twitter" [icon]="faTwitter"></fa-icon>
-				</a>
-				<a href="https://www.instagram.com" target="_blank">
-					<fa-icon class="footer-social-instagram" [icon]="faInstagramSquare"></fa-icon>
-				</a>
-			</div>
 			<div id="footer__contact">
 				<div id="footer__address">
 					<a href="https://www.google.com/maps/place/One+King+Street+West,+1+King+St+W,+Toronto,+ON+M5H+1A1/@43.6488576,-79.380334,17z/data=!4m13!1m7!3m6!1s0x89d4cb2d7d8255cf:0xd56ea11ca4f45721!2sOne+King+Street+West,+1+King+St+W,+Toronto,+ON+M5H+1A1!3b1!8m2!3d43.6488576!4d-79.3781453!3m4!1s0x89d4cb2d7d8255cf:0xd56ea11ca4f45721!8m2!3d43.6488576!4d-79.3781453" target="_blank">
-						<div class="footer-address-line">
-							<h3><fa-icon class="footer-location-icon" [icon]="faLocationArrow"></fa-icon>25-19 Strait Street, Valletta, Malta VLT 1111</h3>
+						<div class="footer-contact-line">
+							<h3><fa-icon class="footer-location-icon" [icon]="faLocationArrow"></fa-icon>25-19 Strait Street, Valletta, Malta</h3>
 						</div>
 					</a>
 				</div>
@@ -47,38 +47,71 @@
 
 			<div id="footer__navigation">
 				<div class="footer-column">
+					<div class="footer-column__title">
+						<h4>Structure</h4>
+					</div>
 					<div class="footer-column__button">
 						<h3 routerLink="/">Home</h3>
 					</div>
 					<div class="footer-column__button">
-						<h3 routerLink="/about">About</h3>
+						<h3 routerLink="/donate">Donate</h3>
 					</div>
 					<div class="footer-column__button">
-						<h3 routerLink="/articles">Articles</h3>
+						<h3 routerLink="/volunteer">Volunteer</h3>
 					</div>
-				</div>
-
-				<div class="footer-column">
-					<div class="footer-column__button">
-						<h3 routerLink="/">Home</h3>
-					</div>
-					<div class="footer-column__button">
-						<h3 routerLink="/about">About</h3>
-					</div>
-					<div class="footer-column__button">
-						<h3 routerLink="/articles">Articles</h3>
-					</div>
-				</div>
-
-				<div class="footer-column">
 					<div class="footer-column__button">
 						<h3 routerLink="/contact">Contact</h3>
 					</div>
-					<div class="footer-column__button">
-						<h3 routerLink="/privacy-policy">Privacy Policy</h3>
+				</div>
+
+				<div class="footer-column">
+					<div class="footer-column__title">
+						<h4>Content</h4>
 					</div>
 					<div class="footer-column__button">
-						<h3 routerLink="/terms-and-conditions">Terms of Use</h3>
+						<h3 routerLink="/articles">Articles</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/video">Video</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="//resources">Resources</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/media">Media</h3>
+					</div>
+				</div>
+
+				<div class="footer-column">
+					<div class="footer-column__title">
+						<h4>About</h4>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/about/philosophy">Philosophy</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/about/purpose">Purpose</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/about/finances">Finances</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/about/careers">Careers</h3>
+					</div>
+				</div>
+
+				<div class="footer-column">
+					<div class="footer-column__title">
+						<h4>Legal</h4>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/">Cookie Policy</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/about">Privacy Policy</h3>
+					</div>
+					<div class="footer-column__button">
+						<h3 routerLink="/articles">Terms of Use</h3>
 					</div>
 				</div>
 			</div>

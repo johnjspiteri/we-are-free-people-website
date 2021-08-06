@@ -14,16 +14,17 @@
 		padding 0
 
 		h3
-			//float: left
-			//width: 100%
+			display flex
+			height: 100%
 			margin 0
 			padding 0
 			text-align left
 			font-family $secondary-font
 			font-weight $secondary-font-weight-400
-			font-size 14px
-			line-height 24px
+			font-size 12px
 			color $paragraph-color
+			cursor pointer
+			align-items center
 
 	&__company
 		float left
@@ -31,23 +32,31 @@
 		padding 0
 		margin 0 0 30px 0
 
+	&__name
+		float left
+		width 300px
+		margin 0
+		padding 0
+
 	&__brand
 		float left
-		width 316px
+		width 100%
 		margin 0 0 22px 0
 		padding 0
 
 		h1
 			float left
+			width: 214px
 			margin 0
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 18px
+			font-size 15px
 			line-height 25px
 			color $black-color
 			text-align left
 			cursor pointer
+			background: #f9f
 
 		h2
 			float left
@@ -138,7 +147,7 @@
 		width 100%
 		margin 0
 		padding 0
-		grid-template-columns 1fr 1fr 1fr
+		grid-template-columns 1fr 1fr 1fr 1fr
 		grid-template-rows auto
 
 .footer-row
@@ -147,38 +156,47 @@
 	padding: 0
 	margin 0 0 10px 0
 
-.footer-address-line
-	float left
-	width 100%
-	margin: 0
-	padding: 0
-
 .footer-contact-line
 	float left
 	width 100%
+	height: 24px
 	padding 0
 	margin 0 0 4px 0
 
 .footer-social
-	float left
+	display flex
+	//float: left
 	width 100%
 	padding 0
 	margin 0 0 20px 0
+	text-align center
+	justify-content: center
+	cursor pointer
+	align-items center
 
 .footer-social-facebook
 .footer-social-twitter
 .footer-social-instagram
-	float left
+	display flex
+	float: left
+	width: 20px
+	height: 20px
 	padding 0
-	margin 0 24px 0 0
-	font-size 22px
-	line-height 22px
-	color $paragraph-color
+	margin 0 10px 0 0
+	font-size 14px
+	color $primary-button-active-text-color
+	background $primary-button-active-background-color
+	border $tertiary-on-primary-border
+	border-radius $radius
 	text-align center
+	justify-content: center
 	cursor pointer
+	align-items center
 
+.footer-social-instagram
+	margin: 0
 .footer-social-twitter
-	font-size 23px
+	font-size 14px
 
 .footer-column
 	float: left
@@ -187,21 +205,39 @@
 	margin: 0
 
 	&__button
-		display flex
-		margin: 0
-		color $black-color
+		float: left
 		width: 100%
 		height: 25px
+		margin: 0
+		color $black-color
 		align-items center
+
+	&__title
+		float: left
+		width: 100%
+		margin: 0
+		color $black-color
+		align-items center
+
+		h4
+			margin 0
+			padding 0
+			text-align left
+			font-family $secondary-font
+			font-weight $secondary-font-weight-400
+			font-size 12px
+			color $paragraph-color
 
 .footer-location-icon
 .footer-email-icon
 .footer-mobile-icon
-	float left
+	display flex
+	float: left
+	height: 100%
 	padding 0
 	margin 0 10px 0 0
-	font-size 15px
-	line-height 15px
+	font-size 14px
 	color $paragraph-color
 	text-align center
 	cursor pointer
+	align-items center
