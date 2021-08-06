@@ -15,10 +15,6 @@ const routes: Routes = [
 		loadChildren: () => import('./finances/module').then((module) => module.FinancesModule),
 	},
 	{
-		path: 'organization',
-		loadChildren: () => import('./organization/module').then((module) => module.OrganizationModule),
-	},
-	{
 		path: 'philosophy',
 		loadChildren: () => import('./philosophy/module').then((module) => module.PhilosophyModule),
 	},

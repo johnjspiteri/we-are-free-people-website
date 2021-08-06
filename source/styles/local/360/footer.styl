@@ -34,9 +34,13 @@
 
 	&__name
 		float left
+		display flex
+		height: 25px
 		width 300px
 		margin 0
 		padding 0
+		background: #f9f
+		align-items center
 
 	&__brand
 		float left
@@ -46,7 +50,7 @@
 
 		h1
 			float left
-			width: 214px
+			width: 229px
 			margin 0
 			padding 0
 			font-family $primary-font
@@ -56,7 +60,6 @@
 			color $black-color
 			text-align left
 			cursor pointer
-			background: #f9f
 
 		h2
 			float left
@@ -91,7 +94,7 @@
 	&__contact
 		float left
 		width 100%
-		margin 0 0 40px 0
+		margin 0
 		padding 0
 
 	&__address
@@ -115,6 +118,7 @@
 
 		h1
 			float left
+			width: 100%
 			margin 0 0 8px 0
 			padding 0
 			font-family $primary-font
@@ -142,7 +146,12 @@
 		padding 0
 		margin-bottom: 42px
 
+	&__map-big
+	&__map-small
+		display: none
+
 	&__navigation
+		float: left
 		display grid
 		width 100%
 		margin 0
@@ -179,8 +188,8 @@
 .footer-social-instagram
 	display flex
 	float: left
-	width: 20px
-	height: 20px
+	width: 15px
+	height: 15px
 	padding 0
 	margin 0 10px 0 0
 	font-size 14px
@@ -195,6 +204,7 @@
 
 .footer-social-instagram
 	margin: 0
+
 .footer-social-twitter
 	font-size 14px
 
@@ -223,9 +233,9 @@
 			margin 0
 			padding 0
 			text-align left
-			font-family $secondary-font
-			font-weight $secondary-font-weight-400
-			font-size 12px
+			font-family $primary-font
+			font-weight $primary-font-weight-400
+			font-size 11px
 			color $paragraph-color
 
 .footer-location-icon
