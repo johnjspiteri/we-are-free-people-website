@@ -40,6 +40,10 @@ const routes: Routes = [
 		loadChildren: () => import('./volunteer/module').then((module) => module.VolunteerModule),
 	},
 	{
+		path: 'petition',
+		loadChildren: () => import('./petition/module').then((module) => module.PetitionModule),
+	},
+	{
 		path: 'page-not-found',
 		component: ErrorComponent,
 	},
