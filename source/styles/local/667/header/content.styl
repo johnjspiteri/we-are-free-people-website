@@ -28,10 +28,6 @@
 			width 52px
 			margin: 0 0 0 -14px
 
-	&__three
-		display block
-		margin: 25px 0 0 -16px
-
 	&__dots
 	&__mobile
 		display none
@@ -66,8 +62,8 @@
 		padding 0 32px
 		margin 0
 		background $primary-background-color
-		border none
-		border-right $primary-border
+		//border none
+		border-left $primary-border
 		border-bottom $primary-border
 		border-radius none
 		cursor pointer
@@ -86,12 +82,13 @@
 			text-align center
 
 	&__tile.active
-		height: 47px
+		height: 48px
 		background $secondary-background-color
-		//margin -1px 0 0 0
+		margin -1px 0 0 0
 
 		h3
 			color $paragraph
+			line-height 50px
 
 	&__tile.end.active
 		background $background
