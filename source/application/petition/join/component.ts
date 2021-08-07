@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'volunteer-join',
+	selector: 'petition-join',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
