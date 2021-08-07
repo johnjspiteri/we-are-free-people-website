@@ -1,12 +1,12 @@
 #header-pitch
-	display none
+	//display none
 	float left
 	width 100%
 	margin 0
 	padding 0 0 11px 0
 	background $tertiary-background-color
 	border none
-	border-bottom $tertiary-border-bottom
+	border-bottom $tertiary-on-primary-border-bottom
 
 	&__content
 		position relative
@@ -35,12 +35,12 @@
 
 	&__title
 		float left
-		width 108px
-		margin 0 12px 0 0
-		padding 3px 0 6px 12px
-		background $brown-button-background-inactive-color
+		width 110px
+		margin 0 10px 0 0
+		padding 8px 0 6px 8px
+		background $tertiary-button-inactive-background-color
 		border $tertiary-button-inactive-border
-		border-bottom $tertiary-button-inactive-border-bottom
+		border-bottom $tertiary-button-inactive-bottom-border
 		border-top none
 		border-radius $radius-bottom
 		box-sizing border-box
@@ -52,9 +52,9 @@
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 14px
-			line-height 18px
-			color $brown-button-text-inactive-color
+			font-size 13px
+			line-height 17px
+			color $tertiary-button-text-inactive-color
 			text-align left
 
 	&__arrow
@@ -62,8 +62,8 @@
 		margin 2px 0 0 8px
 		padding 0
 		font-size 18px
-		--fa-primary-color $brown-button-text-inactive-color
-		--fa-secondary-color $brown-button-text-inactive-color
+		--fa-primary-color $tertiary-button-text-inactive-color
+		--fa-secondary-color $tertiary-button-text-inactive-color
 		--fa-primary-opacity 1
 		--fa-secondary-opacity 1
 
@@ -130,8 +130,8 @@
 		box-sizing border-box
 
 	&__half:first-child
+		background #fff
 		border-radius $radius-top
-		background #f2f2f2
 		border 1px solid #a8a8a8
 		border-bottom 1px solid #a8a8a8
 
@@ -164,9 +164,9 @@
 	width 260px
 	margin 0 0 0 40px
 	padding 9px 0 11px 0
-	background $brown-button-background-inactive-color
+	background $tertiary-button-inactive-background-color
 	border $tertiary-button-inactive-border
-	border-bottom $tertiary-button-inactive-border-bottom
+	border-bottom $tertiary-button-inactive-bottom-border
 	border-radius $radius
 	box-shadow none
 	cursor pointer
@@ -184,7 +184,7 @@
 		font-weight $primary-font-weight-400
 		font-size 15px
 		line-height 15px
-		color $brown-button-text-inactive-color
+		color $tertiary-button-text-inactive-color
 		align-items center
 		justify-content center
 		text-align center
