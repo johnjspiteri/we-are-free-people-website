@@ -26,6 +26,10 @@ const routes: Routes = [
 			},
 		],
 	},
+	{
+		path: ':area/:section/:category/:topic/:clean',
+		loadChildren: async () => (await import('./find/module')).VideoFindModule,
+	},
 ];
 @NgModule({
 	imports: [RouterModule.forChild(routes)],
