@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
-import { VideoRoutingModule } from './routes';
-import { VideoComponent } from './component';
+import { SharedModule } from '_application/shared/module';
+import { VideoListComponent } from './list/component';
 
 @NgModule({
-	declarations: [VideoComponent],
-	entryComponents: [],
-	imports: [VideoRoutingModule],
-	exports: [],
+	declarations: [VideoListComponent],
+	imports: [SharedModule],
+	providers: [],
 })
 export class VideoModule {}

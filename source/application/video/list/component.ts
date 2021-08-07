@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-	selector: 'legal-video',
+	selector: 'video-list',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class VideoComponent {}
+export class VideoListComponent {}
