@@ -1,209 +1,208 @@
-<h1>hello</h1>
-<!--<div class="structure-container">-->
-<!--	<form id="search" [formGroup]="form" novalidate="novalidate">-->
-<!--		<div class="search-section">-->
-<!--			<label id="search-area">Area</label>-->
-<!--			<div class="search-field">-->
-<!--				<ia-select formControlName="area" [items]="state.area.options" (change)="updateArea()"></ia-select>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		<div class="search-section">-->
-<!--			<label id="search-section">Section</label>-->
-<!--			<div class="search-field">-->
-<!--				<ia-select [ngClass]="{ disabled: !state.area.selected }" formControlName="section" [items]="state.section.options" (change)="updateSection()"></ia-select>-->
-<!--			</div>-->
-<!--		</div>-->
+<div class="structure-container">
+	<form id="search" [formGroup]="form" novalidate="novalidate">
+		<div class="search-section">
+			<label id="search-area">Area</label>
+			<div class="search-field">
+				<ia-select formControlName="area" [items]="state.area.options" (change)="updateArea()"></ia-select>
+			</div>
+		</div>
+		<div class="search-section">
+			<label id="search-section">Section</label>
+			<div class="search-field">
+				<ia-select [ngClass]="{ disabled: !state.area.selected }" formControlName="section" [items]="state.section.options" (change)="updateSection()"></ia-select>
+			</div>
+		</div>
 
-<!--		<div class="search-section">-->
-<!--			<label id="search-category">Category</label>-->
-<!--			<div class="search-field">-->
-<!--				<ia-select [ngClass]="{ disabled: !state.section.selected }" formControlName="category" [items]="state.category.options" (change)="updateCategory()"></ia-select>-->
-<!--			</div>-->
-<!--		</div>-->
+		<div class="search-section">
+			<label id="search-category">Category</label>
+			<div class="search-field">
+				<ia-select [ngClass]="{ disabled: !state.section.selected }" formControlName="category" [items]="state.category.options" (change)="updateCategory()"></ia-select>
+			</div>
+		</div>
 
-<!--		<div class="search-section">-->
-<!--			<label id="search-topic">Topic</label>-->
-<!--			<div class="search-field">-->
-<!--				<ia-select [ngClass]="{ disabled: !state.category.selected }" formControlName="topic" [items]="state.topic.options" (change)="updateTopic()"></ia-select>-->
-<!--			</div>-->
-<!--		</div>-->
+		<div class="search-section">
+			<label id="search-topic">Topic</label>
+			<div class="search-field">
+				<ia-select [ngClass]="{ disabled: !state.category.selected }" formControlName="topic" [items]="state.topic.options" (change)="updateTopic()"></ia-select>
+			</div>
+		</div>
 
-<!--		<ng-container *ngIf="state.state">-->
-<!--			<div class="search-section">-->
-<!--				<label id="search-sort">Sort</label>-->
-<!--				<div class="search-field">-->
-<!--					<ia-select formControlName="sort" [items]="state.sort.options" (change)="updateSort()"></ia-select>-->
+		<ng-container *ngIf="state.state">
+			<div class="search-section">
+				<label id="search-sort">Sort</label>
+				<div class="search-field">
+					<ia-select formControlName="sort" [items]="state.sort.options" (change)="updateSort()"></ia-select>
+				</div>
+			</div>
+
+			<div class="search-section">
+				<label id="search-type">Type</label>
+				<div class="search-field">
+					<ia-select formControlName="type" [items]="state.type.options" (change)="updateType()"></ia-select>
+				</div>
+			</div>
+
+			<div class="search-section">
+				<label id="search-tags">Tags</label>
+				<div class="search-field">
+					<ia-select-tag [items]="state.tag.options" [limit]="3" (change)="updateTags($event)"></ia-select-tag>
+				</div>
+			</div>
+		</ng-container>
+	</form>
+
+	<div id="search__tags">
+		<div class="search-tag">
+			<h5 (click)="resetSearchForm()">
+				Reset
+				<fa-icon id="search__times" [icon]="faTimes"></fa-icon>
+			</h5>
+		</div>
+		<div class="search-tag">
+			<h5 (click)="toggleSearchState()">
+				Advanced
+				<ng-container *ngIf="state.state">
+					<fa-icon id="search__caret-up" [icon]="faCaretUp"></fa-icon>
+				</ng-container>
+				<ng-container *ngIf="!state.state">
+					<fa-icon id="search__caret-down" [icon]="faCaretDown"></fa-icon>
+				</ng-container>
+			</h5>
+		</div>
+	</div>
+
+	<div id="list">
+		<div id="list__container">
+			<ng-container *ngFor="let article of state.list.processed">
+				<div class="list-item" [routerLink]="[article.area, article.section, article.category, article.topic, article.clean]">
+					<div class="list-item__content">
+						<h1>{{ article.title + '?' }}</h1>
+						<p>{{ article.content.summary }}</p>
+						<div class="list-item__detail">
+							<div class="list-item__half">
+								<h4>AREA</h4>
+								<h2>{{ article.area | titleCaseDash }}</h2>
+							</div>
+
+							<div class="list-item__half">
+								<h4>SECTION</h4>
+								<h2>{{ article.section | titleCaseDash }}</h2>
+							</div>
+
+							<div class="list-item__half">
+								<h4>CATEGORY</h4>
+								<h2>{{ article.category | titleCaseDash }}</h2>
+							</div>
+
+							<div class="list-item__half">
+								<h4>TOPIC</h4>
+								<h2>{{ article.topic | titleCaseDash }}</h2>
+							</div>
+
+							<div class="list-item__full">
+								<h4>TAGS</h4>
+								<div class="list-item__tags">
+									<ng-container *ngFor="let tag of article.tags">
+										<h3>{{ tag | titleCaseDash }}</h3>
+									</ng-container>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</ng-container>
+		</div>
+		<!--		<ng-container *ngIf="(articles | websiteArticleTitleFilter: form.get('filter').value).length === 0">-->
+		<!--			<div id="list__empty">-->
+		<!--				<h1>NOTHING MATCHES YOUR SEARCH VALUES!</h1>-->
+		<!--				<p>Please feel free to contact us if you need any help or have any questions? <a href="mailto:support@interfaceagency.com">support@interfaceagency.com</a></p>-->
+		<!--				<div id="list__buttons">-->
+		<!--					<div class="list-button">-->
+		<!--						<h2>RESET SEARCH</h2>-->
+		<!--					</div>-->
+		<!--					<div class="list-button">-->
+		<!--						<h2>GET HELP</h2>-->
+		<!--					</div>-->
+		<!--			</div>-->
+		<!--		</ng-container>-->
+		<!--	</div>-->
+	</div>
+</div>
+
+<!--<div id="search">-->
+<!--	<form [formGroup]="form">-->
+<!--		<div id="search__container">-->
+<!--			<div id="search__category">-->
+<!--				<div class="field">-->
+<!--					&lt;!&ndash;					<ia-select formControlName="category" [items]="search.categories"></ia-select>&ndash;&gt;-->
 <!--				</div>-->
 <!--			</div>-->
-
-<!--			<div class="search-section">-->
-<!--				<label id="search-type">Type</label>-->
-<!--				<div class="search-field">-->
-<!--					<ia-select formControlName="type" [items]="state.type.options" (change)="updateType()"></ia-select>-->
+<!--			<div id="search__subcategory">-->
+<!--				<div class="field">-->
+<!--					&lt;!&ndash;					<ia-select formControlName="sub_category" [items]="search.sub_categories"></ia-select>&ndash;&gt;-->
 <!--				</div>-->
 <!--			</div>-->
-
-<!--			<div class="search-section">-->
-<!--				<label id="search-tags">Tags</label>-->
-<!--				<div class="search-field">-->
-<!--					<ia-select-tag [items]="state.tag.options" [limit]="3" (change)="updateTags($event)"></ia-select-tag>-->
-<!--				</div>-->
+<!--			<div id="search__filter">-->
+<!--				<input formControlName="filter" placeholder="" />-->
 <!--			</div>-->
-<!--		</ng-container>-->
+<!--			<div id="search__reset" (click)="resetSearchForm()">-->
+<!--				<fa-icon class="search__resetIcon" [icon]="faTimes"></fa-icon>-->
+<!--			</div>-->
+<!--		</div>-->
 <!--	</form>-->
 
-<!--	<div id="search__tags">-->
-<!--		<div class="search-tag">-->
-<!--			<h5 (click)="resetSearchForm()">-->
-<!--				Reset-->
-<!--				<fa-icon id="search__times" [icon]="faTimes"></fa-icon>-->
-<!--			</h5>-->
-<!--		</div>-->
-<!--		<div class="search-tag">-->
-<!--			<h5 (click)="toggleSearchState()">-->
-<!--				Advanced-->
-<!--				<ng-container *ngIf="state.state">-->
-<!--					<fa-icon id="search__caret-up" [icon]="faCaretUp"></fa-icon>-->
-<!--				</ng-container>-->
-<!--				<ng-container *ngIf="!state.state">-->
-<!--					<fa-icon id="search__caret-down" [icon]="faCaretDown"></fa-icon>-->
-<!--				</ng-container>-->
-<!--			</h5>-->
-<!--		</div>-->
-<!--	</div>-->
-
 <!--	<div id="list">-->
-<!--		<div id="list__container">-->
-<!--			<ng-container *ngFor="let article of state.list.processed">-->
-<!--				<div class="list-item" [routerLink]="[article.area, article.section, article.category, article.topic, article.clean]">-->
-<!--					<div class="list-item__content">-->
-<!--						<h1>{{ article.title + '?' }}</h1>-->
-<!--						<p>{{ article.content.summary }}</p>-->
-<!--						<div class="list-item__detail">-->
-<!--							<div class="list-item__half">-->
-<!--								<h4>AREA</h4>-->
-<!--								<h2>{{ article.area | titleCaseDash }}</h2>-->
-<!--							</div>-->
-
-<!--							<div class="list-item__half">-->
-<!--								<h4>SECTION</h4>-->
-<!--								<h2>{{ article.section | titleCaseDash }}</h2>-->
-<!--							</div>-->
-
-<!--							<div class="list-item__half">-->
-<!--								<h4>CATEGORY</h4>-->
-<!--								<h2>{{ article.category | titleCaseDash }}</h2>-->
-<!--							</div>-->
-
-<!--							<div class="list-item__half">-->
-<!--								<h4>TOPIC</h4>-->
-<!--								<h2>{{ article.topic | titleCaseDash }}</h2>-->
-<!--							</div>-->
-
-<!--							<div class="list-item__full">-->
-<!--								<h4>TAGS</h4>-->
-<!--								<div class="list-item__tags">-->
-<!--									<ng-container *ngFor="let tag of article.tags">-->
-<!--										<h3>{{ tag | titleCaseDash }}</h3>-->
-<!--									</ng-container>-->
-<!--								</div>-->
-<!--							</div>-->
+<!--		<div class="article-list" &lt;!&ndash; *ngFor="let article of articles | categoryFilter: searchForm.get('category').value | topicFilter: searchForm.get('sub_category').value | textFilter: searchForm.get('filter').value">-->
+<!--			&ndash;&gt;-->
+<!--			<div class="article-list__image">-->
+<!--				<img />-->
+<!--			</div>-->
+<!--			<div class="article-list__content">-->
+<!--				<div class="article-list__title">-->
+<!--					&lt;!&ndash;                    <h1>{{article.title}}</h1>&ndash;&gt;-->
+<!--				</div>-->
+<!--				<div class="article-list__square category">-->
+<!--					<div class="article-list__caption">-->
+<!--						<div class="article-list__center">-->
+<!--							<h5>Category</h5>-->
 <!--						</div>-->
 <!--					</div>-->
+<!--					&lt;!&ndash;                    <h2>{{article.category}}</h2>&ndash;&gt;-->
 <!--				</div>-->
-<!--			</ng-container>-->
+
+<!--				<div class="article-list__square author">-->
+<!--					<div class="article-list__caption">-->
+<!--						<div class="article-list__center">-->
+<!--							<h5>Author</h5>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					&lt;!&ndash;                    <h2>{{article.creator.name}}</h2>&ndash;&gt;-->
+<!--				</div>-->
+<!--				<div class="article-list__square">-->
+<!--					&lt;!&ndash;                    <p>{{article.description.summary}}</p>&ndash;&gt;-->
+<!--				</div>-->
+<!--				<div class="article-list__buttons">-->
+<!--					<div class="article-list__button red">-->
+<!--						<h4>Buy Now</h4>-->
+<!--					</div>-->
+<!--					<div class="article-list__button">-->
+<!--						<h4>Learn More</h4>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
 <!--		</div>-->
-<!--		&lt;!&ndash;		<ng-container *ngIf="(articles | websiteArticleTitleFilter: form.get('filter').value).length === 0">&ndash;&gt;-->
-<!--		&lt;!&ndash;			<div id="list__empty">&ndash;&gt;-->
-<!--		&lt;!&ndash;				<h1>NOTHING MATCHES YOUR SEARCH VALUES!</h1>&ndash;&gt;-->
-<!--		&lt;!&ndash;				<p>Please feel free to contact us if you need any help or have any questions? <a href="mailto:support@interfaceagency.com">support@interfaceagency.com</a></p>&ndash;&gt;-->
-<!--		&lt;!&ndash;				<div id="list__buttons">&ndash;&gt;-->
-<!--		&lt;!&ndash;					<div class="list-button">&ndash;&gt;-->
-<!--		&lt;!&ndash;						<h2>RESET SEARCH</h2>&ndash;&gt;-->
-<!--		&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--		&lt;!&ndash;					<div class="list-button">&ndash;&gt;-->
-<!--		&lt;!&ndash;						<h2>GET HELP</h2>&ndash;&gt;-->
-<!--		&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--		&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--		&lt;!&ndash;		</ng-container>&ndash;&gt;-->
-<!--		&lt;!&ndash;	</div>&ndash;&gt;-->
+<!--	</div>-->
+
+<!--	<div class="article-list-empty">-->
+<!--		<h1>Nothing Matches Your Search Values!</h1>-->
+<!--		<p>Please feel free to contact us if you need any help or have any questions?</p>-->
+<!--		<div id="article-list__buttons">-->
+<!--			<div class="article-list__buttonB">-->
+<!--				<h3>Start Over</h3>-->
+<!--			</div>-->
+<!--			<div class="article-list__buttonB right">-->
+<!--				<h3>Contact Sales</h3>-->
+<!--			</div>-->
+<!--		</div>-->
 <!--	</div>-->
 <!--</div>-->
-
-<!--&lt;!&ndash;<div id="search">&ndash;&gt;-->
-<!--&lt;!&ndash;	<form [formGroup]="form">&ndash;&gt;-->
-<!--&lt;!&ndash;		<div id="search__container">&ndash;&gt;-->
-<!--&lt;!&ndash;			<div id="search__category">&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="field">&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;					<ia-select formControlName="category" [items]="search.categories"></ia-select>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			<div id="search__subcategory">&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="field">&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;					<ia-select formControlName="sub_category" [items]="search.sub_categories"></ia-select>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			<div id="search__filter">&ndash;&gt;-->
-<!--&lt;!&ndash;				<input formControlName="filter" placeholder="" />&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			<div id="search__reset" (click)="resetSearchForm()">&ndash;&gt;-->
-<!--&lt;!&ndash;				<fa-icon class="search__resetIcon" [icon]="faTimes"></fa-icon>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;		</div>&ndash;&gt;-->
-<!--&lt;!&ndash;	</form>&ndash;&gt;-->
-
-<!--&lt;!&ndash;	<div id="list">&ndash;&gt;-->
-<!--&lt;!&ndash;		<div class="article-list" &lt;!&ndash; *ngFor="let article of articles | categoryFilter: searchForm.get('category').value | topicFilter: searchForm.get('sub_category').value | textFilter: searchForm.get('filter').value">&ndash;&gt;-->
-<!--&lt;!&ndash;			&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;			<div class="article-list__image">&ndash;&gt;-->
-<!--&lt;!&ndash;				<img />&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			<div class="article-list__content">&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="article-list__title">&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;                    <h1>{{article.title}}</h1>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="article-list__square category">&ndash;&gt;-->
-<!--&lt;!&ndash;					<div class="article-list__caption">&ndash;&gt;-->
-<!--&lt;!&ndash;						<div class="article-list__center">&ndash;&gt;-->
-<!--&lt;!&ndash;							<h5>Category</h5>&ndash;&gt;-->
-<!--&lt;!&ndash;						</div>&ndash;&gt;-->
-<!--&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;                    <h2>{{article.category}}</h2>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-
-<!--&lt;!&ndash;				<div class="article-list__square author">&ndash;&gt;-->
-<!--&lt;!&ndash;					<div class="article-list__caption">&ndash;&gt;-->
-<!--&lt;!&ndash;						<div class="article-list__center">&ndash;&gt;-->
-<!--&lt;!&ndash;							<h5>Author</h5>&ndash;&gt;-->
-<!--&lt;!&ndash;						</div>&ndash;&gt;-->
-<!--&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;                    <h2>{{article.creator.name}}</h2>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="article-list__square">&ndash;&gt;-->
-<!--&lt;!&ndash;					&lt;!&ndash;                    <p>{{article.description.summary}}</p>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;				<div class="article-list__buttons">&ndash;&gt;-->
-<!--&lt;!&ndash;					<div class="article-list__button red">&ndash;&gt;-->
-<!--&lt;!&ndash;						<h4>Buy Now</h4>&ndash;&gt;-->
-<!--&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--&lt;!&ndash;					<div class="article-list__button">&ndash;&gt;-->
-<!--&lt;!&ndash;						<h4>Learn More</h4>&ndash;&gt;-->
-<!--&lt;!&ndash;					</div>&ndash;&gt;-->
-<!--&lt;!&ndash;				</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;		</div>&ndash;&gt;-->
-<!--&lt;!&ndash;	</div>&ndash;&gt;-->
-
-<!--&lt;!&ndash;	<div class="article-list-empty">&ndash;&gt;-->
-<!--&lt;!&ndash;		<h1>Nothing Matches Your Search Values!</h1>&ndash;&gt;-->
-<!--&lt;!&ndash;		<p>Please feel free to contact us if you need any help or have any questions?</p>&ndash;&gt;-->
-<!--&lt;!&ndash;		<div id="article-list__buttons">&ndash;&gt;-->
-<!--&lt;!&ndash;			<div class="article-list__buttonB">&ndash;&gt;-->
-<!--&lt;!&ndash;				<h3>Start Over</h3>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;			<div class="article-list__buttonB right">&ndash;&gt;-->
-<!--&lt;!&ndash;				<h3>Contact Sales</h3>&ndash;&gt;-->
-<!--&lt;!&ndash;			</div>&ndash;&gt;-->
-<!--&lt;!&ndash;		</div>&ndash;&gt;-->
-<!--&lt;!&ndash;	</div>&ndash;&gt;-->
-<!--&lt;!&ndash;</div>&ndash;&gt;-->
