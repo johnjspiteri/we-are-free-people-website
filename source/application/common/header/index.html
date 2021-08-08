@@ -2,10 +2,10 @@
 	<div id="header-pitch">
 		<div id="header-pitch__content">
 			<div id="header-pitch__title">
-				<!--				<h1>Join Us At The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>-->
-<!--				<h1>Join Us At The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>-->
-				<h1>Join The Next Protest In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
+				<h1>Join The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
+<!-- 				<h1>Join Us At The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1> -->
 			</div>
+
 			<div id="header-pitch__time">
 				<div class="header-pitch-square">
 					<h3>DAYS</h3>
@@ -247,7 +247,6 @@
 					</div>
 				</div>
 				<h1 routerLink="/">We Are Free People</h1>
-<!--				<h2 routerLink="/">Born with natural human rights</h2>-->
 				<h2 routerLink="/">Born with human rights</h2>
 			</div>
 
@@ -273,30 +272,21 @@
 
 	<div id="header__navigation">
 		<nav id="header__navigation__container">
-			<div class="header__tile active">
-				<h3 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h3>
-			</div>
 			<div class="header__tile">
-				<h3 routerLink="/articles" routerLinkActive="active">Articles</h3>
-			</div>
-			<div class="header__tile">
-				<h3 routerLink="/video" routerLinkActive="active">Video</h3>
+				<h3 routerLink="/media" routerLinkActive="active">Media</h3>
 			</div>
 			<div class="header__tile">
 				<h3 routerLink="/events" routerLinkActive="active">Events</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="/donate/amount" routerLinkActive="active">Donate</h3>
+				<h3 routerLink="/video" routerLinkActive="active">Videos</h3>
 			</div>
 			<div class="header__tile">
-				<h3 routerLink="/media" routerLinkActive="active">Media</h3>
+				<h3 routerLink="/articles" routerLinkActive="active">Articles</h3>
 			</div>
-			<!--			<div class="header__tile">-->
-			<!--				<h3 routerLink="/about" routerLinkActive="active">About</h3>-->
-			<!--			</div>-->
-			<!--			<div class="header__tile">-->
-			<!--				<h3 routerLink="/contact" routerLinkActive="active">Contact</h3>-->
-			<!--			</div>-->
+			<div class="header__tile active">
+				<h3 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</h3>
+			</div>
 		</nav>
 	</div>
 </header>

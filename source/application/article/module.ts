@@ -17,7 +17,10 @@ import { ArticleEffectsCompositions } from './store/effects/compositions';
 
 @NgModule({
 	declarations: [ArticleListComponent, ArticleFindComponent, ArticleCategoryFilterPipe, ArticleTitleFilterPipe, ArticleTopicFilterPipe, ArticleSortFilterPipe, ArticleTypeFilterPipe, ArticleTagsFilterPipe],
-	imports: [StoreModule.forFeature(fromArticleReducer.FEATURE_KEY, fromArticleReducer.REDUCER), EffectsModule.forFeature([ArticleEffectsTasks, ArticleEffectsCompositions]), ArticleRoutingModule, SharedModule],
+	imports: [
+		StoreModule.forFeature(fromArticleReducer.FEATURE_KEY, fromArticleReducer.REDUCER),
+		EffectsModule.forFeature([ArticleEffectsTasks, ArticleEffectsCompositions]),
+		ArticleRoutingModule, SharedModule],
 	providers: [],
 })
 export class ArticleModule {}

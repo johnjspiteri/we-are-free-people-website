@@ -1,4 +1,4 @@
-import * as fromArticleActions from '../store/actions';
+import * as fromVideoActions from '../store/actions';
 import { Action, combineReducers, createReducer, on } from '@ngrx/store';
 import type { ArticleState, ArticleStore } from './interface';
 import type { SearchOptions } from '_application/shared/interface/options';
@@ -142,7 +142,7 @@ const options: SearchOptions = {
 	},
 };
 
-export const FEATURE_KEY = 'article';
+export const FEATURE_KEY = 'video';
 
 const INITIAL_STATE: ArticleState = {
 	area: {
@@ -184,7 +184,7 @@ const INITIAL_STATE: ArticleState = {
 
 const _reducer = createReducer(
 	INITIAL_STATE,
-	on(fromArticleActions.SETTING_SAVE, (state, { area, section, sections, category, categories, topic, topics }) => {
+	on(fromVideoActions.SETTING_SAVE, (state, { area, section, sections, category, categories, topic, topics }) => {
 		return Object.assign({}, state, {
 			area: {
 				options: state.area.options,
@@ -204,7 +204,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.AREA_UPDATE, (state, { area }) => {
+	on(fromVideoActions.AREA_UPDATE, (state, { area }) => {
 		return Object.assign({}, state, {
 			area: {
 				options: state.area.options,
@@ -224,7 +224,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.SECTION_UPDATE, (state, { section }) => {
+	on(fromVideoActions.SECTION_UPDATE, (state, { section }) => {
 		return Object.assign({}, state, {
 			section: {
 				options: state.section.options,
@@ -240,7 +240,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.CATEGORY_UPDATE, (state, { category }) => {
+	on(fromVideoActions.CATEGORY_UPDATE, (state, { category }) => {
 		return Object.assign({}, state, {
 			category: {
 				options: state.category.options,
@@ -252,7 +252,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.TOPIC_UPDATE, (state, { topic }) => {
+	on(fromVideoActions.TOPIC_UPDATE, (state, { topic }) => {
 		return Object.assign({}, state, {
 			topic: {
 				options: state.topic.options,
@@ -260,7 +260,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.TAG_UPDATE, (state, { tag }) => {
+	on(fromVideoActions.TAG_UPDATE, (state, { tag }) => {
 		return Object.assign({}, state, {
 			tag: {
 				options: state.tag.options,
@@ -268,7 +268,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.TYPE_UPDATE, (state, { kind }) => {
+	on(fromVideoActions.TYPE_UPDATE, (state, { kind }) => {
 		return Object.assign({}, state, {
 			type: {
 				options: state.type.options,
@@ -276,7 +276,7 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.SORT_UPDATE, (state, { sort }) => {
+	on(fromVideoActions.SORT_UPDATE, (state, { sort }) => {
 		return Object.assign({}, state, {
 			sort: {
 				options: state.sort.options,
@@ -284,12 +284,12 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.FIND_SAVE, (state, { article }) => {
+	on(fromVideoActions.FIND_SAVE, (state, { article }) => {
 		return Object.assign({}, state, {
 			find: article,
 		});
 	}),
-	on(fromArticleActions.LIST_SAVE, (state, { processed, results, tags, kinds }) => {
+	on(fromVideoActions.LIST_SAVE, (state, { processed, results, tags, kinds }) => {
 		let type = state.type.selected;
 		if (kinds.length === 1) type = kinds[0];
 
@@ -308,13 +308,13 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromArticleActions.STATE_TOGGLE, (state, { value }) => {
+	on(fromVideoActions.STATE_TOGGLE, (state, { value }) => {
 		return {
 			...state,
 			state: value,
 		};
 	}),
-	on(fromArticleActions.RESET, () => {
+	on(fromVideoActions.RESET, () => {
 		return INITIAL_STATE;
 	})
 );

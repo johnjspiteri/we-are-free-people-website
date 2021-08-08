@@ -32,7 +32,7 @@ const routes: Routes = [
 		loadChildren: () => import('./media/module').then((module) => module.MediaModule),
 	},
 	{
-		path: 'video',
+		path: 'videos',
 		loadChildren: () => import('./video/module').then((module) => module.VideoModule),
 	},
 	{
