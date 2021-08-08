@@ -24,6 +24,10 @@ const routes: Routes = [
 		loadChildren: () => import('./donate/module').then((module) => module.DonateModule),
 	},
 	{
+		path: 'events',
+		loadChildren: () => import('./event/module').then((module) => module.EventModule),
+	},
+	{
 		path: 'legal',
 		loadChildren: () => import('./legal/module').then((module) => module.LegalModule),
 	},
