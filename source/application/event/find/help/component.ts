@@ -2,11 +2,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { faMobile } from '@fortawesome/pro-solid-svg-icons';
 
 @Component({
-	selector: 'event-find-help',
+	selector: 'website-event-find-help',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class ArticleFindHelpComponent {
+export class EventFindHelpComponent {
 	faMobile = faMobile;
 
 	closeModal() {}

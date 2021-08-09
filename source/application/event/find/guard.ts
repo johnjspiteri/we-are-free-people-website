@@ -13,12 +13,12 @@ export class ArticleFindGuard implements CanActivate {
 	canActivate(): Observable<boolean> {
 		return this.store.pipe(
 			select(fromEventSelectors.EVENT),
-			tap((article) => {
-				if (article === null) return this.store.dispatch(fromEventActions.FIND_LOAD());
-				return article;
+			tap((event) => {
+				if (event === null) return this.store.dispatch(fromEventActions.FIND_LOAD());
+				return event;
 			}),
-			filter((article) => !!article),
-			map((article) => !!article),
+			filter((event) => !!event),
+			map((event) => !!event),
 			take(1)
 		);
 	}

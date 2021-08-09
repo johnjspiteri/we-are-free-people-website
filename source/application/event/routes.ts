@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EventListComponent } from './list/component';
-import { ArticleListGuard } from '_application/article/list/guard';
+import { EventListGuard } from './list/guard';
 
 const routes: Routes = [
 	{
 		path: '',
 		component: EventListComponent,
-		canActivate: [ArticleListGuard],
+		canActivate: [EventListGuard],
 		children: [
 			{
 				path: ':area',

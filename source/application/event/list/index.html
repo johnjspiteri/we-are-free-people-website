@@ -73,36 +73,36 @@
 
 	<div id="list">
 		<div id="list__container">
-			<ng-container *ngFor="let article of state.list.processed">
-				<div class="list-item" [routerLink]="[article.area, article.section, article.category, article.topic, article.clean]">
+			<ng-container *ngFor="let event of state.list.processed">
+				<div class="list-item" [routerLink]="[event.area, event.section, event.category, event.topic, event.clean]">
 					<div class="list-item__content">
-						<h1>{{ article.title + '?' }}</h1>
-						<p>{{ article.content.summary }}</p>
+						<h1>{{ event.title + '?' }}</h1>
+						<p>{{ event.content.summary }}</p>
 						<div class="list-item__detail">
 							<div class="list-item__half">
 								<h4>AREA</h4>
-								<h2>{{ article.area | titleCaseDash }}</h2>
+								<h2>{{ event.area | titleCaseDash }}</h2>
 							</div>
 
 							<div class="list-item__half">
 								<h4>SECTION</h4>
-								<h2>{{ article.section | titleCaseDash }}</h2>
+								<h2>{{ event.section | titleCaseDash }}</h2>
 							</div>
 
 							<div class="list-item__half">
 								<h4>CATEGORY</h4>
-								<h2>{{ article.category | titleCaseDash }}</h2>
+								<h2>{{ event.category | titleCaseDash }}</h2>
 							</div>
 
 							<div class="list-item__half">
 								<h4>TOPIC</h4>
-								<h2>{{ article.topic | titleCaseDash }}</h2>
+								<h2>{{ event.topic | titleCaseDash }}</h2>
 							</div>
 
 							<div class="list-item__full">
 								<h4>TAGS</h4>
 								<div class="list-item__tags">
-									<ng-container *ngFor="let tag of article.tags">
+									<ng-container *ngFor="let tag of event.tags">
 										<h3>{{ tag | titleCaseDash }}</h3>
 									</ng-container>
 								</div>
@@ -159,7 +159,7 @@
 <!--			</div>-->
 <!--			<div class="article-list__content">-->
 <!--				<div class="article-list__title">-->
-<!--					&lt;!&ndash;                    <h1>{{article.title}}</h1>&ndash;&gt;-->
+<!--					&lt;!&ndash;                    <h1>{{event.title}}</h1>&ndash;&gt;-->
 <!--				</div>-->
 <!--				<div class="article-list__square category">-->
 <!--					<div class="article-list__caption">-->
@@ -167,7 +167,7 @@
 <!--							<h5>Category</h5>-->
 <!--						</div>-->
 <!--					</div>-->
-<!--					&lt;!&ndash;                    <h2>{{article.category}}</h2>&ndash;&gt;-->
+<!--					&lt;!&ndash;                    <h2>{{event.category}}</h2>&ndash;&gt;-->
 <!--				</div>-->
 
 <!--				<div class="article-list__square author">-->
@@ -176,10 +176,10 @@
 <!--							<h5>Author</h5>-->
 <!--						</div>-->
 <!--					</div>-->
-<!--					&lt;!&ndash;                    <h2>{{article.creator.name}}</h2>&ndash;&gt;-->
+<!--					&lt;!&ndash;                    <h2>{{event.creator.name}}</h2>&ndash;&gt;-->
 <!--				</div>-->
 <!--				<div class="article-list__square">-->
-<!--					&lt;!&ndash;                    <p>{{article.description.summary}}</p>&ndash;&gt;-->
+<!--					&lt;!&ndash;                    <p>{{event.description.summary}}</p>&ndash;&gt;-->
 <!--				</div>-->
 <!--				<div class="article-list__buttons">-->
 <!--					<div class="article-list__button red">-->

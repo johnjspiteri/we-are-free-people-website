@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { SharedModule } from '_application/shared/module';
-import { ArticleFindHelpComponent } from './component';
-import { ArticleFindHelpRoutingModule } from './routes';
+import { EventFindHelpComponent } from './component';
+import { EventFindHelpRoutingModule } from './routes';
 
 @NgModule({
-	declarations: [ArticleFindHelpComponent],
-	imports: [ArticleFindHelpRoutingModule, SharedModule],
+	declarations: [EventFindHelpComponent],
+	imports: [EventFindHelpRoutingModule, SharedModule],
 	exports: [],
 	providers: [],
 })

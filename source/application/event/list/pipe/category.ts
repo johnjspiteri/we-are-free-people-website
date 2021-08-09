@@ -8,6 +8,6 @@ import type { Article } from '@interface-agency/website-article-interface';
 export class EventCategoryFilterPipe implements PipeTransform {
 	transform(list: Article[], filter?: string): Article[] {
 		if (!filter) return list;
-		return list.filter((article) => article.category === filter);
+		return list.filter((event) => event.category === filter);
 	}
 }

@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ArticleFindHelpComponent } from './component';
+import { EventFindHelpComponent } from './component';
 
 const routes: Routes = [
 	{
 		path: '',
-		component: ArticleFindHelpComponent,
+		component: EventFindHelpComponent,
 	},
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
 	imports: [RouterModule.forChild(routes)],
 	exports: [RouterModule],
 })
-export class ArticleFindHelpRoutingModule {}
+export class EventFindHelpRoutingModule {}
