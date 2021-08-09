@@ -1,0 +1,231 @@
+.find-author-row
+	width 244px
+	margin 0 0 6px 0
+
+#find
+	&__title
+		margin 0 0 24px 0
+
+	&__underline
+		h1
+			padding-bottom: 8px
+			font-size 20px
+			line-height 27px
+
+	&__date
+		margin 0 0 20px 0
+
+		h6
+			margin 0 0 5px 0
+			font-size 13px
+
+		h5
+			font-size 13px
+
+	&-author
+		display: flex
+		flex-direction row
+		width:max-content
+		max-width 763px
+		margin 0 0 20px 0
+		padding 6px 12px
+		justify-content center
+		align-items center
+
+
+		img
+			width 56px
+			height 56px
+			margin 0 0 0 8px
+
+		h1
+		h2
+			font-size 15px
+			line-height 15px
+
+		h2
+			margin 2px 0 0 0
+			font-size 12px
+			line-height 12px
+
+		&-left
+		&-right
+			display: flex
+			flex-direction column
+			justify-content: center
+			padding-left:20px
+			padding-right:20px
+
+		&-right
+			align-items center
+			justify-content: center
+			padding-left 20px
+			border-left: 2px solid $secondary-background-color
+
+			h1
+				width: max-content
+				height: auto
+				margin 0 0px 0 0
+				font-size 13px
+				line-height 13px
+				text-transform: uppercase
+	&__tags
+		display flex
+		flex-direction row
+		justify-content: flex-start
+		align-items: center
+		width: 100%
+		max-width:100%
+		color $white-color
+
+	&__tag
+		color $white-color
+		font-size: 14px
+		line-height 14px
+		font-family $secondary-font
+		font-weight:$secondary-font-weight-300
+		margin-right 4px
+
+	a
+		font-family $primary-font
+		font-weight:$primary-font-weight-400
+		color $white-color
+		font-size: 14px
+		line-height 14px
+		text-transform: uppercase
+		text-decoration-color $blue-border-color
+		text-decoration-thickness 1.5px
+		text-underline-offset 1.5px
+
+		&::after
+			content: ","
+			margin-right 4px
+			text-decoration-color rgba(0,0,0,0)
+
+		&:last-child::after
+			content ""
+
+	&__introduction
+		margin-bottom: 25px
+		padding-bottom: 25px
+		border-bottom $tertiary-button-inactive-border-bottom
+
+		p
+			font-size 21px
+			line-height 22px
+			font-family $secondary-font
+			font-weight $secondary-font-weight-300
+
+		span
+			display inline-block
+			float: left
+			font-size 21px
+			line-height:22px
+			color $red-color
+			font-family: $primary-font
+			font-weight: $primary-font-weight-400
+			text-transform: uppercase
+			margin-right: 4px
+
+		svg
+			margin-left 12px
+			float right
+			font-size 18px
+			line-height 18px
+			transform: rotate(90deg)
+
+	&__social
+		margin 0 0 20px 0
+
+	&__share
+		padding 0 20px 0 20px
+
+		h1
+			height: 38px
+			margin 0 20px 0 0
+			font-size 12px
+
+	&__breadcrumbs
+		margin 0 0 20px 0
+
+		h4
+			margin 0 10px 0 0
+			font-size 13px
+			line-height 13px
+
+	&__email
+	&__facebook
+	&__linkedin
+	&__twitter
+		height: 38px
+		margin: 0 12px 0 0
+		font-size: 23px
+
+	&__email
+		font-size: 23px
+
+	&__linkedin
+		font-size: 23px
+
+	&__twitter
+		font-size: 23px
+
+	&__helpful
+		margin-bottom 20px
+		padding 14px 20px 12px 20px
+
+		h1
+			margin: 0 0 12px 0
+			font-size 15px
+			line-height 20px
+
+	&__check
+	&__times
+		font-size 17px
+
+.find-button
+	width 94px
+	height 33px
+	margin 0 10px 0 0
+
+.find-body
+	height 30px
+
+	h6
+		height 30px
+		padding 0 14px 0 10px
+		border-radius $border-radius-right
+		font-size 12px
+		line-height 30px
+
+.find-section
+	margin-bottom: 35px
+
+	h2
+	h1
+		margin 0 20px 15px 0
+		padding-bottom: 5px
+		font-size 14px
+		line-height 14px
+
+	p
+		font-size 12px
+		line-height 24px
+
+.find-share
+	&__title
+		margin 0 0 10px 0
+		padding 10px 0
+
+		h1
+			padding 0 0 5px
+			font-size 12px
+			line-height 20px
+
+	&__paragraph
+		margin 0 0 10px 0
+
+		p
+			margin: 0 0 10px 0
+			font-size 12px
+			line-height 20px
