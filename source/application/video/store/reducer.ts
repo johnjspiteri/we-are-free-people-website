@@ -284,9 +284,9 @@ const _reducer = createReducer(
 			},
 		});
 	}),
-	on(fromVideoActions.FIND_SAVE, (state, { article }) => {
+	on(fromVideoActions.FIND_SAVE, (state, { video }) => {
 		return Object.assign({}, state, {
-			find: article,
+			find: video,
 		});
 	}),
 	on(fromVideoActions.LIST_SAVE, (state, { processed, results, tags, kinds }) => {

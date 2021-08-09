@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Video } from './../interface';
 
 // COMPOSITIONS
 export const INITIALIZE = createAction('[Video] Initialize');
@@ -34,7 +34,7 @@ export const FIND_LOAD = createAction('[Video] Find Load');
 export const FIND_SAVE = createAction(
 	'[Video] Find Save',
 	props<{
-		article: Article;
+		video: Video;
 	}>()
 );
 
@@ -45,18 +45,18 @@ export const LIST_RELOAD = createAction('[Video] List Reload');
 export const LIST_SAVE = createAction(
 	'[Video] List Save',
 	props<{
-		processed: Article[];
-		results: Article[];
+		processed: Video[];
+		results: Video[];
 		tags: string[];
 		kinds: string[];
 	}>()
 );
 
-export const TYPE_FILTER = createAction('[Video] Type Filter', props<{ processed: Article[]; results: Article[] }>());
-export const TAG_FILTER = createAction('[Video] Tag Filter', props<{ processed: Article[]; results: Article[] }>());
-export const SORT = createAction('[Video] Sort', props<{ processed: Article[]; results: Article[] }>());
+export const TYPE_FILTER = createAction('[Video] Type Filter', props<{ processed: Video[]; results: Video[] }>());
+export const TAG_FILTER = createAction('[Video] Tag Filter', props<{ processed: Video[]; results: Video[] }>());
+export const SORT = createAction('[Video] Sort', props<{ processed: Video[]; results: Video[] }>());
 
-export const TYPE_POPULATE = createAction('[Video] Type Populate', props<{ processed: Article[]; results: Article[] }>());
-export const TAG_POPULATE = createAction('[Video] Tag Populate', props<{ processed: Article[]; results: Article[]; types: string[] }>());
+export const TYPE_POPULATE = createAction('[Video] Type Populate', props<{ processed: Video[]; results: Video[] }>());
+export const TAG_POPULATE = createAction('[Video] Tag Populate', props<{ processed: Video[]; results: Video[]; types: string[] }>());
 
 export const NAVIGATION = createAction('[Video] Navigation');

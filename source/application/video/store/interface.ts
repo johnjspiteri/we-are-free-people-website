@@ -1,4 +1,4 @@
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Video } from './../interface';
 import * as fromVideoReducer from './reducer';
 
 export interface VideoStore {
@@ -15,10 +15,10 @@ export interface VideoState {
 		selected: string;
 	};
 	list: {
-		processed: Article[];
-		results: Article[];
+		processed: Video[];
+		results: Video[];
 	};
-	find: Article;
+	find: Video;
 	section: {
 		options: string[];
 		selected: string;

@@ -1,37 +1,37 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { switchMap } from 'rxjs/operators';
-import * as fromArticleActions from '../actions';
+import * as fromVideoActions from '../actions';
 
 @Injectable()
 export class VideoEffectsCompositions {
 	constructor(private actions$: Actions) {}
 
-	articleListInititalize$ = createEffect(() => {
+	videoListInititalize$ = createEffect(() => {
 		return this.actions$.pipe(
-			ofType(fromArticleActions.INITIALIZE),
-			switchMap(() => [fromArticleActions.SETTING_LOAD(), fromArticleActions.LIST_LOAD()])
+			ofType(fromVideoActions.INITIALIZE),
+			switchMap(() => [fromVideoActions.SETTING_LOAD(), fromVideoActions.LIST_LOAD()])
 		);
 	});
 
-	articleListSettingUpdate$ = createEffect(() => {
+	videoListSettingUpdate$ = createEffect(() => {
 		return this.actions$.pipe(
-			ofType(fromArticleActions.AREA_UPDATE, fromArticleActions.SECTION_UPDATE, fromArticleActions.CATEGORY_UPDATE, fromArticleActions.TOPIC_UPDATE),
-			switchMap(() => [fromArticleActions.LIST_LOAD(), fromArticleActions.NAVIGATION()])
+			ofType(fromVideoActions.AREA_UPDATE, fromVideoActions.SECTION_UPDATE, fromVideoActions.CATEGORY_UPDATE, fromVideoActions.TOPIC_UPDATE),
+			switchMap(() => [fromVideoActions.LIST_LOAD(), fromVideoActions.NAVIGATION()])
 		);
 	});
 
-	articleListOptionUpdate$ = createEffect(() => {
+	videoListOptionUpdate$ = createEffect(() => {
 		return this.actions$.pipe(
-			ofType(fromArticleActions.TAG_UPDATE, fromArticleActions.TYPE_UPDATE, fromArticleActions.SORT_UPDATE),
-			switchMap(() => [fromArticleActions.LIST_RELOAD()])
+			ofType(fromVideoActions.TAG_UPDATE, fromVideoActions.TYPE_UPDATE, fromVideoActions.SORT_UPDATE),
+			switchMap(() => [fromVideoActions.LIST_RELOAD()])
 		);
 	});
 
-	articleListReset$ = createEffect(() => {
+	videoListReset$ = createEffect(() => {
 		return this.actions$.pipe(
-			ofType(fromArticleActions.RESET),
-			switchMap(() => [fromArticleActions.LIST_LOAD(), fromArticleActions.NAVIGATION()])
+			ofType(fromVideoActions.RESET),
+			switchMap(() => [fromVideoActions.LIST_LOAD(), fromVideoActions.NAVIGATION()])
 		);
 	});
 }

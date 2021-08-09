@@ -8,7 +8,7 @@ import { faLinkedin, faTwitterSquare, faFacebookSquare } from '@fortawesome/free
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs/internal/Subscription';
 import * as fromVideoSelectors from '../store/selectors';
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Video } from './../interface';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
@@ -17,7 +17,7 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 	encapsulation: ViewEncapsulation.None,
 })
 export class VideoFindComponent implements OnInit {
-	public video: Article;
+	public video: Video;
 	public faGlobeAmericas: IconProp = faGlobeAmericas;
 	public faYenSign: IconProp = faYenSign;
 	public faEuroSign: IconProp = faEuroSign;
@@ -49,7 +49,7 @@ export class VideoFindComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.subscription = this.store.select(fromVideoSelectors.VIDEO).subscribe((video: Article) => {
+		this.subscription = this.store.select(fromVideoSelectors.VIDEO).subscribe((video: Video) => {
 			this.video = video;
 			// console.log('answer:', this.answer);
 			console.log('video:', this.video);
