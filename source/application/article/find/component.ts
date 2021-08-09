@@ -12,7 +12,7 @@ import type { Article } from '@interface-agency/website-article-interface';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
-	selector: 'website-article-source-find',
+	selector: 'article-find',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
