@@ -6,7 +6,7 @@ import { faMobile } from '@fortawesome/pro-solid-svg-icons';
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class ArticleFindHelpComponent {
+export class VideoFindHelpComponent {
 	faMobile = faMobile;
 
 	closeModal() {}

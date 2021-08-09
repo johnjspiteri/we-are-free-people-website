@@ -7,13 +7,17 @@ const routes: Routes = [
 	{
 		path: '',
 		component: EventFindComponent,
-		// canActivate: [ArticleFindGuard],
-		// children: [
-		// 	{
-		// 		path: 'help',
-		// 		loadChildren: async () => (await import('./help/module')).ArticleFindHelpModule,
-		// 	},
-		// ],
+		canActivate: [],
+		children: [
+			{
+				path: 'help',
+				loadChildren: async () => (await import('./help/module')).ArticleFindHelpModule,
+			},
+			{
+				path: 'register',
+				loadChildren: async () => (await import('./register/module')).ArticleFindRegisterModule,
+			},
+		],
 	},
 ];
 @NgModule({

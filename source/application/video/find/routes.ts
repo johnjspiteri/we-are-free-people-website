@@ -7,7 +7,12 @@ const routes: Routes = [
 		path: '',
 		component: VideoFindComponent,
 		canActivate: [],
-		children: [],
+		children: [
+			{
+				path: 'help',
+				loadChildren: async () => (await import('./help/module')).VideoFindHelpModule,
+			},
+		],
 	},
 ];
 @NgModule({

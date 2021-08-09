@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { SharedModule } from '_application/shared/module';
-
 import { ArticleFindHelpComponent } from './component';
 import { ArticleFindHelpRoutingModule } from './routes';
 
