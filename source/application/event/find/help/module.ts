@@ -9,4 +9,4 @@ import { EventFindHelpRoutingModule } from './routes';
 	exports: [],
 	providers: [],
 })
-export class ArticleFindHelpModule {}
+export class EventFindHelpModule {}

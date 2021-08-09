@@ -11,7 +11,7 @@ const routes: Routes = [
 		children: [
 			{
 				path: 'help',
-				loadChildren: async () => (await import('./help/module')).ArticleFindHelpModule,
+				loadChildren: async () => (await import('./help/module')).EventFindHelpModule,
 			},
 			{
 				path: 'register',
