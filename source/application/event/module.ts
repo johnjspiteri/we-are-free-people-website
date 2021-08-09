@@ -17,10 +17,7 @@ import { EventEffectsCompositions } from './store/effects/compositions';
 
 @NgModule({
 	declarations: [EventListComponent, EventFindComponent, EventCategoryFilterPipe, EventTitleFilterPipe, EventTopicFilterPipe, EventSortFilterPipe, EventTypeFilterPipe, EventTagsFilterPipe],
-	imports: [
-		StoreModule.forFeature(fromEventReducer.FEATURE_KEY, fromEventReducer.REDUCER),
-		EffectsModule.forFeature([EventEffectsTasks, EventEffectsCompositions]),
-		EventRoutingModule, SharedModule],
+	imports: [StoreModule.forFeature(fromEventReducer.FEATURE_KEY, fromEventReducer.REDUCER), EffectsModule.forFeature([EventEffectsTasks, EventEffectsCompositions]), EventRoutingModule, SharedModule],
 	providers: [],
 })
 export class EventModule {}
