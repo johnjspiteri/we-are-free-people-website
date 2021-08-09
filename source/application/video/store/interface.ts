@@ -1,11 +1,11 @@
 import type { Article } from '@interface-agency/website-article-interface';
 import * as fromVideoReducer from './reducer';
 
-export interface ArticleStore {
-	[fromVideoReducer.FEATURE_KEY]: ArticleState;
+export interface VideoStore {
+	[fromVideoReducer.FEATURE_KEY]: VideoState;
 }
 
-export interface ArticleState {
+export interface VideoState {
 	area: {
 		options: string[];
 		selected: string;

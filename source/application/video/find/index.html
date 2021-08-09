@@ -102,33 +102,33 @@
 	<div id="find">
 		<div id="find__content">
 			<div id="find__breadcrumbs">
-				<h4>{{ article.area | titleCaseDash }}</h4>
+				<h4>{{ video.area | titleCaseDash }}</h4>
 				<h4>/</h4>
-				<h4>{{ article.section | titleCaseDash }}</h4>
+				<h4>{{ video.section | titleCaseDash }}</h4>
 				<h4>/</h4>
-				<h4>{{ article.category | titleCaseDash }}</h4>
+				<h4>{{ video.category | titleCaseDash }}</h4>
 				<h4>/</h4>
-				<h4>{{ article.topic | titleCaseDash }}</h4>
+				<h4>{{ video.topic | titleCaseDash }}</h4>
 			</div>
 
 			<div id="find__title">
 				<div id="find__underline">
-					<h1>{{ article.title }}</h1>
+					<h1>{{ video.title }}</h1>
 				</div>
 			</div>
 			<div id="find-author">
-				<img src="{{ article.author.image }}" alt="{{ article.author.name.first }} + ' ' {{ article.author.name.last }} + ' image'" />
+				<img src="{{ video.author.image }}" alt="{{ video.author.name.first }} + ' ' {{ video.author.name.last }} + ' image'" />
 				<div id="find-author-left">
-					<h1>{{ article.author.name.first + ' ' + article.author.name.last }}</h1>
-					<h2>{{ article.author.role }}</h2>
-					<ng-container *ngIf="!article.updated">
+					<h1>{{ video.author.name.first + ' ' + video.author.name.last }}</h1>
+					<h2>{{ video.author.role }}</h2>
+					<ng-container *ngIf="!video.updated">
 						<h2>
-							<i>Created on {{ article.created | date: 'longDate' }}</i>
+							<i>Created on {{ video.created | date: 'longDate' }}</i>
 						</h2>
 					</ng-container>
-					<ng-container *ngIf="article.updated">
+					<ng-container *ngIf="video.updated">
 						<h2>
-							<i>Updated on {{ article.updated | date: 'longDate' }}</i>
+							<i>Updated on {{ video.updated | date: 'longDate' }}</i>
 						</h2>
 					</ng-container>
 				</div>
@@ -152,7 +152,7 @@
 			<div id="find__summary">
 				<p>
 					<span class="find__summary-heading">Quick Summary<fa-icon id="find__summary-icon" [icon]="faLevelUpAlt"></fa-icon></span>
-					<i> {{ article.content.introduction }}</i>
+					<i> {{ video.content.introduction }}</i>
 				</p>
 			</div>
 
@@ -270,7 +270,7 @@
 <!--<div class="article-find">-->
 <!--    <div class="article-find__top">-->
 <!--        <div class="article-find__title">-->
-<!--            <h1>{{article.title}}</h1>-->
+<!--            <h1>{{video.title}}</h1>-->
 <!--        </div>-->
 <!--        <div class="article-find__purchase">-->
 <!--            <h3>Buy Now For $</h3>-->
@@ -320,7 +320,7 @@
 <!--    </div>&lt;!&ndash;.article-find__titleh2 Testimonial-->
 <!--&ndash;&gt;-->
 <!--    <div class="article-find__testimonial">-->
-<!--        <div class="article-find__bubble">&lt;!&ndash;p(data-ng-bind='::vm.article.testimonial.statement')&ndash;&gt;</div>-->
+<!--        <div class="article-find__bubble">&lt;!&ndash;p(data-ng-bind='::vm.video.testimonial.statement')&ndash;&gt;</div>-->
 <!--        <div class="article-find__caret"></div>-->
 <!--        <div class="article-find__picture">&lt;!&ndash;img(ng-src='data:image/{{image.file_type}};base64,{{image.base64}}')&ndash;&gt;</div>-->
 <!--    </div>-->

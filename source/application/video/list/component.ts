@@ -3,11 +3,11 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
-import * as fromArticleSelectors from '_application/article/store/selectors';
-import * as fromArticleActions from '_application/article/store/actions';
+import * as fromVideoSelectors from './../store/selectors';
+import * as fromVideoActions from './../store/actions';
 import { faCaretDown, faCaretUp } from '@fortawesome/pro-solid-svg-icons';
 import { faTimes } from '@fortawesome/pro-light-svg-icons';
-import { ArticleState } from '_application/article/store/interface';
+import { VideoState } from './../store/interface';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
@@ -16,7 +16,7 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 	encapsulation: ViewEncapsulation.None,
 })
 export class VideoListComponent implements OnInit {
-	public state: ArticleState;
+	public state: VideoState;
 	public faCaretDown: IconProp = faCaretDown;
 	public faCaretUp: IconProp = faCaretUp;
 	public faTimes: IconProp = faTimes;
@@ -24,7 +24,7 @@ export class VideoListComponent implements OnInit {
 	private subscription: Subscription;
 	private formLoaded: boolean = false;
 
-	constructor(private activatedRoute: ActivatedRoute, private store: Store<ArticleState>, public formBuilder: FormBuilder) {
+	constructor(private activatedRoute: ActivatedRoute, private store: Store<VideoState>, public formBuilder: FormBuilder) {
 		this.form = this.formBuilder.group({
 			area: [''],
 			section: [''],
@@ -37,11 +37,12 @@ export class VideoListComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.subscription = this.store.select(fromArticleSelectors.STATE).subscribe((state: ArticleState) => {
+		this.subscription = this.store.select(fromVideoSelectors.STATE).subscribe((state: VideoState) => {
 			this.state = state;
+			console.log('video list:', this.state);
 			if (!this.formLoaded) this.initialFormLoad();
 		});
-		this.store.dispatch(fromArticleActions.INITIALIZE());
+		this.store.dispatch(fromVideoActions.INITIALIZE());
 	}
 
 	initialFormLoad() {
@@ -61,35 +62,35 @@ export class VideoListComponent implements OnInit {
 	}
 
 	updateArea() {
-		this.store.dispatch(fromArticleActions.AREA_UPDATE({ area: this.form.get('area').value }));
+		this.store.dispatch(fromVideoActions.AREA_UPDATE({ area: this.form.get('area').value }));
 	}
 
 	updateSection() {
-		this.store.dispatch(fromArticleActions.SECTION_UPDATE({ section: this.form.get('section').value }));
+		this.store.dispatch(fromVideoActions.SECTION_UPDATE({ section: this.form.get('section').value }));
 	}
 
 	updateCategory() {
-		this.store.dispatch(fromArticleActions.CATEGORY_UPDATE({ category: this.form.get('category').value }));
+		this.store.dispatch(fromVideoActions.CATEGORY_UPDATE({ category: this.form.get('category').value }));
 	}
 
 	updateTopic() {
-		this.store.dispatch(fromArticleActions.TOPIC_UPDATE({ topic: this.form.get('topic').value }));
+		this.store.dispatch(fromVideoActions.TOPIC_UPDATE({ topic: this.form.get('topic').value }));
 	}
 
 	updateType() {
-		this.store.dispatch(fromArticleActions.TYPE_UPDATE({ kind: this.form.get('type').value }));
+		this.store.dispatch(fromVideoActions.TYPE_UPDATE({ kind: this.form.get('type').value }));
 	}
 
 	updateTags(tags: string[]) {
-		this.store.dispatch(fromArticleActions.TAG_UPDATE({ tag: tags }));
+		this.store.dispatch(fromVideoActions.TAG_UPDATE({ tag: tags }));
 	}
 
 	updateSort() {
-		this.store.dispatch(fromArticleActions.SORT_UPDATE({ sort: this.form.get('sort').value }));
+		this.store.dispatch(fromVideoActions.SORT_UPDATE({ sort: this.form.get('sort').value }));
 	}
 
 	toggleSearchState() {
-		this.store.dispatch(fromArticleActions.STATE_TOGGLE({ value: !this.state.state }));
+		this.store.dispatch(fromVideoActions.STATE_TOGGLE({ value: !this.state.state }));
 	}
 
 	setSort() {}
@@ -97,6 +98,6 @@ export class VideoListComponent implements OnInit {
 	setType() {}
 
 	resetSearchForm() {
-		this.store.dispatch(fromArticleActions.RESET());
+		this.store.dispatch(fromVideoActions.RESET());
 	}
 }

@@ -1,11 +1,11 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
-import type { ArticleStore } from './interface';
+import type { VideoStore } from './interface';
 import * as fromVideoReducer from './reducer';
 
-export const ARTICLE_STORE = createFeatureSelector<ArticleStore>(fromVideoReducer.FEATURE_KEY);
+export const VIDEO_STORE = createFeatureSelector<VideoStore>(fromVideoReducer.FEATURE_KEY);
 
-export const STATE = createSelector(ARTICLE_STORE, (state) => state[fromVideoReducer.FEATURE_KEY]);
+export const STATE = createSelector(VIDEO_STORE, (state) => state[fromVideoReducer.FEATURE_KEY]);
 
-export const ARTICLES = createSelector(ARTICLE_STORE, (state) => state[fromVideoReducer.FEATURE_KEY].list.results);
+export const VIDEOS = createSelector(VIDEO_STORE, (state) => state[fromVideoReducer.FEATURE_KEY].list.results);
 
-export const ARTICLE = createSelector(ARTICLE_STORE, (state) => state[fromVideoReducer.FEATURE_KEY].find);
+export const VIDEO = createSelector(VIDEO_STORE, (state) => state[fromVideoReducer.FEATURE_KEY].find);

@@ -7,7 +7,7 @@ import { faCheck, faTimes, faHeadSideBrain, faExclamationTriangle, faVoteYea, fa
 import { faLinkedin, faTwitterSquare, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs/internal/Subscription';
-import * as fromArticleSelectors from '../store/selectors';
+import * as fromVideoSelectors from '../store/selectors';
 import type { Article } from '@interface-agency/website-article-interface';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
@@ -17,7 +17,7 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 	encapsulation: ViewEncapsulation.None,
 })
 export class VideoFindComponent implements OnInit {
-	public article: Article;
+	public video: Article;
 	public faGlobeAmericas: IconProp = faGlobeAmericas;
 	public faYenSign: IconProp = faYenSign;
 	public faEuroSign: IconProp = faEuroSign;
@@ -49,10 +49,10 @@ export class VideoFindComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.subscription = this.store.select(fromArticleSelectors.ARTICLE).subscribe((article: Article) => {
-			this.article = article;
+		this.subscription = this.store.select(fromVideoSelectors.VIDEO).subscribe((video: Article) => {
+			this.video = video;
 			// console.log('answer:', this.answer);
-			console.log('article:', this.article);
+			console.log('video:', this.video);
 		});
 	}
 }

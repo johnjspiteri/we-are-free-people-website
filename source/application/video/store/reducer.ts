@@ -1,6 +1,6 @@
-import * as fromVideoActions from '../store/actions';
 import { Action, combineReducers, createReducer, on } from '@ngrx/store';
-import type { ArticleState, ArticleStore } from './interface';
+import * as fromVideoActions from './actions';
+import type { VideoState, VideoStore } from './interface';
 import type { SearchOptions } from '_application/shared/interface/options';
 
 const options: SearchOptions = {
@@ -144,7 +144,7 @@ const options: SearchOptions = {
 
 export const FEATURE_KEY = 'video';
 
-const INITIAL_STATE: ArticleState = {
+const INITIAL_STATE: VideoState = {
 	area: {
 		options: ['platform', 'products'],
 		// options: [],
@@ -319,7 +319,7 @@ const _reducer = createReducer(
 	})
 );
 
-export function REDUCER(state: ArticleStore | undefined, action: Action) {
+export function REDUCER(state: VideoStore | undefined, action: Action) {
 	return combineReducers({
 		[FEATURE_KEY]: _reducer,
 	})(state, action);

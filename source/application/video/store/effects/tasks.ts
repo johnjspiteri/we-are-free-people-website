@@ -7,13 +7,13 @@ import { exhaustMap, map, switchMap, take, tap, withLatestFrom } from 'rxjs/oper
 import { ArticleFindService } from '../services/find';
 import { ArticleListService } from '../services/list';
 import { selectRouteNestedParams, selectRouteParams } from '_application/common/store/router/selectors';
-import * as fromArticleActions from '../actions';
-import * as fromArticleSelectors from '../selectors';
+import * as fromVideoActions from '../actions';
+import * as fromVideoSelectors from '../selectors';
 import * as fromLoaderActions from '_application/common/store/loader/actions';
 import { cloneDeep } from 'lodash';
 import type { Article, ArticleListRequest } from '@interface-agency/website-article-interface';
 import type { SearchOptions } from '_application/shared/interface/options';
-import type { ArticleStore } from '_application/article/store/interface';
+import type { VideoStore } from './../interface';
 
 const options: SearchOptions = {
 	platform: {
@@ -156,12 +156,12 @@ const options: SearchOptions = {
 
 @Injectable()
 export class VideoEffectsTasks {
-	constructor(@Inject(DOCUMENT) private document: any, private actions$: Actions, private articleFindService: ArticleFindService, private articleListService: ArticleListService, private router: Router, private store: Store<ArticleStore>) {}
+	constructor(@Inject(DOCUMENT) private document: any, private actions$: Actions, private articleFindService: ArticleFindService, private articleListService: ArticleListService, private router: Router, private store: Store<VideoStore>) {}
 
 	articleListSettingsLoad$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.SETTING_LOAD),
+				ofType(fromVideoActions.SETTING_LOAD),
 				withLatestFrom(this.store.select(selectRouteParams)),
 				tap(([{}, route_params]) => {
 					this.store.dispatch(fromLoaderActions.GLOBAL_ACTIVATED());
@@ -175,7 +175,7 @@ export class VideoEffectsTasks {
 					if (route_params.category) topics = options[route_params.area].map[route_params.section].map[route_params.category].options;
 
 					this.store.dispatch(
-						fromArticleActions.SETTING_SAVE({
+						fromVideoActions.SETTING_SAVE({
 							area: route_params.area || '',
 							category: route_params.category || '',
 							categories: categories,
@@ -194,13 +194,13 @@ export class VideoEffectsTasks {
 	articleFindLoad$ = createEffect(
 		() =>
 			this.actions$.pipe(
-				ofType(fromArticleActions.FIND_LOAD),
+				ofType(fromVideoActions.FIND_LOAD),
 				withLatestFrom(this.store.select(selectRouteNestedParams)),
 				exhaustMap(([{}, data]) => {
 					return this.articleFindService.get(data.area, data.section, data.category, data.topic, data.clean).pipe(
 						map((response) => {
 							return this.store.dispatch(
-								fromArticleActions.FIND_SAVE({
+								fromVideoActions.FIND_SAVE({
 									article: response,
 								})
 							);
@@ -215,8 +215,8 @@ export class VideoEffectsTasks {
 	articleListLoad$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.LIST_LOAD),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.LIST_LOAD),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				// switchMap(([{}, data]) => {
 				switchMap(([{}, data]) => {
 					const payload: ArticleListRequest = {};
@@ -228,7 +228,7 @@ export class VideoEffectsTasks {
 					return this.articleListService.post(payload).pipe(
 						map((response: Article[]) => {
 							this.store.dispatch(
-								fromArticleActions.TYPE_FILTER({
+								fromVideoActions.TYPE_FILTER({
 									processed: response,
 									results: response,
 								})
@@ -244,12 +244,12 @@ export class VideoEffectsTasks {
 	articleListReload$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.LIST_RELOAD),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.LIST_RELOAD),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				tap(([{}, data]) => {
 					// this.store.dispatch(fromLoaderActions.GLOBAL_ACTIVATED());
 					this.store.dispatch(
-						fromArticleActions.TYPE_FILTER({
+						fromVideoActions.TYPE_FILTER({
 							processed: data.list.results,
 							results: data.list.results,
 						})
@@ -263,8 +263,8 @@ export class VideoEffectsTasks {
 	articleListTypeFilter$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.TYPE_FILTER),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.TYPE_FILTER),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				tap(([action, data]) => {
 					console.log('type selected:', data.type.selected);
 					console.log('type selected:', action.processed.length);
@@ -279,7 +279,7 @@ export class VideoEffectsTasks {
 						output = action.processed;
 					}
 					this.store.dispatch(
-						fromArticleActions.TAG_FILTER({
+						fromVideoActions.TAG_FILTER({
 							processed: output,
 							results: action.results,
 						})
@@ -293,8 +293,8 @@ export class VideoEffectsTasks {
 	articleListTagFilter$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.TAG_FILTER),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.TAG_FILTER),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				tap(([action, data]) => {
 					let output: Article[] = [];
 					if (data.tag.selected.length) {
@@ -315,7 +315,7 @@ export class VideoEffectsTasks {
 					}
 
 					this.store.dispatch(
-						fromArticleActions.SORT({
+						fromVideoActions.SORT({
 							processed: output,
 							results: action.results,
 						})
@@ -329,8 +329,8 @@ export class VideoEffectsTasks {
 	articleListSort$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.SORT),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.SORT),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				tap(([action, data]) => {
 					let output = cloneDeep(action.processed);
 					if (data.sort.selected === 'alphabetical') {
@@ -340,7 +340,7 @@ export class VideoEffectsTasks {
 					}
 
 					this.store.dispatch(
-						fromArticleActions.TYPE_POPULATE({
+						fromVideoActions.TYPE_POPULATE({
 							processed: output,
 							results: action.results,
 						})
@@ -354,7 +354,7 @@ export class VideoEffectsTasks {
 	articleListTypesPopulate$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.TYPE_POPULATE),
+				ofType(fromVideoActions.TYPE_POPULATE),
 				tap((action) => {
 					let types: string[] = [];
 					for (let i = 0; i < action.processed.length; i++) {
@@ -363,7 +363,7 @@ export class VideoEffectsTasks {
 					types.sort((a, b) => (a > b ? 1 : -1));
 
 					this.store.dispatch(
-						fromArticleActions.TAG_POPULATE({
+						fromVideoActions.TAG_POPULATE({
 							processed: action.processed,
 							results: action.results,
 							types: [...new Set(types)],
@@ -378,7 +378,7 @@ export class VideoEffectsTasks {
 	articleListTagsPopulate$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.TAG_POPULATE),
+				ofType(fromVideoActions.TAG_POPULATE),
 				tap((action) => {
 					let tags: string[] = [];
 					for (let i = 0; i < action.processed.length; i++) {
@@ -387,7 +387,7 @@ export class VideoEffectsTasks {
 					tags.sort((a, b) => (a > b ? 1 : -1));
 
 					this.store.dispatch(
-						fromArticleActions.LIST_SAVE({
+						fromVideoActions.LIST_SAVE({
 							processed: action.processed,
 							results: action.results,
 							tags: [...new Set(tags)],
@@ -404,8 +404,8 @@ export class VideoEffectsTasks {
 	articleListNavigation$ = createEffect(
 		() => {
 			return this.actions$.pipe(
-				ofType(fromArticleActions.NAVIGATION),
-				withLatestFrom(this.store.select(fromArticleSelectors.STATE)),
+				ofType(fromVideoActions.NAVIGATION),
+				withLatestFrom(this.store.select(fromVideoSelectors.STATE)),
 				tap(([{}, data]) => {
 					const path = ['/articles'];
 					if (data.area.selected) {
