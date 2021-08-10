@@ -51,4 +51,6 @@ export class HeaderComponent implements OnInit {
 	public openPanel(): void {
 		this.store.dispatch(fromPanelActions.OPEN());
 	}
+
+	closeModal() {}
 }

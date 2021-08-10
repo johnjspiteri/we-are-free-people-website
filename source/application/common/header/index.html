@@ -1,6 +1,10 @@
 <header>
 	<div id="header-pitch">
-		<div id="header-pitch__content">
+		<div id="header-pitch__close">
+			<fa-icon id="header-pitch__times" [icon]="faTimes" (click)="closeModal()"></fa-icon>
+			<div id="header-pitch__triangle"></div>
+		</div>
+		<div id="header-pitch__container">
 			<div id="header-pitch__title">
 				<h1 class="small">Join The Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
 				<h1 class="medium">Join The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>

@@ -8,7 +8,7 @@
 	border none
 	border-bottom $tertiary-on-primary-border-bottom
 
-	&__content
+	&__container
 		position relative
 		width 340px
 		margin 0 auto
@@ -93,6 +93,39 @@
 
 	&__review
 		display none
+
+	&__close
+		position: absolute
+		width: 44px
+		height: 44px
+		margin: 0
+		padding: 0
+		right: 0
+		z-index: 99999
+
+	&__triangle
+		float: left
+		width: 0;
+		height: 0;
+		border-top: 44px solid $black-color
+		border-left: 44px solid transparent;
+		right: 0
+
+	&__times
+		display flex
+		position: absolute
+		width: 22px
+		height: 22px
+		right: 0
+		margin: 0
+		padding: 0
+		font-size 18px
+		color $white-color
+		align-items center
+		justify-content center
+		text-align center
+		z-index: 99999
+		cursor pointer
 
 .header-pitch-square
 	float left
