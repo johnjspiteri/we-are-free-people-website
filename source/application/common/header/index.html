@@ -5,64 +5,66 @@
 			<div id="header-pitch__triangle"></div>
 		</div>
 		<div id="header-pitch__container">
-			<div id="header-pitch__title">
-				<h1 class="small">Join The Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
-				<h1 class="medium">Join The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
-				<h1 class="large">Join Us At The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltRight"></fa-icon></h1>
-			</div>
-
-			<div id="header-pitch__time">
-				<div class="header-pitch-square">
-					<h3>DAYS</h3>
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>0</h4>
-						</div>
-					</div>
-
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>2</h4>
-						</div>
-					</div>
+			<div id="header-pitch__holder">
+				<div id="header-pitch__title">
+					<h1 class="small">Join The Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltDown"></fa-icon></h1>
+					<h1 class="medium">Join The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltDown"></fa-icon></h1>
+					<h1 class="large">Join Us At The Next Rally In<fa-icon id="header-pitch__arrow" [icon]="faLongArrowAltDown"></fa-icon></h1>
 				</div>
 
-				<div class="header-pitch-square">
-					<h3>HOURS</h3>
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>1</h4>
+				<div id="header-pitch__time">
+					<div class="header-pitch-square">
+						<h3>DAYS</h3>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>0</h4>
+							</div>
 						</div>
-					</div>
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>4</h4>
-						</div>
-					</div>
-				</div>
 
-				<div class="header-pitch-square">
-					<h3>MINUTES</h3>
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>3</h4>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>2</h4>
+							</div>
 						</div>
 					</div>
-					<div class="header-pitch-square__value">
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__half"></div>
-						<div class="header-pitch-square__number">
-							<h4>8</h4>
+
+					<div class="header-pitch-square">
+						<h3>HOURS</h3>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>1</h4>
+							</div>
+						</div>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>4</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="header-pitch-square">
+						<h3>MINUTES</h3>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>3</h4>
+							</div>
+						</div>
+						<div class="header-pitch-square__value">
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__half"></div>
+							<div class="header-pitch-square__number">
+								<h4>8</h4>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -74,18 +76,20 @@
 				<p class="large">Take part in the next event and support us to send a strong message to our politicians and police that we have human rights!</p>
 			</div>
 
-			<div id="header-pitch__buttons">
-				<div class="header-pitch-button" routerLink="/events/test/test/test/test/find/register">
-					<h1 class="small">Register Now &amp; Take Action</h1>
-					<h1 class="large">Register Now &amp; Help Us Take Action</h1>
-				</div>
-				<div class="header-pitch-button" routerLink="/donate/amount">
-					<h1>Donate &amp; Help Us Fight For Rights</h1>
-				</div>
-			</div>
-
 			<div id="header-pitch__review">
 				<p>Your online presence will get a free review, covering seo, loading speed, and usability!</p>
+			</div>
+
+			<div id="header-pitch__buttons">
+				<div class="header-pitch-button" routerLink="/events/test/test/test/test/find/register">
+					<h2 class="small">Register Now &amp; Take Action</h2>
+					<!--					<h2 class="large">Register Now &amp; Help Us Take Action</h2>-->
+					<h2 class="large">Register Now &amp; Take Action</h2>
+				</div>
+				<div class="header-pitch-button" routerLink="/donate/amount">
+					<!--					<h2>Donate &amp; Help Us Fight For Rights</h2>-->
+					<h2>Donate &amp; Fight For Fight</h2>
+				</div>
 			</div>
 		</div>
 	</div>

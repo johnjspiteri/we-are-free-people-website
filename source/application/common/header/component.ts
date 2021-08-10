@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { faComment, faReceipt, faCaretDown, faCaretRight, faMoneyCheck } from '@fortawesome/pro-solid-svg-icons';
 import { faBars, faTimes } from '@fortawesome/pro-light-svg-icons';
 import { faLock } from '@fortawesome/pro-duotone-svg-icons';
-import { faLongArrowAltRight } from '@fortawesome/pro-duotone-svg-icons';
+import { faLongArrowAltRight, faLongArrowAltDown } from '@fortawesome/pro-duotone-svg-icons';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs/internal/Subscription';
@@ -24,6 +24,7 @@ export class HeaderComponent implements OnInit {
 	public faMoneyCheck: IconProp = faMoneyCheck;
 	public faCaretDown: IconProp = faCaretDown;
 	public faCaretRight: IconProp = faCaretRight;
+	public faLongArrowAltDown: IconProp = faLongArrowAltDown;
 	public faBars: IconProp = faBars;
 	public faLock: IconProp = faLock;
 	public faTimes: IconProp = faTimes;

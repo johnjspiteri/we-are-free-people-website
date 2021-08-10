@@ -1,9 +1,8 @@
 #header-pitch
-	//display none
 	float left
 	width 100%
 	margin 0
-	padding 0 0 10px 0
+	padding 0 0 12px 0
 	background $tertiary-background-color
 	border none
 	border-bottom $tertiary-on-primary-border-bottom
@@ -15,6 +14,7 @@
 		padding 0
 		z-index $z-index-structure
 
+		h2
 		h1
 			float left
 			width 100%
@@ -22,8 +22,12 @@
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 14px
+			font-size 15px
 			color $tertiary-button-text-inactive-color
+			text-align center
+
+		h2
+			font-size 14px
 
 		p
 			float left
@@ -39,9 +43,9 @@
 
 	&__title
 		float left
-		width 104px
-		margin 0 14px 0 0
-		padding 9px 0 7px 13px
+		width 270px
+		margin 0 0 14px 35px
+		padding 7px 0 9px 0
 		background $tertiary-button-inactive-background-color
 		border $tertiary-button-inactive-border
 		border-bottom $tertiary-button-inactive-border-bottom
@@ -51,14 +55,15 @@
 
 		h1
 			line-height 20px
-			text-align left
 
 		h1.medium
-		h1.large
+		h1.small
 			display: none
 
+		h1.large
+			display block
+
 	&__arrow
-		position: absolute
 		margin 2px 0 0 6px
 		padding 0
 		font-size 17px
@@ -69,15 +74,15 @@
 
 	&__time
 		float left
-		width 222px
-		margin 6px 0 0 0
+		width 272px
+		margin 0 0 0 33px
 		padding 0
 
 	&__paragraph
 		float left
 		width 100%
 		margin 12px 0 12px 0
-		padding 0 20px
+		padding 0 10px
 		box-sizing border-box
 
 		p.small
@@ -85,6 +90,12 @@
 
 		p.large
 			display block
+
+	&__holder
+		float: left
+		width: 100%
+		margin: 0
+		padding: 0
 
 	&__buttons
 		float: left
@@ -96,8 +107,8 @@
 
 	&__close
 		position: absolute
-		width: 44px
-		height: 44px
+		width: 50px
+		height: 50px
 		margin: 0
 		padding: 0
 		right: 0
@@ -107,19 +118,19 @@
 		float: left
 		width: 0;
 		height: 0;
-		border-top: 44px solid $black-color
-		border-left: 44px solid transparent;
+		border-top: 50px solid $black-color
+		border-left: 50px solid transparent;
 		right: 0
 
 	&__times
 		display flex
 		position: absolute
-		width: 22px
-		height: 22px
+		width: 25px
+		height: 25px
 		right: 0
 		margin: 0
 		padding: 0
-		font-size 18px
+		font-size 22px
 		color $white-color
 		align-items center
 		justify-content center
@@ -129,15 +140,15 @@
 
 .header-pitch-square
 	float left
-	width 68px
-	margin 0 8px 0 0
+	width 84px
+	margin 0 10px 0 0
 	padding 0
 	box-sizing border-box
 
 	h3
 		float left
 		width 100%
-		height 17px
+		height 21px
 		margin 0
 		padding 0
 		font-family $secondary-font
@@ -148,9 +159,9 @@
 
 	&__value
 		float: left
-		width: 32px
-		height: 36px
-		margin 0 4px 0 0
+		width: 39px
+		height: 42px
+		margin 0 6px 0 0
 		padding 0
 
 	&__value:last-child
@@ -158,8 +169,8 @@
 
 	&__half
 		float left
-		width 32px
-		height 18px
+		width 38px
+		height 21px
 		margin 0
 		background #e2e2e2
 		border-radius $radius-bottom
@@ -176,8 +187,8 @@
 
 	&__number
 		position absolute
-		width 32px
-		height 35px
+		width 38px
+		height 40px
 		margin 0
 		padding 0
 
@@ -188,7 +199,7 @@
 			margin 0
 			padding 0
 			font-family $secondary-font
-			font-size 18px
+			font-size 19px
 			font-weight $secondary-font-weight-400
 			color $tertiary-paragraph-color
 			align-items center
@@ -212,10 +223,7 @@
 	outline none
 	box-sizing border-box
 
-	h1
-		text-align center
-
-	h1.small
+	h2.small
 		display: none
 
 .header-pitch-button:last-child
