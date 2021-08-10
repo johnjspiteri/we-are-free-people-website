@@ -6,11 +6,11 @@ import { ConsultationState } from '../state';
 import { ConsultationSubmitService } from './service';
 
 @Component({
-	selector: 'legal-donate-information',
+	selector: 'legal-donate-register',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
-export class DonateInformationComponent {
+export class DonateRegisterComponent {
 	public form: FormGroup;
 	public submitted: boolean = false;
 	public options: string[] = ['Email', 'Phone', 'Text'];

@@ -11,10 +11,7 @@ import { VideoEffectsCompositions } from './store/effects/compositions';
 
 @NgModule({
 	declarations: [VideoListComponent, VideoFindComponent],
-	imports: [
-		StoreModule.forFeature(fromVideoReducer.FEATURE_KEY, fromVideoReducer.REDUCER),
-		EffectsModule.forFeature([VideoEffectsTasks, VideoEffectsCompositions]),
-		SharedModule, VideoRoutingModule],
+	imports: [StoreModule.forFeature(fromVideoReducer.FEATURE_KEY, fromVideoReducer.REDUCER), EffectsModule.forFeature([VideoEffectsTasks, VideoEffectsCompositions]), SharedModule, VideoRoutingModule],
 	providers: [],
 })
 export class VideoModule {}

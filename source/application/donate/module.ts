@@ -4,12 +4,12 @@ import { DonateAmountComponent } from './amount/component';
 import { DonateCompleteComponent } from './complete/component';
 import { ConsultationState } from './state';
 import { ConsultationRoutingModule } from './routes';
-import { DonateInformationComponent } from './information/component';
+import { DonateRegisterComponent } from './register/component';
 import { DonatePaymentComponent } from './payment/component';
 import { SharedModule } from '_application/shared/module';
 
 @NgModule({
-	declarations: [donateComponent, DonateAmountComponent, DonateCompleteComponent, DonateInformationComponent, DonatePaymentComponent],
+	declarations: [donateComponent, DonateAmountComponent, DonateCompleteComponent, DonateRegisterComponent, DonatePaymentComponent],
 	entryComponents: [],
 	imports: [ConsultationRoutingModule, SharedModule],
 	exports: [],

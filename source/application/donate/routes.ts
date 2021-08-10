@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { donateComponent } from './component';
 import { DonateAmountComponent } from './amount/component';
 import { DonateCompleteComponent } from './complete/component';
-import { DonateInformationComponent } from './information/component';
+import { DonateRegisterComponent } from './register/component';
 import { DonatePaymentComponent } from './payment/component';
 // import { ConsultationConfirmationCanActivateGuard } from './confirmation/guard';
 
@@ -26,8 +26,8 @@ const routes: Routes = [
 				component: DonateAmountComponent,
 			},
 			{
-				path: 'information',
-				component: DonateInformationComponent,
+				path: 'register',
+				component: DonateRegisterComponent,
 			},
 			{
 				path: 'payment',
