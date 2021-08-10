@@ -44,7 +44,7 @@ const routes: Routes = [
 		loadChildren: () => import('./volunteer/module').then((module) => module.VolunteerModule),
 	},
 	{
-		path: 'petition',
+		path: 'petitions',
 		loadChildren: () => import('./petition/module').then((module) => module.PetitionModule),
 	},
 	{
