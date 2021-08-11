@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Consultation } from '../interface';
-import { ConsultationState } from '../state';
+// import { Consultation } from '../interface';
+// import { ConsultationState } from '../state';
 import { ConsultationSubmitService } from './service';
 import { faApplePay, faGooglePay, faCcVisa, faPaypal, faCcMastercard, faCcAmazonPay } from '@fortawesome/free-brands-svg-icons';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
@@ -17,7 +17,7 @@ export class DonatePaymentComponent {
 	public form: FormGroup;
 	public submitted: boolean = false;
 	public options: string[] = ['Email', 'Phone', 'Text'];
-	private payload: Consultation;
+	// private payload: Consultation;
 	public faApplePay: IconProp = faApplePay;
 	public faGooglePay: IconProp = faGooglePay;
 	public faCcVisa: IconProp = faCcVisa;
@@ -26,7 +26,7 @@ export class DonatePaymentComponent {
 	public faCcAmazonPay: IconProp = faCcAmazonPay;
 	public payment_card: boolean = false;
 
-	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private consultationState: ConsultationState, private formBuilder: FormBuilder, private router: Router) {
+	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private formBuilder: FormBuilder, private router: Router) {
 		this.form = this.formBuilder.group({
 			number: ['', { validators: [Validators.required, Validators.minLength(19), Validators.maxLength(19)] }],
 			name: ['', { validators: [Validators.required, Validators.minLength(19), Validators.maxLength(19)] }],

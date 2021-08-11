@@ -1,0 +1,61 @@
+<div id="donate-form" [formGroup]="form">
+	<div class="donate-form-section">
+		<div class="donate-form-section-two">
+			<div class="donate-form-apple">
+				<fa-icon class="donate-form-payment" [icon]="faApplePay"></fa-icon>
+			</div>
+			<div class="donate-form-apple">
+				<fa-icon class="donate-form-payment" [icon]="faGooglePay"></fa-icon>
+			</div>
+		</div>
+	</div>
+
+	<div class="donate-form-section">
+		<div class="donate-form-apple" id="donate-form__card" (click)="changeCreditCardState()" [class.active]="payment_card"><h5>CREDIT CARD</h5></div>
+		<div id="donate-form__cards">
+			<div id="donate-form__holder">
+				<fa-icon class="donate-form-cards" [icon]="faCcVisa"></fa-icon>
+				<fa-icon class="donate-form-cards" [icon]="faCcMastercard"></fa-icon>
+				<fa-icon class="donate-form-cards" [icon]="faCcAmazonPay"></fa-icon>
+			</div>
+		</div>
+	</div>
+
+	<div class="donate-form-section">
+		<label for="donate-form-number">CREDIT CARD</label>
+		<div class="donate-form-field">
+			<input id="donate-form-number" formControlName="number" />
+		</div>
+	</div>
+	<div class="donate-form-section">
+		<label for="donate-form-name">CARD HOLDER'S FULL NAME</label>
+		<div class="donate-form-field">
+			<input id="donate-form-name" formControlName="name" />
+		</div>
+	</div>
+	<div class="donate-form-section-three">
+		<div class="donate-form-section">
+			<label for="donate-form-month">EXPIRY MONTH</label>
+			<div class="donate-form-field">
+				<input id="donate-form-month" formControlName="exp_month" />
+			</div>
+		</div>
+
+		<div class="donate-form-section">
+			<label for="donate-form-year">EXPIRY YEAR</label>
+			<div class="donate-form-field">
+				<input id="donate-form-year" formControlName="exp_year" />
+			</div>
+		</div>
+
+		<div class="donate-form-section">
+			<label for="donate-form-cvc">CVC</label>
+			<div class="donate-form-field">
+				<input id="donate-form-cvc" formControlName="cvc" />
+			</div>
+		</div>
+	</div>
+	<div class="donate-form-section">
+		<button>SUBMIT</button>
+	</div>
+</div>

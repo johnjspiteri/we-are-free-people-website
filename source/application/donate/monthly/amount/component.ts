@@ -1,8 +1,8 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Consultation } from '../interface';
-import { ConsultationState } from '../state';
+// import { Consultation } from '../interface';
+// import { ConsultationState } from '../state';
 import { ConsultationSubmitService } from './service';
 
 interface options {
@@ -10,7 +10,7 @@ interface options {
 }
 
 @Component({
-	selector: 'legal-donate-amount',
+	selector: 'legal-donate-one-time-amount',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })
@@ -18,7 +18,7 @@ export class DonateAmountComponent {
 	public form: FormGroup;
 	public submitted: boolean = false;
 	public options: string[] = ['Email', 'Phone', 'Text'];
-	private payload: Consultation;
+	// private payload: Consultation;
 	public amounts: options = {
 		five: false,
 		ten: false,
@@ -29,7 +29,7 @@ export class DonateAmountComponent {
 		hundred: false,
 	};
 
-	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private consultationState: ConsultationState, private formBuilder: FormBuilder, private router: Router) {
+	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private formBuilder: FormBuilder, private router: Router) {
 		this.form = this.formBuilder.group({
 			other_amount: ['', { validators: [Validators.required] }],
 		});
