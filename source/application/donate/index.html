@@ -21,50 +21,54 @@
 			</div>
 		</div>
 
-		<div id="donate-progress">
-			<div class="donate-progress-sections">
-				<div class="donate-progress-section">
-					<h1 (click)="activateTimelineNavigation('amount')">AMOUNT</h1>
-				</div>
-				<div class="donate-progress-section">
-					<h1 (click)="activateTimelineNavigation('payment')">PAYMENT</h1>
-				</div>
-				<div class="donate-progress-section">
-					<h1 (click)="activateTimelineNavigation('complete')">COMPLETE</h1>
-				</div>
-			</div>
-
-			<div id="donate-progress__area">
-				<div id="donate-progress__lines">
-					<div id="donate-progress__background"></div>
-					<div id="donate-progress__holder">
-						<div id="donate-progress__active" [class.payment]="router.isActive('/donate/payment', true)" [class.complete]="router.isActive('/donate/complete', true)"></div>
-					</div>
-				</div>
-
-				<div id="donate-progress__dots">
+		<div id="donate-right">
+			<div id="donate-progress__container">
+				<div id="donate-progress">
 					<div class="donate-progress-sections">
 						<div class="donate-progress-section">
-							<div class="donate-progress-section__outline">
-								<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('amount')" [class.active]="router.isActive('/donate/amount', true) || router.isActive('/donate/payment', true) || router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
+							<h1 (click)="activateTimelineNavigation('amount')">AMOUNT</h1>
+						</div>
+						<div class="donate-progress-section">
+							<h1 (click)="activateTimelineNavigation('payment')">PAYMENT</h1>
+						</div>
+						<div class="donate-progress-section">
+							<h1 (click)="activateTimelineNavigation('complete')">COMPLETE</h1>
+						</div>
+					</div>
+
+					<div id="donate-progress__area">
+						<div id="donate-progress__lines">
+							<div id="donate-progress__background"></div>
+							<div id="donate-progress__holder">
+								<div id="donate-progress__active" [class.payment]="router.isActive('/donate/payment', true)" [class.complete]="router.isActive('/donate/complete', true)"></div>
 							</div>
 						</div>
 
-						<div class="donate-progress-section">
-							<div class="donate-progress-section__outline">
-								<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('payment')" [class.active]="router.isActive('/donate/payment', true) || router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
-							</div>
-						</div>
+						<div id="donate-progress__dots">
+							<div class="donate-progress-sections">
+								<div class="donate-progress-section">
+									<div class="donate-progress-section__outline">
+										<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('amount')" [class.active]="router.isActive('/donate/amount', true) || router.isActive('/donate/payment', true) || router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
+									</div>
+								</div>
 
-						<div class="donate-progress-section">
-							<div class="donate-progress-section__outline">
-								<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('complete')" [class.active]="router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
+								<div class="donate-progress-section">
+									<div class="donate-progress-section__outline">
+										<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('payment')" [class.active]="router.isActive('/donate/payment', true) || router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
+									</div>
+								</div>
+
+								<div class="donate-progress-section">
+									<div class="donate-progress-section__outline">
+										<div class="donate-progress-section__circle" (click)="activateTimelineNavigation('complete')" [class.active]="router.isActive('/donate/complete', true)"><fa-icon class="donate-progress-check" [icon]="faCheck"></fa-icon></div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<router-outlet></router-outlet>
 		</div>
-		<router-outlet></router-outlet>
 	</div>
 </div>
