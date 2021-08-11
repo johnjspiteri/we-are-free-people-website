@@ -2,7 +2,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Consultation } from '_application/donate/interface';
-import { ConsultationSubmitService } from '_application/donate/register/service';
 // import { ConsultationState } from '_application/donate/state';
 
 @Component({
@@ -16,7 +15,7 @@ export class VolunteerJoinComponent {
 	public options: string[] = ['Email', 'Phone', 'Text'];
 	private payload: Consultation;
 
-	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private formBuilder: FormBuilder, private router: Router) {
+	constructor(private activatedRoute: ActivatedRoute, private formBuilder: FormBuilder, private router: Router) {
 		this.form = this.formBuilder.group({
 			name: this.formBuilder.group({
 				first: ['', { validators: [Validators.required] }],
@@ -52,14 +51,6 @@ export class VolunteerJoinComponent {
 					number: this.form.value.number,
 				},
 			};
-			this.consultationSubmitService
-				.post(this.payload)
-				.then(() => {
-					this.router.navigate(['consultation'], { relativeTo: this.activatedRoute });
-				})
-				.catch((error) => {
-					this.submitted = false;
-				});
 		} else {
 			this.submitted = false;
 		}
