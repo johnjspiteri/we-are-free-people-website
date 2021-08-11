@@ -28,10 +28,6 @@ const routes: Routes = [
 				path: 'complete',
 				component: DonateCompleteComponent,
 			},
-			{
-				path: 'register',
-				component: DonateRegisterComponent,
-			},
 		],
 	},
 ];
