@@ -10,7 +10,7 @@ const routes: Routes = [
 	},
 	{
 		path: 'one-time',
-		loadChildren: () => import('./one-time/module').then((module) => module.OnetimeModule),
+		loadChildren: () => import('./one-time/module').then((module) => module.OneTimeModule),
 	},
 	{
 		path: 'monthly',
