@@ -4,9 +4,9 @@
 
 <mat-sidenav-container [hasBackdrop]="false">
 	<mat-sidenav #navigation mode="over" [opened]="panel" disableClose="true">
-		<div class="panel">
-			<div class="panel__container">
-				<div class="panel__buttons">
+		<div id="panel">
+			<div id="panel__container">
+				<div id="panel__buttons">
 					<h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1>
 					<h1 routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()">Articles</h1>
 					<h1 routerLink="/donate/amount" routerLinkActive="active" (click)="closeNavigationPanel()">Donate</h1>
@@ -15,10 +15,56 @@
 					<!--					<h1 routerLink="/about" routerLinkActive="active" (click)="closeNavigationPanel()">About</h1>-->
 					<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
 				</div>
+				<div class="panel-columns">
+					<div class="panel-column">
+						<div class="panel-column-row">
+							<h6>PREVIEW</h6>
+						</div>
+						<h2 routerLink="/features" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="5">FEATURES</h2>
+						<h2 routerLink="/features" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="6">BENEFITS</h2>
+						<h2 routerLink="/answers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">ANSWERS</h2>
+					</div>
+
+					<div class="panel-column">
+						<div class="panel-column-row">
+							<h6>LEARN</h6>
+						</div>
+						<h2 routerLink="/features" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="8">MARKETING</h2>
+						<h2 routerLink="/features" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="9">RANKING</h2>
+						<h2 routerLink="/answers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="10">SALES</h2>
+					</div>
+
+					<div class="panel-column">
+						<div class="panel-column-row">
+							<h6>SUPPORT</h6>
+						</div>
+						<h2 class="active" routerLink="/answers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="11">ANSWERS</h2>
+						<h2 routerLink="/support" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="12">TECHNICAL</h2>
+						<h2 routerLink="/support" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">SALES</h2>
+					</div>
+
+					<div class="panel-column">
+						<div class="panel-column-row">
+							<h6>COMPANY</h6>
+						</div>
+						<h2 routerLink="/company/about" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="14">ABOUT</h2>
+						<h2 routerLink="/company/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="15">CAREERS</h2>
+						<h2 routerLink="/company/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="16">CONTACT</h2>
+					</div>
+
+					<div class="panel-column">
+						<div class="panel-column-row">
+							<h6>LEGAL</h6>
+						</div>
+						<h2 routerLink="/company/privacy-policy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="17">PRIVACY POLICY</h2>
+						<h2 routerLink="/company/terms-of-service" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="18">TERMS OF USE</h2>
+					</div>
+				</div>
 			</div>
-			<div class="panel__left">
-				<div class="panel__close" (click)="closeNavigationPanel()">
-					<fa-icon class="panel__caret" [icon]="faCaretLeft"></fa-icon>
+
+			<div id="panel__left">
+				<div id="panel__close" (click)="closeNavigationPanel()">
+					<fa-icon id="panel__caret" [icon]="faCaretLeft"></fa-icon>
 				</div>
 			</div>
 		</div>
