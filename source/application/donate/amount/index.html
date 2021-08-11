@@ -1,36 +1,38 @@
 <div id="donate-form" [formGroup]="form">
 	<div id="donate-form__title">
 		<h1>Choose your donation amount</h1>
+<!-- 		<label for="donate-form-other">Choose your donation amount</label> -->
 	</div>
+
 	<div id="donate-form__buttons">
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('five')" [ngClass]="{ active: amounts.five }">
 			<h2>$5</h2>
 		</div>
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('ten')" [ngClass]="{ active: amounts.ten }">
 			<h2>$10</h2>
 		</div>
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('fifteen')" [ngClass]="{ active: amounts.fifteen }">
 			<h2>$15</h2>
 		</div>
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('twenty_five')" [ngClass]="{ active: amounts.twenty_five }">
 			<h2>$25</h2>
 		</div>
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('fifty')" [ngClass]="{ active: amounts.fifty }">
 			<h2>$50</h2>
 		</div>
-		<div class="donate-form-button">
+		<div class="donate-form-button" (click)="setAmount('hundred')" [ngClass]="{ active: amounts.hundred }">
 			<h2>$100</h2>
 		</div>
 	</div>
 
 	<div class="donate-form-section">
-		<label for="donate-form-other">OTHER AMOUNT</label>
+		<label for="donate-form-other">Other Amount</label>
 		<div class="donate-form-field">
-			<input id="donate-form-other" formControlName="other_amount" />
+			<input id="donate-form-other" formControlName="other_amount" (focus)="clearAmounts()" />
 		</div>
 	</div>
 
 	<div class="donate-form-section">
-		<button>SUBMIT</button>
+		<button>Enter</button>
 	</div>
 </div>

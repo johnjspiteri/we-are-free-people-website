@@ -14,11 +14,7 @@ const routes: Routes = [
 		children: [
 			{
 				path: '',
-				redirectTo: 'confirmation',
-			},
-			{
-				path: 'complete',
-				component: DonateCompleteComponent,
+				redirectTo: 'amount',
 			},
 			{
 				path: 'amount',
@@ -27,6 +23,14 @@ const routes: Routes = [
 			{
 				path: 'payment',
 				component: DonatePaymentComponent,
+			},
+			{
+				path: 'complete',
+				component: DonateCompleteComponent,
+			},
+			{
+				path: 'register',
+				component: DonateRegisterComponent,
 			},
 		],
 	},
