@@ -23,20 +23,12 @@
 			font-size 13px
 
 	&-author
-		display: flex
-		flex-direction row
-		width:max-content
-		max-width 763px
 		margin 0 0 20px 0
-		padding 6px 12px
-		justify-content center
-		align-items center
-
 
 		img
-			width 56px
-			height 56px
-			margin 0 0 0 8px
+			width 58px
+			height 58px
+			margin 0 16px 0 8px
 
 		h1
 		h2
@@ -48,97 +40,18 @@
 			font-size 12px
 			line-height 12px
 
-		&-left
-		&-right
-			display: flex
-			flex-direction column
-			justify-content: center
-			padding-left:20px
-			padding-right:20px
-
-		&-right
-			align-items center
-			justify-content: center
-			padding-left 20px
-			border-left: 2px solid $secondary-background-color
-
-			h1
-				width: max-content
-				height: auto
-				margin 0 0px 0 0
-				font-size 13px
-				line-height 13px
-				text-transform: uppercase
-	&__tags
-		display flex
-		flex-direction row
-		justify-content: flex-start
-		align-items: center
-		width: 100%
-		max-width:100%
-		color $white-color
-
-	&__tag
-		color $white-color
-		font-size: 14px
-		line-height 14px
-		font-family $secondary-font
-		font-weight:$secondary-font-weight-300
-		margin-right 4px
-
-	a
-		font-family $primary-font
-		font-weight:$primary-font-weight-400
-		color $white-color
-		font-size: 14px
-		line-height 14px
-		text-transform: uppercase
-		text-decoration-color $blue-border-color
-		text-decoration-thickness 1.5px
-		text-underline-offset 1.5px
-
-		&::after
-			content: ","
-			margin-right 4px
-			text-decoration-color rgba(0,0,0,0)
-
-		&:last-child::after
-			content ""
-
-	&__introduction
+	&__summary
 		margin-bottom: 25px
-		padding-bottom: 25px
-		border-bottom $tertiary-button-inactive-border-bottom
 
 		p
-			font-size 21px
-			line-height 22px
-			font-family $secondary-font
-			font-weight $secondary-font-weight-300
-
-		span
-			display inline-block
-			float: left
-			font-size 21px
-			line-height:22px
-			color $red-color
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
-			text-transform: uppercase
-			margin-right: 4px
-
-		svg
-			margin-left 12px
-			float right
-			font-size 18px
-			line-height 18px
-			transform: rotate(90deg)
+			font-size 14px
+			line-height 24px
 
 	&__social
 		margin 0 0 20px 0
 
 	&__share
-		padding 0 20px 0 20px
+		padding 0 20px
 
 		h1
 			height: 38px
@@ -171,22 +84,27 @@
 		font-size: 23px
 
 	&__helpful
+		width: 284px
 		margin-bottom 20px
 		padding 14px 20px 12px 20px
 
 		h1
 			margin: 0 0 12px 0
-			font-size 15px
+			font-size 14px
 			line-height 20px
 
 	&__check
 	&__times
+		margin: 0 10px 0 0
 		font-size 17px
 
 .find-button
-	width 94px
+	width 110px
 	height 33px
-	margin 0 10px 0 0
+	margin 0 20px 0 0
+
+	h4
+		font-size 15px
 
 .find-body
 	height 30px
@@ -194,7 +112,7 @@
 	h6
 		height 30px
 		padding 0 14px 0 10px
-		border-radius $border-radius-right
+		border-radius $radius-right
 		font-size 12px
 		line-height 30px
 
