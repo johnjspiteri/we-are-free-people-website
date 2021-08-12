@@ -1,20 +1,20 @@
 <div id="structure-container">
 	<div id="donate">
 		<div id="donate__content">
-			<h1>DONATE NOW &amp; HELP US SECURE THE RIGHTS OF EVERY <span>PERSON ON EARTH!</span></h1>
+			<h1>Donate Now &amp; Help Us Secure The Rights Of Every <span>Person On Earth!</span></h1>
 			<p>We have a transparent approach to handling our finances where every dollar spent is visible and auditable.</p>
 
 			<div id="donate__points">
-				<div class="donate-point">
+				<div class="donate-point" routerLink="/donate/one-time" routerLinkActive="active">
 					<div class="donate-point__content">
-						<!--						<fa-icon class="subscribe-point__check" [icon]="faCheck"></fa-icon>-->
+						<fa-icon class="donate-point__check" [icon]="faCheck"></fa-icon>
 						<h2>One-Time Donation</h2>
 					</div>
 				</div>
 
-				<div class="donate-point">
+				<div class="donate-point" routerLink="/donate/monthly" routerLinkActive="active">
 					<div class="donate-point__content">
-						<!--						<fa-icon class="subscribe-point__check" [icon]="faCheck"></fa-icon>-->
+						<fa-icon class="donate-point__check" [icon]="faCheck"></fa-icon>
 						<h2>Monthly Donation</h2>
 					</div>
 				</div>
@@ -26,13 +26,13 @@
 				<div id="donate-progress">
 					<div class="donate-progress-sections">
 						<div class="donate-progress-section">
-							<h1 (click)="activateTimelineNavigation('amount')">AMOUNT</h1>
+							<h1 (click)="activateTimelineNavigation('amount')">Choose Amount</h1>
 						</div>
 						<div class="donate-progress-section">
-							<h1 (click)="activateTimelineNavigation('payment')">PAYMENT</h1>
+							<h1 (click)="activateTimelineNavigation('payment')">Make Payment</h1>
 						</div>
 						<div class="donate-progress-section">
-							<h1 (click)="activateTimelineNavigation('complete')">COMPLETE</h1>
+							<h1 (click)="activateTimelineNavigation('complete')">Donation Complete</h1>
 						</div>
 					</div>
 

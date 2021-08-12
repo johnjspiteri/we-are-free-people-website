@@ -4,7 +4,7 @@ import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-	selector: 'legal-donate',
+	selector: 'website-donate',
 	templateUrl: './index.html',
 	encapsulation: ViewEncapsulation.None,
 })

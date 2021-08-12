@@ -23,21 +23,15 @@
 			font-family $secondary-font
 			font-weight $secondary-font-weight-400
 			font-size 13px
-			line-height 20px
+			line-height 21px
 			color $tertiary-paragraph-color
 			text-align center
 
 	&__title
 		float left
-		width 270px
-		margin 0 0 14px 35px
-		padding 7px 0 9px 0
-		background $tertiary-button-inactive-background-color
-		border $tertiary-button-inactive-border
-		border-bottom $tertiary-button-inactive-border-bottom
-		border-top none
-		border-radius $radius-bottom
-		box-sizing border-box
+		width 280px
+		margin 12px 0 20px 30px
+		padding 0
 
 		h1
 			float left
@@ -46,45 +40,38 @@
 			padding 0
 			font-family $primary-font
 			font-weight $primary-font-weight-400
-			font-size 15px
-			line-height 20px
-			color $tertiary-button-text-inactive-color
+			font-size 16px
+			line-height 23px
+			color $tertiary-title-color
 			text-align center
 
-		h1.medium
-		h1.small
-			display: none
-
-		h1.large
-			display block
+			span
+				padding 0 0 4px 0
+				border-bottom: 3px solid $tertiary-button-active-background-color
 
 	&__arrow
-		margin 2px 0 0 6px
+		//display: none
+		margin 1px 0 0 8px
 		padding 0
-		font-size 17px
-		--fa-primary-color $tertiary-button-text-inactive-color
-		--fa-secondary-color $tertiary-button-text-inactive-color
+		font-size 16px
+		--fa-primary-color $tertiary-button-inactive-text-color
+		--fa-secondary-color $tertiary-button-inactive-text-color
 		--fa-primary-opacity 1
 		--fa-secondary-opacity 1
 
 	&__time
 		float left
-		width 272px
-		margin 0 0 0 33px
+		width 256px
+		margin 0 0 14px 42px
 		padding 0
+		//background #ccc
 
 	&__paragraph
 		float left
 		width 100%
-		margin 12px 0 12px 0
+		margin 0 0 16px 0
 		padding 0 10px
 		box-sizing border-box
-
-		p.small
-			display none
-
-		p.large
-			display block
 
 	&__holder
 		float: left
@@ -102,8 +89,8 @@
 
 	&__close
 		position: absolute
-		width: 50px
-		height: 50px
+		width: 44px
+		height: 44px
 		margin: 0
 		padding: 0
 		right: 0
@@ -113,20 +100,20 @@
 		float: left
 		width: 0;
 		height: 0;
-		border-top: 50px solid $black-color
-		border-left: 50px solid transparent;
+		border-top: 44px solid $tertiary-button-inactive-background-color
+		border-left: 44px solid transparent;
 		right: 0
 
 	&__times
 		display flex
-		position: absolute
-		width: 25px
-		height: 25px
-		right: 0
-		margin: 0
-		padding: 0
-		font-size 22px
-		color $white-color
+		position absolute
+		width 22px
+		height 24px
+		right 0
+		margin 0
+		padding 0
+		font-size 16px
+		color $tertiary-button-inactive-text-color
 		align-items center
 		justify-content center
 		text-align center
@@ -135,15 +122,15 @@
 
 .header-pitch-square
 	float left
-	width 84px
-	margin 0 10px 0 0
+	width 80px
+	margin 0 8px 0 0
 	padding 0
 	box-sizing border-box
 
 	h3
 		float left
 		width 100%
-		height 21px
+		height 18px
 		margin 0
 		padding 0
 		font-family $secondary-font
@@ -154,9 +141,9 @@
 
 	&__value
 		float: left
-		width: 39px
+		width: 38px
 		height: 42px
-		margin 0 6px 0 0
+		margin 0 4px 0 0
 		padding 0
 
 	&__value:last-child
@@ -194,12 +181,13 @@
 			margin 0
 			padding 0
 			font-family $secondary-font
-			font-size 19px
+			font-size 20px
 			font-weight $secondary-font-weight-400
 			color $tertiary-paragraph-color
 			align-items center
 			justify-content center
 			text-align center
+
 
 .header-pitch-square:last-child
 	margin: 0
@@ -209,9 +197,9 @@
 	width 300px
 	margin 0 0 0 20px
 	padding 7px 0 9px 0
-	background $tertiary-button-inactive-background-color
-	border $tertiary-button-inactive-border
-	border-bottom $tertiary-button-inactive-border-bottom
+	background $tertiary-button-active-background-color
+	border $tertiary-button-active-border
+	border-bottom $tertiary-button-active-border-bottom
 	border-radius $radius
 	box-shadow none
 	cursor pointer
@@ -227,7 +215,7 @@
 		font-weight $primary-font-weight-400
 		font-size 14px
 		line-height 20px
-		color $tertiary-button-text-inactive-color
+		color $tertiary-button-text-active-color
 		text-align center
 
 	h2.small
