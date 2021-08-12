@@ -1,4 +1,4 @@
-<div id="donate-form" [formGroup]="form">
+<div id="donate-form" [formGroup]="form" (ngSubmit)="submit()" novalidate="novalidate">
 	<div id="donate-form__title">
 		<label>Choose your donation amount</label>
 		<!-- 		<label for="donate-form-other">Choose your donation amount</label> -->
@@ -33,6 +33,6 @@
 	</div>
 
 	<div class="donate-form-section">
-		<button>Enter</button>
+		<button type="submit" [disabled]="form.status === 'INVALID' || form.status === 'PENDING' || submitted" tabindex="8">Enter</button>
 	</div>
 </div>

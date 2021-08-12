@@ -11,6 +11,7 @@ import { PANEL } from '_application/common/store/panel/selectors';
 import * as fromPanelActions from '_application/common/store/panel/actions';
 interface State {
 	[key: string]: boolean;
+	pitch: boolean;
 }
 
 @Component({
@@ -33,6 +34,7 @@ export class HeaderComponent implements OnInit {
 	public panel: boolean = false;
 	public state: State = {
 		industry: false,
+		pitch: true,
 		category: false,
 		product: false,
 		section: false,
@@ -53,5 +55,8 @@ export class HeaderComponent implements OnInit {
 		this.store.dispatch(fromPanelActions.OPEN());
 	}
 
-	closeModal() {}
+	public closePitchPanel(): void {
+		this.state.pitch = false;
+		console.log('I will close ths pitch', this.state.pitch);
+	}
 }
