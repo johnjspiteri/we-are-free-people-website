@@ -1,0 +1,218 @@
+.mat-sidenav
+	position: fixed
+	width: 275px
+	height: 100%
+	min-height: 100%
+	top 0
+	left: 0
+	bottom 0
+	margin: 0
+	padding: 0
+	background: nonew
+	outline: none
+	z-index 9999
+	//-webkit-transform translate3d(0%, 0, 0)
+	//transform translate3d(0%, 0, 0)
+	overflow: scroll
+
+#panel
+	position: absolute
+	width: 210px
+	min-height: 100%
+	height: 100%
+	margin: 0
+	padding: 0
+	z-index: 100;
+
+	&__container
+		float: left
+		width: 165px
+		min-height: 100%
+		padding: 0 0 0 15px
+		margin: 0
+		background: $base-background-color
+		border-right: $black-border
+
+	&__buttons
+		float: left
+		width: 140px
+		margin: 0 0 20px 0
+		padding: 15px 0 0 0
+
+		h1
+			float: left
+			font-family: $primary-font
+			font-weight: $primary-font-weight-400
+			font-size: 14px
+			line-height: 24px
+			text-shadow none
+			width: 118px
+			padding: 9px 10px 6px 10px
+			margin: 0 0 11px 0
+			color: $base-button-inactive-text-color
+			background: $base-button-inactive-background-color
+			border: $base-button-inactive-border
+			border-radius: $radius
+			text-align: center
+			text-decoration none
+			cursor: pointer
+			outline: none
+
+		h1.active
+			color: $base-button-active-text-color
+			background: $base-button-active-background-color
+			border: $base-button-active-border
+
+	&__spacer
+		float: left
+		width: 100%
+		height: 18px
+		padding: 0
+		margin: 0
+
+	&__tile.active
+		background: $blue
+		border: $blue-border
+
+	&__left
+		float: left
+		width: 26px
+		height: 41px
+		margin: 0
+		padding: 0
+
+	&__close
+		float: left
+		width: 100%
+		height: 100%
+		padding: 0 4px 0 0
+		margin: 14px 0 0 -1px
+		background: $base-background-color
+		border: $black-border
+		border-left: none
+		border-radius: $radius-right
+		cursor: pointer
+		outline: none
+
+	&__caret
+		display: flex
+		width: 100%
+		height: 100%
+		margin: 0
+		padding: 0
+		font-size: 18px
+		color: $black-color
+		align-items: center
+		justify-content: center
+		box-sizing: border-box
+
+	&__language
+		position: absolute
+		padding: 0
+		max-height: 40px
+		bottom 30px
+		right: 120px
+		margin: 0
+
+	&__flag
+		border-radius: $radius
+		background: $teal-color
+		float: left
+		margin: 0
+		padding: 4px 18px 4px 4px
+
+		img
+			border-radius: $radius
+			width: 40px
+			height: 30px
+
+	&__lang-caret
+		font-size: 18px
+		line-height: 25px
+		margin: 4px 0 0 10px
+		padding: 0
+		color: $black-color
+
+	&__languages
+		position: relative
+		bottom 200px
+		left: 40px
+		margin: 0
+		padding: 0
+		backgorund $teal-color
+		border-radius: $radius
+		img
+			float: left
+			width: 40px
+			border-radius: $radius
+			margin: 0 0px 4px 0
+
+	&__holder
+		float: left
+		background: $teal-color
+		max-width: 40px
+		padding: 8px
+		margin: 0
+		border-radius: $radius
+
+#panel::-webkit-scrollbar
+	width: 0 !important
+
+.panel-column-row
+	float: left
+	width: 100%
+	margin: 0 0 10px 0
+	padding: 0
+
+	h6
+		display: flex
+		float: left
+		height: 100%
+		margin: 0
+		padding: 0
+		font-family: $primary-font
+		font-weight: $primary-font-weight-500
+		font-size: 11px
+		color: $primary-label-color
+		justify-self: left
+		align-items: center
+		text-shadow none
+		outline: none
+		cursor: pointer
+		text-transform: uppercase
+
+	h6.active
+		color: $primary-option-active-color
+
+.panel-columns
+	float: left
+	width: 100%
+	margin: 0
+	padding: 0
+
+.panel-column
+	float: left
+	width: 118px
+	margin: 0 0 18px 0
+	padding: 0
+
+	h2
+		display: block
+		margin: 0 0 11px 0
+		padding: 0
+		font-family: $primary-font
+		font-weight: $primary-font-weight-500
+		font-size: 12px
+		line-height: 12px
+		color: $primary-option-inactive-color
+		cursor: pointer
+
+		&.active
+		&:focus
+			//outline: none
+			//color: $primary-option-active-color
+			color: $tertiary-button-text-inactive-color
+
+
+	&:last-child
+		width: 100%

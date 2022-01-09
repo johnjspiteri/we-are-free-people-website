@@ -1,0 +1,273 @@
+#header-pitch
+	//display: none
+	float: left
+	width: 100%
+	margin: 0
+	padding: 0 0 12px 0
+	background: $tertiary-background-color
+	border: none
+	border-bottom: $tertiary-on-primary-border-bottom
+
+	&__container
+		position: relative
+		width: 340px
+		margin: 0 auto
+		padding: 0
+		z-index $z-index-structure
+
+		p
+			float: left
+			width: 100%
+			margin: 0
+			padding: 0
+			font-family: $secondary-font
+			font-weight: $secondary-font-weight-400
+			font-size: 13px
+			line-height: 21px
+			color: $tertiary-paragraph-color
+			text-align: center
+
+	&__title
+		float: left
+		width: 280px
+		margin: 12px 0 20px 30px
+		padding: 0
+
+		h1
+			float: left
+			width: 100%
+			margin: 0
+			padding: 0
+			font-family: $primary-font
+			font-weight: $primary-font-weight-400
+			font-size: 16px
+			line-height: 23px
+			color: $tertiary-title-color
+			text-align: center
+
+			span
+				padding: 0 0 4px 0
+				border-bottom: 3px solid $tertiary-button-active-background-color
+
+	&__arrow
+		//display: none
+		margin: 1px 0 0 8px
+		padding: 0
+		font-size: 16px
+		--fa-primary-color: $tertiary-button-inactive-text-color
+		--fa-secondary-color: $tertiary-button-inactive-text-color
+		--fa-primary-opacity: 1
+		--fa-secondary-opacity: 1
+
+	&__time
+		float: left
+		width: 256px
+		margin: 0 0 14px 42px
+		padding: 0
+		//background: #ccc
+
+	&__paragraph
+		float: left
+		width: 100%
+		margin: 0 0 16px 0
+		padding: 0 10px
+		box-sizing: border-box
+
+	&__holder
+		float: left
+		width: 100%
+		margin: 0
+		padding: 0
+
+	&__buttons
+		float: left
+		margin: 0
+		padding: 0
+
+	&__review
+		display: none
+
+	&__sun
+		position: absolute
+		width: 70px
+		height: 70px
+		margin: -35px 0 0 -35px
+		padding: 0
+		left: 0
+		top: 0
+		background: #ff0
+		z-index: 99999
+		border-radius: $radius-circle
+
+	&__clouds
+		float: left
+		width: 100%
+		height: 50px
+		margin: 0
+		padding: 0
+		background: #f9f
+		overflow: hidden
+
+	&__close
+		position: absolute
+		width: 44px
+		height: 44px
+		margin: 0
+		padding: 0
+		right: 0
+		z-index: 99999
+
+	&__triangle
+		float: left
+		width: 0;
+		height: 0;
+		border-top: 44px solid $tertiary-button-inactive-background-color
+		border-left: 44px solid transparent;
+		right: 0
+
+	&__times
+		display: flex
+		position: absolute
+		width: 22px
+		height: 24px
+		right: 0
+		margin: 0
+		padding: 0
+		font-size: 16px
+		color: $tertiary-button-inactive-text-color
+		align-items: center
+		justify-content: center
+		text-align: center
+		z-index: 99999
+		cursor: pointer
+
+.header-pitch-square
+	float: left
+	width: 80px
+	margin: 0 8px 0 0
+	padding: 0
+	box-sizing: border-box
+
+	h3
+		float: left
+		width: 100%
+		height: 18px
+		margin: 0
+		padding: 0
+		font-family: $secondary-font
+		font-weight: $secondary-font-weight-600
+		font-size: 9px
+		color: $tertiary-label-color
+		text-align: center
+
+	&__value
+		float: left
+		width: 38px
+		height: 42px
+		margin: 0 4px 0 0
+		padding: 0
+
+	&__value:last-child
+		margin: 0
+
+	&__half
+		float: left
+		width: 38px
+		height: 21px
+		margin: 0
+		background: #e2e2e2
+		border-radius: $radius-bottom
+		border: 1px solid #a8a8a8
+		border-bottom: 3px solid #626262
+		border-top: none
+		box-sizing: border-box
+
+	&__half:first-child
+		background: #fff
+		border-radius: $radius-top
+		border: 1px solid #a8a8a8
+		border-bottom: 1px solid #a8a8a8
+
+	&__number
+		position: absolute
+		width: 38px
+		height: 40px
+		margin: 0
+		padding: 0
+
+		h4
+			display: flex
+			width: 100%
+			height: 100%
+			margin: 0
+			padding: 0
+			font-family: $secondary-font
+			font-size: 20px
+			font-weight: $secondary-font-weight-400
+			color: $tertiary-paragraph-color
+			align-items: center
+			justify-content: center
+			text-align: center
+
+
+.header-pitch-square:last-child
+	margin: 0
+
+.header-pitch-button
+	float: left
+	width: 300px
+	margin: 0 0 0 20px
+	padding: 7px 0 9px 0
+	background: $tertiary-button-active-background-color
+	border: $tertiary-button-active-border
+	border-bottom: $tertiary-button-active-border-bottom
+	border-radius: $radius
+	box-shadow: none
+	cursor: pointer
+	outline: none
+	box-sizing: border-box
+
+	h2
+		float: left
+		width: 100%
+		margin: 0
+		padding: 0
+		font-family: $primary-font
+		font-weight: $primary-font-weight-400
+		font-size: 14px
+		line-height: 20px
+		color: $tertiary-button-text-active-color
+		text-align: center
+
+	h2.small
+		display: none
+
+.header-pitch-button:last-child
+	display: none
+
+.header-pitch-cloud
+	float: left
+	margin: 0
+	padding: 0
+
+#header-pitch-cloud-a
+	width: 120px
+	height: 30px
+	background: #fff
+
+#header-pitch-cloud-b
+	width: 120px
+	height: 50px
+	background: #ccc
+
+#header-pitch-cloud-c
+	width: 120px
+	height: 30px
+	background: #f00
+
+#header-pitch-cloud-d
+#header-pitch-cloud-e
+#header-pitch-cloud-f
+#header-pitch-cloud-g
+#header-pitch-cloud-h
+	display: none
