@@ -1,0 +1,25 @@
+body
+	margin: 0
+	padding: 0
+	background: var(--base-background-color)
+
+#structure
+	width: 100%
+	min-height: 100vh
+	display: grid
+	grid-template-rows: auto 1fr auto
+	background: var(--base-background-color)
+	grid-template-areas: "header" "main" "footer"
+
+	&__main
+		float: left
+		grid-area: main
+		width: 100%
+		justify-self: center
+		background: var(--base-background-color)
+
+#structure-container
+	position: relative
+	width: 360px
+	margin: $margin-top-page-360 auto $margin-bottom-page-360 auto
+	z-index: 9999999

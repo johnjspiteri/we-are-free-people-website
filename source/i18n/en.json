@@ -1,0 +1,814 @@
+{
+	"AUTOMOTIVE": "AUTOMOTIVE",
+	"LEGAL": "LEGAL",
+	"MEDICAL": "MEDICAL",
+	"MECHANIC": "MECHANIC",
+	"NEW_CAR": "NEW CAR",
+	"USED_CAR": "USED CAR",
+	"WEBSITES": "WEBSITES",
+	"MARKETING": "MARKETING",
+	"EMAIL": "EMAIL",
+	"DOMAINS": "DOMAINS",
+	"PREVIEW": "PREVIEW",
+	"FEATURES": "FEATURES",
+	"COMPARISON": "COMPARISON",
+	"BENEFITS": "BENEFITS",
+
+	"PANEL": {
+		"BUTTON": "ENTER SELECTION",
+		"COMING_SOON": "COMING SOON",
+		"LABELS": {
+			"INDUSTRY": "INDUSTRY",
+			"CATEGORY": "CATEGORY",
+			"PRODUCT": "PRODUCT",
+			"SECTION": "SECTION"
+		},
+		"TITLE": "FIND YOUR SOLUTION"
+	},
+	"HEADER": {
+		"PITCH": {
+			"TITLE": "THIS OFFER ENDS IN",
+			"DAYS": "DAYS",
+			"HOURS": "HOURS",
+			"MINUTES": "MINUTES",
+			"SUBSCRIBE": {
+				"BUTTON": "SUBSCRIBE NOW FOR €198 PER YEAR",
+				"PARAGRAPH": {
+					"SMALL": "Receive 3 months free with a yearly subscription and lock-in your price for life contract-free",
+					"LARGE": "Receive 3 months free with a yearly subscription and lock-in your price for life without a contract, with free updates, hosting, maintenance, and support included contract-free"
+				}
+			},
+			"REVIEW": {
+				"BUTTON": "GET A FREE ONLINE PRESENCE REVIEW",
+				"PARAGRAPH": "Your online presence will get a free review, covering seo, loading speed, and usability!"
+			}
+		},
+		"BANNER": {
+			"LOGIN": "LOGIN",
+			"DEMO": {
+				"SMALL": "FREE PRODUCT DEMO",
+				"LARGE": "GET A FREE PRODUCT DEMO"
+			},
+			"ANSWERS": "ANSWERS",
+			"ARTICLES": "ARTICLES",
+			"RESELLERS": "RESELLERS",
+			"SUPPORT": "SUPPORT",
+			"SUBSCRIBE": "SUBSCRIBE"
+		},
+		"CONTENT": {
+			"FIND_YOUR_SOLUTION": "FIND YOUR SOLUTION",
+			"CHOOSE_INDUSTRY": "CHOOSE INDUSTRY",
+			"CHOOSE_PRODUCT": "CHOOSE PRODUCT",
+			"CHOOSE_CATEGORY": "CHOOSE CATEGORY",
+			"CHOOSE_SECTION": "CHOOSE SECTION",
+			"HOW_WE_IMPROVE_YOUR_BUSINESS": "HOW WE IMPROVE YOUR BUSINESS"
+		}
+	},
+	"FOOTER": {
+		"COMPANY": {
+			"PARAGRAPH": "We provide and manage every aspect of a professional online presence, for a contract-free monthly subscription"
+		},
+		"DEMO": {
+			"TITLE": "GET A PERSONALIZED & TAILORED DEMO",
+			"PARAGRAPH": "We give you a personal and tailored product demo specific to your business!",
+			"BUTTON": "LET US HELP YOU"
+		},
+		"LEGAL": {
+			"PRIVACY_POLICY": "Privacy Policy",
+			"TERMS_OF_USE": "Terms OF Use",
+			"COPYRIGHT": "©2021 Interface Agency"
+		}
+	},
+	"COOKIE": {
+		"TITLE": "COOKIE POLICY",
+		"PARAGRAPH": "This website and its third party tools use cookies for the purposes outlined in our <a [href]=\"cookiesURL\">privacy policy</a>",
+		"BUTTONS": {
+			"ACCEPT": "ACCEPT",
+			"REJECT": "REJECT"
+		}
+	},
+	"RELOAD": {
+		"TITLE": "RELOAD BROWSER",
+		"PARAGRAPH": "A newer version of this site is available. Please refresh this page to activate it",
+		"BUTTONS": {
+			"ACCEPT": "ACCEPT",
+			"CLOSE": "REJECT"
+		}
+	},
+	"EXIT": {
+		"TITLE": "HOW MUCH MORE TRAFFIC SHOULD YOU ACTUALLY BE GETTING",
+		"PARAGRAPH": "Take my traffic quiz and ge customized advice the will walk you through how can get more traffic and rank higher on Google in less than 30 days",
+		"BUTTONS": {
+			"START": "START THE QUIZ"
+		}
+	},
+	"CHAT": {
+		"TITLE": "HOW CAN WE HELP?",
+		"PARAGRAPH": "Thanks for visiting! If You have any questions about Interface enterprise products, feel free to sent us a note!",
+		"BUTTONS": {
+			"START": "START THE QUIZ"
+		}
+	},
+	"COMPANY": {
+		"ROADMAP": {
+			"TITLE": "Timeline, Milestones &amp; Roadmap",
+			"PARAGRAPH": "View The XStudio timeline, milestones, and roadmap, including where the team and product are headed, and what we have already accomplished.",
+			"BUTTONS": {
+				"LIFT-OFF": "LIFT-OFF",
+				"IGNITION": "IGNITION",
+				"ACCELERATION": "ACCELERATION",
+				"SKYWARD": "SKYWARD",
+				"METAVERSE": "METAVERSE"
+			},
+			"SECTION_1": {
+				"TITLE": "Q2 - 2021",
+				"PARAGRAPH_ONE": "Pre-Seed Round",
+				"PARAGRAPH_TWO": "Artist &amp; Board Partnerships"
+			},
+			"SECTION_2": {
+				"TITLE": "Q3 - 2021",
+				"PARAGRAPH_ONE": "Native Token Development",
+				"PARAGRAPH_TWO": "Advisors &amp; Partner Integration"
+			},
+			"SECTION_3": {
+				"TITLE": "Q4 - 2021",
+				"PARAGRAPH_ONE": "Mintlayer Testnet",
+				"PARAGRAPH_TWO": "Token PR &amp; Marketing"
+			},
+			"SECTION_4": {
+				"TITLE": "Q1 - 2022",
+				"PARAGRAPH_ONE": "Whitelist &amp; Drop Registration",
+				"PARAGRAPH_TWO": "Marketplace Development"
+			},
+			"SECTION_5": {
+				"TITLE": "Q2 - 2022",
+				"PARAGRAPH_ONE": "Seed round",
+				"PARAGRAPH_TWO": "Mintlayer Mainnet"
+			},
+			"SECTION_6": {
+				"TITLE": "Q3 - 2022",
+				"PARAGRAPH_ONE": "T.C.E The XStudio Token",
+				"PARAGRAPH_TWO": "Development of Creative Hub"
+			},
+			"SECTION_7": {
+				"TITLE": "Q4 - 2022",
+				"PARAGRAPH_ONE": "Beta Marketplace Launch",
+				"PARAGRAPH_TWO": "Bonus Public IDO"
+			},
+			"SECTION_8": {
+				"TITLE": "Q1 - 2023",
+				"PARAGRAPH_ONE": "Marketplace Launch",
+				"PARAGRAPH_TWO": "Launch Range of NFT's"
+			},
+			"SECTION_9": {
+				"TITLE": "Q2 - 2023",
+				"PARAGRAPH_ONE": "X NFT Drop",
+				"PARAGRAPH_TWO": "Art Ownership Program"
+			},
+			"SECTION_10": {
+				"TITLE": "Q3 - 2023",
+				"PARAGRAPH_ONE": "Listing of Multichain NFTs",
+				"PARAGRAPH_TWO": "Artist Network Bridge"
+			}
+		},
+		"ABOUT": {
+			"TITLE": "HISTORY &amp; MILESTONES",
+			"PARAGRAPH": "Thanks for visiting! If You have any questions about Interface enterprise products, feel free to sent us a note!"
+		},
+		"LEGAL": {
+			"PRIVACY": {
+				"TITLE": "PRIVACY POLICY",
+				"MODIFIED": "Last modified:",
+				"FEBRUARY": "FEBRUARY 28,2019",
+				"CONTENT": "<p>This privacy policy is included in the Terms of Use Agreement by reference.</p>\n<p>Interface Agency collects and uses personal information for many purposes, including but not limited to, billing; product and service fulfilment; understanding client needs; website improvement; product and service improvement; transactions; communication with customers and potential customers regarding products and services and third party products and services. Clients’ private information will only be disclosed to Interface Agency's owners, employees, independent contractors, and service providers, acting on Interface Agency’s’ behalf or request. This is an <a>example reference</a> of an inline link.</p>\n<div class=\"legal-section\">\n<h2>INFORMATION COLLECTED BY THE ISP</h2>\n<p>The hosting provider for clients’ internet site has the ability to record various information, including domain name, pages accessed, date and time of access, web browser type and computer operating system, and referring information, and to disclose this information.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>FINANCIAL INFORMATION FOR BILLING PURPOSES</h2>\n<p>When sales are made by Interface Agency, financial information must be disclosed. This information can include any number of facts Licensee is asked to provide, but most commonly includes name, financial / credit card information, billing address, and email address.</p>\n<p>In the event Interface Agency receives financial/credit card information, we will not disclose it to anyone unless disclosure is required by law or a court order, or unless disclosure is required to address an issue implicated by the financial transaction. If client claims that their financial information was used to make a purchase they did not authorise, details about the financial transaction may be disclosed to law enforcement and anyone else deemed necessary to address the matter.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>USE OF EMAIL ADDRESSES AND OTHER CONTACT INFORMATION</h2>\n<p>Interface Agency relies heavily on the use of email, telephone and the internet to provide information to the client and client expressly consents to receiving communications via email, text or voice message to cell phone, fax, telephone, mail, or any other delivery method.</p>\n<p>Client agrees to receive information about the product or service purchased. This may include, but is not limited to, information about product or service updates, new features, or information Interface Agency believes the client may find interesting.</p>\n<p>Interface Agency will not sell, provide, or transfer Licensees email address to others and will only send information about other products and services when they are related to a product or service already purchased, or form part of an upgrade to material.</p>\n<p>Interface Agency does not allow advertising, or engage in joint marketing ventures. Client should not receive advertisements from third parties. If client does receive an advertisement claiming to be related to Interface Agency, that fact must be made known to us immediately.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>IDENTIFICATION OF PURCHASERS</h2>\n<p>If the client purchases a product or service, and joins one of the online forums, client authorises us to use their name and correspond in the manner intended for that forum.</p>\n<p>Interface Agency also uses personal information in an aggregate form (i.e., not individually attributable to Licensees) for business analysis, operational and marketing purposes.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>COOKIES</h2>\n<p>Cookies may be used to monitor access to the website. Client consents to any future use of cookies for testing purposes and the use of cookies for publicly available data to gather statistics for the purpose of determining which search engines, referring sites, key words, etc., bring visitors to the website, which pages visitors are most interested in, what web browsers are used, etc. Various providers may be used for this purpose. The purpose is to obtain information that will help promote the website, make the website more interesting and useful to visitors, and to identify areas where improvement is needed. The client can control the use of cookies, including preventing their use, by adjusting the preferences in their web browser.</p>\n<p>Additionally, various third party information suppliers and other entities that provide information for this website, or for use by Interface Agency, may use cookies. Examples include, but are not necessarily limited to billing providers and third party resources.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>DISCLOSURE BY NECESSITY</h2>\n<p>Private information may be disclosed if required by a court order, statute, law, or regulation.</p>\n<p>Information is subject to disclosure to address a claim that a client is violating the terms of any Agreement pertaining to their use of this website or products or services, or rights of any third party.</p>\n<p>Information is also subject to disclosure if Interface Agency believes that disclosure is necessary to identify, contact or bring an action against someone who may be causing injury to or interfering (either intentionally or unintentionally) with our rights or property, clients rights or property, other users of the website, products or services, or anyone else.</p>\n<p>Interface Agency may sell or buy other businesses or entities, or it may merge with another company, or be bought by another company. In such transactions, personal information may be one of the transferred assets.</p>\n<p>Client information may be stored and processed in any country in which Interface Agency maintains facilities or conducts operations. By using this website, products and services, client consents to any such transfer of information.</p>\n<p>After clients’ account becomes inactive their information may remain in Interface Agency’s databases, computers, and archives, and cannot reasonably be eliminated for a period of ten years.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>CONSENT TO USE INFORMATION</h2>\n<p>When client communicates with Interface Agency, sends information, or provides content to the website, clients grants a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub licensable right to exercise all copyright and publicity rights they have in the content, in any manner whatsoever, in any media now known or which may be created in the future, including in other works and forms not associated with this website.</p>\n</div>",
+				"BUTTON": "DOWNLOAD PRIVACY POLICY"
+			},
+			"TERMS": {
+				"TITLE": "TERMS &amp; CONDITIONS",
+				"MODIFIED": "Last modified:",
+				"FEBRUARY": "FEBRUARY 28,2019",
+				"CONTENT": "\n\t<p>This privacy policy is included in the Terms of Use Agreement by reference.</p>\n\t<p>Interface Agency collects and uses personal information for many purposes, including but not limited to, billing; product and service fulfilment; understanding client needs; website improvement; product and service improvement; transactions; communication with customers and potential customers regarding products and services and third party products and services. Clients’ private information will only be disclosed to Interface Agencys’ owners, employees, independent contractors, and service providers, acting on Interface Agency’s’ behalf or request.</p>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMATION COLLECTED BY THE ISP</h2>\n\t\t<p>The hosting provider for clients’ internet site has the ability to record various information, including domain name, pages accessed, date and time of access, web browser type and computer operating system, and referring information, and to disclose this information.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>FINANCIAL INFORMATION FOR BILLING PURPOSES</h2>\n\t\t<p>When sales are made by Interface Agency, financial information must be disclosed. This information can include any number of facts Licensee is asked to provide, but most commonly includes name, financial / credit card information, billing address, and email address.</p>\n\t\t<p>In the event Interface Agency receives financial/credit card information, we will not disclose it to anyone unless disclosure is required by law or a court order, or unless disclosure is required to address an issue implicated by the financial transaction. If client claims that their financial information was used to make a purchase they did not authorise, details about the financial transaction may be disclosed to law enforcement and anyone else deemed necessary to address the matter.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>USE OF EMAIL ADDRESSES AND OTHER CONTACT INFORMATION</h2>\n\t\t<p>Interface Agency relies heavily on the use of email, telephone and the internet to provide information to the client and client expressly consents to receiving communications via email, text or voice message to cell phone, fax, telephone, mail, or any other delivery method.</p>\n\t\t<p>Client agrees to receive information about the product or service purchased. This may include, but is not limited to, information about product or service updates, new features, or information Interface Agency believes the client may find interesting.</p>\n\t\t<p>Interface Agency will not sell, provide, or transfer Licensees email address to others and will only send information about other products and services when they are related to a product or service already purchased, or form part of an upgrade to material.</p>\n\t\t<p>Interface Agency does not allow advertising, or engage in joint marketing ventures. Client should not receive advertisements from third parties. If client does receive an advertisement claiming to be related to Interface Agency, that fact must be made known to us immediately.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>IDENTIFICATION OF PURCHASERS</h2>\n\t\t<p>If the client purchases a product or service, and joins one of the online forums, client authorises us to use their name and correspond in the manner intended for that forum.</p>\n\t\t<p>Interface Agency also uses personal information in an aggregate form (i.e., not individually attributable to Licensees) for business analysis, operational and marketing purposes.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>COOKIES</h2>\n\t\t<p>Cookies may be used to monitor access to the website. Client consents to any future use of cookies for testing purposes and the use of cookies for publicly available data to gather statistics for the purpose of determining which search engines, referring sites, key words, etc., bring visitors to the website, which pages visitors are most interested in, what web browsers are used, etc. Various providers may be used for this purpose. The purpose is to obtain information that will help promote the website, make the website more interesting and useful to visitors, and to identify areas where improvement is needed. The client can control the use of cookies, including preventing their use, by adjusting the preferences in their web browser. This is an <a>example reference</a> of an inline link.</p>\n\t\t<p>Additionally, various third party information suppliers and other entities that provide information for this website, or for use by Interface Agency, may use cookies. Examples include, but are not necessarily limited to billing providers and third party resources.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>DISCLOSURE BY NECESSITY</h2>\n\t\t<p>rivate information may be disclosed if required by a court order, statute, law, or regulation.</p>\n\t\t<p>nformation is subject to disclosure to address a claim that a client is violating the terms of any Agreement pertaining to their use of this website or products or services, or rights of any third party.</p>\n\t\t<p>nformation is also subject to disclosure if Interface Agency believes that disclosure is necessary to identify, contact or bring an action against someone who may be causing injury to or interfering (either intentionally or unintentionally) with our rights or property, clients rights or property, other users of the website, products or services, or anyone else.</p>\n\t\t<p>Interface Agency may sell or buy other businesses or entities, or it may merge with another company, or be bought by another company. In such transactions, personal information may be one of the transferred assets.</p>\n\t\t<p>Client information may be stored and processed in any country in which Interface Agency maintains facilities or conducts operations. By using this website, products and services, client consents to any such transfer of information.</p>\n\t\t<p>After clients’ account becomes inactive their information may remain in Interface Agencys’ databases, computers, and archives, and cannot reasonably be eliminated for a period of ten years.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>CONSENT TO USE INFORMATION</h2>\n\t\t<p>When client communicates with Interface Agency, sends information, or provides content to the website, clients grants a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub licensable right to exercise all copyright and publicity rights they have in the content, in any manner whatsoever, in any media now known or which may be created in the future, including in other works and forms not associated with this website.</p>\n\t</div>\n",
+				"BUTTON": "Download Terms"
+			},
+
+			"COOKIES": {
+				"TITLE": "TERMS &amp; CONDITIONS",
+				"MODIFIED": "Last modified:",
+				"FEBRUARY": "FEBRUARY 28,2019",
+				"CONTENT": "\n\t<p>This privacy policy is included in the Terms of Use Agreement by reference.</p>\n\t<p>Interface Agency collects and uses personal information for many purposes, including but not limited to, billing; product and service fulfilment; understanding client needs; website improvement; product and service improvement; transactions; communication with customers and potential customers regarding products and services and third party products and services. Clients’ private information will only be disclosed to Interface Agencys’ owners, employees, independent contractors, and service providers, acting on Interface Agency’s’ behalf or request.</p>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMATION COLLECTED BY THE ISP</h2>\n\t\t<p>The hosting provider for clients’ internet site has the ability to record various information, including domain name, pages accessed, date and time of access, web browser type and computer operating system, and referring information, and to disclose this information.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>FINANCIAL INFORMATION FOR BILLING PURPOSES</h2>\n\t\t<p>When sales are made by Interface Agency, financial information must be disclosed. This information can include any number of facts Licensee is asked to provide, but most commonly includes name, financial / credit card information, billing address, and email address.</p>\n\t\t<p>In the event Interface Agency receives financial/credit card information, we will not disclose it to anyone unless disclosure is required by law or a court order, or unless disclosure is required to address an issue implicated by the financial transaction. If client claims that their financial information was used to make a purchase they did not authorise, details about the financial transaction may be disclosed to law enforcement and anyone else deemed necessary to address the matter.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>USE OF EMAIL ADDRESSES AND OTHER CONTACT INFORMATION</h2>\n\t\t<p>Interface Agency relies heavily on the use of email, telephone and the internet to provide information to the client and client expressly consents to receiving communications via email, text or voice message to cell phone, fax, telephone, mail, or any other delivery method.</p>\n\t\t<p>Client agrees to receive information about the product or service purchased. This may include, but is not limited to, information about product or service updates, new features, or information Interface Agency believes the client may find interesting.</p>\n\t\t<p>Interface Agency will not sell, provide, or transfer Licensees email address to others and will only send information about other products and services when they are related to a product or service already purchased, or form part of an upgrade to material.</p>\n\t\t<p>Interface Agency does not allow advertising, or engage in joint marketing ventures. Client should not receive advertisements from third parties. If client does receive an advertisement claiming to be related to Interface Agency, that fact must be made known to us immediately.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>IDENTIFICATION OF PURCHASERS</h2>\n\t\t<p>If the client purchases a product or service, and joins one of the online forums, client authorises us to use their name and correspond in the manner intended for that forum.</p>\n\t\t<p>Interface Agency also uses personal information in an aggregate form (i.e., not individually attributable to Licensees) for business analysis, operational and marketing purposes.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>COOKIES</h2>\n\t\t<p>Cookies may be used to monitor access to the website. Client consents to any future use of cookies for testing purposes and the use of cookies for publicly available data to gather statistics for the purpose of determining which search engines, referring sites, key words, etc., bring visitors to the website, which pages visitors are most interested in, what web browsers are used, etc. Various providers may be used for this purpose. The purpose is to obtain information that will help promote the website, make the website more interesting and useful to visitors, and to identify areas where improvement is needed. The client can control the use of cookies, including preventing their use, by adjusting the preferences in their web browser. This is an <a>example reference</a> of an inline link.</p>\n\t\t<p>Additionally, various third party information suppliers and other entities that provide information for this website, or for use by Interface Agency, may use cookies. Examples include, but are not necessarily limited to billing providers and third party resources.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>DISCLOSURE BY NECESSITY</h2>\n\t\t<p>rivate information may be disclosed if required by a court order, statute, law, or regulation.</p>\n\t\t<p>nformation is subject to disclosure to address a claim that a client is violating the terms of any Agreement pertaining to their use of this website or products or services, or rights of any third party.</p>\n\t\t<p>nformation is also subject to disclosure if Interface Agency believes that disclosure is necessary to identify, contact or bring an action against someone who may be causing injury to or interfering (either intentionally or unintentionally) with our rights or property, clients rights or property, other users of the website, products or services, or anyone else.</p>\n\t\t<p>Interface Agency may sell or buy other businesses or entities, or it may merge with another company, or be bought by another company. In such transactions, personal information may be one of the transferred assets.</p>\n\t\t<p>Client information may be stored and processed in any country in which Interface Agency maintains facilities or conducts operations. By using this website, products and services, client consents to any such transfer of information.</p>\n\t\t<p>After clients’ account becomes inactive their information may remain in Interface Agencys’ databases, computers, and archives, and cannot reasonably be eliminated for a period of ten years.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>CONSENT TO USE INFORMATION</h2>\n\t\t<p>When client communicates with Interface Agency, sends information, or provides content to the website, clients grants a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub licensable right to exercise all copyright and publicity rights they have in the content, in any manner whatsoever, in any media now known or which may be created in the future, including in other works and forms not associated with this website.</p>\n\t</div>\n",
+				"BUTTON": "Download Terms"
+			}
+		}
+	},
+	"SHARED": {
+		"SEARCH": {
+			"LABELS": {
+				"AREA": "AREA",
+				"SECTION": "SECTION",
+				"CATEGORY": "CATEGORY",
+				"DEPARTMENT": "DEPARTMENT",
+				"TEAM": "TEAM",
+				"EXPERIENCE": "EXPERIENCE",
+				"OFFICE": "OFFICE",
+				"TOPIC": "TOPIC",
+				"SORT": "SORT",
+				"TYPE": "TYPE",
+				"TAGS": "TAGS"
+			},
+			"TAGS": {
+				"ADVANCED": "ADVANCED",
+				"RESET": "RESET"
+			}
+		},
+		"EDITOR": {
+			"INTERFACE": "INTERFACE",
+			"FONT": "FONT",
+			"PALETTES": {
+				"MAIN": "MAIN COLORS",
+				"BASE": "BASE COLORS"
+			},
+			"COLLAPSE": "COLLAPSE",
+			"EXPAND": "EXPAND",
+			"SAVE": "SAVE",
+			"BUTTONS": {
+				"PRODUCT": "GET A FREE PRODUCT DEMO",
+				"SUBSCRIBE": "SUBSCRIBE FOR ONLY {{ value }}"
+			}
+		},
+		"NAVIGATION": {
+			"A": {
+				"LABEL": "LEARN",
+				"BUTTON": {
+					"A": "ANSWERS",
+					"B": "ARTICLES",
+					"C": "GUIDES"
+				}
+			},
+			"B": {
+				"LABEL": "SUPPORT",
+				"BUTTON": {
+					"A": "CHAT",
+					"B": "BILLING",
+					"C": "TECHNICAL"
+				}
+			},
+			"C": {
+				"LABEL": "COMPANY",
+				"BUTTON": {
+					"A": "ABOUT",
+					"B": "CAREERS",
+					"C": "CONTACT"
+				}
+			},
+			"D": {
+				"LABEL": "SOCIAL"
+			}
+		}
+	},
+	"LIST": {
+		"CONTENT": {
+			"VIEW_ROLE": "VIEW ROLE",
+			"APPLY_NOW": "APPLY NOW"
+		},
+		"EMPTY": {
+			"TITLE": "NOTHING MATCHES YOUR SEARCH VALUES!",
+			"PARAGRAPH": "Please feel free to contact us if you need any help or have any questions? <a href=\"mailto:support@interfaceagency.com\">support@interfaceagency.com</a>",
+			"BUTTONS": {
+				"RESET": "RESET SEARCH",
+				"HELP": "GET HELP"
+			}
+		}
+	},
+	"SELECTED": {
+		"TABS": {
+			"LANGUAGE": "ENGLISH",
+			"GET_HELP": "GET HELP",
+			"APPLY_NOW": "APPLY NOW"
+		},
+		"CREATED_ON": "Created on",
+		"UPDATED_ON": "Updated on"
+	},
+	"SUBSCRIBE": {
+		"CONTENT": {
+			"TITLE": "SUBSCRIBE NOW TO TAKE YOUR ONLINE PRESENCE TO ANOTHER LEVEL",
+			"PARAGRAPH": "We can help you increase your sales and conversions, with a modern and updated online presence that works for you",
+			"BUTTONS": {
+				"A": "CODE &amp; UPDATES",
+				"B": "FAST LOADING",
+				"C": "ROBUST HOSTING",
+				"D": "MANAGED DATA"
+			},
+			"PROGRESS": {
+				"ACCOUNT": "ACCOUNT",
+				"PRODUCT": "PRODUCT",
+				"PAYMENT": "PAYMENT",
+				"COMPLETE": "COMPLETE"
+			}
+		},
+		"FORM": {
+			"ACCOUNT": {
+				"NAME": {
+					"FIRST": "FIRST NAME",
+					"LAST": "LAST NAME"
+				},
+				"EMAIL": "EMAIL ADDRESS",
+				"PHONE": {
+					"COUNTRY": "COUNTRY",
+					"AREA": "AREA CODE",
+					"NUMBER": "NUMBER"
+				},
+				"PASSWORD": "PASSWORD",
+				"SHOW_PASSWORD": "SHOW PASSWORD",
+				"BUTTON": {
+					"SUBMIT": "SUBMIT",
+					"UPDATE": "UPDATE"
+				}
+			},
+			"PRODUCT": {
+				"INDUSTRY": "INDUSTRY",
+				"CATEGORY": "CATEGORY",
+				"WEBSITE": {
+					"TITLE": "WEBSITE",
+					"INTERFACE": "INTERFACE",
+					"FONT": "FONT",
+					"PALETTE": {
+						"MAIN_COLORS": "MAIN COLORS",
+						"BASE_COLORS": "BASE COLORS"
+					},
+					"PREVIEW": "PREVIEW"
+				},
+				"MARKETING": {
+					"TITLE": "MARKETING",
+					"MODULE": "MODULE",
+					"PACKAGE": "PACKAGE",
+					"ADD_MODULE": "ADD MODULE",
+					"REMOVE_MODULE": "REMOVE MODULE"
+				},
+				"BUTTON": "ENTER"
+			},
+			"PAYMENT": {
+				"PRICE": {
+					"MONTHLY": "MONTHLY",
+					"YEARLY": "YEARLY"
+				},
+				"PLAN": {
+					"MONTHLY": "Switch to monthly and pay €{{ cost.adjustment.monthly }} extra yearly!",
+					"YEARLY": "Switch to monthly and pay ${{ cost.adjustment.monthly }} extra yearly!"
+				},
+				"CREDIT_CARD": {
+					"NUMBER": "NUMBER",
+					"EXP_MONTH": "EXP MONTH",
+					"EXP_YEAR": "EXP YEAR",
+					"CVC": "CVC"
+				},
+				"CURRENCY": "CURRENCY",
+				"BUTTON": {
+					"SUBSCRIBE_NOW": "SUBSCRIBE NOW",
+					"UPDATE": "UPDATE"
+				}
+			},
+			"COMPLETE": {
+				"TITLE": "SUBSCRIPTION COMPLETE",
+				"PARAGRAPH": "Your registration is complete, thank you for subscribing Your registration is complete, thank you for subscribing.",
+				"PICTURE": {
+					"ACCOUNT": "ACCOUNT",
+					"ORGANIZATION": "ORGANIZATION",
+					"GROUP": "GROUP",
+					"WEBSITE": "WEBSITE",
+					"MARKETING": "MARKETING",
+					"COMPLETE": "COMPLETE"
+				},
+				"BUTTON": "LOGIN"
+			},
+			"DEMO": {
+				"NAME": {
+					"FIRST": "FIRST NAME",
+					"LAST": "LAST NAME"
+				},
+				"EMAIL": "EMAIL ADDRESS",
+				"PHONE": {
+					"COUNTRY": "COUNTRY",
+					"AREA": "AREA CODE",
+					"NUMBER": "NUMBER"
+				},
+				"PREFERRED": "PREFERRED CONTACT",
+				"COMPANY_NAME": "COMPANY NAME",
+				"COMPANY_TYPE": "COMPANY TYPE",
+				"MESSAGE": "MESSAGE"
+			},
+			"BUTTON": "SUBMIT"
+		}
+	},
+	"INDUSTRY": {
+		"AUTOMOTIVE": {
+			"USED_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"NEW_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"MECHANIC": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			}
+		},
+		"LEGAL": {
+			"FAMILY": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"CRIMINAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"IMMIGRATION": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"PARALEGAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>INSTANTLY</span>",
+						"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+						"POINTS": {
+							"A": "CODE &amp; UPDATES",
+							"B": "CONTENT EDITING",
+							"C": "PERFORMANCE",
+							"D": "ROBUST HOSTING",
+							"E": "MANAGED DATA",
+							"F": "ONLINE SECURITY",
+							"G": "24H SUPPORT",
+							"H": "EMAIL SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "FAST LOADING",
+								"B": "100% UPTIME",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "MOBILE FRIENDLY",
+								"B": "100% RESPONSIVE",
+								"C": "TAILORED DESIGN",
+								"D": "USER FOCUSED"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTICS</span>",
+							"PARAGRAPH": "Stand out from the crowd while improving your business with our fully managed solution",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTEGRATE ADWORDS"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

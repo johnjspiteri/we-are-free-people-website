@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { IASelectModule } from '@interface-agency/select';
-import { IASelectCountryModule } from '@interface-agency/select-country';
-import { IASelectTagModule } from '@interface-agency/select-tag';
+import { IASelectModule } from '@interface-agency/directives.select.option';
+import { IASelectCountryModule } from '@interface-agency/directives.select.country';
+import { IASelectTagModule } from '@interface-agency/directives.select.tag';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { FieldValidationModule } from '@interface-agency/field-validation';
-import { PhoneNumberModule } from '@interface-agency/format-phone-number-directive';
-import { ZipCodeModule } from '@interface-agency/format-zip-code-directive';
-import { TitleCaseDashModule } from '@interface-agency/format-title-case-pipe';
+import { IAFieldValidationModule } from '@interface-agency/directives.validation.field';
+import { IAPhoneNumberModule } from '@interface-agency/directives.format.phone';
+import { IAZipCodeModule } from '@interface-agency/directives.zip-code';
+import { IATitleCaseModule } from '@interface-agency/pipes.format.titlecase';
 
-const modules = [CommonModule, FormsModule, ReactiveFormsModule, IASelectModule, IASelectCountryModule, IASelectTagModule, FontAwesomeModule, MatSidenavModule, FieldValidationModule, PhoneNumberModule, ZipCodeModule, TitleCaseDashModule];
+const modules = [CommonModule, FormsModule, ReactiveFormsModule, IASelectModule, IASelectCountryModule, IASelectTagModule, FontAwesomeModule, MatSidenavModule, IAFieldValidationModule, IAPhoneNumberModule, IAZipCodeModule, IATitleCaseModule];
 @NgModule({
 	declarations: [],
 	imports: modules,

@@ -1,0 +1,749 @@
+{
+	"AUTOMOTIVE": "AUTOMOTIVE",
+	"LEGAL": "LÉGAL",
+	"MEDICAL": "MÉDICAL",
+	"MECHANIC": "MÉCANICIEN",
+	"NEW_CAR": "VOITURE NEUVE",
+	"USED_CAR": "VOITURE D'OCCASION",
+	"WEBSITES": "SITES INTERNET",
+	"MARKETING": "COMMERCIALISATION",
+	"EMAIL": "E-MAIL",
+	"DOMAINS": "DOMAINES",
+
+	"PANEL": {
+		"BUTTON": "ENTRER LA SÉLECTION",
+		"COMING_SOON": "BIENTÔT DISPONIBLE",
+		"LABELS": {
+			"INDUSTRY": "INDUSTRIE",
+			"CATEGORY": "CATÉGORIE",
+			"PRODUCT": "PRODUIT",
+			"SECTION": "SECTION"
+		},
+		"TITLE": "TROUVEZ VOTRE SOLUTION"
+	},
+	"HEADER": {
+		"PITCH": {
+			"TITLE": "CETTE OFFRE SE TERMINE DANS",
+			"DAYS": "JOURS",
+			"HOURS": "JOURS",
+			"MINUTES": "MINUTES",
+			"SUBSCRIBE": {
+				"BUTTON": "INSCRIVEZ-VOUS MAINTENANT POUR 198 € PAR AN",
+				"PARAGRAPH": {
+					"SMALL": "Recevez 3 mois gratuits avec un abonnement annuel et bloquez votre prix à vie sans contrat",
+					"LARGE": "Recevez 3 mois gratuits avec un abonnement annuel et bloquez votre prix à vie sans contrat, avec mises à jour gratuites, hébergement, maintenance et support inclus sans contrat"
+				}
+			},
+			"REVIEW": {
+				"BUTTON": "OBTENEZ UN AVIS DE PRÉSENCE EN LIGNE GRATUIT",
+				"PARAGRAPH": "Votre présence en ligne bénéficiera d'un examen gratuit, couvrant le référencement, la vitesse de chargement et la convivialité!"
+			}
+		},
+		"BANNER": {
+			"LOGIN": "CONNEXION",
+			"DEMO": {
+				"SMALL": "DÉMO GRATUITE DU PRODUIT",
+				"LARGE": "OBTENEZ UNE DÉMO GRATUITE DU PRODUIT"
+			},
+			"ANSWERS": "RÉPONSES",
+			"ARTICLES": "DES ARTICLES",
+			"RESELLERS": "REVENDEURS",
+			"SUPPORT": "SUPPORT",
+			"SUBSCRIBE": "S'ABONNER"
+		},
+		"CONTENT": {
+			"FIND_YOUR_SOLUTION": "TROUVEZ VOTRE SOLUTION",
+			"CHOOSE_INDUSTRY": "CHOISISSEZ L'INDUSTRIE",
+			"CHOOSE_PRODUCT": "CHOISIR LE PRODUIT",
+			"CHOOSE_CATEGORY": "CHOISIR LA CATÉGORIE",
+			"CHOOSE_SECTION": "CHOISIR LA SECTION",
+			"HOW_WE_IMPROVE_YOUR_BUSINESS": "COMMENT NOUS AMÉLIORONS VOTRE ENTREPRISE"
+		}
+	},
+	"FOOTER": {
+		"COMPANY": {
+			"PARAGRAPH": "Nous fournissons et gérons tous les aspects d'une présence en ligne professionnelle, pour un abonnement mensuel sans contrat"
+		},
+		"DEMO": {
+			"TITLE": "OBTENEZ UNE DÉMO PERSONNALISÉE ET SUR MESURE",
+			"PARAGRAPH": "Nous vous proposons une démonstration de produit personnalisée et adaptée à votre entreprise!",
+			"BUTTON": "LAISSEZ-NOUS VOUS AIDER"
+		},
+		"LEGAL": {
+			"PRIVACY_POLICY": "Politique de confidentialité",
+			"TERMS_OF_USE": "Conditions d'utilisation",
+			"COPYRIGHT": "© 2021 Interface Agence"
+		}
+	},
+	"COOKIE": {
+		"TITLE": "POLITIQUE DE COOKIES",
+		"PARAGRAPH": "Ce site Web et ses outils tiers utilisent des cookies aux fins décrites dans notre <a [href]=\"cookiesURL\">privacy policy</a>",
+		"BUTTONS": {
+			"ACCEPT": "J'ACCEPTE",
+			"REJECT": "REJETER"
+		}
+	},
+	"RELOAD": {
+		"TITLE": "RECHARGER LE NAVIGATEUR",
+		"PARAGRAPH": "Une version plus récente de ce site est disponible. Veuillez actualiser cette page pour l'activer",
+		"BUTTONS": {
+			"ACCEPT": "J'ACCEPTE",
+			"CLOSE": "REJETER"
+		}
+	},
+	"EXIT": {
+		"TITLE": "COMBIEN PLUS DE TRAFIC DEVRIEZ-VOUS OBTENIR RÉELLEMENT",
+		"PARAGRAPH": "Répondez à mon quiz sur le trafic et obtenez des conseils personnalisés qui vous expliqueront comment obtenir plus de trafic et être mieux classé sur Google en moins de 30 jours",
+		"BUTTONS": {
+			"START": "COMMENCER LE QUIZ"
+		}
+	},
+	"CHAT": {
+		"TITLE": "COMMENT POUVONS NOUS AIDER?",
+		"PARAGRAPH": "Merci de votre visite! Si vous avez des questions sur les produits Interface entreprise, n'hésitez pas à nous envoyer une note!",
+		"BUTTONS": {
+			"START": "COMMENCER LE QUIZ"
+		}
+	},
+	"COMPANY": {
+		"ABOUT": {
+			"TITLE": "HISTOIRE &amp; JALONS",
+			"PARAGRAPH": "Merci de votre visite! Si vous avez des questions sur les produits Interface entreprise, n'hésitez pas à nous envoyer une note!"
+		},
+		"LEGAL": {
+			"PRIVACY": {
+				"TITLE": "POLITIQUE DE CONFIDENTIALITÉ",
+				"MODIFIED": "Dernière modification:",
+				"FEBRUARY": "28 FÉVRIER 2019",
+				"CONTENT": "<p>Cette politique de confidentialité est incluse dans les conditions d'utilisation par référence.</p>\n<p>Interface Agency collecte et utilise des informations personnelles à de nombreuses fins, y compris, mais sans s'y limiter, la facturation ; réalisation des produits et services ; comprendre les besoins des clients; amélioration du site Web ; amélioration des produits et services ; transactions; communication avec les clients et les clients potentiels concernant les produits et services et les produits et services de tiers. Les informations privées des clients ne seront divulguées qu'aux propriétaires, employés, entrepreneurs indépendants et prestataires de services d'Interface Agency, agissant au nom ou à la demande d'Interface Agency. Ceci est un <a>exemple de référence</a> d'un lien en ligne.</p>\n<div class=\"legal-section\">\n<h2>INFORMATIONS COLLECTÉES PAR LE FAI</h2>\n<p>Le fournisseur d'hébergement du site Internet des clients a la possibilité d'enregistrer diverses informations, notamment le nom de domaine, les pages consultées, la date et l'heure d'accès, le type de navigateur Web et le système d'exploitation de l'ordinateur , et les informations de référence, et de divulguer ces informations.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>INFORMATIONS FINANCIÈRES À DES FINS DE FACTURATION</h2>\n<p>Lorsque les ventes sont effectuées par Interface Agency, les informations financières doivent être divulguées. Ces informations peuvent inclure n'importe quel nombre de faits que le Licencié est invité à fournir, mais comprennent le plus souvent le nom, les informations financières/de carte de crédit, l'adresse de facturation et l'adresse e-mail.</p>\n<p>Dans le cas où Interface Agency reçoit des informations financières/ informations de carte de crédit, nous ne les divulguerons à personne à moins que la divulgation ne soit requise par la loi ou une ordonnance du tribunal, ou à moins que la divulgation ne soit requise pour résoudre un problème impliqué par la transaction financière. Si le client prétend que ses informations financières ont été utilisées pour effectuer un achat qu'il n'a pas autorisé, les détails de la transaction financière peuvent être divulgués aux forces de l'ordre et à toute autre personne jugée nécessaire pour régler le problème.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>UTILISATION DES ADRESSES E-MAIL ET AUTRES INFORMATIONS DE CONTACT</h2>\n<p>Interface Agency s'appuie fortement sur l'utilisation de l'e-mail, du téléphone et d'Internet pour fournir des informations au client et le client consent expressément à recevoir des communications par e-mail, texte ou voix message au téléphone portable, fax, téléphone, courrier ou tout autre mode de livraison.</p>\n<p>Le client accepte de recevoir des informations sur le produit ou le service acheté. Cela peut inclure, mais sans s'y limiter, des informations sur les mises à jour de produits ou de services, de nouvelles fonctionnalités ou des informations que Interface Agency pense que le client peut trouver intéressantes.</p>\n<p>Interface Agency ne vendra, ne fournira ni ne transférera. Adresse e-mail des titulaires de licence à d'autres et n'enverront des informations sur d'autres produits et services que lorsqu'ils sont liés à un produit ou un service déjà acheté, ou font partie d'une mise à niveau du matériel.</p>\n<p>Interface Agency ne permet pas faire de la publicité ou s'engager dans des coentreprises de marketing. Le client ne doit pas recevoir de publicités de tiers. Si le client reçoit une publicité prétendant être liée à Interface Agency, ce fait doit nous être immédiatement signalé.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>IDENTIFICATION DES ACHETEURS</h2>\n<p>Si le client achète un produit ou un service et rejoint l'un des forums en ligne, le client nous autorise à utiliser son nom et à correspondre de la manière prévue pour ce forum.</p> \n<p>Interface Agency utilise également les informations personnelles sous une forme agrégée (c'est-à-dire non attribuables individuellement aux titulaires de licence) à des fins d'analyse commerciale, opérationnelles et marketing.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>BISCUITS</h2>\n<p>Des cookies peuvent être utilisés pour surveiller l'accès au site Web. Le client consent à toute utilisation future de cookies à des fins de test et à l'utilisation de cookies pour des données accessibles au public afin de recueillir des statistiques dans le but de déterminer quels moteurs de recherche, sites référents, mots clés, etc., amènent les visiteurs sur le site Web, quelles pages les visiteurs sont les plus intéressés, quels navigateurs Web sont utilisés, etc. Divers fournisseurs peuvent être utilisés à cette fin. Le but est d'obtenir des informations qui aideront à promouvoir le site Web, à rendre le site Web plus intéressant et utile pour les visiteurs, et à identifier les domaines où des améliorations sont nécessaires. Le client peut contrôler l'utilisation des cookies, y compris empêcher leur utilisation, en ajustant les préférences dans leur navigateur Web.</p>\n<p>En outre, divers fournisseurs d'informations tiers et autres entités qui fournissent des informations pour ce site Web, ou à l'usage d'Interface Agency, peut utiliser des cookies. Les exemples incluent, mais ne sont pas nécessairement limités aux fournisseurs de facturation et aux ressources tierces.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>DIVULGATION PAR NÉCESSITÉ</h2>\n<p>Les informations privées peuvent être divulguées si une ordonnance du tribunal, une loi, une loi ou un règlement l'exige.</p>\n<p>Les informations peuvent être divulguées pour répondre à une réclamation qui un client viole les termes de tout accord concernant leur utilisation de ce site Web ou de produits ou services, ou les droits de tout tiers.</p>\n<p>Les informations sont également sujettes à divulgation si Interface Agency estime que la divulgation est nécessaire pour identifier, contacter ou intenter une action contre quelqu'un qui pourrait causer un préjudice ou interférer (intentionnellement ou non) avec nos droits ou notre propriété, les droits ou la propriété des clients, d'autres utilisateurs du site Web, des produits ou services, ou toute autre personne. </p>\n<p>Interface Agency peut vendre ou acheter d'autres entreprises ou entités, ou elle peut fusionner avec une autre société, ou être achetée par une autre société. Dans de telles transactions, les informations personnelles peuvent être l'un des actifs transférés.</p>\n<p>Les informations des clients peuvent être stockées et traitées dans tout pays dans lequel Interface Agency possède des installations ou mène des opérations. En utilisant ce site Web, ces produits et services, le client consent à un tel transfert d'informations.</p>\n<p>Une fois que le compte des clients devient inactif, leurs informations peuvent rester dans les bases de données, les ordinateurs et les archives d'Interface Agency, et ne peuvent raisonnablement être supprimées pendant une période de dix ans.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>CONSENTEMENT À L'UTILISATION DES INFORMATIONS</h2>\n<p>Lorsque le client communique avec Interface Agency, envoie des informations ou fournit du contenu au site Web, les clients accordent un droit non exclusif, mondial, perpétuel, irrévocable, libre de redevance et sous-licenciable d'exercer tous les droits d'auteur et de publicité dont ils disposent sur le contenu, de quelque manière que ce soit, sur tout support actuellement connu ou susceptible d'être créé à l'avenir, y compris sur d'autres œuvres et formes non associées à ce site Web.</p>\n</div>",
+				"BUTTON": "TÉLÉCHARGER LA POLITIQUE DE CONFIDENTIALITÉ"
+			},
+			"TERMS": {
+				"TITLE": "TERMES & amp; CONDITIONS",
+				"MODIFIED": "Dernière modification:",
+				"FEBRUARY": "28 FÉVRIER 2019",
+				"CONTENT": "<p>Cette politique de confidentialité est incluse dans les conditions d'utilisation par référence.</p>\n<p>Interface Agency collecte et utilise des informations personnelles à de nombreuses fins, y compris, mais sans s'y limiter, la facturation ; réalisation des produits et services ; comprendre les besoins des clients; amélioration du site Web ; amélioration des produits et services ; transactions; communication avec les clients et les clients potentiels concernant les produits et services et les produits et services de tiers. Les informations privées des clients ne seront divulguées qu'aux propriétaires, employés, entrepreneurs indépendants et prestataires de services d'Interface Agency, agissant au nom ou à la demande d'Interface Agency. Ceci est un <a>exemple de référence</a> d'un lien en ligne.</p>\n<div class=\"legal-section\">\n<h2>INFORMATIONS COLLECTÉES PAR LE FAI</h2>\n<p>Le fournisseur d'hébergement du site Internet des clients a la possibilité d'enregistrer diverses informations, notamment le nom de domaine, les pages consultées, la date et l'heure d'accès, le type de navigateur Web et le système d'exploitation de l'ordinateur , et les informations de référence, et de divulguer ces informations.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>INFORMATIONS FINANCIÈRES À DES FINS DE FACTURATION</h2>\n<p>Lorsque les ventes sont effectuées par Interface Agency, les informations financières doivent être divulguées. Ces informations peuvent inclure n'importe quel nombre de faits que le Licencié est invité à fournir, mais comprennent le plus souvent le nom, les informations financières/de carte de crédit, l'adresse de facturation et l'adresse e-mail.</p>\n<p>Dans le cas où Interface Agency reçoit des informations financières/ informations de carte de crédit, nous ne les divulguerons à personne à moins que la divulgation ne soit requise par la loi ou une ordonnance du tribunal, ou à moins que la divulgation ne soit requise pour résoudre un problème impliqué par la transaction financière. Si le client prétend que ses informations financières ont été utilisées pour effectuer un achat qu'il n'a pas autorisé, les détails de la transaction financière peuvent être divulgués aux forces de l'ordre et à toute autre personne jugée nécessaire pour régler le problème.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>UTILISATION DES ADRESSES E-MAIL ET AUTRES INFORMATIONS DE CONTACT</h2>\n<p>Interface Agency s'appuie fortement sur l'utilisation de l'e-mail, du téléphone et d'Internet pour fournir des informations au client et le client consent expressément à recevoir des communications par e-mail, texte ou voix message au téléphone portable, fax, téléphone, courrier ou tout autre mode de livraison.</p>\n<p>Le client accepte de recevoir des informations sur le produit ou le service acheté. Cela peut inclure, mais sans s'y limiter, des informations sur les mises à jour de produits ou de services, de nouvelles fonctionnalités ou des informations que Interface Agency pense que le client peut trouver intéressantes.</p>\n<p>Interface Agency ne vendra, ne fournira ni ne transférera. Adresse e-mail des titulaires de licence à d'autres et n'enverront des informations sur d'autres produits et services que lorsqu'ils sont liés à un produit ou un service déjà acheté, ou font partie d'une mise à niveau du matériel.</p>\n<p>Interface Agency ne permet pas faire de la publicité ou s'engager dans des coentreprises de marketing. Le client ne doit pas recevoir de publicités de tiers. Si le client reçoit une publicité prétendant être liée à Interface Agency, ce fait doit nous être immédiatement signalé.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>IDENTIFICATION DES ACHETEURS</h2>\n<p>Si le client achète un produit ou un service et rejoint l'un des forums en ligne, le client nous autorise à utiliser son nom et à correspondre de la manière prévue pour ce forum.</p> \n<p>Interface Agency utilise également les informations personnelles sous une forme agrégée (c'est-à-dire non attribuables individuellement aux titulaires de licence) à des fins d'analyse commerciale, opérationnelles et marketing.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>BISCUITS</h2>\n<p>Des cookies peuvent être utilisés pour surveiller l'accès au site Web. Le client consent à toute utilisation future de cookies à des fins de test et à l'utilisation de cookies pour des données accessibles au public afin de recueillir des statistiques dans le but de déterminer quels moteurs de recherche, sites référents, mots clés, etc., amènent les visiteurs sur le site Web, quelles pages les visiteurs sont les plus intéressés, quels navigateurs Web sont utilisés, etc. Divers fournisseurs peuvent être utilisés à cette fin. Le but est d'obtenir des informations qui aideront à promouvoir le site Web, à rendre le site Web plus intéressant et utile pour les visiteurs, et à identifier les domaines où des améliorations sont nécessaires. Le client peut contrôler l'utilisation des cookies, y compris empêcher leur utilisation, en ajustant les préférences dans leur navigateur Web.</p>\n<p>En outre, divers fournisseurs d'informations tiers et autres entités qui fournissent des informations pour ce site Web, ou à l'usage d'Interface Agency, peut utiliser des cookies. Les exemples incluent, mais ne sont pas nécessairement limités aux fournisseurs de facturation et aux ressources tierces.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>DIVULGATION PAR NÉCESSITÉ</h2>\n<p>Les informations privées peuvent être divulguées si une ordonnance du tribunal, une loi, une loi ou un règlement l'exige.</p>\n<p>Les informations peuvent être divulguées pour répondre à une réclamation qui un client viole les termes de tout accord concernant leur utilisation de ce site Web ou de produits ou services, ou les droits de tout tiers.</p>\n<p>Les informations sont également sujettes à divulgation si Interface Agency estime que la divulgation est nécessaire pour identifier, contacter ou intenter une action contre quelqu'un qui pourrait causer un préjudice ou interférer (intentionnellement ou non) avec nos droits ou notre propriété, les droits ou la propriété des clients, d'autres utilisateurs du site Web, des produits ou services, ou toute autre personne. </p>\n<p>Interface Agency peut vendre ou acheter d'autres entreprises ou entités, ou elle peut fusionner avec une autre société, ou être achetée par une autre société. Dans de telles transactions, les informations personnelles peuvent être l'un des actifs transférés.</p>\n<p>Les informations des clients peuvent être stockées et traitées dans tout pays dans lequel Interface Agency possède des installations ou mène des opérations. En utilisant ce site Web, ces produits et services, le client consent à un tel transfert d'informations.</p>\n<p>Une fois que le compte des clients devient inactif, leurs informations peuvent rester dans les bases de données, les ordinateurs et les archives d'Interface Agency, et ne peuvent raisonnablement être supprimées pendant une période de dix ans.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>CONSENTEMENT À L'UTILISATION DES INFORMATIONS</h2>\n<p>Lorsque le client communique avec Interface Agency, envoie des informations ou fournit du contenu au site Web, les clients accordent un droit non exclusif, mondial, perpétuel, irrévocable, libre de redevance et sous-licenciable d'exercer tous les droits d'auteur et de publicité dont ils disposent sur le contenu, de quelque manière que ce soit, sur tout support actuellement connu ou susceptible d'être créé à l'avenir, y compris sur d'autres œuvres et formes non associées à ce site Web.</p>\n</div>",
+				"BUTTON": "Download Terms"
+			},
+
+			"COOKIES": {
+				"TITLE": "TERMES & amp; CONDITIONS",
+				"MODIFIED": "Dernière modification:",
+				"FEBRUARY": "28 FÉVRIER 2019",
+				"CONTENT": "<p>Cette politique de confidentialité est incluse dans les conditions d'utilisation par référence.</p>\n<p>Interface Agency collecte et utilise des informations personnelles à de nombreuses fins, y compris, mais sans s'y limiter, la facturation ; réalisation des produits et services ; comprendre les besoins des clients; amélioration du site Web ; amélioration des produits et services ; transactions; communication avec les clients et les clients potentiels concernant les produits et services et les produits et services de tiers. Les informations privées des clients ne seront divulguées qu'aux propriétaires, employés, entrepreneurs indépendants et prestataires de services d'Interface Agency, agissant au nom ou à la demande d'Interface Agency. Ceci est un <a>exemple de référence</a> d'un lien en ligne.</p>\n<div class=\"legal-section\">\n<h2>INFORMATIONS COLLECTÉES PAR LE FAI</h2>\n<p>Le fournisseur d'hébergement du site Internet des clients a la possibilité d'enregistrer diverses informations, notamment le nom de domaine, les pages consultées, la date et l'heure d'accès, le type de navigateur Web et le système d'exploitation de l'ordinateur , et les informations de référence, et de divulguer ces informations.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>INFORMATIONS FINANCIÈRES À DES FINS DE FACTURATION</h2>\n<p>Lorsque les ventes sont effectuées par Interface Agency, les informations financières doivent être divulguées. Ces informations peuvent inclure n'importe quel nombre de faits que le Licencié est invité à fournir, mais comprennent le plus souvent le nom, les informations financières/de carte de crédit, l'adresse de facturation et l'adresse e-mail.</p>\n<p>Dans le cas où Interface Agency reçoit des informations financières/ informations de carte de crédit, nous ne les divulguerons à personne à moins que la divulgation ne soit requise par la loi ou une ordonnance du tribunal, ou à moins que la divulgation ne soit requise pour résoudre un problème impliqué par la transaction financière. Si le client prétend que ses informations financières ont été utilisées pour effectuer un achat qu'il n'a pas autorisé, les détails de la transaction financière peuvent être divulgués aux forces de l'ordre et à toute autre personne jugée nécessaire pour régler le problème.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>UTILISATION DES ADRESSES E-MAIL ET AUTRES INFORMATIONS DE CONTACT</h2>\n<p>Interface Agency s'appuie fortement sur l'utilisation de l'e-mail, du téléphone et d'Internet pour fournir des informations au client et le client consent expressément à recevoir des communications par e-mail, texte ou voix message au téléphone portable, fax, téléphone, courrier ou tout autre mode de livraison.</p>\n<p>Le client accepte de recevoir des informations sur le produit ou le service acheté. Cela peut inclure, mais sans s'y limiter, des informations sur les mises à jour de produits ou de services, de nouvelles fonctionnalités ou des informations que Interface Agency pense que le client peut trouver intéressantes.</p>\n<p>Interface Agency ne vendra, ne fournira ni ne transférera. Adresse e-mail des titulaires de licence à d'autres et n'enverront des informations sur d'autres produits et services que lorsqu'ils sont liés à un produit ou un service déjà acheté, ou font partie d'une mise à niveau du matériel.</p>\n<p>Interface Agency ne permet pas faire de la publicité ou s'engager dans des coentreprises de marketing. Le client ne doit pas recevoir de publicités de tiers. Si le client reçoit une publicité prétendant être liée à Interface Agency, ce fait doit nous être immédiatement signalé.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>IDENTIFICATION DES ACHETEURS</h2>\n<p>Si le client achète un produit ou un service et rejoint l'un des forums en ligne, le client nous autorise à utiliser son nom et à correspondre de la manière prévue pour ce forum.</p> \n<p>Interface Agency utilise également les informations personnelles sous une forme agrégée (c'est-à-dire non attribuables individuellement aux titulaires de licence) à des fins d'analyse commerciale, opérationnelles et marketing.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>BISCUITS</h2>\n<p>Des cookies peuvent être utilisés pour surveiller l'accès au site Web. Le client consent à toute utilisation future de cookies à des fins de test et à l'utilisation de cookies pour des données accessibles au public afin de recueillir des statistiques dans le but de déterminer quels moteurs de recherche, sites référents, mots clés, etc., amènent les visiteurs sur le site Web, quelles pages les visiteurs sont les plus intéressés, quels navigateurs Web sont utilisés, etc. Divers fournisseurs peuvent être utilisés à cette fin. Le but est d'obtenir des informations qui aideront à promouvoir le site Web, à rendre le site Web plus intéressant et utile pour les visiteurs, et à identifier les domaines où des améliorations sont nécessaires. Le client peut contrôler l'utilisation des cookies, y compris empêcher leur utilisation, en ajustant les préférences dans leur navigateur Web.</p>\n<p>En outre, divers fournisseurs d'informations tiers et autres entités qui fournissent des informations pour ce site Web, ou à l'usage d'Interface Agency, peut utiliser des cookies. Les exemples incluent, mais ne sont pas nécessairement limités aux fournisseurs de facturation et aux ressources tierces.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>DIVULGATION PAR NÉCESSITÉ</h2>\n<p>Les informations privées peuvent être divulguées si une ordonnance du tribunal, une loi, une loi ou un règlement l'exige.</p>\n<p>Les informations peuvent être divulguées pour répondre à une réclamation qui un client viole les termes de tout accord concernant leur utilisation de ce site Web ou de produits ou services, ou les droits de tout tiers.</p>\n<p>Les informations sont également sujettes à divulgation si Interface Agency estime que la divulgation est nécessaire pour identifier, contacter ou intenter une action contre quelqu'un qui pourrait causer un préjudice ou interférer (intentionnellement ou non) avec nos droits ou notre propriété, les droits ou la propriété des clients, d'autres utilisateurs du site Web, des produits ou services, ou toute autre personne. </p>\n<p>Interface Agency peut vendre ou acheter d'autres entreprises ou entités, ou elle peut fusionner avec une autre société, ou être achetée par une autre société. Dans de telles transactions, les informations personnelles peuvent être l'un des actifs transférés.</p>\n<p>Les informations des clients peuvent être stockées et traitées dans tout pays dans lequel Interface Agency possède des installations ou mène des opérations. En utilisant ce site Web, ces produits et services, le client consent à un tel transfert d'informations.</p>\n<p>Une fois que le compte des clients devient inactif, leurs informations peuvent rester dans les bases de données, les ordinateurs et les archives d'Interface Agency, et ne peuvent raisonnablement être supprimées pendant une période de dix ans.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>CONSENTEMENT À L'UTILISATION DES INFORMATIONS</h2>\n<p>Lorsque le client communique avec Interface Agency, envoie des informations ou fournit du contenu au site Web, les clients accordent un droit non exclusif, mondial, perpétuel, irrévocable, libre de redevance et sous-licenciable d'exercer tous les droits d'auteur et de publicité dont ils disposent sur le contenu, de quelque manière que ce soit, sur tout support actuellement connu ou susceptible d'être créé à l'avenir, y compris sur d'autres œuvres et formes non associées à ce site Web.</p>\n</div>",
+				"BUTTON": "Télécharger les conditions"
+			}
+		}
+	},
+	"SHARED": {
+		"SEARCH": {
+			"LABELS": {
+				"AREA": "RÉGION",
+				"SECTION": "SECTION",
+				"CATEGORY": "CATÉGORIE",
+				"DEPARTMENT": "DÉPARTEMENT",
+				"TEAM": "ÉQUIPE",
+				"EXPERIENCE": "VIVRE",
+				"OFFICE": "BUREAU",
+				"TOPIC": "SUJET",
+				"SORT": "SORTE",
+				"TYPE": "TAPER",
+				"TAGS": "MOTS CLÉS"
+			},
+			"TAGS": {
+				"ADVANCED": "AVANCÉ",
+				"RESET": "RÉINITIALISER"
+			}
+		},
+		"EDITOR": {
+			"INTERFACE": "INTERFACE",
+			"FONT": "POLICE DE CARACTÈRE",
+			"PALETTES": {
+				"MAIN": "COULEURS PRINCIPALES",
+				"BASE": "COULEURS DE BASE"
+			},
+			"COLLAPSE": "EFFONDRER",
+			"EXPAND": "DÉVELOPPER",
+			"SAVE": "ENREGISTRER",
+			"BUTTONS": {
+				"PRODUCT": "OBTENEZ UNE DÉMO GRATUITE DU PRODUIT",
+				"SUBSCRIBE": "INSCRIVEZ-VOUS UNIQUEMENT {{ value }}"
+			}
+		},
+		"NAVIGATION": {
+			"A": {
+				"LABEL": "APPRENDRE",
+				"BUTTON": {
+					"A": "RÉPONSES",
+					"B": "DES ARTICLES",
+					"C": "GUIDES"
+				}
+			},
+			"B": {
+				"LABEL": "SUPPORT",
+				"BUTTON": {
+					"A": "DISCUTER",
+					"B": "FACTURATION",
+					"C": "TECHNIQUE"
+				}
+			},
+			"C": {
+				"LABEL": "ENTREPRISE",
+				"BUTTON": {
+					"A": "À PROPOS",
+					"B": "CARRIÈRES",
+					"C": "CONTACT"
+				}
+			},
+			"D": {
+				"LABEL": "SOCIAL"
+			}
+		}
+	},
+	"LIST": {
+		"CONTENT": {
+			"VIEW_ROLE": "VOIR LE RLE",
+			"APPLY_NOW": "APPLIQUER MAINTENANT"
+		},
+		"EMPTY": {
+			"TITLE": "RIEN NE CORRESPOND À VOS VALEURS DE RECHERCHE!",
+			"PARAGRAPH": "N'hésitez pas à nous contacter si vous avez besoin d'aide ou si vous avez des questions? <a href=\"mailto:support@interfaceagency.com\">support@interfaceagency.com</a>",
+			"BUTTONS": {
+				"RESET": "RÉINITIALISER LA RECHERCHE",
+				"HELP": "OBTENIR DE L'AIDE"
+			}
+		}
+	},
+	"SELECTED": {
+		"TABS": {
+			"LANGUAGE": "ANGLAIS",
+			"GET_HELP": "OBTENIR DE L'AIDE",
+			"APPLY_NOW": "APPLIQUER MAINTENANT"
+		},
+		"CREATED_ON": "Créé sur",
+		"UPDATED_ON": "Mis à jour le"
+	},
+	"SUBSCRIBE": {
+		"CONTENT": {
+			"TITLE": "INSCRIVEZ-VOUS MAINTENANT POUR PORTER VOTRE PRÉSENCE EN LIGNE À UN AUTRE NIVEAU",
+			"PARAGRAPH": "Nous pouvons vous aider à augmenter vos ventes et vos conversions, avec une présence en ligne moderne et mise à jour qui fonctionne pour vous",
+			"BUTTONS": {
+				"A": "CODE &amp; MISES À JOUR",
+				"B": "CHARGEMENT RAPIDE",
+				"C": "HÉBERGEMENT ROBUSTE",
+				"D": "HÉBERGEMENT ROBUSTE"
+			},
+			"PROGRESS": {
+				"ACCOUNT": "COMPTE",
+				"PRODUCT": "PRODUIT",
+				"PAYMENT": "PAIEMENT",
+				"COMPLETE": "ACHEVÉ"
+			}
+		},
+		"FORM": {
+			"ACCOUNT": {
+				"NAME": {
+					"FIRST": "PRÉNOM",
+					"LAST": "NOM DE FAMILLE"
+				},
+				"EMAIL": "ADRESSE E-MAIL",
+				"PHONE": {
+					"COUNTRY": "PAYS",
+					"AREA": "INDICATIF RÉGIONAL",
+					"NUMBER": "NUMÉRO"
+				},
+				"PASSWORD": "LE MOT DE PASSE",
+				"SHOW_PASSWORD": "MONTRER LE MOT DE PASSE",
+				"BUTTON": {
+					"SUBMIT": "NOUS FAIRE PARVENIR",
+					"UPDATE": "METTRE À JOUR"
+				}
+			},
+			"PRODUCT": {
+				"INDUSTRY": "INDUSTRIE",
+				"CATEGORY": "CATÉGORIE",
+				"WEBSITE": {
+					"TITLE": "SITE INTERNET",
+					"INTERFACE": "INTERFACE",
+					"FONT": "POLICE DE CARACTÈRE",
+					"PALETTE": {
+						"MAIN_COLORS": "COULEURS PRINCIPALES",
+						"BASE_COLORS": "COULEURS DE BASE"
+					},
+					"PREVIEW": "APERÇU"
+				},
+				"MARKETING": {
+					"TITLE": "COMMERCIALISATION",
+					"MODULE": "MODULE",
+					"PACKAGE": "EMBALLER",
+					"ADD_MODULE": "AJOUTER UN MODULE",
+					"REMOVE_MODULE": "SUPPRIMER LE MODULE"
+				},
+				"BUTTON": "ENTRER"
+			},
+			"PAYMENT": {
+				"PRICE": {
+					"MONTHLY": "MENSUEL",
+					"YEARLY": "ANNUEL"
+				},
+				"PLAN": {
+					"MONTHLY": "Passer au mensuel et payer €{{ cost.adjustment.monthly }} supplémentaire chaque année!",
+					"YEARLY": "Passer au mensuel et payer ${{ cost.adjustment.monthly }} supplémentaire chaque année!"
+				},
+				"CREDIT_CARD": {
+					"NUMBER": "NUMÉRO",
+					"EXP_MONTH": "MOIS EXP",
+					"EXP_YEAR": "EXP ANNÉE",
+					"CVC": "CVC"
+				},
+				"CURRENCY": "DEVISE",
+				"BUTTON": {
+					"SUBSCRIBE_NOW": "ABONNEZ-VOUS MAINTENANT",
+					"UPDATE": "METTRE À JOUR"
+				}
+			},
+			"COMPLETE": {
+				"TITLE": "ABONNEMENT COMPLET",
+				"PARAGRAPH": "Votre inscription est terminée, merci de vous inscrire Votre inscription est terminée, merci de vous inscrire.",
+				"PICTURE": {
+					"ACCOUNT": "COMPTE",
+					"ORGANIZATION": "ORGANISATION",
+					"GROUP": "GROUPER",
+					"WEBSITE": "SITE INTERNET",
+					"MARKETING": "COMMERCIALISATION",
+					"COMPLETE": "ACHEVÉ"
+				},
+				"BUTTON": "CONNEXION"
+			},
+			"DEMO": {
+				"NAME": {
+					"FIRST": "PRÉNOM",
+					"LAST": "NOM DE FAMILLE"
+				},
+				"EMAIL": "ADRESSE EMAIL",
+				"PHONE": {
+					"COUNTRY": "PAYS",
+					"AREA": "INDICATIF RÉGIONAL",
+					"NUMBER": "NUMÉRO"
+				},
+				"PREFERRED": "CONTACT PRIVILÉGIÉ",
+				"COMPANY_NAME": "NOM DE LA COMPAGNIE",
+				"COMPANY_TYPE": "TYPE DE COMPAGNIE",
+				"MESSAGE": "UN MESSAGE"
+			},
+			"BUTTON": "NOUS FAIRE PARVENIR"
+		}
+	},
+	"INDUSTRY": {
+		"AUTOMOTIVE": {
+			"USED_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "DES SITES WEB D'AVOCAT EN FAMILLE DE NOUVELLE GÉNÉRATION QUI GÉRENT TOUT CE DONT VOUS AVEZ BESOIN <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "PUISSANCE <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "POLICE TYPEKIT",
+								"D": "DONNÉES RAPIDES"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "TEMPS RÉEL <span>ÉDITION</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MISES À JOUR SIMPLES",
+								"B": "UTILISATEURS MULTIPLES",
+								"C": "ENREGISTREMENT DES CHANGEMENTS",
+								"D": "MODIFIER PARTOUT"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "DONNÉES EN TEMPS RÉEL",
+								"B": "UN APERÇU INESTIMABLE",
+								"C": "MEILLEURES CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"NEW_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "DES SITES WEB D'AVOCAT EN FAMILLE DE NOUVELLE GÉNÉRATION QUI GÉRENT TOUT CE DONT VOUS AVEZ BESOIN <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "PUISSANCE <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"MECHANIC": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			}
+		},
+		"LEGAL": {
+			"FAMILY": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"CRIMINAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"IMMIGRATION": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			},
+			"PARALEGAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "NEXT-GENERATION FAMILY LAWYER WEBSITES THAT MANAGE EVERYTHING YOU NEED <span>IMMÉDIATEMENT</span>",
+						"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+						"POINTS": {
+							"A": "CODE & amp; MISES À JOUR",
+							"B": "ÉDITION DE CONTENU",
+							"C": "PERFORMANCE",
+							"D": "HÉBERGEMENT ROBUSTE",
+							"E": "HÉBERGEMENT ROBUSTE",
+							"F": "SECURITE EN LIGNE",
+							"G": "SOUTIEN 24H/24",
+							"H": "SERVICE DE COURRIEL"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>PERFORMANCE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "CHARGEMENT RAPIDE",
+								"B": "100 % DE DISPONIBILITÉ",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "CONSTRUIT <span>SENSIBLE</span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "MOBILE AMICAL",
+								"B": "100% RÉACTIF",
+								"C": "CONCEPTION SUR MESURE",
+								"D": "AXÉ SUR L'UTILISATEUR"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "SIMPLE UPDATES",
+								"B": "MULTIPLE USERS",
+								"C": "CHANGE LOGGING",
+								"D": "EDIT ANYWHERE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIQUE</span>",
+							"PARAGRAPH": "Démarquez-vous tout en améliorant votre entreprise avec notre solution entièrement gérée",
+							"POINTS": {
+								"A": "REAL-TIME DATA",
+								"B": "PRICELESS INSIGHT",
+								"C": "BEST CONVERSIONS",
+								"D": "INTÉGRER ADWORDS"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

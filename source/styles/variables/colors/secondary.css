@@ -1,0 +1,65 @@
+:root {
+	--secondary-background-color: #F7F4F0;
+	/* --secondary-background-color: var(--white-color); */
+	/* --secondary-background-color:  #c9d5e3; */
+	--secondary-border-color: #c8c8c8;
+	--secondary-dotted-border-color: #c8c8c8;
+
+	--secondary-image-background-color: #e2e2e2;
+	--secondary-image-border-color: var(--black-color);
+
+	--secondary-title-color: var(--black-color);
+	--secondary-title-border-bottom-color: var(--teal-color);
+
+	--secondary-button-color: var(--teal-color);
+	--secondary-button-text-color: var(--white-color);
+	--secondary-button-border-color: var(--teal-border-color);
+	--secondary-button-border-color: var(--teal-border-color);
+
+	--secondary-paragraph-color: #888;
+
+	--secondary-on-primary-border-color: #1e1d24;
+	--secondary-on-primary-border-bottom-color: #1e1d24;
+	--secondary-on-teal-border-color: #1e1d24;
+	--secondary-on-teal-border-bottom-color: #1e1d24;
+	--secondary-on-yellow-border-color: #232228;
+	--secondary-on-yellow-border-bottom-color: #1e1d24;
+	--secondary-on-base-border-color: #232228;
+	--secondary-on-base-border-bottom-color: #1e1d24;
+	--secondary-on-tertiary-border-color: #8a6f38;
+	--secondary-on-tertiary-border-bottom-color: #1e1d24;
+	--secondary-on-brown-border-color: #232228;
+	--secondary-on-brown-border-bottom-color: #1e1d24;
+
+	--secondary-label-color: #555;
+
+	--secondary-square-background-color: #e4e4e4;
+	--secondary-square-text-color: var(--grey-color);
+	--secondary-square-border-color: var(--grey-color);
+	--secondary-square-label-color: #585858;
+	--secondary-setting-icon-color: var(--primary-background-color);
+
+	--secondary-field-background-color-active: var(--white-color);
+	--secondary-field-background-color-inactive: var(--white-color);
+
+	--secondary-field-option-background-color: #d1d1d1;
+
+	--secondary-field-text-color: #585858;
+	--secondary-field-caret-color: #585858;
+	--secondary-field-text-color-inactive: #585858;
+	--secondary-field-caret-color-inactive: #585858;
+	--secondary-field-border-color: #a8a8a8;
+	--secondary-field-border-color-focus: var(--blue-color);
+
+	--secondary-button-active-background-color: var(--blue-color);
+	--secondary-button-active-text-color:  var(--white-color);
+	--secondary-button-active-border-color: var(--white-color);
+	--secondary-button-inactive-background-color: var(--secondary-background-color);
+	--secondary-button-inactive-text-color:  var(--white-color);
+	--secondary-button-inactive-border-color: var(--grey-color);
+
+	--secondary-accent-background-color: #f2f;
+	--secondary-accent-border-color: var(--gold-on-secondary-border-color);
+	--secondary-accent-border-bottom-color: var(--gold-on-secondary-border-bottom-color);
+	--secondary-accent-text-color: var(--black-color);
+}

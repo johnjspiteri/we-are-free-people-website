@@ -1,0 +1,48 @@
+:root {
+	/* --primary-background-color: #FBFCED */
+	--primary-background-color: #E1DEDB;
+	--primary-background-color: #F7F4F0;
+	--primary-background-color: #fbfcee;
+	--primary-background-color: #fff;
+
+	--primary-on-secondary-border-color: #1e1d24;
+	--primary-on-secondary-border-bottom-color: #1e1d24;
+	--primary-on-tertiary-border-color: #8a6f38;
+	--primary-on-tertiary-border-bottom-color: #1e1d24;
+	--primary-on-base-border-color: #d2d2d2;
+	--primary-on-base-border-bottom-color: #a1a198;
+
+	--primary-title-color: var(--white-color);
+	--primary-paragraph-color: #c8c8c8;
+	--primary-label-color: #888;
+	--primary-option-active-color: var(--base-button-inactive-text-color);
+	--primary-option-inactive-color: #a8a8a8;
+
+	--primary-field-background-color: var(--white-color);
+	--primary-field-background-color-inactive: var(--white-color);
+	--primary-field-option-background-color: #e8e8e8;
+
+	/* --primary-field-text-color: #383838; */
+	--primary-field-text-color: #585858;
+	--primary-field-text-color-inactive: #585858;
+	--primary-field-caret-color: var(--white-color);
+	--primary-field-caret-color-inactive: #585858;
+	--primary-field-check-color: var(--green-color);
+	--primary-field-times-color: var(--red-color);
+	--primary-field-border-color: #e4e4e4;
+	--primary-field-border-color-focus: var(--blue-color);
+	--primary-check-color: #b4dac3;
+
+	--primary-button-active-background-color: var(--teal-color);
+	--primary-button-active-text-color: #666;
+	--primary-button-active-border-color: var(--blue-on-primary-border-color);
+
+	--primary-button-inactive-background-color: #484848;
+	--primary-button-inactive-text-color: var(--white-color);
+	--primary-button-inactive-border-color: #000;
+
+	--primary-accent-background-color: #f2f;
+	--primary-accent-border-color: var(--gold-on-primary-border-color);
+	--primary-accent-border-bottom-color: var(--gold-on-primary-border-bottom-color);
+	--primary-accent-text-color: var(--black-color);
+}

@@ -39,7 +39,7 @@
 		"sourceMap": true,
 		"target": "es2015",
 		"typeRoots": ["./node_modules/@types"],
-		"types": ["node", "webpack"],
+		"types": ["node", "webpack"]
 	},
 //	"include": [
 //		"../field-validation/public/**/*",
@@ -48,12 +48,6 @@
 //	],
 	"exclude": [
 		"./source/production.ts",
-//		"./source/application/industry/auto/used-car/website/preview/theme-a/client/**/*.ts",
-//		"./source/application/industry/auto/used-car/website/preview/theme-b/client/**/*.ts",
-//		"./source/application/industry/auto/used-car/website/preview/shared/**/*.ts",
-//		"./source/application/industry/legal/family/website/preview/theme-a/client/**/*.ts",
-//		"./source/application/industry/legal/family/website/preview/theme-b/client/**/*.ts",
-//		"./source/application/industry/legal/family/website/preview/shared/**/*.ts"
-
+		"./source/application/about/career/**/*.ts"
 	]
 }

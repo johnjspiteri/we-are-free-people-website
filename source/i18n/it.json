@@ -1,0 +1,750 @@
+{
+	"AUTOMOTIVE": "AUTOMOTIVE",
+	"LEGAL": "LEGALE",
+	"MEDICAL": "MEDICA",
+	"MECHANIC": "MECCANICO",
+	"NEW_CAR": "NUOVA AUTO",
+	"USED_CAR": "AUTO USATA",
+	"WEBSITES": "SITI WEB",
+	"MARKETING": "MARKETING",
+	"EMAIL": "E-MAIL",
+	"DOMAINS": "DOMINI",
+
+	"PANEL": {
+		"BUTTON": "ENTRA SELEZIONE",
+		"COMING_SOON": "PROSSIMAMENTE",
+		"LABELS": {
+			"INDUSTRY": "INDUSTRIA",
+			"CATEGORY": "CATEGORIA",
+			"PRODUCT": "PRODOTTO",
+			"SECTION": "SEZIONE"
+		},
+		"TITLE": "TROVA LA TUA SOLUZIONE"
+	},
+	"HEADER": {
+		"PITCH": {
+			"TITLE": "QUESTA OFFERTA FINISCE IN",
+			"DAYS": "GIORNI",
+			"HOURS": "ORE",
+			"MINUTES": "MINUTI",
+			"SUBSCRIBE": {
+				"BUTTON": "ISCRIVITI ORA PER € 198 ALL'ANNO",
+				"PARAGRAPH": {
+					"SMALL": "Ricevi 3 mesi gratis con un abbonamento annuale e blocca il tuo prezzo a vita senza contratto",
+					"LARGE": "Ricevi 3 mesi gratuiti con un abbonamento annuale e blocca il tuo prezzo a vita senza contratto, con aggiornamenti gratuiti, hosting, manutenzione e supporto inclusi senza contratto"
+				}
+			},
+			"REVIEW": {
+				"BUTTON": "RICEVI GRATUITAMENTE UNA REVISIONE DELLA PRESENZA ONLINE",
+				"PARAGRAPH": "La tua presenza online riceverà una recensione gratuita, che copre seo, velocità di caricamento e usabilità!"
+			}
+		},
+		"BANNER": {
+			"LOGIN": "ACCEDERE",
+			"DEMO": {
+				"SMALL": "DEMO GRATUITA DEL PRODOTTO",
+				"LARGE": "OTTIENI UNA DEMO GRATUITA DEL PRODOTTO"
+			},
+			"ANSWERS": "RISPOSTE",
+			"ARTICLES": "ARTICOLI",
+			"RESELLERS": "RIVENDITORI",
+			"SUPPORT": "SOSTEGNO",
+			"SUBSCRIBE": "SOTTOSCRIVI"
+		},
+		"CONTENT": {
+			"FIND_YOUR_SOLUTION": "TROVA LA TUA SOLUZIONE",
+			"CHOOSE_INDUSTRY": "SCEGLI SETTORE",
+			"CHOOSE_PRODUCT": "SCEGLI PRODOTTO",
+			"CHOOSE_CATEGORY": "SCEGLI LA CATEGORIA",
+			"CHOOSE_SECTION": "SCEGLI LA SEZIONE",
+			"HOW_WE_IMPROVE_YOUR_BUSINESS": "COME MIGLIORIAMO IL TUO BUSINESS"
+		}
+	},
+	"FOOTER": {
+		"COMPANY": {
+			"PARAGRAPH": "Forniamo e gestiamo ogni aspetto di una presenza online professionale, per un abbonamento mensile senza contratto"
+		},
+		"DEMO": {
+			"TITLE": "OTTIENI UNA DEMO PERSONALIZZATA E SU MISURA",
+			"PARAGRAPH": "Ti offriamo una demo del prodotto personale e su misura specifica per la tua attività!",
+			"BUTTON": "TI AIUTIAMO NOI"
+		},
+		"LEGAL": {
+			"PRIVACY_POLICY": "politica sulla riservatezza",
+			"TERMS_OF_USE": "Termini di utilizzo",
+			"COPYRIGHT": "©2020 Interfaccia Agenzia"
+		}
+	},
+	"COOKIE": {
+		"TITLE": "GESTIONE DEI COOKIE",
+		"PARAGRAPH": "Questo sito Web e i suoi strumenti di terze parti utilizzano i cookie per gli scopi descritti nella nostra <a [href]=\"cookiesURL\">informativa sulla privacy</a>",
+		"BUTTONS": {
+			"ACCEPT": "ACCETTARE",
+			"REJECT": "RIFIUTARE"
+		}
+	},
+	"RELOAD": {
+		"TITLE": "RICARICA IL BROWSER",
+		"PARAGRAPH": "È disponibile una versione più recente di questo sito. Aggiorna questa pagina per attivarla",
+		"BUTTONS": {
+			"ACCEPT": "ACCETTARE",
+			"CLOSE": "RIFIUTARE"
+		}
+	},
+	"EXIT": {
+		"TITLE": "QUANTO PI TRAFFICO DOVREBBE EFFETTIVAMENTE OTTENERE",
+		"PARAGRAPH": "Rispondi al mio quiz sul traffico e ricevi consigli personalizzati che ti guideranno attraverso come ottenere più traffico e posizionarti più in alto su Google in meno di 30 giorni",
+		"BUTTONS": {
+			"START": "INIZIA IL QUIZ"
+		}
+	},
+	"CHAT": {
+		"TITLE": "COME POSSIAMO AIUTARE?",
+		"PARAGRAPH": "Grazie della visita! In caso di domande sui prodotti aziendali di Interface, non esitare a inviarci una nota!",
+		"BUTTONS": {
+			"START": "INIZIA IL QUIZ"
+		}
+	},
+	"COMPANY": {
+		"ABOUT": {
+			"TITLE": "STORIA &amp; PIETRE MILIARI",
+			"PARAGRAPH": "Grazie della visita! In caso di domande sui prodotti aziendali di Interface, non esitare a inviarci una nota!"
+		},
+		"LEGAL": {
+			"PRIVACY": {
+				"TITLE": "POLITICA SULLA RISERVATEZZA",
+				"MODIFIED": "Ultima modifica:",
+				"FEBRUARY": "28 FEBBRAIO 2019",
+				"CONTENT": "\n\t<p>Questa politica sulla privacy è inclusa nell'accordo sui termini di utilizzo per riferimento.</p>\n\t<p>Interface Agency raccoglie e utilizza le informazioni personali per molti scopi, incluso ma non limitato a, fatturazione; realizzazione di prodotti e servizi; comprendere le esigenze del cliente; miglioramento del sito web; miglioramento del prodotto e del servizio; transazioni; comunicazione con clienti e potenziali clienti in merito a prodotti e servizi e prodotti e servizi di terzi. Le informazioni private dei clienti saranno divulgate solo ai proprietari, ai dipendenti, agli appaltatori indipendenti e ai fornitori di servizi di Interface Agency, che agiscono per conto o su richiesta di Interface Agency.</p>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI RACCOLTE DALL'ISP</h2>\n\t\t<p>Il provider di hosting per il sito Internet dei clienti ha la capacità di registrare varie informazioni, tra cui nome di dominio, pagine visitate, data e ora di accesso, tipo di browser Web e sistema operativo del computer e informazioni di riferimento e di divulgare queste informazioni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI FINANZIARIE AI FINI DI FATTURAZIONE</h2>\n\t\t<p>Quando le vendite vengono effettuate da Interface Agency, le informazioni finanziarie devono essere divulgate. Queste informazioni possono includere qualsiasi numero di dati che il licenziatario deve fornire, ma più comunemente includono nome, informazioni finanziarie/carta di credito, indirizzo di fatturazione e indirizzo e-mail.</p>\n\t\t<p>Nel caso in cui Interface Agency riceva informazioni finanziarie/carta di credito, non le divulgheremo a nessuno a meno che la divulgazione non sia richiesta dalla legge o da un'ingiunzione del tribunale, o a meno che la divulgazione non sia richiesta per affrontare un problema implicato dalla transazione finanziaria. Se il cliente afferma che le sue informazioni finanziarie sono state utilizzate per effettuare un acquisto che non ha autorizzato, i dettagli sulla transazione finanziaria possono essere divulgati alle forze dell'ordine e a chiunque altro ritenuto necessario per affrontare la questione.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>UTILIZZO DI INDIRIZZI E-MAIL E ALTRE INFORMAZIONI DI CONTATTO</h2>\n\t\t<p>Interface Agency fa molto affidamento sull'uso di e-mail, telefono e Internet per fornire informazioni al cliente e il cliente acconsente espressamente a ricevere comunicazioni via e-mail, messaggi di testo o vocali a telefoni cellulari, fax, telefono, posta o qualsiasi altro metodo di consegna.</p>\n\t\t<p>Il Cliente accetta di ricevere informazioni sul prodotto o servizio acquistato. Ciò può includere, ma non è limitato a, informazioni su aggiornamenti di prodotti o servizi, nuove funzionalità o informazioni che Interface Agency ritiene che il cliente possa trovare interessanti.</p>\n\t\t<p>Interface Agency non venderà, fornirà o trasferirà l'indirizzo e-mail del licenziatario ad altri e invierà solo informazioni su altri prodotti e servizi quando sono correlati a un prodotto o servizio già acquistato o fanno parte di un aggiornamento del materiale.</p>\n\t\t<p>Interface Agency non consente la pubblicità né si impegna in iniziative di marketing congiunte. Il cliente non deve ricevere pubblicità da terzi. Se il cliente riceve un annuncio che afferma di essere correlato a Interface Agency, questo fatto deve essere reso noto a noi immediatamente.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>IDENTIFICAZIONE DEGLI ACQUIRENTI</h2>\n\t\t<p>Se il cliente acquista un prodotto o servizio e si iscrive a uno dei forum online, il cliente ci autorizza a utilizzare il suo nome e corrispondere nel modo previsto per quel forum.</p>\n\t\t<p>Interface Agency utilizza anche le informazioni personali in forma aggregata (cioè non attribuibili individualmente ai Licenziatari) per analisi aziendali, scopi operativi e di marketing.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>BISCOTTI</h2>\n\t\t<p>I cookie possono essere utilizzati per monitorare l'accesso al sito web. Il cliente acconsente a qualsiasi utilizzo futuro dei cookie per scopi di test e all'uso di cookie per dati disponibili al pubblico per raccogliere statistiche allo scopo di determinare quali motori di ricerca, siti di riferimento, parole chiave, ecc., portano i visitatori al sito Web, quali pagine i visitatori sono più interessati, quali browser Web vengono utilizzati, ecc. A questo scopo possono essere utilizzati diversi fornitori. Lo scopo è ottenere informazioni che aiutino a promuovere il sito Web, a rendere il sito Web più interessante e utile per i visitatori e ad identificare le aree in cui è necessario migliorare. Il cliente può controllare l'uso dei cookie, incluso impedirne l'uso, regolando le preferenze nel proprio browser web. Questo è un <a>riferimento di esempio</a> di un collegamento in linea.</p>\n\t\t<p>Inoltre, vari fornitori di informazioni di terze parti e altre entità che forniscono informazioni per questo sito Web o per l'utilizzo da parte di Interface Agency possono utilizzare i cookie. Gli esempi includono, ma non sono necessariamente limitati a fornitori di fatturazione e risorse di terze parti.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMATIVA PER NECESSITÀ</h2>\n\t\t<p>le informazioni private possono essere divulgate se richiesto da un ordine del tribunale, statuto, legge o regolamento.</p>\n\t\t<p>le informazioni sono soggette a divulgazione per affrontare un reclamo secondo cui un cliente sta violando i termini di qualsiasi Accordo relativo al loro utilizzo di questo sito Web o prodotti o servizi, o diritti di terze parti.</p>\n\t\t<p>le informazioni sono anche soggette a divulgazione se Interface Agency ritiene che la divulgazione sia necessaria per identificare, contattare o intentare un'azione contro qualcuno che potrebbe causare lesioni o interferire (intenzionalmente o meno) con i nostri diritti o proprietà, diritti o proprietà dei clienti, altri utenti del sito Web, prodotti o servizi o chiunque altro.</p>\n\t\t<p>Interface Agency può vendere o acquistare altre attività o entità, oppure può fondersi con un'altra società o essere acquistata da un'altra società. In tali transazioni, le informazioni personali possono essere uno dei beni trasferiti.</p>\n\t\t<p>Le informazioni sui clienti possono essere archiviate ed elaborate in qualsiasi paese in cui Interface Agency dispone di strutture o conduce operazioni. Utilizzando questo sito Web, prodotti e servizi, il cliente acconsente a tale trasferimento di informazioni.</p>\n\t\t<p>Dopo che l'account dei clienti diventa inattivo, le loro informazioni possono rimanere nei database, nei computer e negli archivi di Interface Agency e non possono essere ragionevolmente eliminate per un periodo di dieci anni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>CONSENSO ALL'UTILIZZO DELLE INFORMAZIONI</h2>\n\t\t<p>Quando il cliente comunica con Interface Agency, invia informazioni o fornisce contenuti al sito Web, i clienti concedono un diritto non esclusivo, mondiale, perpetuo, irrevocabile, esente da royalty e sublicenziabile di esercitare tutti i diritti d'autore e di pubblicità che hanno sul contenuto, in qualsiasi modo, in qualsiasi supporto ora noto o che potrebbe essere creato in futuro, incluso in altre opere e forme non associate a questo sito Web.</p>\n\t</div>\n",
+				"BUTTON": "SCARICA LA PRIVACY POLICY"
+			},
+
+			"TERMS": {
+				"TITLE": "TERMINI &amp; CONDIZIONI",
+				"MODIFIED": "Ultima modifica:",
+				"FEBRUARY": "28 FEBBRAIO 2019",
+				"CONTENT": "\n\t<p>Questa politica sulla privacy è inclusa nell'accordo sui termini di utilizzo per riferimento.</p>\n\t<p>Interface Agency raccoglie e utilizza le informazioni personali per molti scopi, incluso ma non limitato a, fatturazione; realizzazione di prodotti e servizi; comprendere le esigenze del cliente; miglioramento del sito web; miglioramento del prodotto e del servizio; transazioni; comunicazione con clienti e potenziali clienti in merito a prodotti e servizi e prodotti e servizi di terzi. Le informazioni private dei clienti saranno divulgate solo ai proprietari, ai dipendenti, agli appaltatori indipendenti e ai fornitori di servizi di Interface Agency, che agiscono per conto o su richiesta di Interface Agency.</p>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI RACCOLTE DALL'ISP</h2>\n\t\t<p>Il provider di hosting per il sito Internet dei clienti ha la capacità di registrare varie informazioni, tra cui nome di dominio, pagine visitate, data e ora di accesso, tipo di browser Web e sistema operativo del computer e informazioni di riferimento e di divulgare queste informazioni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI FINANZIARIE AI FINI DI FATTURAZIONE</h2>\n\t\t<p>Quando le vendite vengono effettuate da Interface Agency, le informazioni finanziarie devono essere divulgate. Queste informazioni possono includere qualsiasi numero di dati che il licenziatario deve fornire, ma più comunemente includono nome, informazioni finanziarie/carta di credito, indirizzo di fatturazione e indirizzo e-mail.</p>\n\t\t<p>Nel caso in cui Interface Agency riceva informazioni finanziarie/carta di credito, non le divulgheremo a nessuno a meno che la divulgazione non sia richiesta dalla legge o da un'ingiunzione del tribunale, o a meno che la divulgazione non sia richiesta per affrontare un problema implicato dalla transazione finanziaria. Se il cliente afferma che le sue informazioni finanziarie sono state utilizzate per effettuare un acquisto che non ha autorizzato, i dettagli sulla transazione finanziaria possono essere divulgati alle forze dell'ordine e a chiunque altro ritenuto necessario per affrontare la questione.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>UTILIZZO DI INDIRIZZI E-MAIL E ALTRE INFORMAZIONI DI CONTATTO</h2>\n\t\t<p>Interface Agency fa molto affidamento sull'uso di e-mail, telefono e Internet per fornire informazioni al cliente e il cliente acconsente espressamente a ricevere comunicazioni via e-mail, messaggi di testo o vocali a telefoni cellulari, fax, telefono, posta o qualsiasi altro metodo di consegna.</p>\n\t\t<p>Il Cliente accetta di ricevere informazioni sul prodotto o servizio acquistato. Ciò può includere, ma non è limitato a, informazioni su aggiornamenti di prodotti o servizi, nuove funzionalità o informazioni che Interface Agency ritiene che il cliente possa trovare interessanti.</p>\n\t\t<p>Interface Agency non venderà, fornirà o trasferirà l'indirizzo e-mail del licenziatario ad altri e invierà solo informazioni su altri prodotti e servizi quando sono correlati a un prodotto o servizio già acquistato o fanno parte di un aggiornamento del materiale.</p>\n\t\t<p>Interface Agency non consente la pubblicità né si impegna in iniziative di marketing congiunte. Il cliente non deve ricevere pubblicità da terzi. Se il cliente riceve un annuncio che afferma di essere correlato a Interface Agency, questo fatto deve essere reso noto a noi immediatamente.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>IDENTIFICAZIONE DEGLI ACQUIRENTI</h2>\n\t\t<p>Se il cliente acquista un prodotto o servizio e si iscrive a uno dei forum online, il cliente ci autorizza a utilizzare il suo nome e corrispondere nel modo previsto per quel forum.</p>\n\t\t<p>Interface Agency utilizza anche le informazioni personali in forma aggregata (cioè non attribuibili individualmente ai Licenziatari) per analisi aziendali, scopi operativi e di marketing.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>BISCOTTI</h2>\n\t\t<p>I cookie possono essere utilizzati per monitorare l'accesso al sito web. Il cliente acconsente a qualsiasi utilizzo futuro dei cookie per scopi di test e all'uso di cookie per dati disponibili al pubblico per raccogliere statistiche allo scopo di determinare quali motori di ricerca, siti di riferimento, parole chiave, ecc., portano i visitatori al sito Web, quali pagine i visitatori sono più interessati, quali browser Web vengono utilizzati, ecc. A questo scopo possono essere utilizzati diversi fornitori. Lo scopo è ottenere informazioni che aiutino a promuovere il sito Web, a rendere il sito Web più interessante e utile per i visitatori e ad identificare le aree in cui è necessario migliorare. Il cliente può controllare l'uso dei cookie, incluso impedirne l'uso, regolando le preferenze nel proprio browser web. Questo è un <a>riferimento di esempio</a> di un collegamento in linea.</p>\n\t\t<p>Inoltre, vari fornitori di informazioni di terze parti e altre entità che forniscono informazioni per questo sito Web o per l'utilizzo da parte di Interface Agency possono utilizzare i cookie. Gli esempi includono, ma non sono necessariamente limitati a fornitori di fatturazione e risorse di terze parti.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMATIVA PER NECESSITÀ</h2>\n\t\t<p>le informazioni private possono essere divulgate se richiesto da un ordine del tribunale, statuto, legge o regolamento.</p>\n\t\t<p>le informazioni sono soggette a divulgazione per affrontare un reclamo secondo cui un cliente sta violando i termini di qualsiasi Accordo relativo al loro utilizzo di questo sito Web o prodotti o servizi, o diritti di terze parti.</p>\n\t\t<p>le informazioni sono anche soggette a divulgazione se Interface Agency ritiene che la divulgazione sia necessaria per identificare, contattare o intentare un'azione contro qualcuno che potrebbe causare lesioni o interferire (intenzionalmente o meno) con i nostri diritti o proprietà, diritti o proprietà dei clienti, altri utenti del sito Web, prodotti o servizi o chiunque altro.</p>\n\t\t<p>Interface Agency può vendere o acquistare altre attività o entità, oppure può fondersi con un'altra società o essere acquistata da un'altra società. In tali transazioni, le informazioni personali possono essere uno dei beni trasferiti.</p>\n\t\t<p>Le informazioni sui clienti possono essere archiviate ed elaborate in qualsiasi paese in cui Interface Agency dispone di strutture o conduce operazioni. Utilizzando questo sito Web, prodotti e servizi, il cliente acconsente a tale trasferimento di informazioni.</p>\n\t\t<p>Dopo che l'account dei clienti diventa inattivo, le loro informazioni possono rimanere nei database, nei computer e negli archivi di Interface Agency e non possono essere ragionevolmente eliminate per un periodo di dieci anni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>CONSENSO ALL'UTILIZZO DELLE INFORMAZIONI</h2>\n\t\t<p>Quando il cliente comunica con Interface Agency, invia informazioni o fornisce contenuti al sito Web, i clienti concedono un diritto non esclusivo, mondiale, perpetuo, irrevocabile, esente da royalty e sublicenziabile di esercitare tutti i diritti d'autore e di pubblicità che hanno sul contenuto, in qualsiasi modo, in qualsiasi supporto ora noto o che potrebbe essere creato in futuro, incluso in altre opere e forme non associate a questo sito Web.</p>\n\t</div>\n",
+				"BUTTON": "Scarica i termini"
+			},
+
+			"COOKIES": {
+				"TITLE": "TERMS &amp; CONDITIONS",
+				"MODIFIED": "Last modified:",
+				"FEBRUARY": "FEBRUARY 28,2019",
+				"CONTENT": "\n\t<p>Questa politica sulla privacy è inclusa nell'accordo sui termini di utilizzo per riferimento.</p>\n\t<p>Interface Agency raccoglie e utilizza le informazioni personali per molti scopi, incluso ma non limitato a, fatturazione; realizzazione di prodotti e servizi; comprendere le esigenze del cliente; miglioramento del sito web; miglioramento del prodotto e del servizio; transazioni; comunicazione con clienti e potenziali clienti in merito a prodotti e servizi e prodotti e servizi di terzi. Le informazioni private dei clienti saranno divulgate solo ai proprietari, ai dipendenti, agli appaltatori indipendenti e ai fornitori di servizi di Interface Agency, che agiscono per conto o su richiesta di Interface Agency.</p>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI RACCOLTE DALL'ISP</h2>\n\t\t<p>Il provider di hosting per il sito Internet dei clienti ha la capacità di registrare varie informazioni, tra cui nome di dominio, pagine visitate, data e ora di accesso, tipo di browser Web e sistema operativo del computer e informazioni di riferimento e di divulgare queste informazioni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMAZIONI FINANZIARIE AI FINI DI FATTURAZIONE</h2>\n\t\t<p>Quando le vendite vengono effettuate da Interface Agency, le informazioni finanziarie devono essere divulgate. Queste informazioni possono includere qualsiasi numero di dati che il licenziatario deve fornire, ma più comunemente includono nome, informazioni finanziarie/carta di credito, indirizzo di fatturazione e indirizzo e-mail.</p>\n\t\t<p>Nel caso in cui Interface Agency riceva informazioni finanziarie/carta di credito, non le divulgheremo a nessuno a meno che la divulgazione non sia richiesta dalla legge o da un'ingiunzione del tribunale, o a meno che la divulgazione non sia richiesta per affrontare un problema implicato dalla transazione finanziaria. Se il cliente afferma che le sue informazioni finanziarie sono state utilizzate per effettuare un acquisto che non ha autorizzato, i dettagli sulla transazione finanziaria possono essere divulgati alle forze dell'ordine e a chiunque altro ritenuto necessario per affrontare la questione.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>UTILIZZO DI INDIRIZZI E-MAIL E ALTRE INFORMAZIONI DI CONTATTO</h2>\n\t\t<p>Interface Agency fa molto affidamento sull'uso di e-mail, telefono e Internet per fornire informazioni al cliente e il cliente acconsente espressamente a ricevere comunicazioni via e-mail, messaggi di testo o vocali a telefoni cellulari, fax, telefono, posta o qualsiasi altro metodo di consegna.</p>\n\t\t<p>Il Cliente accetta di ricevere informazioni sul prodotto o servizio acquistato. Ciò può includere, ma non è limitato a, informazioni su aggiornamenti di prodotti o servizi, nuove funzionalità o informazioni che Interface Agency ritiene che il cliente possa trovare interessanti.</p>\n\t\t<p>Interface Agency non venderà, fornirà o trasferirà l'indirizzo e-mail del licenziatario ad altri e invierà solo informazioni su altri prodotti e servizi quando sono correlati a un prodotto o servizio già acquistato o fanno parte di un aggiornamento del materiale.</p>\n\t\t<p>Interface Agency non consente la pubblicità né si impegna in iniziative di marketing congiunte. Il cliente non deve ricevere pubblicità da terzi. Se il cliente riceve un annuncio che afferma di essere correlato a Interface Agency, questo fatto deve essere reso noto a noi immediatamente.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>IDENTIFICAZIONE DEGLI ACQUIRENTI</h2>\n\t\t<p>Se il cliente acquista un prodotto o servizio e si iscrive a uno dei forum online, il cliente ci autorizza a utilizzare il suo nome e corrispondere nel modo previsto per quel forum.</p>\n\t\t<p>Interface Agency utilizza anche le informazioni personali in forma aggregata (cioè non attribuibili individualmente ai Licenziatari) per analisi aziendali, scopi operativi e di marketing.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>BISCOTTI</h2>\n\t\t<p>I cookie possono essere utilizzati per monitorare l'accesso al sito web. Il cliente acconsente a qualsiasi utilizzo futuro dei cookie per scopi di test e all'uso di cookie per dati disponibili al pubblico per raccogliere statistiche allo scopo di determinare quali motori di ricerca, siti di riferimento, parole chiave, ecc., portano i visitatori al sito Web, quali pagine i visitatori sono più interessati, quali browser Web vengono utilizzati, ecc. A questo scopo possono essere utilizzati diversi fornitori. Lo scopo è ottenere informazioni che aiutino a promuovere il sito Web, a rendere il sito Web più interessante e utile per i visitatori e ad identificare le aree in cui è necessario migliorare. Il cliente può controllare l'uso dei cookie, incluso impedirne l'uso, regolando le preferenze nel proprio browser web. Questo è un <a>riferimento di esempio</a> di un collegamento in linea.</p>\n\t\t<p>Inoltre, vari fornitori di informazioni di terze parti e altre entità che forniscono informazioni per questo sito Web o per l'utilizzo da parte di Interface Agency possono utilizzare i cookie. Gli esempi includono, ma non sono necessariamente limitati a fornitori di fatturazione e risorse di terze parti.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>INFORMATIVA PER NECESSITÀ</h2>\n\t\t<p>le informazioni private possono essere divulgate se richiesto da un ordine del tribunale, statuto, legge o regolamento.</p>\n\t\t<p>le informazioni sono soggette a divulgazione per affrontare un reclamo secondo cui un cliente sta violando i termini di qualsiasi Accordo relativo al loro utilizzo di questo sito Web o prodotti o servizi, o diritti di terze parti.</p>\n\t\t<p>le informazioni sono anche soggette a divulgazione se Interface Agency ritiene che la divulgazione sia necessaria per identificare, contattare o intentare un'azione contro qualcuno che potrebbe causare lesioni o interferire (intenzionalmente o meno) con i nostri diritti o proprietà, diritti o proprietà dei clienti, altri utenti del sito Web, prodotti o servizi o chiunque altro.</p>\n\t\t<p>Interface Agency può vendere o acquistare altre attività o entità, oppure può fondersi con un'altra società o essere acquistata da un'altra società. In tali transazioni, le informazioni personali possono essere uno dei beni trasferiti.</p>\n\t\t<p>Le informazioni sui clienti possono essere archiviate ed elaborate in qualsiasi paese in cui Interface Agency dispone di strutture o conduce operazioni. Utilizzando questo sito Web, prodotti e servizi, il cliente acconsente a tale trasferimento di informazioni.</p>\n\t\t<p>Dopo che l'account dei clienti diventa inattivo, le loro informazioni possono rimanere nei database, nei computer e negli archivi di Interface Agency e non possono essere ragionevolmente eliminate per un periodo di dieci anni.</p>\n\t</div>\n\t<div class=\"legal-section\">\n\t\t<h2>CONSENSO ALL'UTILIZZO DELLE INFORMAZIONI</h2>\n\t\t<p>Quando il cliente comunica con Interface Agency, invia informazioni o fornisce contenuti al sito Web, i clienti concedono un diritto non esclusivo, mondiale, perpetuo, irrevocabile, esente da royalty e sublicenziabile di esercitare tutti i diritti d'autore e di pubblicità che hanno sul contenuto, in qualsiasi modo, in qualsiasi supporto ora noto o che potrebbe essere creato in futuro, incluso in altre opere e forme non associate a questo sito Web.</p>\n\t</div>\n",
+				"BUTTON": "Download Terms"
+			}
+		}
+	},
+	"SHARED": {
+		"SEARCH": {
+			"LABELS": {
+				"AREA": "LA ZONA",
+				"SECTION": "SEZIONE",
+				"CATEGORY": "CATEGORIA",
+				"DEPARTMENT": "DIPARTIMENTO",
+				"TEAM": "SQUADRA",
+				"EXPERIENCE": "ESPERIENZA",
+				"OFFICE": "UFFICIO",
+				"TOPIC": "ARGOMENTO",
+				"SORT": "ORDINARE",
+				"TYPE": "GENERE",
+				"TAGS": "TAGS"
+			},
+			"TAGS": {
+				"ADVANCED": "AVANZATI",
+				"RESET": "RIPRISTINA"
+			}
+		},
+		"EDITOR": {
+			"INTERFACE": "INTERFACCIA",
+			"FONT": "FONT",
+			"PALETTES": {
+				"MAIN": "COLORI PRINCIPALI",
+				"BASE": "COLORI BASE"
+			},
+			"COLLAPSE": "CROLLO",
+			"EXPAND": "ESPANDERE",
+			"SAVE": "SALVA",
+			"BUTTONS": {
+				"PRODUCT": "OTTIENI UNA DEMO GRATUITA DEL PRODOTTO",
+				"SUBSCRIBE": "ISCRIVITI SOLO {{ value }}"
+			}
+		},
+		"NAVIGATION": {
+			"A": {
+				"LABEL": "IMPARARE",
+				"BUTTON": {
+					"A": "RISPOSTE",
+					"B": "ARTICOLI",
+					"C": "GUIDE"
+				}
+			},
+			"B": {
+				"LABEL": "SOSTEGNO",
+				"BUTTON": {
+					"A": "CHIACCHIERARE",
+					"B": "FATTURAZIONE",
+					"C": "TECNICO"
+				}
+			},
+			"C": {
+				"LABEL": "SOCIETÀ",
+				"BUTTON": {
+					"A": "DI",
+					"B": "CARRIERE",
+					"C": "CONTATTO"
+				}
+			},
+			"D": {
+				"LABEL": "SOCIALE"
+			}
+		}
+	},
+	"LIST": {
+		"CONTENT": {
+			"VIEW_ROLE": "VISUALIZZA RUOLO",
+			"APPLY_NOW": "APPLICA ORA"
+		},
+		"EMPTY": {
+			"TITLE": "NIENTE CORRISPONDE AI TUOI VALORI DI RICERCA!",
+			"PARAGRAPH": "Non esitate a contattarci se avete bisogno di aiuto o avete domande? <a href=\"mailto:support@interfaceagency.com\">support@interfaceagency.com</a>",
+			"BUTTONS": {
+				"RESET": "RESET RICERCA",
+				"HELP": "OTTENERE AIUTO"
+			}
+		}
+	},
+	"SELECTED": {
+		"TABS": {
+			"LANGUAGE": "INGLESE",
+			"GET_HELP": "OTTENERE AIUTO",
+			"APPLY_NOW": "APPLICA ORA"
+		},
+		"CREATED_ON": "Creato",
+		"UPDATED_ON": "Aggiornato il"
+	},
+	"SUBSCRIBE": {
+		"CONTENT": {
+			"TITLE": "ISCRIVITI ORA PER PORTARE LA TUA PRESENZA ONLINE AD UN ALTRO LIVELLO",
+			"PARAGRAPH": "Possiamo aiutarti ad aumentare le tue vendite e conversioni, con una presenza online moderna e aggiornata che fa per te",
+			"BUTTONS": {
+				"A": "CODICE &amp; AGGIORNAMENTI",
+				"B": "CARICAMENTO VELOCE",
+				"C": "HOSTING ROBUSTO",
+				"D": "DATI GESTITI"
+			},
+			"PROGRESS": {
+				"ACCOUNT": "ACCOUNT",
+				"PRODUCT": "PRODOTTO",
+				"PAYMENT": "PAGAMENTO",
+				"COMPLETE": "COMPLETARE"
+			}
+		},
+		"FORM": {
+			"ACCOUNT": {
+				"NAME": {
+					"FIRST": "NOME DI BATTESIMO",
+					"LAST": "COGNOME"
+				},
+				"EMAIL": "INDIRIZZO EMAIL",
+				"PHONE": {
+					"COUNTRY": "NAZIONE",
+					"AREA": "CODICE DI ZONA",
+					"NUMBER": "NUMERO"
+				},
+				"PASSWORD": "PAROLA D'ORDINE",
+				"SHOW_PASSWORD": "MOSTRA PASSWORD",
+				"BUTTON": {
+					"SUBMIT": "SOTTOSCRIVI",
+					"UPDATE": "AGGIORNARE"
+				}
+			},
+			"PRODUCT": {
+				"INDUSTRY": "INDUSTRIA",
+				"CATEGORY": "CATEGORIA",
+				"WEBSITE": {
+					"TITLE": "SITO WEB",
+					"INTERFACE": "INTERFACCIA",
+					"FONT": "INTERFACCIA",
+					"PALETTE": {
+						"MAIN_COLORS": "COLORI PRINCIPALI",
+						"BASE_COLORS": "COLORI BASE"
+					},
+					"PREVIEW": "ANTEPRIMA"
+				},
+				"MARKETING": {
+					"TITLE": "MARKETING",
+					"MODULE": "MODULO",
+					"PACKAGE": "PACCHETTO",
+					"ADD_MODULE": "AGGIUNGI MODULO",
+					"REMOVE_MODULE": "RIMUOVI MODULO"
+				},
+				"BUTTON": "ACCEDERE"
+			},
+			"PAYMENT": {
+				"PRICE": {
+					"MONTHLY": "MENSILE",
+					"YEARLY": "ANNUALE"
+				},
+				"PLAN": {
+					"MONTHLY": "Passa al mensile e paga €{{ cost.adjustment.monthly }} extra annuale!",
+					"YEARLY": "Passa al mensile e paga ${{ cost.adjustment.monthly }} extra annuale!"
+				},
+				"CREDIT_CARD": {
+					"NUMBER": "NUMERO",
+					"EXP_MONTH": "MESE ESP",
+					"EXP_YEAR": "ANNO EXP",
+					"CVC": "CVC"
+				},
+				"CURRENCY": "VALUTA",
+				"BUTTON": {
+					"SUBSCRIBE_NOW": "ISCRIVITI ORA",
+					"UPDATE": "AGGIORNARE"
+				}
+			},
+			"COMPLETE": {
+				"TITLE": "ABBONAMENTO COMPLETATO",
+				"PARAGRAPH": "La tua registrazione è completa, grazie per esserti iscritto La tua registrazione è completa, grazie per esserti iscritto.",
+				"PICTURE": {
+					"ACCOUNT": "ACCOUNT",
+					"ORGANIZATION": "ORGANIZZAZIONE",
+					"GROUP": "GRUPPO",
+					"WEBSITE": "SITO WEB",
+					"MARKETING": "MARKETING",
+					"COMPLETE": "COMPLETARE"
+				},
+				"BUTTON": "ACCEDERE"
+			},
+			"DEMO": {
+				"NAME": {
+					"FIRST": "NOME DI BATTESIMO",
+					"LAST": "COGNOME"
+				},
+				"EMAIL": "INDIRIZZO EMAIL",
+				"PHONE": {
+					"COUNTRY": "NAZIONE",
+					"AREA": "CODICE DI ZONA",
+					"NUMBER": "NUMERO"
+				},
+				"PREFERRED": "CONTATTO PREFERITO",
+				"COMPANY_NAME": "NOME DELLA DITTA",
+				"COMPANY_TYPE": "TIPO DI SOCIETA",
+				"MESSAGE": "MESSAGGIO"
+			},
+			"BUTTON": "SOTTOSCRIVI"
+		}
+	},
+	"INDUSTRY": {
+		"AUTOMOTIVE": {
+			"USED_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>IMMEDIATAMENTE</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "DATI RAPIDI"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "COSTRUITO <span>REATTIVO</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "TEMPO REALE <span>LA MODIFICA</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			},
+			"NEW_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>ISTANTANEAMENTE</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &AMP; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "DATI RAPIDI"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "COSTRUITO <span>RESPONSIVE</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			},
+			"MECHANIC": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>ISTANTANEAMENTE</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "DATI RAPIDI"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "COSTRUITO <span>RESPONSIVE</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "MODIFICA <span>in TEMPO REALE</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			}
+		},
+		"LEGAL": {
+			"FAMILY": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>IMMEDIATAMENTE</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "DATI RAPIDI"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "COSTRUITO <span>REATTIVO</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "TEMPO REALE <span>LA MODIFICA</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			},
+			"CRIMINAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>IMMEDIATAMENTE</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "DATI RAPIDI"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "COSTRUITO <span>RESPONSIVE</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% REATTIVO",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "TEMPO REALE <span>LA MODIFICA</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			},
+			"IMMIGRATION": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>INSTANTLY</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "TEMPO REALE <span>LA MODIFICA</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			},
+			"PARALEGAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "SITI WEB DI AVVOCATO DI FAMIGLIA DI NUOVA GENERAZIONE CHE GESTISCONO TUTTO QUELLO DI CUI HAI BISOGNO <span>INSTANTLY</span>",
+						"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+						"POINTS": {
+							"A": "CODICE &amp; AGGIORNAMENTI",
+							"B": "MODIFICA DEI CONTENUTI",
+							"C": "PRESTAZIONE",
+							"D": "HOSTING ROBUSTO",
+							"E": "DATI GESTITI",
+							"F": "SICUREZZA ONLINE",
+							"G": "SUPPORTO 24H",
+							"H": "SERVIZIO E-MAIL"
+						},
+						"SECTION_A": {
+							"TITLE": "POTENZA <span>PRESTAZIONE</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "CARICAMENTO VELOCE",
+								"B": "TEMPO DI FUNZIONAMENTO 100%",
+								"C": "TYPEKIT FONT",
+								"D": "QUICK DATA"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "BUILT <span>RESPONSIVE</span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "MOBILE FAMILY",
+								"B": "100% RESPONSABILE",
+								"C": "DESIGN SU MISURA",
+								"D": "FOCALIZZATO ALL'UTENTE"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "REALTIME <span>EDITING</span></span",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "AGGIORNAMENTI SEMPLICI",
+								"B": "UTENTI MULTIPLI",
+								"C": "REGISTRAZIONE MODIFICHE",
+								"D": "MODIFICA OVUNQUE"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALISI</span>",
+							"PARAGRAPH": "Distinguiti dalla massa mentre migliori la tua attività con la nostra soluzione completamente gestita",
+							"POINTS": {
+								"A": "DATI IN TEMPO REALE",
+								"B": "INTELLIGENZA PREZIOSA",
+								"C": "MIGLIORI CONVERSIONI",
+								"D": "INTEGRARE ADWORD"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

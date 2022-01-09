@@ -6,10 +6,10 @@ const routes: Routes = [
 		path: '',
 		redirectTo: 'organization',
 	},
-	{
-		path: 'careers',
-		loadChildren: () => import('./career/module').then((module) => module.CareerModule),
-	},
+	// {
+	// 	path: 'careers',
+	// 	loadChildren: () => import('./career/module').then((module) => module.CareerModule),
+	// },
 	{
 		path: 'finances',
 		loadChildren: () => import('./finances/module').then((module) => module.FinancesModule),

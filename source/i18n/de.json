@@ -1,0 +1,749 @@
+{
+	"AUTOMOTIVE": "AUTOMOTIVE",
+	"LEGAL": "RECHTLICHES",
+	"MEDICAL": "MEDIZINISCH",
+	"MECHANIC": "MECHANIKER",
+	"NEW_CAR": "NEUES AUTO",
+	"USED_CAR": "GEBRAUCHTWAGEN",
+	"WEBSITES": "WEBSITES",
+	"MARKETING": "MARKETING",
+	"EMAIL": "EMAIL",
+	"DOMAINS": "DOMAINS",
+
+	"PANEL": {
+		"BUTTON": "AUSWAHL EINGEBEN",
+		"COMING_SOON": "KOMMT BALD",
+		"LABELS": {
+			"INDUSTRY": "INDUSTRIE",
+			"CATEGORY": "KATEGORIE",
+			"PRODUCT": "PRODUKT",
+			"SECTION": "SEKTION"
+		},
+		"TITLE": "FINDEN SIE IHRE LÖSUNG"
+	},
+	"HEADER": {
+		"PITCH": {
+			"TITLE": "DIESES ANGEBOT ENDET IN",
+			"DAYS": "TAGE",
+			"HOURS": "STD",
+			"MINUTES": "PROTOKOLL",
+			"SUBSCRIBE": {
+				"BUTTON": "JETZT ABONNIEREN FÜR 198 € PRO JAHR",
+				"PARAGRAPH": {
+					"SMALL": "Erhalten Sie 3 Monate kostenlos mit einem Jahresabonnement und sichern Sie sich Ihren Preis auf Lebenszeit vertragsfrei",
+					"LARGE": "Erhalten Sie 3 Monate kostenlos mit einem Jahresabonnement und sichern Sie sich Ihren Preis lebenslang ohne Vertrag, mit kostenlosen Updates, Hosting, Wartung und Support inklusive vertragsfrei"
+				}
+			},
+			"REVIEW": {
+				"BUTTON": "ERHALTEN SIE EINE KOSTENLOSE ONLINE-PRÄSENZÜBERPRÜFUNG",
+				"PARAGRAPH": "Ihre Online-Präsenz erhält eine kostenlose Überprüfung, die SEO, Ladegeschwindigkeit und Benutzerfreundlichkeit abdeckt!"
+			}
+		},
+		"BANNER": {
+			"LOGIN": "ANMELDUNG",
+			"DEMO": {
+				"SMALL": "KOSTENLOSE PRODUKTDEMO",
+				"LARGE": "ERHALTEN SIE EINE KOSTENLOSE PRODUKTDEMO"
+			},
+			"ANSWERS": "ANTWORTEN",
+			"ARTICLES": "ARTIKEL",
+			"RESELLERS": "WIEDERVERKÄUFER",
+			"SUPPORT": "UNTERSTÜTZUNG",
+			"SUBSCRIBE": "ABONNIEREN"
+		},
+		"CONTENT": {
+			"FIND_YOUR_SOLUTION": "FINDEN SIE IHRE LÖSUNG",
+			"CHOOSE_INDUSTRY": "INDUSTRIE WÄHLEN",
+			"CHOOSE_PRODUCT": "PRODUKT WÄHLEN",
+			"CHOOSE_CATEGORY": "KATEGORIE WÄHLEN",
+			"CHOOSE_SECTION": "ABSCHNITT WÄHLEN",
+			"HOW_WE_IMPROVE_YOUR_BUSINESS": "WIE WIR IHR GESCHÄFT VERBESSERN"
+		}
+	},
+	"FOOTER": {
+		"COMPANY": {
+			"PARAGRAPH": "Wir bieten und verwalten alle Aspekte einer professionellen Online-Präsenz für ein vertragsfreies monatliches Abonnement"
+		},
+		"DEMO": {
+			"TITLE": "ERHALTEN SIE EINE PERSONALISIERTE UND MASSGESCHNEIDERTE DEMO",
+			"PARAGRAPH": "Wir geben Ihnen eine persönliche und maßgeschneiderte Produktdemo speziell für Ihr Unternehmen!",
+			"BUTTON": "LASS UNS DIR HELFEN"
+		},
+		"LEGAL": {
+			"PRIVACY_POLICY": "Datenschutz-Bestimmungen",
+			"TERMS_OF_USE": "Nutzungsbedingungen",
+			"COPYRIGHT": "©2021 Schnittstellenagentur"
+		}
+	},
+	"COOKIE": {
+		"TITLE": "COOKIE-RICHTLINIE",
+		"PARAGRAPH": "Diese Website und ihre Tools von Drittanbietern verwenden Cookies für die in unserer <a [href]=\"cookiesURL\">Datenschutz-Bestimmungen</a>",
+		"BUTTONS": {
+			"ACCEPT": "ANNEHMEN",
+			"REJECT": "ABLEHNEN"
+		}
+	},
+	"RELOAD": {
+		"TITLE": "BROWSER NEU LADEN",
+		"PARAGRAPH": "Eine neuere Version dieser Site ist verfügbar. Bitte aktualisieren Sie diese Seite, um sie zu aktivieren",
+		"BUTTONS": {
+			"ACCEPT": "ANNEHMEN",
+			"CLOSE": "ABLEHNEN"
+		}
+	},
+	"EXIT": {
+		"TITLE": "WIE VIEL MEHR VERKEHR SOLLTEN SIE TATSÄCHLICH BEKOMMEN",
+		"PARAGRAPH": "Nehmen Sie an meinem Traffic-Quiz teil und erhalten Sie maßgeschneiderte Ratschläge, die Sie durch den Weg führen, wie Sie in weniger als 30 Tagen mehr Verkehr und ein höheres Ranking bei Google erzielen können",
+		"BUTTONS": {
+			"START": "STARTEN SIE DAS QUIZ"
+		}
+	},
+	"CHAT": {
+		"TITLE": "WIE KÖNNEN WIR HELFEN?",
+		"PARAGRAPH": "Danke für den Besuch! Wenn Sie Fragen zu den Enterprise-Produkten von Interface haben, können Sie uns gerne eine Nachricht senden!",
+		"BUTTONS": {
+			"START": "STARTEN SIE DAS QUIZ"
+		}
+	},
+	"COMPANY": {
+		"ABOUT": {
+			"TITLE": "GESCHICHTE &amp; MEILENSTEINE",
+			"PARAGRAPH": "Danke für den Besuch! Wenn Sie Fragen zu den Enterprise-Produkten von Interface haben, können Sie uns gerne eine Nachricht senden!"
+		},
+		"LEGAL": {
+			"PRIVACY": {
+				"TITLE": "DATENSCHUTZ-BESTIMMUNGEN",
+				"MODIFIED": "Zuletzt geändert:",
+				"FEBRUARY": "28. FEBRUAR 2019",
+				"CONTENT": "<p>Diese Datenschutzrichtlinie ist durch Bezugnahme in den Nutzungsbedingungen enthalten.</p>\n<p>Interface Agency sammelt und verwendet personenbezogene Daten für viele Zwecke, einschließlich, aber nicht beschränkt auf Abrechnung; Produkt- und Serviceerfüllung; Verständnis der Kundenbedürfnisse; Verbesserung der Website; Produkt- und Serviceverbesserung; Transaktionen; Kommunikation mit Kunden und potenziellen Kunden in Bezug auf Produkte und Dienstleistungen und Produkte und Dienstleistungen Dritter. Die privaten Daten der Kunden werden nur an Eigentümer, Mitarbeiter, unabhängige Auftragnehmer und Dienstleister von Interface Agency weitergegeben, die im Namen oder auf Anfrage von Interface Agency handeln. Dies ist eine <a>Beispielreferenz</a> für einen Inline-Link.</p>\n<div class=\"legal-section\">\n<h2>VOM ISP GESAMMELTE INFORMATIONEN</h2>\n<p>Der Hosting-Provider für die Website des Kunden hat die Möglichkeit, verschiedene Informationen aufzuzeichnen, einschließlich Domainname, aufgerufene Seiten, Datum und Uhrzeit des Zugriffs, Art des Webbrowsers und Betriebssystem des Computers , und verweisende Informationen, und diese Informationen offenzulegen.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>FINANZINFORMATIONEN FÜR ABRECHNUNGSZWECKE</h2 >\n<p>Bei Verkäufen durch die Schnittstellenagentur müssen Finanzinformationen offengelegt werden. Diese Informationen können eine beliebige Anzahl von Fakten enthalten, um deren Bereitstellung der Lizenznehmer gebeten wird, am häufigsten jedoch Name, Finanz-/Kreditkarteninformationen, Rechnungsadresse und E-Mail-Adresse.</p>\n<p>Für den Fall, dass die Schnittstellenagentur Finanz-/Kreditkarteninformationen erhält, werden wir diese nicht an Dritte weitergeben, es sei denn, die Offenlegung ist gesetzlich oder per Gerichtsbeschluss erforderlich oder es sei denn, die Offenlegung ist erforderlich, um ein mit der Finanztransaktion im Zusammenhang stehendes Problem zu lösen. Wenn der Kunde behauptet, dass seine Finanzdaten für einen Kauf verwendet wurden, den er nicht autorisiert hat, können Details zu der Finanztransaktion an die Strafverfolgungsbehörden und alle anderen Personen weitergegeben werden, die als notwendig erachtet werden, um die Angelegenheit zu klären.</p>\n</div> n\n<div class=\"legal-section\">\n<h2>NUTZUNG VON E-MAIL-ADRESSEN UND ANDEREN KONTAKTINFORMATIONEN</h2>\n<p>Interface Agency setzt stark auf die Nutzung von E-Mail, Telefon und Internet, um dem Kunden Informationen zur Verfügung zu stellen, und der Kunde stimmt ausdrücklich zu, Mitteilungen per E-Mail, Text- oder Sprachnachricht an Mobiltelefon, Fax, Telefon, Post oder eine andere Zustellungsmethode zu erhalten.</p>\n<p>Der Kunde erklärt sich damit einverstanden, Informationen über das gekaufte Produkt oder die gekaufte Dienstleistung zu erhalten. Dies kann unter anderem Informationen über Produkt- oder Serviceaktualisierungen, neue Funktionen oder Informationen umfassen, die nach Ansicht von Interface Agency für den Kunden interessant sein könnten.</p>\n<p>Interface Agency wird nicht verkaufen, bereitstellen oder übertragen Die E-Mail-Adresse des Lizenznehmers an andere und sendet nur Informationen über andere Produkte und Dienstleistungen, wenn diese sich auf ein bereits erworbenes Produkt oder eine bereits erworbene Dienstleistung beziehen oder Teil eines Upgrades auf Material sind.</p>\n<p>Die Schnittstellenagentur erlaubt es nicht Werbung zu machen oder sich an gemeinsamen Marketing-Ventures zu beteiligen. Der Kunde sollte keine Werbung von Dritten erhalten. Wenn der Kunde eine Anzeige erhält, die behauptet, mit der Interface Agency in Verbindung zu stehen, muss uns dies unverzüglich mitgeteilt werden.</p>\n</div>\n\n<div class=\"legal-section\"> \n<h2>IDENTIFIZIERUNG DER KÄUFER</h2>\n<p>Wenn der Kunde ein Produkt oder eine Dienstleistung kauft und einem der Online-Foren beitritt, autorisiert der Kunde uns, seinen Namen zu verwenden und in der für dieses Forum vorgesehenen Weise zu korrespondieren .</p>\n<p>Interface Agency verwendet personenbezogene Daten auch in aggregierter Form (dh nicht individuell den Lizenznehmern zuordenbar) für Geschäftsanalyse-, Betriebs- und Marketingzwecke.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>COOKIES</h2>\n<p>Cookies können verwendet werden, um den Zugriff auf die Website zu überwachen. Der Kunde stimmt der zukünftigen Verwendung von Cookies zu Testzwecken und der Verwendung von Cookies für öffentlich zugängliche Daten zu, um Statistiken zu sammeln, um festzustellen, welche Suchmaschinen, verweisenden Seiten, Schlüsselwörter usw. Besucher auf die Website bringen, welche Seiten Besucher am meisten interessiert sind, welche Webbrowser verwendet werden usw. Hierfür können verschiedene Anbieter verwendet werden. Der Zweck besteht darin, Informationen zu erhalten, die dazu beitragen, die Website zu bewerben, die Website für Besucher interessanter und nützlicher zu machen und Bereiche zu identifizieren, in denen Verbesserungen erforderlich sind. Der Kunde kann die Verwendung von Cookies steuern, einschließlich der Verhinderung ihrer Verwendung, indem er die Einstellungen in seinem Webbrowser anpasst.</p>\n<p>Darüber hinaus können verschiedene Drittanbieter von Informationen und andere Einrichtungen, die Informationen für diese Website oder zur Verwendung durch die Schnittstellenagentur bereitstellen, Cookies verwenden. Beispiele hierfür sind unter anderem Abrechnungsanbieter und Ressourcen von Drittanbietern.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>OFFENLEGUNG NACH NOTWENDIGKEIT </h2>\n<p>Private Informationen können offengelegt werden, wenn dies durch einen Gerichtsbeschluss, ein Gesetz, ein Gesetz oder eine Verordnung erforderlich ist.</p>\n<p>Informationen unterliegen der Offenlegung, um einer Behauptung nachzugehen, dass ein Kunde gegen die Bedingungen einer Vereinbarung in Bezug auf die Nutzung dieser Website oder Produkte oder Dienstleistungen oder Rechte Dritter verstoßen.</p>\n<p>Informationen unterliegen auch der Offenlegung, wenn die Schnittstellenagentur der Ansicht ist, dass eine Offenlegung zur Identifizierung erforderlich ist , jemanden zu kontaktieren oder eine Klage gegen jemanden einzuleiten, der (vorsätzlich oder unabsichtlich) unsere Rechte oder unser Eigentum, Kundenrechte oder -eigentum, andere Benutzer der Website, Produkte oder Dienstleistungen oder andere Personen verletzt oder (entweder absichtlich oder unabsichtlich) eingreift.</p>\n<p>Interface Agency kann andere Unternehmen oder Einheiten verkaufen oder kaufen oder mit einem anderen Unternehmen fusionieren oder von einem anderen Unternehmen gekauft werden. Bei solchen Transaktionen können personenbezogene Daten zu den übertragenen Vermögenswerten gehören.</p>\n<p>Kundendaten können in jedem Land gespeichert und verarbeitet werden, in dem die Schnittstellenagentur Einrichtungen unterhält oder tätig ist. Durch die Nutzung dieser Website, Produkte und Dienstleistungen stimmt der Kunde einer solchen Übertragung von Informationen zu.</p>\n<p>Nachdem das Konto des Kunden inaktiv wird, können seine Informationen in den Datenbanken, Computern und Archiven der Interface Agency verbleiben und können dies vernünftigerweise nicht für einen Zeitraum von zehn Jahren eliminiert werden.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>EINWILLIGUNG ZUR VERWENDUNG VON INFORMATIONEN</h2>\n <p>Wenn der Kunde mit der Schnittstellenagentur kommuniziert, Informationen sendet oder Inhalte auf der Website bereitstellt, gewährt der Kunde ein nicht ausschließliches, weltweites, unbefristetes, unwiderrufliches, gebührenfreies, unterlizenzierbares Recht zur Ausübung aller Urheber- und Veröffentlichungsrechte, die ihm zustehen den Inhalt, in welcher Form auch immer, in allen Medien, die jetzt bekannt sind oder in Zukunft erstellt werden könnten, einschließlich in anderen Werken und Formen, die nicht mit dieser Website in Verbindung stehen.</p>\n</div>",
+				"BUTTON": "DATENSCHUTZRICHTLINIE HERUNTERLADEN"
+			},
+			"TERMS": {
+				"TITLE": "BEDINGUNGEN &amp; BEDINGUNGEN",
+				"MODIFIED": "Zuletzt geändert:",
+				"FEBRUARY": "28. FEBRUAR 2019",
+				"CONTENT": "<p>Diese Datenschutzrichtlinie ist durch Bezugnahme in den Nutzungsbedingungen enthalten.</p>\n<p>Interface Agency sammelt und verwendet personenbezogene Daten für viele Zwecke, einschließlich, aber nicht beschränkt auf Abrechnung; Produkt- und Serviceerfüllung; Verständnis der Kundenbedürfnisse; Verbesserung der Website; Produkt- und Serviceverbesserung; Transaktionen; Kommunikation mit Kunden und potenziellen Kunden in Bezug auf Produkte und Dienstleistungen und Produkte und Dienstleistungen Dritter. Die privaten Daten der Kunden werden nur an Eigentümer, Mitarbeiter, unabhängige Auftragnehmer und Dienstleister von Interface Agency weitergegeben, die im Namen oder auf Anfrage von Interface Agency handeln. Dies ist eine <a>Beispielreferenz</a> für einen Inline-Link.</p>\n<div class=\"legal-section\">\n<h2>VOM ISP GESAMMELTE INFORMATIONEN</h2>\n<p>Der Hosting-Provider für die Website des Kunden hat die Möglichkeit, verschiedene Informationen aufzuzeichnen, einschließlich Domainname, aufgerufene Seiten, Datum und Uhrzeit des Zugriffs, Art des Webbrowsers und Betriebssystem des Computers , und verweisende Informationen, und diese Informationen offenzulegen.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>FINANZINFORMATIONEN FÜR ABRECHNUNGSZWECKE</h2 >\n<p>Bei Verkäufen durch die Schnittstellenagentur müssen Finanzinformationen offengelegt werden. Diese Informationen können eine beliebige Anzahl von Fakten enthalten, um deren Bereitstellung der Lizenznehmer gebeten wird, am häufigsten jedoch Name, Finanz-/Kreditkarteninformationen, Rechnungsadresse und E-Mail-Adresse.</p>\n<p>Für den Fall, dass die Schnittstellenagentur Finanz-/Kreditkarteninformationen erhält, werden wir diese nicht an Dritte weitergeben, es sei denn, die Offenlegung ist gesetzlich oder per Gerichtsbeschluss erforderlich oder es sei denn, die Offenlegung ist erforderlich, um ein mit der Finanztransaktion im Zusammenhang stehendes Problem zu lösen. Wenn der Kunde behauptet, dass seine Finanzdaten für einen Kauf verwendet wurden, den er nicht autorisiert hat, können Details zu der Finanztransaktion an die Strafverfolgungsbehörden und alle anderen Personen weitergegeben werden, die als notwendig erachtet werden, um die Angelegenheit zu klären.</p>\n</div> n\n<div class=\"legal-section\">\n<h2>NUTZUNG VON E-MAIL-ADRESSEN UND ANDEREN KONTAKTINFORMATIONEN</h2>\n<p>Interface Agency setzt stark auf die Nutzung von E-Mail, Telefon und Internet, um dem Kunden Informationen zur Verfügung zu stellen, und der Kunde stimmt ausdrücklich zu, Mitteilungen per E-Mail, Text- oder Sprachnachricht an Mobiltelefon, Fax, Telefon, Post oder eine andere Zustellungsmethode zu erhalten.</p>\n<p>Der Kunde erklärt sich damit einverstanden, Informationen über das gekaufte Produkt oder die gekaufte Dienstleistung zu erhalten. Dies kann unter anderem Informationen über Produkt- oder Serviceaktualisierungen, neue Funktionen oder Informationen umfassen, die nach Ansicht von Interface Agency für den Kunden interessant sein könnten.</p>\n<p>Interface Agency wird nicht verkaufen, bereitstellen oder übertragen Die E-Mail-Adresse des Lizenznehmers an andere und sendet nur Informationen über andere Produkte und Dienstleistungen, wenn diese sich auf ein bereits erworbenes Produkt oder eine bereits erworbene Dienstleistung beziehen oder Teil eines Upgrades auf Material sind.</p>\n<p>Die Schnittstellenagentur erlaubt es nicht Werbung zu machen oder sich an gemeinsamen Marketing-Ventures zu beteiligen. Der Kunde sollte keine Werbung von Dritten erhalten. Wenn der Kunde eine Anzeige erhält, die behauptet, mit der Interface Agency in Verbindung zu stehen, muss uns dies unverzüglich mitgeteilt werden.</p>\n</div>\n\n<div class=\"legal-section\"> \n<h2>IDENTIFIZIERUNG DER KÄUFER</h2>\n<p>Wenn der Kunde ein Produkt oder eine Dienstleistung kauft und einem der Online-Foren beitritt, autorisiert der Kunde uns, seinen Namen zu verwenden und in der für dieses Forum vorgesehenen Weise zu korrespondieren .</p>\n<p>Interface Agency verwendet personenbezogene Daten auch in aggregierter Form (dh nicht individuell den Lizenznehmern zuordenbar) für Geschäftsanalyse-, Betriebs- und Marketingzwecke.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>COOKIES</h2>\n<p>Cookies können verwendet werden, um den Zugriff auf die Website zu überwachen. Der Kunde stimmt der zukünftigen Verwendung von Cookies zu Testzwecken und der Verwendung von Cookies für öffentlich zugängliche Daten zu, um Statistiken zu sammeln, um festzustellen, welche Suchmaschinen, verweisenden Seiten, Schlüsselwörter usw. Besucher auf die Website bringen, welche Seiten Besucher am meisten interessiert sind, welche Webbrowser verwendet werden usw. Hierfür können verschiedene Anbieter verwendet werden. Der Zweck besteht darin, Informationen zu erhalten, die dazu beitragen, die Website zu bewerben, die Website für Besucher interessanter und nützlicher zu machen und Bereiche zu identifizieren, in denen Verbesserungen erforderlich sind. Der Kunde kann die Verwendung von Cookies steuern, einschließlich der Verhinderung ihrer Verwendung, indem er die Einstellungen in seinem Webbrowser anpasst.</p>\n<p>Darüber hinaus können verschiedene Drittanbieter von Informationen und andere Einrichtungen, die Informationen für diese Website oder zur Verwendung durch die Schnittstellenagentur bereitstellen, Cookies verwenden. Beispiele hierfür sind unter anderem Abrechnungsanbieter und Ressourcen von Drittanbietern.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>OFFENLEGUNG NACH NOTWENDIGKEIT </h2>\n<p>Private Informationen können offengelegt werden, wenn dies durch einen Gerichtsbeschluss, ein Gesetz, ein Gesetz oder eine Verordnung erforderlich ist.</p>\n<p>Informationen unterliegen der Offenlegung, um einer Behauptung nachzugehen, dass ein Kunde gegen die Bedingungen einer Vereinbarung in Bezug auf die Nutzung dieser Website oder Produkte oder Dienstleistungen oder Rechte Dritter verstoßen.</p>\n<p>Informationen unterliegen auch der Offenlegung, wenn die Schnittstellenagentur der Ansicht ist, dass eine Offenlegung zur Identifizierung erforderlich ist , jemanden zu kontaktieren oder eine Klage gegen jemanden einzuleiten, der (vorsätzlich oder unabsichtlich) unsere Rechte oder unser Eigentum, Kundenrechte oder -eigentum, andere Benutzer der Website, Produkte oder Dienstleistungen oder andere Personen verletzt oder (entweder absichtlich oder unabsichtlich) eingreift.</p>\n<p>Interface Agency kann andere Unternehmen oder Einheiten verkaufen oder kaufen oder mit einem anderen Unternehmen fusionieren oder von einem anderen Unternehmen gekauft werden. Bei solchen Transaktionen können personenbezogene Daten zu den übertragenen Vermögenswerten gehören.</p>\n<p>Kundendaten können in jedem Land gespeichert und verarbeitet werden, in dem die Schnittstellenagentur Einrichtungen unterhält oder tätig ist. Durch die Nutzung dieser Website, Produkte und Dienstleistungen stimmt der Kunde einer solchen Übertragung von Informationen zu.</p>\n<p>Nachdem das Konto des Kunden inaktiv wird, können seine Informationen in den Datenbanken, Computern und Archiven der Interface Agency verbleiben und können dies vernünftigerweise nicht für einen Zeitraum von zehn Jahren eliminiert werden.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>EINWILLIGUNG ZUR VERWENDUNG VON INFORMATIONEN</h2>\n <p>Wenn der Kunde mit der Schnittstellenagentur kommuniziert, Informationen sendet oder Inhalte auf der Website bereitstellt, gewährt der Kunde ein nicht ausschließliches, weltweites, unbefristetes, unwiderrufliches, gebührenfreies, unterlizenzierbares Recht zur Ausübung aller Urheber- und Veröffentlichungsrechte, die ihm zustehen den Inhalt, in welcher Form auch immer, in allen Medien, die jetzt bekannt sind oder in Zukunft erstellt werden könnten, einschließlich in anderen Werken und Formen, die nicht mit dieser Website in Verbindung stehen.</p>\n</div>",
+				"BUTTON": "Nutzungsbedingungen herunterladen"
+			},
+
+			"COOKIES": {
+				"TITLE": "TERMS &amp; CONDITIONS",
+				"MODIFIED": "Last modified:",
+				"FEBRUARY": "FEBRUARY 28,2019",
+				"CONTENT": "<p>Diese Datenschutzrichtlinie ist durch Bezugnahme in den Nutzungsbedingungen enthalten.</p>\n<p>Interface Agency sammelt und verwendet personenbezogene Daten für viele Zwecke, einschließlich, aber nicht beschränkt auf Abrechnung; Produkt- und Serviceerfüllung; Verständnis der Kundenbedürfnisse; Verbesserung der Website; Produkt- und Serviceverbesserung; Transaktionen; Kommunikation mit Kunden und potenziellen Kunden in Bezug auf Produkte und Dienstleistungen und Produkte und Dienstleistungen Dritter. Die privaten Daten der Kunden werden nur an Eigentümer, Mitarbeiter, unabhängige Auftragnehmer und Dienstleister von Interface Agency weitergegeben, die im Namen oder auf Anfrage von Interface Agency handeln. Dies ist eine <a>Beispielreferenz</a> für einen Inline-Link.</p>\n<div class=\"legal-section\">\n<h2>VOM ISP GESAMMELTE INFORMATIONEN</h2>\n<p>Der Hosting-Provider für die Website des Kunden hat die Möglichkeit, verschiedene Informationen aufzuzeichnen, einschließlich Domainname, aufgerufene Seiten, Datum und Uhrzeit des Zugriffs, Art des Webbrowsers und Betriebssystem des Computers , und verweisende Informationen, und diese Informationen offenzulegen.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>FINANZINFORMATIONEN FÜR ABRECHNUNGSZWECKE</h2 >\n<p>Bei Verkäufen durch die Schnittstellenagentur müssen Finanzinformationen offengelegt werden. Diese Informationen können eine beliebige Anzahl von Fakten enthalten, um deren Bereitstellung der Lizenznehmer gebeten wird, am häufigsten jedoch Name, Finanz-/Kreditkarteninformationen, Rechnungsadresse und E-Mail-Adresse.</p>\n<p>Für den Fall, dass die Schnittstellenagentur Finanz-/Kreditkarteninformationen erhält, werden wir diese nicht an Dritte weitergeben, es sei denn, die Offenlegung ist gesetzlich oder per Gerichtsbeschluss erforderlich oder es sei denn, die Offenlegung ist erforderlich, um ein mit der Finanztransaktion im Zusammenhang stehendes Problem zu lösen. Wenn der Kunde behauptet, dass seine Finanzdaten für einen Kauf verwendet wurden, den er nicht autorisiert hat, können Details zu der Finanztransaktion an die Strafverfolgungsbehörden und alle anderen Personen weitergegeben werden, die als notwendig erachtet werden, um die Angelegenheit zu klären.</p>\n</div> n\n<div class=\"legal-section\">\n<h2>NUTZUNG VON E-MAIL-ADRESSEN UND ANDEREN KONTAKTINFORMATIONEN</h2>\n<p>Interface Agency setzt stark auf die Nutzung von E-Mail, Telefon und Internet, um dem Kunden Informationen zur Verfügung zu stellen, und der Kunde stimmt ausdrücklich zu, Mitteilungen per E-Mail, Text- oder Sprachnachricht an Mobiltelefon, Fax, Telefon, Post oder eine andere Zustellungsmethode zu erhalten.</p>\n<p>Der Kunde erklärt sich damit einverstanden, Informationen über das gekaufte Produkt oder die gekaufte Dienstleistung zu erhalten. Dies kann unter anderem Informationen über Produkt- oder Serviceaktualisierungen, neue Funktionen oder Informationen umfassen, die nach Ansicht von Interface Agency für den Kunden interessant sein könnten.</p>\n<p>Interface Agency wird nicht verkaufen, bereitstellen oder übertragen Die E-Mail-Adresse des Lizenznehmers an andere und sendet nur Informationen über andere Produkte und Dienstleistungen, wenn diese sich auf ein bereits erworbenes Produkt oder eine bereits erworbene Dienstleistung beziehen oder Teil eines Upgrades auf Material sind.</p>\n<p>Die Schnittstellenagentur erlaubt es nicht Werbung zu machen oder sich an gemeinsamen Marketing-Ventures zu beteiligen. Der Kunde sollte keine Werbung von Dritten erhalten. Wenn der Kunde eine Anzeige erhält, die behauptet, mit der Interface Agency in Verbindung zu stehen, muss uns dies unverzüglich mitgeteilt werden.</p>\n</div>\n\n<div class=\"legal-section\"> \n<h2>IDENTIFIZIERUNG DER KÄUFER</h2>\n<p>Wenn der Kunde ein Produkt oder eine Dienstleistung kauft und einem der Online-Foren beitritt, autorisiert der Kunde uns, seinen Namen zu verwenden und in der für dieses Forum vorgesehenen Weise zu korrespondieren .</p>\n<p>Interface Agency verwendet personenbezogene Daten auch in aggregierter Form (dh nicht individuell den Lizenznehmern zuordenbar) für Geschäftsanalyse-, Betriebs- und Marketingzwecke.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>COOKIES</h2>\n<p>Cookies können verwendet werden, um den Zugriff auf die Website zu überwachen. Der Kunde stimmt der zukünftigen Verwendung von Cookies zu Testzwecken und der Verwendung von Cookies für öffentlich zugängliche Daten zu, um Statistiken zu sammeln, um festzustellen, welche Suchmaschinen, verweisenden Seiten, Schlüsselwörter usw. Besucher auf die Website bringen, welche Seiten Besucher am meisten interessiert sind, welche Webbrowser verwendet werden usw. Hierfür können verschiedene Anbieter verwendet werden. Der Zweck besteht darin, Informationen zu erhalten, die dazu beitragen, die Website zu bewerben, die Website für Besucher interessanter und nützlicher zu machen und Bereiche zu identifizieren, in denen Verbesserungen erforderlich sind. Der Kunde kann die Verwendung von Cookies steuern, einschließlich der Verhinderung ihrer Verwendung, indem er die Einstellungen in seinem Webbrowser anpasst.</p>\n<p>Darüber hinaus können verschiedene Drittanbieter von Informationen und andere Einrichtungen, die Informationen für diese Website oder zur Verwendung durch die Schnittstellenagentur bereitstellen, Cookies verwenden. Beispiele hierfür sind unter anderem Abrechnungsanbieter und Ressourcen von Drittanbietern.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>OFFENLEGUNG NACH NOTWENDIGKEIT </h2>\n<p>Private Informationen können offengelegt werden, wenn dies durch einen Gerichtsbeschluss, ein Gesetz, ein Gesetz oder eine Verordnung erforderlich ist.</p>\n<p>Informationen unterliegen der Offenlegung, um einer Behauptung nachzugehen, dass ein Kunde gegen die Bedingungen einer Vereinbarung in Bezug auf die Nutzung dieser Website oder Produkte oder Dienstleistungen oder Rechte Dritter verstoßen.</p>\n<p>Informationen unterliegen auch der Offenlegung, wenn die Schnittstellenagentur der Ansicht ist, dass eine Offenlegung zur Identifizierung erforderlich ist , jemanden zu kontaktieren oder eine Klage gegen jemanden einzuleiten, der (vorsätzlich oder unabsichtlich) unsere Rechte oder unser Eigentum, Kundenrechte oder -eigentum, andere Benutzer der Website, Produkte oder Dienstleistungen oder andere Personen verletzt oder (entweder absichtlich oder unabsichtlich) eingreift.</p>\n<p>Interface Agency kann andere Unternehmen oder Einheiten verkaufen oder kaufen oder mit einem anderen Unternehmen fusionieren oder von einem anderen Unternehmen gekauft werden. Bei solchen Transaktionen können personenbezogene Daten zu den übertragenen Vermögenswerten gehören.</p>\n<p>Kundendaten können in jedem Land gespeichert und verarbeitet werden, in dem die Schnittstellenagentur Einrichtungen unterhält oder tätig ist. Durch die Nutzung dieser Website, Produkte und Dienstleistungen stimmt der Kunde einer solchen Übertragung von Informationen zu.</p>\n<p>Nachdem das Konto des Kunden inaktiv wird, können seine Informationen in den Datenbanken, Computern und Archiven der Interface Agency verbleiben und können dies vernünftigerweise nicht für einen Zeitraum von zehn Jahren eliminiert werden.</p>\n</div>\n\n<div class=\"legal-section\">\n<h2>EINWILLIGUNG ZUR VERWENDUNG VON INFORMATIONEN</h2>\n <p>Wenn der Kunde mit der Schnittstellenagentur kommuniziert, Informationen sendet oder Inhalte auf der Website bereitstellt, gewährt der Kunde ein nicht ausschließliches, weltweites, unbefristetes, unwiderrufliches, gebührenfreies, unterlizenzierbares Recht zur Ausübung aller Urheber- und Veröffentlichungsrechte, die ihm zustehen den Inhalt, in welcher Form auch immer, in allen Medien, die jetzt bekannt sind oder in Zukunft erstellt werden könnten, einschließlich in anderen Werken und Formen, die nicht mit dieser Website in Verbindung stehen.</p>\n</div>",
+				"BUTTON": "Nutzungsbedingungen herunterladen"
+			}
+		}
+	},
+	"SHARED": {
+		"SEARCH": {
+			"LABELS": {
+				"AREA": "BEREICH",
+				"SECTION": "SEKTION",
+				"CATEGORY": "KATEGORIE",
+				"DEPARTMENT": "ABTEILUNG",
+				"TEAM": "MANNSCHAFT",
+				"EXPERIENCE": "ERFAHRUNG",
+				"OFFICE": "BÜRO",
+				"TOPIC": "THEMA",
+				"SORT": "SORTIEREN",
+				"TYPE": "TYP",
+				"TAGS": "STICHWORTE"
+			},
+			"TAGS": {
+				"ADVANCED": "FORTSCHRITTLICH",
+				"RESET": "ZURÜCKSETZEN"
+			}
+		},
+		"EDITOR": {
+			"INTERFACE": "SCHNITTSTELLE",
+			"FONT": "SCHRIFTART",
+			"PALETTES": {
+				"MAIN": "HAUPTFARBEN",
+				"BASE": "GRUNDFARBEN"
+			},
+			"COLLAPSE": "ZUSAMMENBRUCH",
+			"EXPAND": "EXPANDIEREN",
+			"SAVE": "SPEICHERN",
+			"BUTTONS": {
+				"PRODUCT": "ERHALTEN SIE EINE KOSTENLOSE PRODUKTDEMO",
+				"SUBSCRIBE": "NUR ABONNIEREN {{ value }}"
+			}
+		},
+		"NAVIGATION": {
+			"A": {
+				"LABEL": "LERNEN",
+				"BUTTON": {
+					"A": "ANTWORTEN",
+					"B": "ARTIKEL",
+					"C": "FÜHRER"
+				}
+			},
+			"B": {
+				"LABEL": "UNTERSTÜTZUNG",
+				"BUTTON": {
+					"A": "PLAUDERN",
+					"B": "ABRECHNUNG",
+					"C": "TECHNISCH"
+				}
+			},
+			"C": {
+				"LABEL": "GESELLSCHAFT",
+				"BUTTON": {
+					"A": "ÜBER",
+					"B": "KARRIERE",
+					"C": "KONTAKT"
+				}
+			},
+			"D": {
+				"LABEL": "SOZIAL"
+			}
+		}
+	},
+	"LIST": {
+		"CONTENT": {
+			"VIEW_ROLE": "ROLLE ANZEIGEN",
+			"APPLY_NOW": "JETZT BEWERBEN"
+		},
+		"EMPTY": {
+			"TITLE": "NICHTS ENTSPRICHT DEINEN SUCHWERTEN!",
+			"PARAGRAPH": "Bitte zögern Sie nicht uns zu kontaktieren, wenn Sie Hilfe benötigen oder Fragen haben? <a href=\"mailto:support@interfaceagency.com\">support@interfaceagency.com</a>",
+			"BUTTONS": {
+				"RESET": "SUCHE ZURÜCKSETZEN",
+				"HELP": "HILFE ERHALTEN"
+			}
+		}
+	},
+	"SELECTED": {
+		"TABS": {
+			"LANGUAGE": "ENGLISCH",
+			"GET_HELP": "HILFE ERHALTEN",
+			"APPLY_NOW": "JETZT BEWERBEN"
+		},
+		"CREATED_ON": "Erstellt am",
+		"UPDATED_ON": "Aktualisiert am"
+	},
+	"SUBSCRIBE": {
+		"CONTENT": {
+			"TITLE": "ABONNIEREN SIE JETZT, UM IHRE ONLINE-PRÄSENZ AUF EIN ANDERES NIVEAU ZU BRINGEN",
+			"PARAGRAPH": "Wir können Ihnen helfen, Ihren Umsatz und Ihre Conversions zu steigern, mit einer modernen und aktualisierten Amline-Präsenz, die für Sie arbeitet",
+			"BUTTONS": {
+				"A": "CODE &amp; AKTUALISIERUNG",
+				"B": "SCHNELLES LADEN",
+				"C": "ROBUSTES HOSTING",
+				"D": "VERWALTETE DATEN"
+			},
+			"PROGRESS": {
+				"ACCOUNT": "KONTO",
+				"PRODUCT": "PRODUKT",
+				"PAYMENT": "ZAHLUNG",
+				"COMPLETE": "KOMPLETT"
+			}
+		},
+		"FORM": {
+			"ACCOUNT": {
+				"NAME": {
+					"FIRST": "VORNAME",
+					"LAST": "NACHNAME"
+				},
+				"EMAIL": "E-MAIL-ADDRESSE",
+				"PHONE": {
+					"COUNTRY": "LAND",
+					"AREA": "VORWAHL",
+					"NUMBER": "NUMMER"
+				},
+				"PASSWORD": "PASSWORT",
+				"SHOW_PASSWORD": "PASSWORT ANZEIGEN",
+				"BUTTON": {
+					"SUBMIT": "EINREICHEN",
+					"UPDATE": "AKTUALISIEREN"
+				}
+			},
+			"PRODUCT": {
+				"INDUSTRY": "INDUSTRIE",
+				"CATEGORY": "KATEGORIE",
+				"WEBSITE": {
+					"TITLE": "WEBSEITE",
+					"INTERFACE": "SCHNITTSTELLE",
+					"FONT": "SCHRIFTART",
+					"PALETTE": {
+						"MAIN_COLORS": "HAUPTFARBEN",
+						"BASE_COLORS": "GRUNDFARBEN"
+					},
+					"PREVIEW": "VORSCHAU"
+				},
+				"MARKETING": {
+					"TITLE": "MARKETING",
+					"MODULE": "MODUL",
+					"PACKAGE": "PAKET",
+					"ADD_MODULE": "MODUL HINZUFÜGEN",
+					"REMOVE_MODULE": "MODUL ENTFERNEN"
+				},
+				"BUTTON": "EINTRETEN"
+			},
+			"PAYMENT": {
+				"PRICE": {
+					"MONTHLY": "MONATLICH",
+					"YEARLY": "JÄHRLICH"
+				},
+				"PLAN": {
+					"MONTHLY": "Auf monatlich wechseln und bezahlen €{{ cost.adjustment.monthly }} zusätzlich jährlich!",
+					"YEARLY": "Auf monatlich wechseln und bezahlen ${{ cost.adjustment.monthly }} zusätzlich jährlich!"
+				},
+				"CREDIT_CARD": {
+					"NUMBER": "NUMMER",
+					"EXP_MONTH": "EXP MONAT",
+					"EXP_YEAR": "EXP-JAHR",
+					"CVC": "Lebenslauf"
+				},
+				"CURRENCY": "WÄHRUNG",
+				"BUTTON": {
+					"SUBSCRIBE_NOW": "ABONNIERE JETZT",
+					"UPDATE": "AKTUALISIEREN"
+				}
+			},
+			"COMPLETE": {
+				"TITLE": "ABONNEMENT ABGESCHLOSSEN",
+				"PARAGRAPH": "Ihre Registrierung ist abgeschlossen, vielen Dank für Ihre Anmeldung Ihre Registrierung ist abgeschlossen, danke für Ihre Anmeldung.",
+				"PICTURE": {
+					"ACCOUNT": "KONTO",
+					"ORGANIZATION": "ORGANISATION",
+					"GROUP": "GRUPPE",
+					"WEBSITE": "WEBSEITE",
+					"MARKETING": "MARKETING",
+					"COMPLETE": "KOMPLETT"
+				},
+				"BUTTON": "ANMELDUNG"
+			},
+			"DEMO": {
+				"NAME": {
+					"FIRST": "VORNAME",
+					"LAST": "NACHNAME"
+				},
+				"EMAIL": "E-MAILADRESSE",
+				"PHONE": {
+					"COUNTRY": "LAND",
+					"AREA": "VORWAHL",
+					"NUMBER": "NUMMER"
+				},
+				"PREFERRED": "BEVORZUGTER KONTAKT",
+				"COMPANY_NAME": "NAME DER FIRMA",
+				"COMPANY_TYPE": "UNTERNEHMENSTYP",
+				"MESSAGE": "BOTSCHAFT"
+			},
+			"BUTTON": "EINREICHEN"
+		}
+	},
+	"INDUSTRY": {
+		"AUTOMOTIVE": {
+			"USED_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "ENERGIE <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			},
+			"NEW_CAR": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "ENERGIE <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			},
+			"MECHANIC": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			}
+		},
+		"LEGAL": {
+			"FAMILY": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			},
+			"CRIMINAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			},
+			"IMMIGRATION": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			},
+			"PARALEGAL": {
+				"WEBSITES": {
+					"PREVIEW": {
+						"TITLE": "WEBSITES FÜR FAMILIENRECHTSANWÄLTE DER NÄCHSTEN GENERATION, DIE ALLES VERWALTEN, WAS SIE BENÖTIGEN <span>SOFORT</span>",
+						"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+						"POINTS": {
+							"A": "CODE &amp; AKTUALISIERUNG",
+							"B": "INHALTSBEARBEITUNG",
+							"C": "LEISTUNG",
+							"D": "ROBUSTES HOSTING",
+							"E": "VERWALTETE DATEN",
+							"F": "ONLINE-SICHERHEIT",
+							"G": "24-Stunden-Support",
+							"H": "E-MAIL-SERVICE"
+						},
+						"SECTION_A": {
+							"TITLE": "POWER <span>LEISTUNG</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "SCHNELLES LADEN",
+								"B": "100 % VERFÜGBARKEIT",
+								"C": "TYPEKIT SCHRIFTART",
+								"D": "SCHNELLE DATEN"
+							}
+						},
+						"SECTION_B": {
+							"TITLE": "GEBAUT <span>REAKTIONSFÄHIG</span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "MOBILFREUNDLICH",
+								"B": "100% REAKTIONSFÄHIG",
+								"C": "MASSGESCHNEIDERTES DESIGN",
+								"D": "BENUTZERFOKUSSIERT"
+							}
+						},
+						"SECTION_C": {
+							"TITLE": "ECHTZEIT <span>BEARBEITUNG</span></span",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "EINFACHE AKTUALISIERUNGEN",
+								"B": "MEHRERE BENUTZER",
+								"C": "ÄNDERUNG DER AUFZEICHNUNG",
+								"D": "ÜBERALL BEARBEITEN"
+							}
+						},
+						"SECTION_D": {
+							"TITLE": "GOOGLE <span>ANALYTIK</span>",
+							"PARAGRAPH": "Heben Sie sich von der Masse ab und verbessern Sie gleichzeitig Ihr Geschäft mit unserer vollständig verwalteten Lösung",
+							"POINTS": {
+								"A": "ECHTZEITDATEN",
+								"B": "UNBEZAHLBARER EINBLICK",
+								"C": "BESTE UMWANDLUNGEN",
+								"D": "ADWORDS INTEGRIEREN"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,194 @@
+#cookie
+	position: fixed
+	width: 100%
+	margin: 0
+	padding: 0
+	bottom: 0
+	right: 0
+	background: var(--blue-color)
+	border-top: var(--black-border)
+	z-index: 999999
+
+	&__content
+		float: left
+		width: 100%
+		margin-bottom: 20px
+		padding-top: 20px
+
+	&__container
+		position: relative
+		width: 340px
+		margin: 0 auto
+		padding: 0
+		z-index: 9999999
+
+	&__icon
+		display: flex
+		float: left
+		height: 100%
+		margin-right: 18px
+		padding: 0
+		font-size: 31px
+		align-items: center
+
+		.fa-primary
+			background: #674140
+			fill: #674140
+			color: #674140
+			opacity: 1
+
+		.fa-secondary
+			background: #e3c18c
+			fill: #e3c18c
+			color: #e3c18c
+			opacity: 1
+
+	&__title
+		display: flex
+		float: left
+		width: 100%
+		height: 31px
+		margin-bottom: 14px
+		padding: 0
+
+		h1
+			display: flex
+			height: 100%
+			margin: 0
+			padding: 0
+			font-family: $primary-font
+			font-weight: var(--primary-font-weight-500)
+			font-size: 21px
+			color: var(--primary-title-color)
+			align-items: center
+			vertical-align: text-top
+
+	&__paragraph
+		float: left
+		width: 100%
+		margin-bottom: 26px
+		padding: 0
+
+		p
+			float: left
+			width: 100%
+			margin: 0
+			padding: 0
+			font-family: $secondary-font
+			font-weight: var(--secondary-font-weight-300)
+			font-size: 15px
+			line-height: 25px
+			color: var(--primary-paragraph-color)
+			text-align: left
+
+	&__buttons
+		float: left
+		//width: 100%
+		margin: 0
+		padding: 0
+
+	&__check
+		display: flex
+		padding: 0
+		margin-right: 12px
+		font-size: 21px
+		color: var(--primary-title-color)
+		align-self: center
+
+	&__times
+		display: flex
+		padding: 0
+		margin-right: 12px
+		font-size: 21px
+		color: var(--primary-title-color)
+		align-self: center
+
+	&__clouds
+		float: left
+		width: 100%
+		height: 60px
+		margin: 0
+		padding: 0
+		overflow: hidden
+
+#cookie.close
+	width: 100%
+	bottom: -360px
+	transition-duration: 10s
+	background: var(--blue-color)
+	// -webkit-animation: slide-fwd-bottom: 0.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+	// animation: slide-fwd-bottom: 0.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+.cookie-button
+	display: flex
+	float: left
+	height: 44px
+	margin: 0 14px 0 0
+	padding: 0 24px
+	background: var(--primary-background-color)
+	border: var(--primary-on-blue-border)
+	border-radius: $radius
+	justify-content: center
+	box-sizing: border-box
+	vertical-align: text-top
+	cursor: pointer
+
+	h4
+		float: left
+		margin: 0
+		height: 21px
+		padding: 0
+		font-family: $primary-font
+		font-weight: var(--primary-font-weight-500)
+		font-size: 16px
+		color: var(--primary-title-color)
+		align-self: center
+		outline: none
+		vertical-align: text-top
+
+.cookie-cloud
+	position: absolute
+	left: 50%
+	padding: 0
+	background: var(--white-color)
+	border-radius: $radius-circle
+	z-index: 99999
+
+	&.a
+		width: 100px
+		height: 100px
+		margin: 16px 0 0 -198px
+		padding: 0
+		background: #c8c8c8
+
+	&.b
+		width: 100px
+		height: 100px
+		margin: 24px 0 0 -150px
+		padding: 0
+
+	&.c
+		width: 100px
+		height: 100px
+		margin: 12px 0 0 -90px
+		padding: 0
+
+	&.d
+		width: 140px
+		height: 140px
+		margin: 0 0 0 -40px
+		padding: 0
+
+	&.e
+		width: 100px
+		height: 100px
+		margin: 14px 0 0 50px
+		padding: 0
+
+	&.q
+		width: 100px
+		height: 100px
+		margin: 16px 0 0 120px
+		padding: 0
+		background: #c8c8c8
+		z-index: 1
