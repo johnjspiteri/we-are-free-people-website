@@ -129,7 +129,7 @@
 		"development": "cross-env TS_NODE_PROJECT=\"./build/tsconfig.json\" webpack serve --config ./build/development/configuration.ts --color",
 		"fix": "eslint source --ext .ts --fix",
 		"lint": "eslint source --ext .ts",
-		"production": "npm run rimraf -- \"production\" && cross-env TS_NODE_PROJECT=\"build/tsconfig.json\" webpack --config build/production/configuration.ts --color",
+		"production": "npm run rimraf -- \"production/www\" && cross-env TS_NODE_PROJECT=\"build/tsconfig.json\" webpack --config build/production/configuration.ts --color",
 		"rimraf": "rimraf",
 		"serve": "cd ./production && http-server"
 	},

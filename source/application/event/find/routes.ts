@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EventFindComponent } from './component';
-// import { ArticleFindGuard } from './guard';
+import { EventFindGuard } from './guard';
 
 const routes: Routes = [
 	{
 		path: '',
 		component: EventFindComponent,
-		canActivate: [],
+		canActivate: [EventFindGuard],
 		children: [
 			{
 				path: 'help',

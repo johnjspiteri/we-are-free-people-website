@@ -7,7 +7,7 @@ import * as fromEventActions from '../store/actions';
 import * as fromEventSelectors from '../store/selectors';
 
 @Injectable({ providedIn: 'root' })
-export class ArticleFindGuard implements CanActivate {
+export class EventFindGuard implements CanActivate {
 	constructor(private router: Router, private store: Store) {}
 
 	canActivate(): Observable<boolean> {
