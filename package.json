@@ -115,17 +115,18 @@
 			"prettier/prettier": "error"
 		}
 	},
-	"name": "interface-agency-website",
+	"name": "we-are-people",
 	"prettier": "@interface-agency/prettier-style",
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/interface-agency-website/website/src/master/"
+		"url": "https://github.com/interface-agency/we-are-people-website/src/master/"
 	},
 	"scripts": {
 		"analysis:d": "npm run rimraf -- \"development\" && cross-env TS_NODE_PROJECT=\"build/tsconfig.json\" webpack --config build/development/configuration.ts --analyze",
 		"analysis:p": "npm run rimraf -- \"production\" && cross-env TS_NODE_PROJECT=\"build/production/tsconfig.json\" webpack --config build/production/configuration.ts --analyze",
 		"build:d": "npm run rimraf -- \"source/dll\" && cross-env TS_NODE_PROJECT=\"build/tsconfig.json\" webpack --config build/dll/configuration.ts",
+		"deploy": "gcloud app deploy ./production/app.yaml ",
 		"development": "cross-env TS_NODE_PROJECT=\"./build/tsconfig.json\" webpack serve --config ./build/development/configuration.ts --color",
 		"fix": "eslint source --ext .ts --fix",
 		"lint": "eslint source --ext .ts",
