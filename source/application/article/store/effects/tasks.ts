@@ -9,7 +9,6 @@ import { ArticleListService } from '../services/list';
 import { selectRouteNestedParams, selectRouteParams } from '_application/common/store/router/selectors';
 import * as fromArticleActions from '../actions';
 import * as fromArticleSelectors from '../selectors';
-import * as fromLoaderActions from '_application/common/store/loader/actions';
 import { cloneDeep } from 'lodash';
 import type { Article, ArticleListRequest } from '@interface-agency/website-article-interface';
 import type { SearchOptions } from '_application/shared/interface/options';
@@ -164,7 +163,6 @@ export class ArticleEffectsTasks {
 				ofType(fromArticleActions.SETTING_LOAD),
 				withLatestFrom(this.store.select(selectRouteParams)),
 				tap(([{}, route_params]) => {
-					this.store.dispatch(fromLoaderActions.GLOBAL_ACTIVATED());
 					let sections: string[] = [];
 					if (route_params.area) sections = options[route_params.area].options;
 
@@ -394,7 +392,6 @@ export class ArticleEffectsTasks {
 							kinds: action.types,
 						})
 					);
-					this.store.dispatch(fromLoaderActions.GLOBAL_DEACTIVATED());
 				})
 			);
 		},

@@ -1,14 +1,12 @@
 import { InjectionToken } from '@angular/core';
 import { Action, ActionReducer, ActionReducerMap, MetaReducer } from '@ngrx/store';
 import { storeFreeze } from 'ngrx-store-freeze';
-import { LOADER_REDUCER } from './loader/reducer';
 import { PANEL_REDUCER } from './panel/reducer';
 import { routerReducer } from '@ngrx/router-store';
 import type { State } from './interface';
 
 export const ROOT_REDUCERS = new InjectionToken<ActionReducerMap<State, Action>>('ROOT_REDUCERS_TOKEN', {
 	factory: () => ({
-		loader: LOADER_REDUCER,
 		panel: PANEL_REDUCER,
 		router: routerReducer,
 	}),

@@ -1,4 +1,17 @@
 :root {
+	--primary-border: 1px solid var(--primary-on-base-border-color);
+	--primary-on-secondary-border: 1px solid var(--primary-on-secondary-border-color);
+	--primary-on-base-border: 1px solid var(--primary-on-base-border-color);
+	--primary-on-base-border-active: 1px solid var(--primary-on-base-border-color-active);
+
+	--primary-button-active-border: 1px solid var(--primary-button-active-border-color);
+	--primary-button-inactive-border: 1px solid var(--primary-button-inactive-border-color);
+
+	--primary-field-border: 1px solid var(--primary-field-border-color);
+	--primary-field-border-dotted: 1px dotted var(--grey-color);
+	--primary-field-border-focus: 1px solid var(--primary-field-border-color-focus);
+
+
 	/* --primary-background-color: #FBFCED */
 	--primary-background-color: #E1DEDB;
 	--primary-background-color: #F7F4F0;

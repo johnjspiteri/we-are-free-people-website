@@ -1,4 +1,15 @@
 :root {
+
+	--secondary-border: 1px solid var(--secondary-border-color);
+	--secondary-on-base-border: 1px solid var(--secondary-on-base-border-color);
+
+	--secondary-dotted-border: 1px solid var(--secondary-dotted-border-color);
+	--secondary-image-border: 1px solid var(--secondary-image-border-color);
+	--secondary-title-border-bottom: 3px solid var(--secondary-title-border-bottom-color);
+
+	--secondary-button-border: 1px solid var(--secondary-button-border-color);
+
+
 	--secondary-background-color: #F7F4F0;
 	/* --secondary-background-color: var(--white-color); */
 	/* --secondary-background-color:  #c9d5e3; */

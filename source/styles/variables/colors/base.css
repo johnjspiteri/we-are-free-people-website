@@ -10,7 +10,6 @@
 	/* --base-background-color: #eeedec; */
 	--base-border-color: #d8d8d8;
 
-	--base-on-primary-border-color: #1e1d24;
 	--base-on-primary-border-bottom-color: #1e1d24;
 	--base-on-secondary-border-color: #1e1d24;
 	--base-on-secondary-border-bottom-color: #1e1d24;
@@ -23,16 +22,20 @@
 	--base-on-brown-border-color: #232228;
 	--base-on-brown-border-bottom-color: #1e1d24;
 
+	--base-button-active-border: 1px solid var(--primary-on-base-border-color);
+	--base-button-inactive-border: 1px solid #000;
+
+	--base-on-primary-border: 1px solid #1e1d24;
+	--base-on-secondary-border: 1px solid #1e1d24;
+
 	--base-title-color: var(--black-color);
 	--base-paragraph-color: #666;
 
 	--base-button-active-background-color: var(--teal-color);
 	--base-button-active-text-color: var(--black-color);
-	--base-button-active-border-color: var(--primary-on-base-border-color);
 
 	--base-button-inactive-background-color: #33333;
 	--base-button-inactive-text-color: var(--white-color);
-	--base-button-inactive-border-color: #000;
 
 	--base-accent-active-background-color: var(--blue-color);
 	--base-accent-active-background-color: var(--primary-background-color);

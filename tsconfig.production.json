@@ -1,0 +1,6 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./tsconfig",
+	"exclude": ["build"],
+	"files": ["source/production.ts"]
+}

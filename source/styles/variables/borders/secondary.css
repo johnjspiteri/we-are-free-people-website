@@ -1,0 +1,20 @@
+/* $secondary-button-active-border: = 1px solid var(--secondary-button-border)-active-color */
+/* $secondary-button-inactive-border: = 1px solid var(--secondary-button-border)-inactive-color */
+/* $secondary-field-border: = 1px solid $secondary-field-border-color */
+/* $secondary-field-border-focus = 1px solid $secondary-field-border-color-focus */
+/* $secondary-title-bottom-border: = 3px solid var(--blue-color) */
+/* $secondary-square-border: = 1px solid $secondary-square-border-color */
+/* $secondary-on-primary-border: = 1px solid $secondary-on-primary-border-color */
+/* $secondary-on-primary-border-bottom: = 3px solid $secondary-on-primary-border-bottom-color */
+/* $secondary-on-tertiary-border: = 1px solid $secondary-on-tertiary-border-color */
+
+:root {
+	--secondary-border: 1px solid var(--secondary-border-color);
+	--secondary-on-base-border: 1px solid var(--secondary-on-base-border-color);
+
+	--secondary-dotted-border: 1px solid var(--secondary-dotted-border-color);
+	--secondary-image-border: 1px solid var(--secondary-image-border-color);
+	--secondary-title-border-bottom: 3px solid var(--secondary-title-border-bottom-color);
+
+	--secondary-button-border: 1px solid var(--secondary-button-border-color);
+}

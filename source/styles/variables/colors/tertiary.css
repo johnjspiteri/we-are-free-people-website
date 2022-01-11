@@ -6,6 +6,18 @@
 
 	/* --tertiary-border-color: #e6e639; */
 	/* --tertiary-border-color: #cccc32; */
+	--tertiary-border: 1px solid var(--tertiary-border-color);
+	--tertiary-border-bottom: 3px solid var(--tertiary-border-bottom-color);
+
+	--tertiary-on-primary-border: 1px solid var(--tertiary-on-primary-border-color);
+	--tertiary-on-primary-border-bottom: 3px solid var(--tertiary-on-primary-border-bottom-color);
+
+
+	--tertiary-button-active-border: 1px solid var(--tertiary-button-active-border-color);
+	--tertiary-button-active-border-bottom: 3px solid var(--tertiary-button-active-border-bottom-color);
+
+	--tertiary-button-inactive-border: 1px solid var(--tertiary-button-inactive-border-color);
+	--tertiary-button-inactive-border-bottom: 3px solid var(--tertiary-button-inactive-border-bottom-color);
 
 	--tertiary-on-primary-border-color: var(--yellow-border-color);
 	--tertiary-on-primary-border-bottom-color: var(--yellow-on-primary-border-bottom-color);

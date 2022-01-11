@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.watcherExclude": {
+			"__ngcc__entry__points__.json": true,
+			"package-lock.json": true,
+			"**/node_modules/**": true,
+			"**/source/dll/**": true,
+			"**/source/images/**": true,
+			"development/**": true,
+			"production/www/**": true
+		},
+		"files.exclude": {
+			"__ngcc__entry__points__.json": true,
+			"package-lock.json": true,
+			"**/node_modules/**": true,
+			"**/source/dll/**": true,
+			"**/source/images/**": true,
+			"development/**": true,
+			"production/www/**": true
+		},
+		"search.searchEditor.reusePriorSearchConfiguration": true,
+		"workbench.tree.indent": 16,
+		"editor.autoClosingDelete": "always",
+		"editor.autoClosingOvertype": "always",
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+		"search.exclude": {
+			"**/node_modules": false
+		}
+	}
+}

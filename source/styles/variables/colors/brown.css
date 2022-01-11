@@ -16,6 +16,10 @@
 	--brown-on-yellow-border-color: #232228;
 	--brown-on-yellow-border-bottom-color: #1e1d24;
 
+	--brown-button-inactive-border-color: 1px solid var(--brown-border-color);
+	--brown-button-inactive-border-bottom-color: 3px solid var(--brown-bottom-border-color);
+
+
 	--brown-border-color: #89492a;
 	--brown-bottom-border-color: #62341e;
 
@@ -26,6 +30,4 @@
 	--brown-button-background-inactive-color: var(--brown-background-color);
 	/* --brown-button-background-inactive-color: #b5795b */
 	--brown-button-text-inactive-color: var(--white-color);
-	--brown-button-border-inactive-color: var(--brown-border-color);
-	--brown-button-border-bottom-inactive-color: var(--brown-bottom-border-color);
 }
