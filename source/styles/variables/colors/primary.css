@@ -47,7 +47,7 @@
 	--primary-check-color: #b4dac3;
 
 	--primary-button-active-background-color: var(--teal-color);
-	--primary-button-active-text-color: #666;
+	--primary-button-active-text-color: #fff;
 	--primary-button-active-border-color: var(--blue-on-primary-border-color);
 
 	--primary-button-inactive-background-color: #484848;
