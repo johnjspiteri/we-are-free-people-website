@@ -1,4 +1,4 @@
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Article } from '@interface-agency/interfaces.website.article';
 import * as fromArticleReducer from '_application/article/store/reducer';
 
 export interface ArticleStore {

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import type { Article, ArticleListRequest } from '@interface-agency/website-article-interface';
+import type { Article, ArticleListRequest } from '@interface-agency/interfaces.website.article';
 import { Observable } from 'rxjs';
 
 @Injectable({

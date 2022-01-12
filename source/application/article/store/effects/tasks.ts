@@ -10,7 +10,7 @@ import { selectRouteNestedParams, selectRouteParams } from '_application/common/
 import * as fromArticleActions from '../actions';
 import * as fromArticleSelectors from '../selectors';
 import { cloneDeep } from 'lodash';
-import type { Article, ArticleListRequest } from '@interface-agency/website-article-interface';
+import type { Article, ArticleListRequest } from '@interface-agency/interfaces.website.article';
 import type { SearchOptions } from '_application/shared/interface/options';
 import type { ArticleStore } from '_application/article/store/interface';
 

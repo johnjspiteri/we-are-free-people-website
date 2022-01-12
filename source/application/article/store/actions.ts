@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Article } from '@interface-agency/interfaces.website.article';
 
 // COMPOSITIONS
 export const INITIALIZE = createAction('[Article] Initialize');

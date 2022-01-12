@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Article } from '@interface-agency/interfaces.website.article';
 
 @Pipe({
 	name: 'websiteArticleTagsFilter',
