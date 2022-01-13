@@ -34,15 +34,15 @@
 	--base_button_active_background_color: var(--teal_color);
 	--base_button_active_text_color: var(--black_color);
 
-	--base_button_inactive_background_color: #33333;
-	--base-button-inactive-text-color: var(--white_color);
+	--base_button_inactive_background_color: #333;
+	--base_button_inactive_text_color: #fff;
 
 	--base_accent_active_background_color: var(--blue_color);
 	--base_accent_active_background_color: var(--primary_background_color);
 	/* --base_accent_active_text_color: var(--black_color);
-	--base_accent_active_text_color: var(--white_color); */
+	--base_accent_active_text_color: #fff; */
 	/* --base_accent_active_border_color: var(--gold_on_base_border_color); */
 	/* --base_accent_inactive_background_color: var(--primary_background_color); */
-	/* --base_accent_inactive_text_color: var(--white_color); */
+	/* --base_accent_inactive_text_color: #fff; */
 	/* --base_accent_inactive_border_color: var(--primary_on_base_border_color); */
 }
