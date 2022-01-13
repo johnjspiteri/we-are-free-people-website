@@ -23,11 +23,11 @@
 	--brown-border-color: #89492a;
 	--brown-bottom-border-color: #62341e;
 
-	--brown-title-color: var(--white-color);
+	--brown-title-color: var(--white_color);
 	--brown-paragraph-color: #484848;
 
 	--brown-button-background-inactive-color: var(--brown-background-color);
 	--brown-button-background-inactive-color: var(--brown-background-color);
 	/* --brown-button-background-inactive-color: #b5795b */
-	--brown-button-text-inactive-color: var(--white-color);
+	--brown-button-text-inactive-color: var(--white_color);
 }

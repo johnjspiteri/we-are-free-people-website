@@ -1,48 +1,48 @@
 :root {
-	--base-background-color: #fffffa;
-	--base-background-color: #cfcfcf;
-	--base-background-color: #D9CCBF;
-	--base-background-color: #d6d6d6;
-	--base-background-color: #FAF0CA;
-	--base-background-color: #f1f1f1;
-	/* --base-background-color: #e2e2e0; */
-	/* --base-background-color: #e8e7e6; */
-	/* --base-background-color: #eeedec; */
-	--base-border-color: #d8d8d8;
+	--base_background_color: #fffffa;
+	--base_background_color: #cfcfcf;
+	--base_background_color: #D9CCBF;
+	--base_background_color: #d6d6d6;
+	--base_background_color: #FAF0CA;
+	--base_background_color: #f1f1f1;
+	/* --base_background_color: #e2e2e0; */
+	/* --base_background_color: #e8e7e6; */
+	/* --base_background_color: #eeedec; */
+	--base_border_color: #d8d8d8;
 
-	--base-on-primary-border-bottom-color: #1e1d24;
-	--base-on-secondary-border-color: #1e1d24;
-	--base-on-secondary-border-bottom-color: #1e1d24;
-	--base-on-tertiary-border-color: #232228;
-	--base-on-tertiary-border-bottom-color: #1e1d24;
-	--base-on-teal-border-color: #232228;
-	--base-on-teal-border-bottom-color: #1e1d24;
-	--base-on-yellow-border-color: #232228;
-	--base-on-yellow-border-bottom-color: #1e1d24;
-	--base-on-brown-border-color: #232228;
-	--base-on-brown-border-bottom-color: #1e1d24;
+	/* --base_on_primary_border_bottom_color: #1e1d24; */
+	/* --base_on_secondary_border_color: #1e1d24; */
+	/* --base_on_secondary_border_bottom_color: #1e1d24; */
+	/* --base_on_tertiary_border_color: #232228; */
+	/* --base_on_tertiary_border_bottom_color: #1e1d24; */
+	/* --base_on_teal_border_color: #232228; */
+	/* --base_on_teal_border_bottom_color: #1e1d24; */
+	/* --base_on_yellow_border_color: #232228; */
+	/* --base_on_yellow_border_bottom_color: #1e1d24; */
+	/* --base_on_brown_border_color: #232228; */
+	/* --base_on_brown_border_bottom_color: #1e1d24; */
 
-	--base-button-active-border: 1px solid var(--primary-on-base-border-color);
-	--base-button-inactive-border: 1px solid #000;
+	--base_button_active_border: 1px solid var(--primary_on_base_border_color);
+	--base_button_inactive_border: 1px solid #000;
 
-	--base-on-primary-border: 1px solid #1e1d24;
-	--base-on-secondary-border: 1px solid #1e1d24;
+	--base_on_primary_border: 1px solid #1e1d24;
+	--base_on_secondary_border: 1px solid #1e1d24;
 
-	--base-title-color: var(--black-color);
-	--base-paragraph-color: #666;
+	--base_title_color: var(--black_color);
+	--base_paragraph_color: #666;
 
-	--base-button-active-background-color: var(--teal-color);
-	--base-button-active-text-color: var(--black-color);
+	--base_button_active_background_color: var(--teal_color);
+	--base_button_active_text_color: var(--black_color);
 
-	--base-button-inactive-background-color: #33333;
-	--base-button-inactive-text-color: var(--white-color);
+	--base_button_inactive_background_color: #33333;
+	--base-button-inactive-text-color: var(--white_color);
 
-	--base-accent-active-background-color: var(--blue-color);
-	--base-accent-active-background-color: var(--primary-background-color);
-	--base-accent-active-text-color: var(--black-color);
-	--base-accent-active-text-color: var(--white-color);
-	--base-accent-active-border-color: var(--gold-on-base-border-color);
-	--base-accent-inactive-background-color: var(--primary-background-color);
-	--base-accent-inactive-text-color: var(--white-color);
-	--base-accent-inactive-border-color: var(--primary-on-base-border-color);
+	--base_accent_active_background_color: var(--blue_color);
+	--base_accent_active_background_color: var(--primary_background_color);
+	/* --base_accent_active_text_color: var(--black_color);
+	--base_accent_active_text_color: var(--white_color); */
+	/* --base_accent_active_border_color: var(--gold_on_base_border_color); */
+	/* --base_accent_inactive_background_color: var(--primary_background_color); */
+	/* --base_accent_inactive_text_color: var(--white_color); */
+	/* --base_accent_inactive_border_color: var(--primary_on_base_border_color); */
 }

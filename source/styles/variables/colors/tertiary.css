@@ -33,18 +33,18 @@
 	--tertiary-on-brown-border-color: #232228;
 	--tertiary-on-brown-border-bottom-color: #1e1d24;
 
-	--tertiary-title-color: var(--white-color);
+	--tertiary-title-color: var(--white_color);
 	--tertiary-paragraph-color: #626262;
 	--tertiary-paragraph-color: #f2f2f2;
 	--tertiary-label-color: #848484;
 
 	--tertiary-button-active-background-color: #ffff3f;
-	--tertiary-button-active-text-color: var(--black-color);
+	--tertiary-button-active-text-color: var(--black_color);
 	--tertiary-button-active-border-color: #888;
 	--tertiary-button-active-border-bottom-color: #666;
 
 	--tertiary-button-inactive-background-color: #484848;
-	--tertiary-button-inactive-text-color: var(--white-color);
+	--tertiary-button-inactive-text-color: var(--white_color);
 	--tertiary-button-inactive-border-color: #000;
 	--tertiary-button-inactive-border-bottom-color: #000;
 }

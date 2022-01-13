@@ -2,13 +2,13 @@
 /* $primary-on-tertiary-border: = 1px solid $primary-on-tertiary-border-color */
 /* $primary-accent-border: = 1px solid var(--primary-accent-border-color) */
 /* $primary-accent-bottom-border: = 3px solid $primary-accent-border-bottom-color */
-/* $primary-title-bottom-border: = 3px solid var(--blue-color) */
+/* $primary-title-bottom-border: = 3px solid var(--blue_color) */
 
 /* :root {
-	--primary-border: 1px solid var(--primary-on-base-border-color);
+	--primary-border: 1px solid var(--primary_on_base_border_color);
 	--primary-on-secondary-border: 1px solid var(--primary-on-secondary-border-color);
-	--primary-on-base-border: 1px solid var(--primary-on-base-border-color);
-	--primary-on-base-border-active: 1px solid var(--primary-on-base-border-color-active);
+	--primary-on-base-border: 1px solid var(--primary_on_base_border_color);
+	--primary-on-base-border-active: 1px solid var(--primary_on_base_border_color-active);
 
 	--primary-button-active-border: 1px solid var(--primary-button-active-border-color);
 	--primary-button-inactive-border: 1px solid var(--primary-button-inactive-border-color);
