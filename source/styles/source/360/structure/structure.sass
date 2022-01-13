@@ -18,8 +18,15 @@ body
 		justify-self: center
 		background: var(--base_background_color)
 
-#structure-container
-	position: relative
-	width: 360px
-	margin: $margin_top_page_360 auto $margin_bottom_page_360 auto
-	z-index: 9999999
+.structure
+	&__container
+		position: relative
+		width: $media_query_360
+		margin: 0 auto
+		z-index: $z_index_structure
+
+	&__holder
+		float: left
+		width: 100%
+		margin: 38px 0 48px 0
+		padding: 0

@@ -1,22 +1,27 @@
 .media-list
 	float: left
+	display: grid
 	width: 300px
 	margin: 0 0 10px 10px
+	grid-template-columns: 1fr
+	background: #0f9
+	grid-row-gap: 20px
 
 .media-list-squares
 	float: left
-	width: 280px
+	width: 100%
 	padding: 20px 10px 26px 10px
-	margin: 0 0 20px 0
+	margin: 0
 	background: var(--color-white)
 	border: var(--color-white-border)
 	border-radius: $border_radius
 	cursor: pointer
 	background: #1e1d24
+	box-sizing: border-box
 
 	&__image
 		float: left
-		width: 280px
+		width: 100%
 		height: 210px
 		padding: 0
 		margin: 0 0 10px 0
