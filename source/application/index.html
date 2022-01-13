@@ -7,11 +7,12 @@
 		<div id="panel">
 			<div id="panel__container">
 				<div id="panel__buttons">
-					<h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1>
+					<h1 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{'exact' : true}" (click)="closeNavigationPanel()">Home</h1>
+					<!-- <h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1> -->
 					<h1 routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()">Articles</h1>
-					<h1 routerLink="/donate/amount" routerLinkActive="active" (click)="closeNavigationPanel()">Donate</h1>
+					<h1 routerLink="/donate/monthly/amount" routerLinkActive="active" (click)="closeNavigationPanel()">Donate</h1>
 					<h1 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()">Media</h1>
-					<h1 routerLink="/video" routerLinkActive="active" (click)="closeNavigationPanel()">Video</h1>
+					<h1 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()">Video</h1>
 					<!--					<h1 routerLink="/about" routerLinkActive="active" (click)="closeNavigationPanel()">About</h1>-->
 					<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
 				</div>
@@ -23,7 +24,7 @@
 						<h2 routerLink="/about/philosophy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="5">Philosophy</h2>
 						<h2 routerLink="/about/purpose" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="6">Purpose</h2>
 						<h2 routerLink="about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Finances</h2>
-						<h2 routerLink="/about/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Careers</h2>
+						<!-- <h2 routerLink="/about/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Careers</h2> -->
 					</div>
 
 					<div class="panel-column">
@@ -40,8 +41,8 @@
 							<h6>Content</h6>
 						</div>
 						<h2 class="active" routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="11">Articles</h2>
-						<h2 routerLink="/video" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="12">Video</h2>
-						<h2 routerLink="/resources" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Resources</h2>
+						<h2 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="12">Video</h2>
+						<!-- <h2 routerLink="/resources" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Resources</h2> -->
 						<h2 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Media</h2>
 					</div>
 
@@ -49,9 +50,9 @@
 						<div class="panel-column-row">
 							<h6>COMPANY</h6>
 						</div>
-						<h2 routerLink="/company/about" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="14">ABOUT</h2>
-						<h2 routerLink="/company/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="15">CAREERS</h2>
-						<h2 routerLink="/company/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="16">CONTACT</h2>
+						<h2 routerLink="/about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="14">ABOUT</h2>
+						<!-- <h2 routerLink="/company/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="15">CAREERS</h2> -->
+						<h2 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="16">CONTACT</h2>
 					</div>
 
 					<div class="panel-column">

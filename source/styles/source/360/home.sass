@@ -10,9 +10,10 @@
 		height: 280px
 		margin: 0
 		padding: 0
-		border-bottom: var(--secondary-image-border)
-		border-top: var(--secondary-image-border)
-		background: var(--temporary-background)
+		border-bottom: var(--secondary_image_border)
+		border-top: var(--secondary_image_border)
+		background: var(--temporary_background)
+		background: #989
 		box-sizing: border-box
 		overflow: hidden
 
@@ -23,9 +24,9 @@
 			margin: 0
 			font-size: 20px
 			line-height: 220px
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
-			color: var(--black-color)
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
+			color: var(--black_color)
 			text-align: center
 
 	&__details
@@ -34,9 +35,9 @@
 		height: 70px
 		margin: 0 30px 20px
 		padding: 0
-		background: var(--tertiary-background-color)
-		border-radius: $radius-bottom
-		border: var(--secondary-image-border)
+		background: var(--tertiary_background_color)
+		border-radius: $border_radius_bottom
+		border: var(--secondary_image_border)
 		border-top: none
 
 	&__squares
@@ -45,10 +46,10 @@
 		grid-template-columns: 1fr
 		grid-template-rows: auto
 		width: 360px
-		margin: 0 0 $margin-bottom-page-360 0
-		background: var(--secondary-background-color)
-		border-top: var(--secondary-border)
-		border-bottom: var(--secondary-border)
+		margin: 0 0 $margin_bottom_page_360 0
+		background: var(--secondary_background_color)
+		border-top: var(--secondary_border)
+		border-bottom: var(--secondary_border)
 
 	&__statements
 		display: grid
@@ -57,14 +58,14 @@
 		grid-template-rows: auto
 		margin: 0 10px 50px 10px
 		padding: 0
-		grid-row-gap: 10px
+		row-gap: 10px
 
 .home-square
 	float: left
 	width: 100%
 	padding: 24px 0 32px 0
 	margin: 0
-	border-bottom: var(--secondary-dotted-border)
+	border-bottom: var(--secondary_dotted_border)
 	box-sizing: border-box
 
 	&__image
@@ -80,9 +81,9 @@
 			height: 160px
 			margin: 0 0 24px 0
 			padding: 0
-			background: var(--secondary-image-background-color)
-			border: var(--secondary-image-border)
-			border-radius: $radius
+			background: var(--secondary_image_background_color)
+			border: var(--secondary_image_border)
+			border-radius: $border_radius
 
 	&__row
 		float: left
@@ -97,10 +98,10 @@
 			margin: 0 0 12px 0
 			font-size: 18px
 			line-height: 18px
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
-			border-bottom: var(--secondary-title-border-bottom)
-			color: var(--secondary-title-color)
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
+			border-bottom: var(--secondary_title_border_bottom)
+			color: var(--secondary_title_color)
 			text-align: left
 
 		p
@@ -110,29 +111,29 @@
 			margin: 0
 			font-size: 14px
 			line-height: 25px
-			font-family: $secondary-font
-			font-weight: $secondary-font-weight-400
-			color: var(--secondary-paragraph-color)
+			font-family: $secondary_font
+			font-weight: $secondary_font_weight_400
+			color: var(--secondary_paragraph_color)
 			text-align: left
 
 	&__button
 		float: left
 		margin: 18px 0 0 0
 		padding: 8px 16px 9px 16px
-		background: var(--teal-color)
-		border-radius: $radius
-		border-bottom: 1px var(--red-color)-border-bottom
+		background: var(--teal_color)
+		border-radius: $border_radius
+		border-bottom: 1px var(--red_color)-border-bottom
 
 		h4
 			float: left
 			width: 100%
 			margin: 0
 			padding: 0
-			font-family: $primary-font
+			font-family: $primary_font
 			font-size: 16px
-			font-weight: $primary-font-weight-400
+			font-weight: $primary_font_weight_400
 			line-height: 20px
-			color: var(--secondary-button-text-color)
+			color: var(--secondary_button_text_color)
 			text-align: center
 
 .home-square:last-child
@@ -143,9 +144,9 @@
 	width: 100%
 	padding: 22px 22px 22px 22px
 	margin: 0 0 8px 0
-	border: var(--secondary-border)
-	background: var(--secondary-background-color)
-	border-radius: $radius
+	border: var(--secondary_border)
+	background: var(--secondary_background_color)
+	border-radius: $border_radius
 	box-sizing: border-box
 
 	&__image
@@ -153,9 +154,9 @@
 		width: 62px
 		height: 62px
 		margin: 0 12px 0 0
-		background: var(--secondary-image-background-color)
-		border: var(--secondary-border)
-		border-radius: $radius-circle
+		background: var(--secondary_image_background_color)
+		border: var(--secondary_border)
+		border-radius: $border_radius_circle
 		overflow: hidden
 
 		img
@@ -171,13 +172,13 @@
 		margin: 0 0 14px 0
 		font-size: 14px
 		line-height: 23px
-		font-family: $secondary-font
-		font-weight: $secondary-font-weight-400
-		color: var(--secondary-paragraph-color)
+		font-family: $secondary_font
+		font-weight: $secondary_font_weight_400
+		color: var(--secondary_paragraph_color)
 		text-align: left
 
 		//span
-		//	border-bottom: 3px solid var(--teal-color)
+		//	border-bottom: 3px solid var(--teal_color)
 		//	padding: 0 0 3px 0
 
 	h6
@@ -186,6 +187,6 @@
 		margin: 0 20px 0 0
 		font-size: 15px
 		line-height: 15px
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
-		color: var(--secondary-title-color)
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
+		color: var(--secondary_title_color)

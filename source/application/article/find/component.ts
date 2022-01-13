@@ -8,7 +8,7 @@ import { faLinkedin, faTwitterSquare, faFacebookSquare } from '@fortawesome/free
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs/internal/Subscription';
 import * as fromArticleSelectors from '../store/selectors';
-import type { Article } from '@interface-agency/website-article-interface';
+import type { Article } from '@interface-agency/interfaces.website.article';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 @Component({

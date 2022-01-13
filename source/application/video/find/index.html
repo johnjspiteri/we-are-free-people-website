@@ -1,327 +1,329 @@
 <router-outlet></router-outlet>
-<div id="structure-container">
-	<div id="find__tabs">
-		<div class="find-tab" (click)="openRegionPanel()">
-			<fa-icon id="find__language" [icon]="faGlobeAmericas"></fa-icon>
-			<h4><span class="test">ENGLISH</span></h4>
-			<fa-icon id="find__caret" [icon]="faCaretDown"></fa-icon>
-		</div>
-		<div class="find-tab">
-			<h4>TL;DR</h4>
-		</div>
-	</div>
-	<ng-container *ngIf="state.region">
-		<div id="region">
-			<div id="region__container">
-				<div class="region-section">
-					<div class="region-title">
-						<h1>
-							EUROPE
-							<fa-icon class="region-title__icon" [icon]="faGlobeEurope"></fa-icon>
-						</h1>
-					</div>
-
-					<div class="region-options">
-						<h2>ITALY A</h2>
-						<h2>BELGIUM B</h2>
-						<h2>BULGARIA C</h2>
-						<h2>CROATIA D</h2>
-						<h2>CROATIA E</h2>
-						<h2>CYPRUS F</h2>
-						<h2>CZECHIA G</h2>
-						<h2>DENMARK H</h2>
-						<h2>ESTONIA J</h2>
-						<h2>FINLAND K</h2>
-						<h2>FRANCE L</h2>
-						<h2>GERMANY M</h2>
-					</div>
-				</div>
-
-				<div class="region-section">
-					<div class="region-title">
-						<h1>
-							NORTH AMERICA
-							<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
-						</h1>
-					</div>
-
-					<div class="region-options">
-						<h2>ITALY A</h2>
-						<h2>BELGIUM B</h2>
-						<h2>BULGARIA C</h2>
-						<h2>CROATIA D</h2>
-						<h2>CROATIA E</h2>
-						<h2>CYPRUS F</h2>
-						<h2>CZECHIA G</h2>
-						<h2>DENMARK H</h2>
-						<h2>ESTONIA J</h2>
-					</div>
-				</div>
-
-				<div class="region-section">
-					<div class="region-title">
-						<h1>
-							CENTRAL AMERICA
-							<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
-						</h1>
-					</div>
-
-					<div class="region-options">
-						<h2>ITALY A</h2>
-						<h2>BELGIUM B</h2>
-						<h2>BULGARIA C</h2>
-						<h2>CROATIA D</h2>
-						<h2>CROATIA E</h2>
-						<h2>CYPRUS F</h2>
-						<h2>CZECHIA G</h2>
-						<h2>DENMARK H</h2>
-						<h2>ESTONIA J</h2>
-					</div>
-				</div>
-
-				<div class="region-section">
-					<div class="region-title">
-						<h1>
-							SOUTH AMERICA
-							<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
-						</h1>
-					</div>
-
-					<div class="region-options">
-						<h2>ITALY A</h2>
-						<h2>BELGIUM B</h2>
-						<h2>BULGARIA C</h2>
-						<h2>CROATIA D</h2>
-						<h2>CROATIA E</h2>
-					</div>
-				</div>
+<div class="structure__container">
+	<div class="structure__holder">
+		<div id="find__tabs">
+			<div class="find-tab" (click)="openRegionPanel()">
+				<fa-icon id="find__language" [icon]="faGlobeAmericas"></fa-icon>
+				<h4><span class="test">ENGLISH</span></h4>
+				<fa-icon id="find__caret" [icon]="faCaretDown"></fa-icon>
+			</div>
+			<div class="find-tab">
+				<h4>TL;DR</h4>
 			</div>
 		</div>
-	</ng-container>
+		<ng-container *ngIf="state.region">
+			<div id="region">
+				<div id="region__container">
+					<div class="region-section">
+						<div class="region-title">
+							<h1>
+								EUROPE
+								<fa-icon class="region-title__icon" [icon]="faGlobeEurope"></fa-icon>
+							</h1>
+						</div>
 
-	<div id="find">
-		<div id="find__content">
-			<div id="find__breadcrumbs">
-				<h4>{{ video.area | iaTitleCase }}</h4>
-				<h4>/</h4>
-				<h4>{{ video.section | iaTitleCase }}</h4>
-				<h4>/</h4>
-				<h4>{{ video.category | iaTitleCase }}</h4>
-				<h4>/</h4>
-				<h4>{{ video.topic | iaTitleCase }}</h4>
-			</div>
-
-			<div id="find__title">
-				<div id="find__underline">
-					<h1>{{ video.title }}</h1>
-				</div>
-			</div>
-
-			<div id="find-author">
-				<img src="{{ video.author.image }}" alt="{{ video.author.name.first }} + ' ' {{ video.author.name.last }} + ' image'" />
-
-				<div class="find-author-row">
-					<h3>{{ video.author.name.first + ' ' + video.author.name.last }}</h3>
-				</div>
-				<div class="find-author-row">
-					<h3>{{ video.author.role }}</h3>
-				</div>
-				<div class="find-author-row">
-					<ng-container *ngIf="!video.updated">
-						<h4>Created on {{ video.created | date: 'longDate' }}</h4>
-					</ng-container>
-					<ng-container *ngIf="video.updated">
-						<h4>Updated on {{ video.updated | date: 'longDate' }}</h4>
-					</ng-container>
-				</div>
-			</div>
-
-			<div id="find__introduction">
-				<p>{{ video.content.introduction }}</p>
-			</div>
-
-			<div id="find__social">
-				<div id="find__share">
-					<h1>SHARE</h1>
-					<fa-icon id="find__facebook" [icon]="faFacebookSquare"></fa-icon>
-					<fa-icon id="find__linkedin" [icon]="faLinkedin"></fa-icon>
-					<fa-icon id="find__twitter" [icon]="faTwitterSquare"></fa-icon>
-					<fa-icon id="find__email" [icon]="faEnvelopeSquare"></fa-icon>
-				</div>
-			</div>
-
-			<div id="find__helpful">
-				<h1>WAS THIS ARTICLE HELPFUL?</h1>
-				<div class="find__buttons">
-					<div class="find-button">
-						<h4><fa-icon id="find__check" [icon]="faCheck"></fa-icon>YES</h4>
-					</div>
-					<div class="find-button">
-						<h4><fa-icon id="find__times" [icon]="faTimes"></fa-icon>NO</h4>
-					</div>
-				</div>
-			</div>
-
-			<div class="dynamic">
-				<div class="dynamic-section">
-					<div class="dynamic-title">
-						<h1>How to Create an SEO Strategy for 2021 [Template Included]</h1>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Here's a cliche among digital marketers: Search engine optimization (SEO) isn't what it used to be.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Here's a true statement you don't hear as often: Your SEO strategy for 2019 shouldn't focus on keywords.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>These days, most businesses understand the basic concepts of SEO and why it's important.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<div class="dynamic-quote">
-							<h1>"→ Download Now: SEO Starter Pack [Free Kit]"</h1>
-							<div class="dynamic-quote__name">
-								<h4>— Clare Daly (@ClareDalyMEP)</h4>
-							</div>
+						<div class="region-options">
+							<h2>ITALY A</h2>
+							<h2>BELGIUM B</h2>
+							<h2>BULGARIA C</h2>
+							<h2>CROATIA D</h2>
+							<h2>CROATIA E</h2>
+							<h2>CYPRUS F</h2>
+							<h2>CZECHIA G</h2>
+							<h2>DENMARK H</h2>
+							<h2>ESTONIA J</h2>
+							<h2>FINLAND K</h2>
+							<h2>FRANCE L</h2>
+							<h2>GERMANY M</h2>
 						</div>
 					</div>
-					<div class="dynamic-paragraph">
-						<p>However, when it comes to developing and executing a sound SEO strategy for your business, just creating content for the keywords your customers are searching for is both arduous and, well, wrong.</p>
+
+					<div class="region-section">
+						<div class="region-title">
+							<h1>
+								NORTH AMERICA
+								<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
+							</h1>
+						</div>
+
+						<div class="region-options">
+							<h2>ITALY A</h2>
+							<h2>BELGIUM B</h2>
+							<h2>BULGARIA C</h2>
+							<h2>CROATIA D</h2>
+							<h2>CROATIA E</h2>
+							<h2>CYPRUS F</h2>
+							<h2>CZECHIA G</h2>
+							<h2>DENMARK H</h2>
+							<h2>ESTONIA J</h2>
+						</div>
 					</div>
 
-					<div class="dynamic-row">
+					<div class="region-section">
+						<div class="region-title">
+							<h1>
+								CENTRAL AMERICA
+								<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
+							</h1>
+						</div>
+
+						<div class="region-options">
+							<h2>ITALY A</h2>
+							<h2>BELGIUM B</h2>
+							<h2>BULGARIA C</h2>
+							<h2>CROATIA D</h2>
+							<h2>CROATIA E</h2>
+							<h2>CYPRUS F</h2>
+							<h2>CZECHIA G</h2>
+							<h2>DENMARK H</h2>
+							<h2>ESTONIA J</h2>
+						</div>
+					</div>
+
+					<div class="region-section">
+						<div class="region-title">
+							<h1>
+								SOUTH AMERICA
+								<fa-icon class="region-title__icon" [icon]="faGlobeAmericas"></fa-icon>
+							</h1>
+						</div>
+
+						<div class="region-options">
+							<h2>ITALY A</h2>
+							<h2>BELGIUM B</h2>
+							<h2>BULGARIA C</h2>
+							<h2>CROATIA D</h2>
+							<h2>CROATIA E</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</ng-container>
+
+		<div id="find">
+			<div id="find__content">
+				<div id="find__breadcrumbs">
+					<h4>{{ video.area | iaTitleCase }}</h4>
+					<h4>/</h4>
+					<h4>{{ video.section | iaTitleCase }}</h4>
+					<h4>/</h4>
+					<h4>{{ video.category | iaTitleCase }}</h4>
+					<h4>/</h4>
+					<h4>{{ video.topic | iaTitleCase }}</h4>
+				</div>
+
+				<div id="find__title">
+					<div id="find__underline">
+						<h1>{{ video.title }}</h1>
+					</div>
+				</div>
+
+				<div id="find-author">
+					<img src="{{ video.author.image }}" alt="{{ video.author.name.first }} + ' ' {{ video.author.name.last }} + ' image'" />
+
+					<div class="find-author-row">
+						<h3>{{ video.author.name.first + ' ' + video.author.name.last }}</h3>
+					</div>
+					<div class="find-author-row">
+						<h3>{{ video.author.role }}</h3>
+					</div>
+					<div class="find-author-row">
+						<ng-container *ngIf="!video.updated">
+							<h4>Created on {{ video.created | date: 'longDate' }}</h4>
+						</ng-container>
+						<ng-container *ngIf="video.updated">
+							<h4>Updated on {{ video.updated | date: 'longDate' }}</h4>
+						</ng-container>
+					</div>
+				</div>
+
+				<div id="find__introduction">
+					<p>{{ video.content.introduction }}</p>
+				</div>
+
+				<div id="find__social">
+					<div id="find__share">
+						<h1>SHARE</h1>
+						<fa-icon id="find__facebook" [icon]="faFacebookSquare"></fa-icon>
+						<fa-icon id="find__linkedin" [icon]="faLinkedin"></fa-icon>
+						<fa-icon id="find__twitter" [icon]="faTwitterSquare"></fa-icon>
+						<fa-icon id="find__email" [icon]="faEnvelopeSquare"></fa-icon>
+					</div>
+				</div>
+
+				<div id="find__helpful">
+					<h1>WAS THIS ARTICLE HELPFUL?</h1>
+					<div class="find__buttons">
+						<div class="find-button">
+							<h4><fa-icon id="find__check" [icon]="faCheck"></fa-icon>YES</h4>
+						</div>
+						<div class="find-button">
+							<h4><fa-icon id="find__times" [icon]="faTimes"></fa-icon>NO</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="dynamic">
+					<div class="dynamic-section">
 						<div class="dynamic-title">
-							<h2>What is an SEO?</h2>
+							<h1>How to Create an SEO Strategy for 2021 [Template Included]</h1>
 						</div>
 						<div class="dynamic-paragraph">
-							<p>Search engine optimizers (SEOs) are people who optimize websites to help them show up higher on search engines and gain more "organic traffic." In essence, an SEO is a highly specialized content strategist, and helps a business discover opportunities to answer questions people have about the industry via search engines.</p>
+							<p>Here's a cliche among digital marketers: Search engine optimization (SEO) isn't what it used to be.</p>
 						</div>
 						<div class="dynamic-paragraph">
-							<p>Here are three types of SEO that an SEO strategist can focus on:</p>
+							<p>Here's a true statement you don't hear as often: Your SEO strategy for 2019 shouldn't focus on keywords.</p>
 						</div>
 						<div class="dynamic-paragraph">
-							<p>INSERT ORDERED LIST HERE!!!</p>
-							<ol>
-								<li>
-									<p><b>On-page SEO:</b> This SEO focuses on the content that's "on the page," and how to optimize that content to help boost the website's ranking for specific keywords.</p>
-								</li>
-								<li>
-									<p><b>Off-page SEO:</b> This SEO focuses on the links that are directing to the website from elsewhere on the internet. The number of "backlinks," and the publishers carrying those links, that link to your website help you build trust in the eyes of a search engine. This causes your website to rank higher as a result.</p>
-								</li>
-								<li>
-									<p><b>Technical SEO:</b> This SEO focuses on a website's architecture, examining the backend of that website to see how each webpage is "technically" set up. Google cares as much about the code of a website as it does its content, making this speciality quite important to a website's search engine ranking.</p>
-								</li>
-							</ol>
+							<p>These days, most businesses understand the basic concepts of SEO and why it's important.</p>
 						</div>
 						<div class="dynamic-paragraph">
-							<p>Bear in mind that not every business can optimize their website for search the same way, and therefore not every SEO will have the same optimization process. It's an SEO's job to examine his or her industry, find out what's important to their audience, and develop an SEO strategy that puts the right content in front of that audience.</p>
+							<div class="dynamic-quote">
+								<h1>"→ Download Now: SEO Starter Pack [Free Kit]"</h1>
+								<div class="dynamic-quote__name">
+									<h4>— Clare Daly (@ClareDalyMEP)</h4>
+								</div>
+							</div>
 						</div>
 						<div class="dynamic-paragraph">
-							<p>With that in mind, here are nine steps you can take to make sure all of your SEO bases are covered in 2019. Then, at the bottom of this blog post, you can grab your free planning template to master on-page SEO.</p>
+							<p>However, when it comes to developing and executing a sound SEO strategy for your business, just creating content for the keywords your customers are searching for is both arduous and, well, wrong.</p>
 						</div>
-					</div>
-				</div>
 
-				<div class="dynamic-section">
-					<div class="dynamic-paragraph">
-						<p>INSERT TABLE OF CONTENTS</p>
-					</div>
-				</div>
-
-				<div class="dynamic-section">
-					<div class="dynamic-title">
-						<h1>1. Make a list of topics.</h1>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Keywords are at the heart of SEO, but they're actually not your first step to an organic growth play anymore. Your first step is to make a list of topics you'd like to cover from one month to the next.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>To start, compile a list of about 10 short words and terms associated with your product or service. Use an SEO tool (Google's Keyword Tool, hrefs, SEMRush or GrowthBar just to name a few) to identify their search volume and come up with variations that make sense for your business.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>You are associating these topics with popular short-tail keywords, as you can tell, but you're not dedicating individual blog posts to these keywords. These keywords are simply too competitive to rank highly for on Google if you're just starting to optimize your website for search. We'll go over how to use these topics in just a minute.</p>
-					</div>
-
-					<div class="dynamic-row">
-						<div class="dynamic-media-1-1__full">
-							<img src="https://blog.hubspot.com/hs-fs/hub/53/file-23122515-png/blog/images/google-adwords-keyword-tool-screenshot-resized-600.png" alt="" />
-							<div class="dynamic-media-1-1__caption">
-								<p>Vice president Mike pence is shown being</p>
+						<div class="dynamic-row">
+							<div class="dynamic-title">
+								<h2>What is an SEO?</h2>
+							</div>
+							<div class="dynamic-paragraph">
+								<p>Search engine optimizers (SEOs) are people who optimize websites to help them show up higher on search engines and gain more "organic traffic." In essence, an SEO is a highly specialized content strategist, and helps a business discover opportunities to answer questions people have about the industry via search engines.</p>
+							</div>
+							<div class="dynamic-paragraph">
+								<p>Here are three types of SEO that an SEO strategist can focus on:</p>
+							</div>
+							<div class="dynamic-paragraph">
+								<p>INSERT ORDERED LIST HERE!!!</p>
+								<ol>
+									<li>
+										<p><b>On-page SEO:</b> This SEO focuses on the content that's "on the page," and how to optimize that content to help boost the website's ranking for specific keywords.</p>
+									</li>
+									<li>
+										<p><b>Off-page SEO:</b> This SEO focuses on the links that are directing to the website from elsewhere on the internet. The number of "backlinks," and the publishers carrying those links, that link to your website help you build trust in the eyes of a search engine. This causes your website to rank higher as a result.</p>
+									</li>
+									<li>
+										<p><b>Technical SEO:</b> This SEO focuses on a website's architecture, examining the backend of that website to see how each webpage is "technically" set up. Google cares as much about the code of a website as it does its content, making this speciality quite important to a website's search engine ranking.</p>
+									</li>
+								</ol>
+							</div>
+							<div class="dynamic-paragraph">
+								<p>Bear in mind that not every business can optimize their website for search the same way, and therefore not every SEO will have the same optimization process. It's an SEO's job to examine his or her industry, find out what's important to their audience, and develop an SEO strategy that puts the right content in front of that audience.</p>
+							</div>
+							<div class="dynamic-paragraph">
+								<p>With that in mind, here are nine steps you can take to make sure all of your SEO bases are covered in 2019. Then, at the bottom of this blog post, you can grab your free planning template to master on-page SEO.</p>
 							</div>
 						</div>
 					</div>
 
-					<div class="dynamic-paragraph">
-						<p>Using search volume and competition as your measure, narrow down your list to 10-15 short-tail keywords that are important to you, and that people within your audience are searching for. Then rank this list in order of priority, based on its monthly search volume and its relevance to your business.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>For example, if a swimming pool business is trying to rank for "fiberglass pools" -- which is receiving 110,000 searches per month -- this short-tail keyword can be the one that represents the overarching topic on which they want to create content. The business would then identify a series of long-tail keywords that relate to this short-tail keyword, have reasonable monthly search volume, and help to elaborate on the topic of fiberglass pools. We'll talk more about these long-tails in the next step of this process.</p>
-					</div>
-
-					<div class="dynamic-paragraph">
-						<div class="dynamic-quote">
-							<h1>"This is what a quote or reference will look like"</h1>
-							<div class="dynamic-quote__name">
-								<h4>— Andrew Thomas</h4>
-							</div>
+					<div class="dynamic-section">
+						<div class="dynamic-paragraph">
+							<p>INSERT TABLE OF CONTENTS</p>
 						</div>
 					</div>
 
-					<div class="dynamic-paragraph">
-						<p>Each of these keywords is called a "pillar," and it serves as the primary support for a larger "cluster" of long-tail keywords, which is what brings us to our next Step ...</p>
-					</div>
-				</div>
+					<div class="dynamic-section">
+						<div class="dynamic-title">
+							<h1>1. Make a list of topics.</h1>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>Keywords are at the heart of SEO, but they're actually not your first step to an organic growth play anymore. Your first step is to make a list of topics you'd like to cover from one month to the next.</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>To start, compile a list of about 10 short words and terms associated with your product or service. Use an SEO tool (Google's Keyword Tool, hrefs, SEMRush or GrowthBar just to name a few) to identify their search volume and come up with variations that make sense for your business.</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>You are associating these topics with popular short-tail keywords, as you can tell, but you're not dedicating individual blog posts to these keywords. These keywords are simply too competitive to rank highly for on Google if you're just starting to optimize your website for search. We'll go over how to use these topics in just a minute.</p>
+						</div>
 
-				<div class="dynamic-section">
-					<div class="dynamic-title">
-						<h1>3. Build pages for each topic.</h1>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>When it comes to websites and ranking in search engines, trying to get one page to rank for a handful of keywords can be next to impossible. But here's where the rubber meets the road:</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Take the 10 pillar topics you came up with in Step 1 and create a web page for each one that outlines the topic at a high level -- using the long-tail keywords you came up with for each cluster in Step 2. A pillar page on SEO, for example, can describe SEO in brief sections that introduce keyword research, image optimization, SEO strategy, and other subtopics as they are identified. Think of each pillar page as a table of contents, where you're briefing your readers on subtopics you'll elaborate on in blog posts.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Use your keyword list to determine how many different pillar pages you should create. Ultimately, the number of topics for which you create pillar pages should coincide with how many different products, offerings, and locations your business has. This will make it much easier for your prospects and customers to find you in search engines no matter what keywords they use.</p>
-					</div>
-					<div class="dynamic-paragraph">
-						<p>Each web page needs to include <a href="https://google.com">relevant content for your prospects and customers</a> and should include pictures and links to pages on your site to enhance the user experience. We'll talk about those links in Step 4.</p>
-					</div>
-				</div>
+						<div class="dynamic-row">
+							<div class="dynamic-media-1-1__full">
+								<img src="https://blog.hubspot.com/hs-fs/hub/53/file-23122515-png/blog/images/google-adwords-keyword-tool-screenshot-resized-600.png" alt="" />
+								<div class="dynamic-media-1-1__caption">
+									<p>Vice president Mike pence is shown being</p>
+								</div>
+							</div>
+						</div>
 
-				<div class="dynamic-section">
-					<div class="dynamic-title">
-						<h1>4. Set up a blog.</h1>
+						<div class="dynamic-paragraph">
+							<p>Using search volume and competition as your measure, narrow down your list to 10-15 short-tail keywords that are important to you, and that people within your audience are searching for. Then rank this list in order of priority, based on its monthly search volume and its relevance to your business.</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>For example, if a swimming pool business is trying to rank for "fiberglass pools" -- which is receiving 110,000 searches per month -- this short-tail keyword can be the one that represents the overarching topic on which they want to create content. The business would then identify a series of long-tail keywords that relate to this short-tail keyword, have reasonable monthly search volume, and help to elaborate on the topic of fiberglass pools. We'll talk more about these long-tails in the next step of this process.</p>
+						</div>
+
+						<div class="dynamic-paragraph">
+							<div class="dynamic-quote">
+								<h1>"This is what a quote or reference will look like"</h1>
+								<div class="dynamic-quote__name">
+									<h4>— Andrew Thomas</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="dynamic-paragraph">
+							<p>Each of these keywords is called a "pillar," and it serves as the primary support for a larger "cluster" of long-tail keywords, which is what brings us to our next Step ...</p>
+						</div>
 					</div>
-					<div class="dynamic-paragraph">
-						<p>Blogging can be an incredible way to rank for keywords and engage your website's users. After all, every blog post is a new web page that gives you another chance to rank in search engines. If your business does not already have a blog, set one up. This is where you'll elaborate on each subtopic and actually start showing up on Google.</p>
+
+					<div class="dynamic-section">
+						<div class="dynamic-title">
+							<h1>3. Build pages for each topic.</h1>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>When it comes to websites and ranking in search engines, trying to get one page to rank for a handful of keywords can be next to impossible. But here's where the rubber meets the road:</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>Take the 10 pillar topics you came up with in Step 1 and create a web page for each one that outlines the topic at a high level -- using the long-tail keywords you came up with for each cluster in Step 2. A pillar page on SEO, for example, can describe SEO in brief sections that introduce keyword research, image optimization, SEO strategy, and other subtopics as they are identified. Think of each pillar page as a table of contents, where you're briefing your readers on subtopics you'll elaborate on in blog posts.</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>Use your keyword list to determine how many different pillar pages you should create. Ultimately, the number of topics for which you create pillar pages should coincide with how many different products, offerings, and locations your business has. This will make it much easier for your prospects and customers to find you in search engines no matter what keywords they use.</p>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>Each web page needs to include <a href="https://google.com">relevant content for your prospects and customers</a> and should include pictures and links to pages on your site to enhance the user experience. We'll talk about those links in Step 4.</p>
+						</div>
+					</div>
+
+					<div class="dynamic-section">
+						<div class="dynamic-title">
+							<h1>4. Set up a blog.</h1>
+						</div>
+						<div class="dynamic-paragraph">
+							<p>Blogging can be an incredible way to rank for keywords and engage your website's users. After all, every blog post is a new web page that gives you another chance to rank in search engines. If your business does not already have a blog, set one up. This is where you'll elaborate on each subtopic and actually start showing up on Google.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="find__bottom">
-			<div id="find__articles">
-				<div class="find-article">
-					<div class="find-article__title">
-						<h1>SHARE THIS ARTICLE</h1>
+			<div id="find__bottom">
+				<div id="find__articles">
+					<div class="find-article">
+						<div class="find-article__title">
+							<h1>SHARE THIS ARTICLE</h1>
+						</div>
+						<div class="find-article__paragraph">
+							<p>Create a task in Asana share this resource with your team. Create a task in Asana share this resource with your team and share in Asana.</p>
+						</div>
+						<div class="find-article__button">
+							<h4>SHARE ARTICLE</h4>
+						</div>
 					</div>
-					<div class="find-article__paragraph">
-						<p>Create a task in Asana share this resource with your team. Create a task in Asana share this resource with your team and share in Asana.</p>
-					</div>
-					<div class="find-article__button">
-						<h4>SHARE ARTICLE</h4>
-					</div>
-				</div>
 
-				<div class="find-article">
-					<div class="find-article__title">
-						<h1>NEXT ARTICLE</h1>
-					</div>
-					<div class="find-article__paragraph">
-						<p>Create a task in Asana share this resource with your team. Create a task in Asana share this resource with your team and share in Asana.</p>
-					</div>
-					<div class="find-article__button">
-						<h4>NEXT ARTICLE</h4>
+					<div class="find-article">
+						<div class="find-article__title">
+							<h1>NEXT ARTICLE</h1>
+						</div>
+						<div class="find-article__paragraph">
+							<p>Create a task in Asana share this resource with your team. Create a task in Asana share this resource with your team and share in Asana.</p>
+						</div>
+						<div class="find-article__button">
+							<h4>NEXT ARTICLE</h4>
+						</div>
 					</div>
 				</div>
 			</div>

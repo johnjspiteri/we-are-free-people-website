@@ -1,76 +1,76 @@
 :root {
 
-	--secondary-border: 1px solid var(--secondary-border-color);
-	--secondary-on-base-border: 1px solid var(--secondary-on-base-border-color);
+	--secondary_border: 1px solid var(--secondary_border_color);
+	--secondary_on_base_border: 1px solid var(--secondary_on_base_border_color);
 
-	--secondary-dotted-border: 1px solid var(--secondary-dotted-border-color);
-	--secondary-image-border: 1px solid var(--secondary-image-border-color);
-	--secondary-title-border-bottom: 3px solid var(--secondary-title-border-bottom-color);
+	--secondary_dotted_border: 1px solid var(--secondary_dotted_border_color);
+	--secondary_image_border: 1px solid var(--secondary_image_border_color);
+	--secondary_title_border_bottom: 3px solid var(--secondary_title_border_bottom_color);
 
-	--secondary-button-border: 1px solid var(--secondary-button-border-color);
+	--secondary_button_border: 1px solid var(--secondary_button_border_color);
 
 
-	--secondary-background-color: #F7F4F0;
-	/* --secondary-background-color: var(--white-color); */
-	/* --secondary-background-color:  #c9d5e3; */
-	--secondary-border-color: #c8c8c8;
-	--secondary-dotted-border-color: #c8c8c8;
+	--secondary_background_color: #F7F4F0;
+	/* --secondary_background_color: var(--white_color); */
+	/* --secondary_background_color:  #c9d5e3; */
+	--secondary_border_color: #c8c8c8;
+	--secondary_dotted_border_color: #c8c8c8;
 
-	--secondary-image-background-color: #e2e2e2;
-	--secondary-image-border-color: var(--black-color);
+	--secondary_image_background_color: #e2e2e2;
+	--secondary_image_border_color: var(--black_color);
 
-	--secondary-title-color: var(--black-color);
-	--secondary-title-border-bottom-color: var(--teal-color);
+	--secondary_title_color: var(--black_color);
+	--secondary_title_border_bottom_color: var(--teal_color);
 
-	--secondary-button-color: var(--teal-color);
-	--secondary-button-text-color: var(--white-color);
-	--secondary-button-border-color: var(--teal-border-color);
-	--secondary-button-border-color: var(--teal-border-color);
+	--secondary_button_color: var(--teal_color);
+	--secondary_button_text_color: var(--white_color);
+	--secondary_button_border_color: var(--teal_border_color);
+	--secondary_button_border_color: var(--teal_border_color);
 
-	--secondary-paragraph-color: #888;
+	--secondary_paragraph_color: #888;
 
-	--secondary-on-primary-border-color: #1e1d24;
-	--secondary-on-primary-border-bottom-color: #1e1d24;
-	--secondary-on-teal-border-color: #1e1d24;
-	--secondary-on-teal-border-bottom-color: #1e1d24;
-	--secondary-on-yellow-border-color: #232228;
-	--secondary-on-yellow-border-bottom-color: #1e1d24;
-	--secondary-on-base-border-color: #232228;
-	--secondary-on-base-border-bottom-color: #1e1d24;
-	--secondary-on-tertiary-border-color: #8a6f38;
-	--secondary-on-tertiary-border-bottom-color: #1e1d24;
-	--secondary-on-brown-border-color: #232228;
-	--secondary-on-brown-border-bottom-color: #1e1d24;
+	--secondary_on_primary_border_color: #1e1d24;
+	--secondary_on_primary_border_bottom_color: #1e1d24;
+	--secondary_on_teal_border_color: #1e1d24;
+	--secondary_on_teal_border_bottom_color: #1e1d24;
+	--secondary_on_yellow_border_color: #232228;
+	--secondary_on_yellow_border_bottom_color: #1e1d24;
+	--secondary_on_base_border_color: #232228;
+	--secondary_on_base_border_bottom_color: #1e1d24;
+	--secondary_on_tertiary_border_color: #8a6f38;
+	--secondary_on_tertiary_border_bottom_color: #1e1d24;
+	--secondary_on_brown_border_color: #232228;
+	--secondary_on_brown_border_bottom_color: #1e1d24;
 
-	--secondary-label-color: #555;
+	--secondary_label_color: #555;
 
-	--secondary-square-background-color: #e4e4e4;
-	--secondary-square-text-color: var(--grey-color);
-	--secondary-square-border-color: var(--grey-color);
-	--secondary-square-label-color: #585858;
-	--secondary-setting-icon-color: var(--primary-background-color);
+	--secondary_square_background_color: #e4e4e4;
+	--secondary_square_text_color: var(--grey_color);
+	--secondary_square_border_color: var(--grey_color);
+	--secondary_square_label_color: #585858;
+	--secondary_setting_icon_color: var(--primary_background_color);
 
-	--secondary-field-background-color-active: var(--white-color);
-	--secondary-field-background-color-inactive: var(--white-color);
+	--secondary_field_background_color_active: var(--white_color);
+	--secondary_field_background_color_inactive: var(--white_color);
 
-	--secondary-field-option-background-color: #d1d1d1;
+	--secondary_field_option_background_color: #d1d1d1;
 
-	--secondary-field-text-color: #585858;
-	--secondary-field-caret-color: #585858;
-	--secondary-field-text-color-inactive: #585858;
-	--secondary-field-caret-color-inactive: #585858;
-	--secondary-field-border-color: #a8a8a8;
-	--secondary-field-border-color-focus: var(--blue-color);
+	--secondary_field_text_color: #585858;
+	--secondary_field_caret_color: #585858;
+	--secondary_field_text_color_inactive: #585858;
+	--secondary_field_caret_color_inactive: #585858;
+	--secondary_field_border_color: #a8a8a8;
+	--secondary_field_border_color_focus: var(--blue_color);
 
-	--secondary-button-active-background-color: var(--blue-color);
-	--secondary-button-active-text-color:  var(--white-color);
-	--secondary-button-active-border-color: var(--white-color);
-	--secondary-button-inactive-background-color: var(--secondary-background-color);
-	--secondary-button-inactive-text-color:  var(--white-color);
-	--secondary-button-inactive-border-color: var(--grey-color);
+	--secondary_button_active_background_color: var(--blue_color);
+	--secondary_button_active_text_color:  var(--white_color);
+	--secondary_button_active_border_color: var(--white_color);
+	--secondary_button_inactive_background_color: var(--secondary_background_color);
+	--secondary_button_inactive_text_color:  var(--white_color);
+	--secondary_button_inactive_border_color: var(--grey_color);
 
-	--secondary-accent-background-color: #f2f;
-	--secondary-accent-border-color: var(--gold-on-secondary-border-color);
-	--secondary-accent-border-bottom-color: var(--gold-on-secondary-border-bottom-color);
-	--secondary-accent-text-color: var(--black-color);
+	--secondary_accent_background_color: #f2f;
+	--secondary_accent_border_color: var(--gold_on_secondary_border_color);
+	--secondary_accent_border_bottom_color: var(--gold_on_secondary_border_bottom_color);
+	--secondary_accent_text_color: var(--black_color);
 }

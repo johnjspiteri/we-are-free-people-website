@@ -1,134 +1,62 @@
 #search
 	width: 627px
 	margin: 0 20px 0 20px
-	padding: 25px 20px 0 20px
+	padding: 25px 20px 25px 20px
 	grid-template-columns: 1fr 1fr 1fr 1fr
-
-	&__tags
-		margin: -1px 20px 0 0
-
-	&__caret-up,
-	&__caret-down,
-	&__times
-		margin: 0 0 0 10px
-		font-size: 12px
+	gap: 16px 10px
 
 	label
-		margin: 0 0 6px 0
-		padding: 0 5px 0 5px
+		margin: 0 0 8px 0
+		font-size: 12px
+		line-height: 12px
+
+	&__tags
+		height: 30px
+		margin: -1px 20px 30px 0
+
+	&__caret-down,
+	&__caret-up,
+	&__times
+		margin-left: 10px
 		font-size: 14px
-		line-height: 14px
+
+	&__times
+		font-size: 12px
+
+.search-field
+	height: $heigh_search_field_667
+
+	ia-select,
+	ia-select-tag
+		height: 46px
+
+		h4
+			height: 46px
+			font-size: $search_font_size_667
+
+	ia-select .ia-select__option
+		height: $heigh_search_field_667
+
+	ia-select .ia-select__caret,
+	ia-select-tag .ia-select__caret
+		height: $heigh_search_field_667
 
 .search-section:nth-child(7)
 	grid-column: 3 / 5
-
-.search-field
-	height: var(--height-search-field-667)
-
-	ia-select
-		height: var(--height-search-field-667)
-
-	ia-select.ia-select__value h4
-		height: var(--height-search-field-667)
-		font-size: var(--search-font-size-667)
-
-	ia-select .ia-select__option
-		height: var(--height-search-field-667)
-
-	ia-select .ia-select__caret
-		height: var(--height-search-field-667)
+	grid-row: 2 / 3
 
 .search-section
-	margin: 0 0 var(--margin-bottom-search-field-667) 0
+	select
+		padding: 0 10px
+		font-size: 16px
 
-//h4
-//	font-size: 18px
-//
-//select
-//	font-size: 16px
-//
-//input
-//	padding: 0 15px
-//	font-size: 14px
+	input
+		padding: 0 15px
+		font-size: 14px
 
-//.select
-//	height:  var(--height-subscribe-field-667)
+.search-tag
+	margin: 0 0 0 10px
+	padding: 0 15px
 
-//	&__relative
-//		height: 42px
-//
-//	&__absolute
-//		height: var(--height-subscribe-field-667)
-//
-//	&__select
-//		height: var(--height-subscribe-field-667)
-//		padding: 0 10px
-//		font-size: 20px
-//
-//		h4
-//			font-size: 12px
-//
-//	&__flag
-//		width: 20px
-//		height: 20px
-//		margin: 0 10px 0 0
-//
-//	&__option
-//		height: var(--height-subscribe-field-667)
-//		padding: 0 10px
-//
-//		h4
-//			font-size: 12px
-
-//	&__tag
-//		margin: 0 10px 0 0
-//		padding: 0 10px
-//		height: var(--height-search-field-667)
-//
-//		h4
-//			font-size: 12px
-//
-//	&__times
-//		width: 22px
-//		height: 18px
-//		font-size: 14px
-//
-//	&__end
-//		width: 10px
-//
-//	&__top
-//		border-bottom: 10px solid var(--primary-background-color)
-//		border-left: 10px solid transparent
-//
-//	&__middle
-//		width: 10px
-//		height: 14px
-
-.structure-account-holder
-	height: var(--height-subscribe-field-667)
-
-.structure-account-relative
-	height: 42px
-
-.structure-account-absolute
-	height: var(--height-subscribe-field-667)
-
-.structure-account-select
-	height: var(--height-subscribe-field-667)
-	padding: 0 10px
-	font-size: 20px
-
-	h4
-		font-size: 12px
-
-.structure-account-flag
-	width: 20px
-	height: 20px
-	margin: 0 10px 0 0
-
-.structure-account-option
-	height: var(--height-subscribe-field-667)
-	padding: 0 10px
-
-	h4
+	h5
 		font-size: 12px

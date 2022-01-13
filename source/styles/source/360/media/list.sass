@@ -1,27 +1,32 @@
 .media-list
 	float: left
+	display: grid
 	width: 300px
 	margin: 0 0 10px 10px
+	grid-template-columns: 1fr
+	row-gap: 20px
 
 .media-list-squares
 	float: left
-	width: 280px
+	width: 100%
 	padding: 20px 10px 26px 10px
-	margin: 0 0 20px 0
+	margin: 0
 	background: var(--color-white)
 	border: var(--color-white-border)
-	border-radius: $radius
+	border-radius: $border_radius
 	cursor: pointer
+	background: #1e1d24
+	box-sizing: border-box
 
 	&__image
 		float: left
-		width: 280px
+		width: 100%
 		height: 210px
 		padding: 0
 		margin: 0 0 10px 0
 		background: #f2f2f2
 		border: var(--color-white-border)
-		border-radius: $radius
+		border-radius: $border_radius
 		overflow: hidden
 
 		img
@@ -33,31 +38,34 @@
 		float: left
 		width: 100%
 		margin: 10px 0 12px 0px
-		font-weight: 400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 21px
 		line-height: 27px
-		color: var(--black-color)
+		color: #FFF
 
 	h4
 		float: left
 		padding: 8px 14px 8px 14px
 		margin: 0 0 18px 0px
-		font-weight: 400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 12px
 		line-height: 12px
 		color: var(--color-white)
-		background: var(--grey-gradient)
-		border-radius: $radius
+		background: #FFF
+		border-radius: $border_radius
 
 	p
 		float: left
 		width: 100%
 		margin: 0 5px 0 0
-		font-weight: 400px
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 16px
 		line-height: 26px
-		color: var(--paragraph-color)
+		color: #FFF
 
 	p.blue
-		color: var(--paragraph-color)
+		color: #FFF
 		margin: 0

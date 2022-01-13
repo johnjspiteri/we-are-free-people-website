@@ -8,9 +8,8 @@
 	&__container
 		display: grid
 		height: auto
-		grid-gap: 15px
+		gap: 15px 10px
 		grid-template-columns: 1fr
-		column-gap: 10px
 		grid-template-rows: masonry
 
 	//&__empty
@@ -18,9 +17,9 @@
 	//	width: 100%
 	//	margin: 0 0 22px 0
 	//	padding: 20px 20px 16px 20px
-	//	border: var(--secondary-border)
-	//	border-radius: $radius
-	//	background: var(--secondary-background-color)
+	//	border: var(--secondary_border)
+	//	border-radius: $border_radius
+	//	background: var(--secondary_background_color)
 	//	underline none
 	//	box-sizing: border-box
 	//	background: #fdf6af
@@ -29,13 +28,13 @@
 	//		display: inline-block
 	//		margin: 0 auto 10px auto
 	//		padding: 0 9px 4px 9px
-	//		font-family: $primary-font
-	//		font-weight: $primary-font-weight-400
-	//		border-bottom: var(--secondary-title-border-bottom)
+	//		font-family: $primary_font
+	//		font-weight: $primary_font_weight_400
+	//		border-bottom: var(--secondary_title_border_bottom)
 	//		font-size: 16px
 	//		line-height: 22px
 	//		text-align: center
-	//		color: var(--black-color)
+	//		color: var(--black_color)
 	//		text-transform: uppercase
 	//
 	//	p
@@ -43,11 +42,11 @@
 	//		width: 100%
 	//		margin: 0 0 10px 0
 	//		padding: 0
-	//		font-family: $secondary-font
-	//		font-weight: $secondary-font-weight-400
+	//		font-family: $secondary_font
+	//		font-weight: $secondary_font_weight_400
 	//		font-size: 14px
 	//		line-height: 24px
-	//		color: var(--black-color)
+	//		color: var(--black_color)
 	//		text-align: center
 	//		underline none
 	//
@@ -64,9 +63,9 @@
 	float: left
 	margin: 0
 	padding: 15px 10px 15px 10px
-	background: var(--secondary-background-color)
-	border: var(--primary-on-base-border)
-	border-radius: $radius
+	background: var(--secondary_background_color)
+	border: var(--primary_on_base_border)
+	border-radius: $border_radius
 	box-sizing: border-box
 	cursor: pointer
 
@@ -75,12 +74,12 @@
 		width: 100%
 		margin: 0 0 18px 0
 		padding: 0 0 5px
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
-		border-bottom: var(--secondary-title-border-bottom)
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
+		border-bottom: var(--secondary_title_border_bottom)
 		font-size: 17px
 		line-height: 23px
-		color: var(--black-color)
+		color: var(--black_color)
 		text-align: center
 
 	h4
@@ -88,8 +87,8 @@
 		width: 100%
 		margin: 0 0 7px 0
 		padding: 0
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 13px
 		line-height: 13px
 		color: var(--primary-button-text-active-color)
@@ -101,11 +100,11 @@
 		width: 100%
 		margin: 0 0 28px 0
 		padding: 0
-		font-family: $secondary-font
-		font-weight: $secondary-font-weight-400
+		font-family: $secondary_font
+		font-weight: $secondary_font_weight_400
 		font-size: 13px
 		line-height: 20px
-		color: var(--secondary-paragraph-color)
+		color: var(--secondary_paragraph_color)
 		text-align: center
 		box-sizing: border-box
 
@@ -121,9 +120,9 @@
 		width: 100%
 		margin: 0
 		padding: 10px
-		background: var(--primary-background-color)
-		border: var(--primary-on-secondary-border)
-		border-radius: $radius
+		background: var(--primary_background_color)
+		border: var(--primary_on_secondary_border)
+		border-radius: $border_radius
 		text-align: center
 		box-sizing: border-box
 
@@ -139,14 +138,14 @@
 			width: 100%
 			margin: 0
 			padding: 10px 0
-			font-family: $secondary-font
+			font-family: $secondary_font
 			font-size: 14px
-			font-weight: $secondary-font-weight-400
+			font-weight: $secondary_font_weight_400
 			line-height: 14px
-			color: var(--primary-title-color)
-			background: var(--primary-button-inactive-background-color)
-			border: var(--primary-button-inactive-border)
-			border-radius: $radius
+			color: var(--primary_title_color)
+			background: var(--primary_button_inactive_background_color)
+			border: var(--primary_button_inactive_border)
+			border-radius: $border_radius
 			text-align: center
 			box-sizing: border-box
 
@@ -160,14 +159,14 @@
 			display: inline-block
 			margin: 0 5px
 			padding: 7px 14px
-			font-family: $secondary-font
+			font-family: $secondary_font
 			font-weight: var(--secondary-font-weight-300)
-			border: var(--base-on-primary-border)
-			border-radius: $radius
+			border: var(--base_on_primary_border)
+			border-radius: $border_radius
 			font-size: 11px
 			line-height: 14px
-			background: var(--base-background-color)
-			color: var(--primary-title-color)
+			background: var(--base_background_color)
+			color: var(--primary_title_color)
 			text-align: center
 
 	&__holder
@@ -194,14 +193,14 @@
 			height: 28px
 			margin: 0
 			padding: 0 14px
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
-			border-radius: $radius
-			border: var(--primary-on-base-border)
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
+			border-radius: $border_radius
+			border: var(--primary_on_base_border)
 			font-size: 10px
 			line-height: 14px
-			color: var(--primary-title-color)
-			background: var(--primary-background-color)
+			color: var(--primary_title_color)
+			background: var(--primary_background_color)
 			text-align: left
 			box-sizing: border-box
 			align-items: center
@@ -211,12 +210,12 @@
 		h3
 			margin: 0 0 5px
 			padding: 0
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
 			font-size: 10px
 			line-height: 10px
 			text-align: center
-			color: var(--grey-color)
+			color: var(--grey_color)
 			box-sizing: border-box
 
 	&__contact
@@ -224,9 +223,9 @@
 		width: 100%
 		margin: 0
 		padding: 15px 10px
-		border: var(--primary-button-active-border)
-		border-radius: $radius
-		background: var(--primary-background-color)
+		border: var(--primary_button_active_border)
+		border-radius: $border_radius
+		background: var(--primary_background_color)
 		text-align: center
 		box-sizing: border-box
 
@@ -239,8 +238,8 @@
 			display: block
 			margin: 0 0 10px 0
 			padding: 0
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
 			font-size: 11px
 			line-height: 12px
 			color: var(--primary-button-text-active-color)
@@ -251,8 +250,8 @@
 			display: block
 			margin: 0 0 5px 0
 			padding: 0
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
 			font-size: 13px
 			line-height: 13px
 			color: var(--primary-button-text-active-color)
@@ -266,7 +265,7 @@
 			margin: 0 auto
 			padding: 0
 			border: var(--black-border)
-			border-radius: $radius-circle
+			border-radius: $border_radius_circle
 			overflow: hidden
 
 	&__square:nth-child(1)
@@ -290,14 +289,14 @@
 		h6
 			display: flex
 			height: 32px
-			border-radius: $radius
-			background: var(--primary-accent-background-color)
+			border-radius: $border_radius
+			background: var(--primary_accent_background_color)
 			margin: 0
 			padding: 0
-			font-family: $primary-font
-			font-weight: $primary-font-weight-400
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
 			font-size: 13px
-			color: var(--grey-color)
+			color: var(--grey_color)
 			align-self: center
 			justify-content: center
 			box-sizing: border-box
@@ -309,9 +308,9 @@
 	//	width: 318px
 	//	margin: 0 0 10px 0
 	//	padding: 15px 0 15px 15px
-	//	border: var(--primary-button-active-border)
-	//	border-radius: $radius
-	//	background: var(--primary-background-color)
+	//	border: var(--primary_button_active_border)
+	//	border-radius: $border_radius
+	//	background: var(--primary_background_color)
 	//	text-align: center
 	//	box-sizing: border-box
 	//
@@ -326,14 +325,14 @@
 	//		width: 100%
 	//		margin: 0
 	//		padding: 10px 0
-	//		font-family: $secondary-font
-	//		font-weight: $secondary-font-weight-400
-	//		border-radius: $radius
-	//		border: var(--primary-on-base-border)
+	//		font-family: $secondary_font
+	//		font-weight: $secondary_font_weight_400
+	//		border-radius: $border_radius
+	//		border: var(--primary_on_base_border)
 	//		font-size: 14px
 	//		line-height: 14px
-	//		background: var(--primary-background-color)
-	//		color: var(--white-color)
+	//		background: var(--primary_background_color)
+	//		color: var(--white_color)
 	//		text-align: center
 	//		box-sizing: border-box
 	//		text-transform: uppercase
@@ -350,8 +349,8 @@
 	height: 30px
 	margin: 0 10px 0 0
 	padding: 0
-	border-radius: $radius
-	border: var(--primary-on-base-border)
+	border-radius: $border_radius
+	border: var(--primary_on_base_border)
 	box-sizing: border-box
 	background: var(--primary-button-background-active-color)
 
@@ -361,8 +360,8 @@
 		height: 100%
 		margin: 0
 		padding: 0
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 13px
 		line-height: 13px
 		color: var(--color-base-on-primary)

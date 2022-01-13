@@ -1,19 +1,19 @@
 #donate-form
 	float: left
 	width: 100%
-	margin: 0 0 36px 0
+	margin: 0
 	padding: 18px 15px 12px 15px
-	border: var(--primary-on-base-border)
+	border: var(--primary_on_base_border)
 	box-sizing: border-box
 	background: #c8c8c8
-	border-radius: $radius
+	border-radius: $border_radius
 
 	label
 		float: left
 		width: 100%
 		margin: 0 0 8px 0
 		padding: 0
-		font-family: $primary-font
+		font-family: $primary_font
 		font-weight: var(--primary-font-weight-500)
 		font-size: 13px
 		line-height: 18px
@@ -32,6 +32,17 @@
 		margin: 0
 		padding: 0
 
+		h1
+			display: inline-block
+			margin: 0 0 12px 0
+			padding: 0 30px
+			font-family: $primary_font
+			font-weight: $primary_font_weight_400
+			font-size: 21px
+			line-height: 34px
+			color: #000
+			text-align: center
+
 	&__buttons
 		display: grid
 		width: 100%
@@ -39,12 +50,11 @@
 		padding: 0
 		grid-template-columns: 1fr 1fr 1fr
 		grid-template-rows: auto
-		grid-row-gap: 8px
-		grid-column-gap: 8px
+		gap: 8px
 
 	&__card
 		&.active
-			background: var(--blue-color)
+			background: var(--blue_color)
 
 		h5
 			display: flex
@@ -52,7 +62,7 @@
 			height: 100%
 			margin: 0
 			padding: 0
-			font-family: $primary-font
+			font-family: $primary_font
 			font-weight: var(--primary-font-weight-500)
 			font-size: 20px
 			color: #fff
@@ -79,8 +89,8 @@
 		height: 7px
 		margin: 0
 		padding: 0
-		background: var(--primary-background-color)
-		border-radius: $radius
+		background: var(--primary_background_color)
+		border-radius: $border_radius
 
 	&__line
 		float: left
@@ -92,7 +102,7 @@
 		transition-property: width
 		transition-duration: 0.9s
 		transition-timing-function: linear
-		border-radius: $radius
+		border-radius: $border_radius
 
 	&__print
 		position: absolute
@@ -117,7 +127,7 @@
 	margin: 0
 	padding: 0
 	font-size: 36px
-	color: var(--primary-title-color)
+	color: var(--primary_title_color)
 	align-items: center
 	justify-content: center
 
@@ -131,9 +141,9 @@
 	height: 48px
 	margin: 0 0 15px 0
 	padding: 0
-	font-family: $primary-font
-	font-weight: $primary-font-weight-400
-	border-radius: $radius
+	font-family: $primary_font
+	font-weight: $primary_font_weight_400
+	border-radius: $border_radius
 	border: blue
 	font-size: 20px
 	color: #fff
@@ -149,10 +159,10 @@
 	margin: 0 10px 0 0
 	padding: 0
 	font-size: 23px
-	color: var(--primary-field-caret-color)
+	color: var(--primary_field_caret_color)
 	align-items: center
-	--fa-primary-color: var(--primary-background-color)
-	--fa-secondary-color: var(--primary-background-color)
+	--fa-primary-color: var(--primary_background_color)
+	--fa-secondary-color: var(--primary_background_color)
 	--fa-primary-opacity: 1
 	--fa-secondary-opacity: 1
 
@@ -168,13 +178,13 @@
 	input
 		float: left
 		width: 100%
-		height: $height-donate-field-360
+		height: $height_donate_field_360
 		margin: 0
 		padding: 0
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
-		border: var(--secondary-button-border)
-		border-radius: $radius
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
+		border: var(--secondary_button_border)
+		border-radius: $border_radius
 		font-size: 15px
 		color: #000
 		background: #fff
@@ -191,8 +201,6 @@
 	margin: 0
 	padding: 0
 	grid-template-columns: 1fr
-	//grid-column-gap: 10px
-	//grid-row-gap: 10px
 
 .donate-form-section-three
 	display: grid
@@ -212,28 +220,28 @@
 		display: inline-block
 		margin: 0 0 12px 0
 		padding: 0 30px
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 21px
 		line-height: 34px
-		color: var(--color-title)
+		color: var(--color_title)
 		text-align: center
 
 	p
 		width: 100%
 		margin: 0 0 15px 0
 		padding: 0
-		font-family: $secondary-font
-		font-weight: $secondary-font-weight-400
+		font-family: $secondary_font
+		font-weight: $secondary_font_weight_400
 		font-size: 14px
 		line-height: 25px
-		color: var(--primary-paragraph-color)
+		color: var(--primary_paragraph_color)
 		text-align: center
 
 		span
 			margin: 0
 			padding: 0 0 7px 0
-			border-bottom: 5px solid var(--blue-color)
+			border-bottom: 5px solid var(--blue_color)
 
 	button
 		float: left
@@ -241,15 +249,15 @@
 		height: 48px
 		margin: 0
 		padding: 0
-		font-family: $primary-font
+		font-family: $primary_font
 		font-weight: var(--primary-font-weight-500)
 		font-size: 20px
 		line-height: 51px
 		color: #fff
 		background: blue
-		border: var(--primary-button-active-border)
-		border-bottom: var(--secondary-title-border-bottom)
-		border-radius: $radius
+		border: var(--primary_button_active_border)
+		border-bottom: var(--secondary_title_border_bottom)
+		border-radius: $border_radius
 		text-align: center
 		outline: none
 		border: none
@@ -259,8 +267,8 @@
 
 	button[disabled]
 		background: var(--primary-button-background-inactive-color)
-		border: var(--base-on-primary-border)
-		color: var(--primary-button-inactive-border)
+		border: var(--base_on_primary_border)
+		color: var(--primary_button_inactive_border)
 		box-shadow: none
 
 .donate-form-button
@@ -268,7 +276,7 @@
 	width: 100%
 	margin: 0
 	padding: 0
-	border-radius: $radius
+	border-radius: $border_radius
 	background: #33333b
 	text-align: center
 	outline: none
@@ -281,11 +289,11 @@
 		display: flex
 		float: left
 		width: 100%
-		height: $height-donate-field-360
+		height: $height_donate_field_360
 		margin: 0
 		padding: 0
-		font-family: $primary-font
-		font-weight: $primary-font-weight-400
+		font-family: $primary_font
+		font-weight: $primary_font_weight_400
 		font-size: 15px
 		color: #fff
 		justify-self: center
@@ -293,7 +301,7 @@
 		justify-content: center
 
 .donate-form-button.active
-	background: var(--teal-color)
+	background: var(--teal_color)
 
 .donate-form-button:last-child
 	margin: 0
