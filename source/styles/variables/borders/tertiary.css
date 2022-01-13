@@ -2,16 +2,16 @@
 /* $tertiary-on-base-border: = 1px solid $tertiary-on-base-border-color */
 
 /* :root {
-	--tertiary-border: 1px solid var(--tertiary-border-color);
-	--tertiary-border-bottom: 3px solid var(--tertiary-border-bottom-color);
+	--tertiary_border: 1px solid var(--tertiary_border_color);
+	--tertiary_border-bottom: 3px solid var(--tertiary_border-bottom_color);
 
-	--tertiary-on-primary-border: 1px solid var(--tertiary-on-primary-border-color);
-	--tertiary-on-primary-border-bottom: 3px solid var(--tertiary-on-primary-border-bottom-color);
+	--tertiary_on_primary_border: 1px solid var(--tertiary_on_primary_border_color);
+	--tertiary_on_primary_border_bottom: 3px solid var(--tertiary_on_primary_border_bottom_color);
 
 
-	--tertiary-button-active-border: 1px solid var(--tertiary-button-active-border-color);
-	--tertiary-button-active-border-bottom: 3px solid var(--tertiary-button-active-border-bottom-color);
+	--tertiary_button_active_border: 1px solid var(--tertiary_button_active_border_color);
+	--tertiary_button_active_border_bottom: 3px solid var(--tertiary_button_active_border_bottom_color);
 
-	--tertiary-button-inactive-border: 1px solid var(--tertiary-button-inactive-border-color);
-	--tertiary-button-inactive-border-bottom: 3px solid var(--tertiary-button-inactive-border-bottom-color);
+	--tertiary_button_inactive_border: 1px solid var(--tertiary_button_inactive_border_color);
+	--tertiary_button_inactive_border_bottom: 3px solid var(--tertiary_button_inactive_border_bottom_color);
 } */

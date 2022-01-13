@@ -1,50 +1,50 @@
 :root {
-	--tertiary-background-color: $yellow-color;
-	--tertiary-background-color: #0496ff;
+	--tertiary_background_color: var(--yellow_color);
+	--tertiary_background_color: #0496ff;
 
-	/* --tertiary-border-bottom-color: #6a685e; */
+	/* --tertiary_border-bottom_color: #6a685e; */
 
-	/* --tertiary-border-color: #e6e639; */
-	/* --tertiary-border-color: #cccc32; */
-	--tertiary-border: 1px solid var(--tertiary-border-color);
-	--tertiary-border-bottom: 3px solid var(--tertiary-border-bottom-color);
+	/* --tertiary_border_color: #e6e639; */
+	/* --tertiary_border_color: #cccc32; */
+	--tertiary_border: 1px solid var(--tertiary_border_color);
+	--tertiary_border-bottom: 3px solid var(--tertiary_border-bottom_color);
 
-	--tertiary-on-primary-border: 1px solid var(--tertiary-on-primary-border-color);
-	--tertiary-on-primary-border-bottom: 3px solid var(--tertiary-on-primary-border-bottom-color);
+	--tertiary_on_primary_border: 1px solid var(--tertiary_on_primary_border_color);
+	--tertiary_on_primary_border_bottom: 3px solid var(--tertiary_on_primary_border_bottom_color);
 
 
-	--tertiary-button-active-border: 1px solid var(--tertiary-button-active-border-color);
-	--tertiary-button-active-border-bottom: 3px solid var(--tertiary-button-active-border-bottom-color);
+	--tertiary_button_active_border: 1px solid var(--tertiary_button_active_border_color);
+	--tertiary_button_active_border_bottom: 3px solid var(--tertiary_button_active_border_bottom_color);
 
-	--tertiary-button-inactive-border: 1px solid var(--tertiary-button-inactive-border-color);
-	--tertiary-button-inactive-border-bottom: 3px solid var(--tertiary-button-inactive-border-bottom-color);
+	--tertiary_button_inactive_border: 1px solid var(--tertiary_button_inactive_border_color);
+	--tertiary_button_inactive_border_bottom: 3px solid var(--tertiary_button_inactive_border_bottom_color);
 
-	--tertiary-on-primary-border-color: var(--yellow-border-color);
-	--tertiary-on-primary-border-bottom-color: var(--yellow-on-primary-border-bottom-color);
+	--tertiary_on_primary_border_color: var(--yellow_border_color);
+	--tertiary_on_primary_border_bottom_color: var(--yellow_on_primary_border_bottom_color);
 
-	--tertiary-on-secondary-border-color: #1e1d24;
-	--tertiary-on-secondary-border-bottom-color: #1e1d24;
-	--tertiary-on-yellow-border-color: #232228;
-	--tertiary-on-yellow-border-bottom-color: #1e1d24;
-	--tertiary-on-base-border-color: #232228;
-	--tertiary-on-base-border-bottom-color: #1e1d24;
-	--tertiary-on-teal-border-color: #232228;
-	--tertiary-on-teal-border-bottom-color: #1e1d24;
-	--tertiary-on-brown-border-color: #232228;
-	--tertiary-on-brown-border-bottom-color: #1e1d24;
+	--tertiary_on_secondary_border_color: #1e1d24;
+	--tertiary_on_secondary_border_bottom_color: #1e1d24;
+	--tertiary_on_yellow_border_color: #232228;
+	--tertiary_on_yellow_border_bottom_color: #1e1d24;
+	--tertiary_on_base_border_color: #232228;
+	--tertiary_on_base_border_bottom_color: #1e1d24;
+	--tertiary_on_teal_border_color: #232228;
+	--tertiary_on_teal_border_bottom_color: #1e1d24;
+	--tertiary_on_brown_border_color: #232228;
+	--tertiary_on_brown_border_bottom_color: #1e1d24;
 
-	--tertiary-title-color: var(--white_color);
-	--tertiary-paragraph-color: #626262;
-	--tertiary-paragraph-color: #f2f2f2;
-	--tertiary-label-color: #848484;
+	--tertiary_title_color: var(--white_color);
+	--tertiary_paragraph_color: #626262;
+	--tertiary_paragraph_color: #f2f2f2;
+	--tertiary_label_color: #848484;
 
-	--tertiary-button-active-background-color: #ffff3f;
-	--tertiary-button-active-text-color: var(--black_color);
-	--tertiary-button-active-border-color: #888;
-	--tertiary-button-active-border-bottom-color: #666;
+	--tertiary_button_active_background_color: #ffff3f;
+	--tertiary_button_active_text_color: var(--black_color);
+	--tertiary_button_active_border_color: #888;
+	--tertiary_button_active_border_bottom_color: #666;
 
-	--tertiary-button-inactive-background-color: #484848;
-	--tertiary-button-inactive-text-color: var(--white_color);
-	--tertiary-button-inactive-border-color: #000;
-	--tertiary-button-inactive-border-bottom-color: #000;
+	--tertiary_button_inactive_background_color: #484848;
+	--tertiary_button_inactive_text_color: var(--white_color);
+	--tertiary_button_inactive_border_color: #000;
+	--tertiary_button_inactive_border_bottom_color: #000;
 }

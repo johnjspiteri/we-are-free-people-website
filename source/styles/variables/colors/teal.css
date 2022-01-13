@@ -16,20 +16,20 @@
 	--teal_color: #b1ad9d;
 	--teal_color: #6f6c62;
 
-	--teal-on-primary-border-color: #1e1d24;
-	--teal-on-primary-border-bottom-color: #1e1d24;
-	--teal-on-secondary-border-color: #1e1d24;
-	--teal-on-secondary-border-bottom-color: #1e1d24;
-	--teal-on-yellow-border-color: #232228;
-	--teal-on-yellow-border-bottom-color: #1e1d24;
-	--teal-on-base-border-color: #232228;
-	--teal-on-base-border-bottom-color: #1e1d24;
-	--teal-on-tertiary-border-color: #8a6f38;
-	--teal-on-tertiary-border-bottom-color: #1e1d24;
-	--teal-on-brown-border-color: #232228;
-	--teal-on-brown-border-bottom-color: #1e1d24;
+	--teal_on_primary_border_color: #1e1d24;
+	--teal_on_primary_border_bottom_color: #1e1d24;
+	--teal_on_secondary_border_color: #1e1d24;
+	--teal_on_secondary_border_bottom_color: #1e1d24;
+	--teal_on_yellow_border_color: #232228;
+	--teal_on_yellow_border_bottom_color: #1e1d24;
+	--teal_on_base_border_color: #232228;
+	--teal_on_base_border_bottom_color: #1e1d24;
+	--teal_on_tertiary_border_color: #8a6f38;
+	--teal_on_tertiary_border_bottom_color: #1e1d24;
+	--teal_on_brown_border_color: #232228;
+	--teal_on_brown_border_bottom_color: #1e1d24;
 
-	--teal-text-color: var(--black_color);
-	--teal-border-color: #6b7212;
+	--teal_text_color: var(--black_color);
+	--teal_border_color: #6b7212;
 	--teal_color-light: #FBFCED;
 }

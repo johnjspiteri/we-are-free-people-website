@@ -1,20 +1,20 @@
-/* $secondary-button-active-border: = 1px solid var(--secondary-button-border)-active-color */
-/* $secondary-button-inactive-border: = 1px solid var(--secondary-button-border)-inactive-color */
-/* $secondary-field-border: = 1px solid $secondary-field-border-color */
-/* $secondary-field-border-focus = 1px solid $secondary-field-border-color-focus */
+/* $secondary-button-active-border: = 1px solid var(--secondary_button_border)-active-color */
+/* $secondary-button-inactive-border: = 1px solid var(--secondary_button_border)-inactive-color */
+/* $secondary-field-border: = 1px solid $secondary_field_border_color */
+/* $secondary-field-border-focus = 1px solid $secondary_field_border_color_focus */
 /* $secondary-title-bottom-border: = 3px solid var(--blue_color) */
 /* $secondary-square-border: = 1px solid $secondary-square-border-color */
-/* $secondary-on-primary-border: = 1px solid $secondary-on-primary-border-color */
-/* $secondary-on-primary-border-bottom: = 3px solid $secondary-on-primary-border-bottom-color */
-/* $secondary-on-tertiary-border: = 1px solid $secondary-on-tertiary-border-color */
+/* $secondary-on-primary-border: = 1px solid $secondary_on_primary_border_color */
+/* $secondary-on-primary-border-bottom: = 3px solid $secondary_on_primary_border_bottom_color */
+/* $secondary-on-tertiary-border: = 1px solid $secondary_on_tertiary_border_color */
 
 :root {
-	--secondary-border: 1px solid var(--secondary-border-color);
-	--secondary-on-base-border: 1px solid var(--secondary-on-base-border-color);
+	--secondary_border: 1px solid var(--secondary_border_color);
+	--secondary_on_base_border: 1px solid var(--secondary_on_base_border_color);
 
-	--secondary-dotted-border: 1px solid var(--secondary-dotted-border-color);
-	--secondary-image-border: 1px solid var(--secondary-image-border-color);
-	--secondary-title-border-bottom: 3px solid var(--secondary-title-border-bottom-color);
+	--secondary_dotted_border: 1px solid var(--secondary_dotted_border_color);
+	--secondary_image_border: 1px solid var(--secondary_image_border_color);
+	--secondary_title_border_bottom: 3px solid var(--secondary_title_border_bottom_color);
 
-	--secondary-button-border: 1px solid var(--secondary-button-border-color);
+	--secondary_button_border: 1px solid var(--secondary_button_border_color);
 }
