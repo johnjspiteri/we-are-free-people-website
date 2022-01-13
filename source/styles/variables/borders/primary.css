@@ -1,19 +1,19 @@
-/* $bottom-primary-on-secondary-border: = 3px solid var(--primary-on-secondary-border)-bottom-color */
+/* $bottom-primary-on-secondary-border: = 3px solid var(--primary_on_secondary_border)-bottom-color */
 /* $primary-on-tertiary-border: = 1px solid $primary-on-tertiary-border-color */
-/* $primary-accent-border: = 1px solid var(--primary-accent-border-color) */
-/* $primary-accent-bottom-border: = 3px solid $primary-accent-border-bottom-color */
+/* $primary-accent-border: = 1px solid var(--primary_accent_border_color) */
+/* $primary-accent-bottom-border: = 3px solid $primary_accent_border_bottom_color */
 /* $primary-title-bottom-border: = 3px solid var(--blue_color) */
 
 /* :root {
-	--primary-border: 1px solid var(--primary_on_base_border_color);
-	--primary-on-secondary-border: 1px solid var(--primary-on-secondary-border-color);
-	--primary-on-base-border: 1px solid var(--primary_on_base_border_color);
-	--primary-on-base-border-active: 1px solid var(--primary_on_base_border_color-active);
+	--primary_border: 1px solid var(--primary_on_base_border_color);
+	--primary_on_secondary_border: 1px solid var(--primary_on_secondary_border_color);
+	--primary_on_base_border: 1px solid var(--primary_on_base_border_color);
+	--primary_on_base_border_active: 1px solid var(--primary_on_base_border_color_active);
 
-	--primary-button-active-border: 1px solid var(--primary-button-active-border-color);
-	--primary-button-inactive-border: 1px solid var(--primary-button-inactive-border-color);
+	--primary_button_active_border: 1px solid var(--primary_button_active_border_color);
+	--primary_button_inactive_border: 1px solid var(--primary_button_inactive_border_color);
 
-	--primary-field-border: 1px solid var(--primary-field-border-color);
-	--primary-field-border-dotted: 1px dotted var(--grey-color);
-	--primary-field-border-focus: 1px solid var(--primary-field-border-color-focus);
+	--primary_field_border: 1px solid var(--primary_field_border_color);
+	--primary_field_border_dotted: 1px dotted var(--grey_color);
+	--primary_field_border_focus: 1px solid var(--primary_field_border_color_focus);
 } */

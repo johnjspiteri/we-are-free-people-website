@@ -45,8 +45,8 @@
 	--secondary-label-color: #555;
 
 	--secondary-square-background-color: #e4e4e4;
-	--secondary-square-text-color: var(--grey-color);
-	--secondary-square-border-color: var(--grey-color);
+	--secondary-square-text-color: var(--grey_color);
+	--secondary-square-border-color: var(--grey_color);
 	--secondary-square-label-color: #585858;
 	--secondary-setting-icon-color: var(--primary_background_color);
 
@@ -67,7 +67,7 @@
 	--secondary-button-active-border-color: var(--white_color);
 	--secondary-button-inactive-background-color: var(--secondary-background-color);
 	--secondary-button-inactive-text-color:  var(--white_color);
-	--secondary-button-inactive-border-color: var(--grey-color);
+	--secondary-button-inactive-border-color: var(--grey_color);
 
 	--secondary-accent-background-color: #f2f;
 	--secondary-accent-border-color: var(--gold-on-secondary-border-color);

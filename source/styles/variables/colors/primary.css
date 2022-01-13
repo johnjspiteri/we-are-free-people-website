@@ -1,15 +1,15 @@
 :root {
-	--primary-border: 1px solid var(--primary_on_base_border_color);
-	--primary-on-secondary-border: 1px solid var(--primary-on-secondary-border-color);
-	--primary-on-base-border: 1px solid var(--primary_on_base_border_color);
-	--primary-on-base-border-active: 1px solid var(--primary_on_base_border_color-active);
+	--primary_border: 1px solid var(--primary_on_base_border_color);
+	--primary_on_secondary_border: 1px solid var(--primary_on_secondary_border_color);
+	--primary_on_base_border: 1px solid var(--primary_on_base_border_color);
+	--primary_on_base_border_active: 1px solid var(--primary_on_base_border_color_active);
 
-	--primary-button-active-border: 1px solid var(--primary-button-active-border-color);
-	--primary-button-inactive-border: 1px solid var(--primary-button-inactive-border-color);
+	--primary_button_active_border: 1px solid var(--primary_button_active_border_color);
+	--primary_button_inactive_border: 1px solid var(--primary_button_inactive_border_color);
 
-	--primary-field-border: 1px solid var(--primary-field-border-color);
-	--primary-field-border-dotted: 1px dotted var(--grey-color);
-	--primary-field-border-focus: 1px solid var(--primary-field-border-color-focus);
+	--primary_field_border: 1px solid var(--primary_field_border_color);
+	--primary_field_border_dotted: 1px dotted var(--grey_color);
+	--primary_field_border_focus: 1px solid var(--primary_field_border_color_focus);
 
 
 	/* --primary_background_color: #FBFCED */
@@ -18,44 +18,44 @@
 	--primary_background_color: #fbfcee;
 	--primary_background_color: #fff;
 
-	--primary-on-secondary-border-color: #1e1d24;
-	--primary-on-secondary-border-bottom-color: #1e1d24;
-	--primary-on-tertiary-border-color: #8a6f38;
-	--primary-on-tertiary-border-bottom-color: #1e1d24;
+	--primary_on_secondary_border_color: #1e1d24;
+	--primary_on_secondary_border_bottom_color: #1e1d24;
+	--primary_on_tertiary_border_color: #8a6f38;
+	--primary_on_tertiary_border_bottom_color: #1e1d24;
 	--primary_on_base_border_color: #d2d2d2;
-	--primary-on-base-border-bottom-color: #a1a198;
+	--primary_on_base_border-bottom_color: #a1a198;
 
-	--primary-title-color: var(--white_color);
-	--primary-paragraph-color: #c8c8c8;
-	--primary-label-color: #888;
-	--primary-option-active-color: var(--base-button-inactive-text-color);
-	--primary-option-inactive-color: #a8a8a8;
+	--primary_title_color: var(--white_color);
+	--primary_paragraph_color: #c8c8c8;
+	--primary_label_color: #888;
+	--primary_option_active_color: var(--base_button_inactive_text_color);
+	--primary_option_inactive_color: #a8a8a8;
 
-	--primary-field-background-color: var(--white_color);
-	--primary-field-background-color-inactive: var(--white_color);
-	--primary-field-option-background-color: #e8e8e8;
+	--primary_field_background_color: var(--white_color);
+	/* --primary_field_background_color_inactive: var(--white_color); */
+	/* --primary_field_option_background_color: #e8e8e8; */
 
-	/* --primary-field-text-color: #383838; */
-	--primary-field-text-color: #585858;
-	--primary-field-text-color-inactive: #585858;
-	--primary-field-caret-color: var(--white_color);
-	--primary-field-caret-color-inactive: #585858;
-	--primary-field-check-color: var(--green-color);
-	--primary-field-times-color: var(--red-color);
-	--primary-field-border-color: #e4e4e4;
-	--primary-field-border-color-focus: var(--blue_color);
-	--primary-check-color: #b4dac3;
+	/* --primary_field_text_color: #383838; */
+	--primary_field_text_color: #585858;
+	--primary_field_text_color_inactive: #585858;
+	--primary_field_caret_color: var(--white_color);
+	--primary_field_caret_color_inactive: #585858;
+	--primary_field_check_color: var(--green_color);
+	--primary_field_times_color: var(--red_color);
+	--primary_field_border_color: #e4e4e4;
+	--primary_field_border_color_focus: var(--blue_color);
+	--primary_check_color: #b4dac3;
 
-	--primary-button-active-background-color: var(--teal_color);
-	--primary-button-active-text-color: #fff;
-	--primary-button-active-border-color: var(--blue-on-primary-border-color);
+	--primary_button_active_background_color: var(--teal_color);
+	--primary_button_active_text_color: #fff;
+	--primary_button_active_border_color: var(--blue_on_primary_border_color);
 
-	--primary-button-inactive-background-color: #484848;
-	--primary-button-inactive-text-color: var(--white_color);
-	--primary-button-inactive-border-color: #000;
+	--primary_button_inactive_background_color: #484848;
+	--primary_button_inactive_text_color: var(--white_color);
+	--primary_button_inactive_border_color: #000;
 
-	--primary-accent-background-color: #f2f;
-	--primary-accent-border-color: var(--gold-on-primary-border-color);
-	--primary-accent-border-bottom-color: var(--gold-on-primary-border-bottom-color);
-	--primary-accent-text-color: var(--black_color);
+	--primary_accent_background_color: #f2f;
+	--primary_accent_border_color: var(--gold_on_primary_border_color);
+	--primary_accent_border_bottom_color: var(--gold_on_primary_border_bottom_color);
+	--primary_accent_text_color: var(--black_color);
 }

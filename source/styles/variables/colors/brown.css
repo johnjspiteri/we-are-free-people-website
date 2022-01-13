@@ -1,33 +1,33 @@
 :root {
-	--brown-background-color: #934e2d;
-	--brown-background-color: #aa6442;
+	--brown_background_color: #934e2d;
+	--brown_background_color: #aa6442;
 
-	--brown-border-color: #d8d8d8;
-	--brown-on-primary-border-color: #1e1d24;
-	--brown-on-primary-border-bottom-color: #1e1d24;
-	--brown-on-secondary-border-color: #1e1d24;
-	--brown-on-secondary-border-bottom-color: #1e1d24;
-	--brown-on-tertiary-border-color: #232228;
-	--brown-on-tertiary-border-bottom-color: #1e1d24;
-	--brown-on-base-border-color: #232228;
-	--brown-on-base-border-bottom-color: #1e1d24;
-	--brown-on-teal-border-color: #232228;
-	--brown-on-teal-border-bottom-color: #1e1d24;
-	--brown-on-yellow-border-color: #232228;
-	--brown-on-yellow-border-bottom-color: #1e1d24;
+	/* --brown_border_color: #d8d8d8;
+	--brown_on_primary_border_color: #1e1d24;
+	--brown_on_primary_border_bottom_color: #1e1d24;
+	--brown_on_secondary_border_color: #1e1d24;
+	--brown_on_secondary_border_bottom_color: #1e1d24;
+	--brown_on_tertiary_border_color: #232228;
+	--brown_on_tertiary_border_bottom_color: #1e1d24;
+	--brown_on_base_border_color: #232228;
+	--brown_on_base_border_bottom_color: #1e1d24;
+	--brown_on_teal_border_color: #232228;
+	--brown_on_teal_border_bottom_color: #1e1d24;
+	--brown_on_yellow_border_color: #232228;
+	--brown_on_yellow_border_bottom_color: #1e1d24; */
 
-	--brown-button-inactive-border-color: 1px solid var(--brown-border-color);
-	--brown-button-inactive-border-bottom-color: 3px solid var(--brown-bottom-border-color);
+	/* --brown_button_inactive_border_color: 1px solid var(--brown_border_color); */
+	/* --brown_button_inactive_border_bottom_color: 3px solid var(--brown_bottom_border_color); */
 
 
-	--brown-border-color: #89492a;
-	--brown-bottom-border-color: #62341e;
+	--brown_border_color: #89492a;
+	--brown_bottom_border_color: #62341e;
 
-	--brown-title-color: var(--white_color);
-	--brown-paragraph-color: #484848;
+	--brown_title_color: var(--white_color);
+	--brown_paragraph_color: #484848;
 
-	--brown-button-background-inactive-color: var(--brown-background-color);
-	--brown-button-background-inactive-color: var(--brown-background-color);
-	/* --brown-button-background-inactive-color: #b5795b */
-	--brown-button-text-inactive-color: var(--white_color);
+	/* --brown_button_background_inactive_color: var(--brown_background_color); */
+	/* --brown_button_background_inactive_color: var(--brown_background_color); */
+	/* --brown_button_background_inactive_color: #b5795b */
+	/* --brown_button_text_inactive_color: var(--white_color); */
 }
