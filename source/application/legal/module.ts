@@ -1,14 +1,8 @@
 import { NgModule } from '@angular/core';
-import { LegalRoutingModule } from './routes';
-
-import { LegalPrivacyComponent } from './privacy/component';
-import { LegalTermsComponent } from './terms/component';
-import { LegalComponent } from './component';
+import { SharedModule } from '../shared/module';
+import { RoutingModule } from './routes';
 
 @NgModule({
-	declarations: [LegalPrivacyComponent, LegalTermsComponent, LegalComponent],
-	entryComponents: [],
-	imports: [LegalRoutingModule],
-	exports: [],
+	imports: [SharedModule, RoutingModule],
 })
 export class LegalModule {}
