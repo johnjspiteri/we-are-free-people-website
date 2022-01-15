@@ -1,81 +1,82 @@
 <!--<ng-container *ngIf="state.loading.global">-->
 <!--	<div class="backdrop"></div>-->
 <!--</ng-container>-->
-
-<mat-sidenav-container [hasBackdrop]="false">
-	<mat-sidenav #navigation mode="over" [opened]="panel" disableClose="true">
-		<div id="panel">
-			<div id="panel__container">
-				<div id="panel__buttons">
-					<h1 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{'exact' : true}" (click)="closeNavigationPanel()">Home</h1>
-					<!-- <h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1> -->
-					<h1 routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()">Articles</h1>
-					<h1 routerLink="/donate/monthly/amount" routerLinkActive="active" (click)="closeNavigationPanel()">Donate</h1>
-					<h1 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()">Media</h1>
-					<h1 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()">Video</h1>
-					<!--					<h1 routerLink="/about" routerLinkActive="active" (click)="closeNavigationPanel()">About</h1>-->
-					<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
-				</div>
-				<div class="panel-columns">
-					<div class="panel-column">
-						<div class="panel-column-row">
-							<h6>About</h6>
-						</div>
-						<h2 routerLink="/about/philosophy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="5">Philosophy</h2>
-						<h2 routerLink="/about/purpose" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="6">Purpose</h2>
-						<h2 routerLink="about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Finances</h2>
-						<!-- <h2 routerLink="/about/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Careers</h2> -->
-					</div>
-
-					<div class="panel-column">
-						<div class="panel-column-row">
-							<h6>Home</h6>
-						</div>
-						<h2 routerLink="/donate" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="8">Donate</h2>
-						<h2 routerLink="/volunteer" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="9">Volunteer</h2>
-						<h2 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="10">Contact</h2>
-					</div>
-
-					<div class="panel-column">
-						<div class="panel-column-row">
-							<h6>Content</h6>
-						</div>
-						<h2 class="active" routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="11">Articles</h2>
-						<h2 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="12">Video</h2>
-						<!-- <h2 routerLink="/resources" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Resources</h2> -->
-						<h2 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Media</h2>
-					</div>
-
-					<div class="panel-column">
-						<div class="panel-column-row">
-							<h6>COMPANY</h6>
-						</div>
-						<h2 routerLink="/about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="14">ABOUT</h2>
-						<!-- <h2 routerLink="/company/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="15">CAREERS</h2> -->
-						<h2 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="16">CONTACT</h2>
-					</div>
-
-					<div class="panel-column">
-						<div class="panel-column-row">
-							<h6>Legal</h6>
-						</div>
-						<h2 routerLink="/legal/privacy-policy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="17">Cookie Policy</h2>
-						<h2 routerLink="/legal/privacy-policy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="17">Privacy Policy</h2>
-						<h2 routerLink="/legal/terms-of-use" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="18">Terms of Use</h2>
-					</div>
-				</div>
+<mat-sidenav #navigation mode="over" [opened]="panel" disableClose="true">
+	<div id="panel">
+		<div id="panel__container">
+			<div id="panel__buttons">
+				<h1 routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{'exact' : true}" (click)="closeNavigationPanel()">Home</h1>
+				<!-- <h1 routerLink="/" routerLinkActive="active" (click)="closeNavigationPanel()">Home</h1> -->
+				<h1 routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()">Articles</h1>
+				<h1 routerLink="/donate/monthly/amount" routerLinkActive="active" (click)="closeNavigationPanel()">Donate</h1>
+				<h1 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()">Media</h1>
+				<h1 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()">Video</h1>
+				<!--					<h1 routerLink="/about" routerLinkActive="active" (click)="closeNavigationPanel()">About</h1>-->
+				<h1 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()">Contact</h1>
 			</div>
+			<div class="panel-columns">
+				<div class="panel-column">
+					<div class="panel-column-row">
+						<h6>About</h6>
+					</div>
+					<h2 routerLink="/about/philosophy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="5">Philosophy</h2>
+					<h2 routerLink="/about/purpose" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="6">Purpose</h2>
+					<h2 routerLink="about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Finances</h2>
+					<!-- <h2 routerLink="/about/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="7">Careers</h2> -->
+				</div>
 
-			<div id="panel__left">
-				<div id="panel__close" (click)="closeNavigationPanel()">
-					<fa-icon id="panel__caret" [icon]="faCaretLeft"></fa-icon>
+				<div class="panel-column">
+					<div class="panel-column-row">
+						<h6>Home</h6>
+					</div>
+					<h2 routerLink="/donate" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="8">Donate</h2>
+					<h2 routerLink="/volunteer" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="9">Volunteer</h2>
+					<h2 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="10">Contact</h2>
+				</div>
+
+				<div class="panel-column">
+					<div class="panel-column-row">
+						<h6>Content</h6>
+					</div>
+					<h2 class="active" routerLink="/articles" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="11">Articles</h2>
+					<h2 routerLink="/videos" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="12">Video</h2>
+					<!-- <h2 routerLink="/resources" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Resources</h2> -->
+					<h2 routerLink="/media" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="13">Media</h2>
+				</div>
+
+				<div class="panel-column">
+					<div class="panel-column-row">
+						<h6>COMPANY</h6>
+					</div>
+					<h2 routerLink="/about/finances" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="14">ABOUT</h2>
+					<!-- <h2 routerLink="/company/careers" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="15">CAREERS</h2> -->
+					<h2 routerLink="/contact" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="16">CONTACT</h2>
+				</div>
+
+				<div class="panel-column">
+					<div class="panel-column-row">
+						<h6>Legal</h6>
+					</div>
+					<h2 routerLink="/legal/privacy-policy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="17">Cookie Policy</h2>
+					<h2 routerLink="/legal/privacy-policy" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="17">Privacy Policy</h2>
+					<h2 routerLink="/legal/terms-of-use" routerLinkActive="active" (click)="closeNavigationPanel()" tabindex="18">Terms of Use</h2>
 				</div>
 			</div>
 		</div>
-		<div class="backdrop" (click)="closeNavigationPanel()"></div>
-	</mat-sidenav>
 
+		<div id="panel__left">
+			<div id="panel__close" (click)="closeNavigationPanel()">
+				<fa-icon id="panel__caret" [icon]="faCaretLeft"></fa-icon>
+			</div>
+		</div>
+	</div>
+</mat-sidenav>
+
+<mat-sidenav-container [hasBackdrop]="false">
 	<mat-sidenav-content>
+		<ng-container *ngIf="panel">
+			<div class="backdrop" (click)="closeNavigationPanel()"></div>
+		</ng-container>
 		<ng-container *ngIf="state.cookies">
 			<!--      <div id="cookie" [class.close]="!state.cookies">-->
 			<div id="cookie">
