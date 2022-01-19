@@ -31,7 +31,7 @@ export class DonateAmountComponent {
 
 	constructor(private activatedRoute: ActivatedRoute, private consultationSubmitService: ConsultationSubmitService, private formBuilder: FormBuilder, private router: Router) {
 		this.form = this.formBuilder.group({
-			other_amount: ['', { validators: [Validators.required] }],
+			other_amount: ['$1M', { validators: [Validators.required] }],
 		});
 	}
 

@@ -5,7 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { DonateCompleteComponent } from './complete/component';
 import { DonatePaymentComponent } from './payment/component';
 import { donateComponent } from '_application/donate/component';
-import { DonateAmountComponent } from '_application/donate/one-time/amount/component';
+// import { DonateAmountComponent } from '_application/donate/one-time/amount/component';
+import { DonateAmountComponent } from '_application/donate/monthly/amount/component';
 // import { ConsultationConfirmationCanActivateGuard } from './confirmation/guard';
 
 const routes: Routes = [

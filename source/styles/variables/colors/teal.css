@@ -30,6 +30,7 @@
 	--teal_on_brown_border_bottom_color: #1e1d24;
 
 	--teal_text_color: var(--black_color);
+	--teal_text_color: #fff;
 	--teal_border_color: #6b7212;
-	--teal_color-light: #FBFCED;
+	--teal_color_light: #FBFCED;
 }

@@ -33,6 +33,7 @@
 
 	--base_button_active_background_color: var(--teal_color);
 	--base_button_active_text_color: var(--black_color);
+	--base_button_active_text_color: #fff;
 
 	--base_button_inactive_background_color: #333;
 	--base_button_inactive_text_color: #fff;
