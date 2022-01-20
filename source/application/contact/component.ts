@@ -1,5 +1,8 @@
 import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { MapInfoWindow } from '@angular/google-maps';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { faCheck, faCaretDown } from '@fortawesome/pro-solid-svg-icons';
+import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
 	selector: 'legal-contact',
@@ -7,31 +10,16 @@ import { MapInfoWindow } from '@angular/google-maps';
 	encapsulation: ViewEncapsulation.None,
 })
 export class ContactComponent {
-	@ViewChild(MapInfoWindow, { static: false }) infoWindow: MapInfoWindow;
+	public form: FormGroup;
+	public faCheck: IconProp = faCheck;
+	public faCaretDown: IconProp = faCaretDown;
 
-	center = {
-		lat: 35.897907,
-		lng: 14.511341,
-	};
+	constructor( private formBuilder: FormBuilder) {
+		this.form = this.formBuilder.group({
+			other_amount: ['$1M', { validators: [Validators.required] }],
+		});
+	}
 
-	markerOptions = { draggable: false };
-	markers = [
-		{
-			position: {
-				lat: this.center.lat,
-				lng: this.center.lng,
-			},
-		},
-	];
-	zoom = 15;
-
-	options: google.maps.MapOptions = {
-		zoomControl: false,
-		scrollwheel: false,
-		disableDoubleClickZoom: true,
-		disableDefaultUI: false,
-		fullscreenControl: false,
-		minZoom: this.zoom,
-		maxZoom: this.zoom,
-	};
+	clearAmounts() {}
+	submit() {}
 }
