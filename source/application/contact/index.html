@@ -1,5 +1,68 @@
 <div class="structure__container">
 	<div class="structure__holder">
-		<h1>Contact page</h1>
+		<div id="donate">
+			<div id="donate__content">
+				<h1>Donate Now &amp; Help Us Secure The Rights Of Every <span>Person On Earth!</span></h1>
+				<p>We have a transparent approach to handling our finances where every dollar spent is visible and auditable.</p>
+
+				<div id="donate__points">
+					<div class="donate-point" routerLink="/donate/one-time" routerLinkActive="active">
+						<div class="donate-point__content">
+							<fa-icon class="donate-point__check" [icon]="faCheck"></fa-icon>
+							<h2>One-Time Donation</h2>
+						</div>
+					</div>
+
+					<div class="donate-point" routerLink="/donate/monthly" routerLinkActive="active">
+						<div class="donate-point__content">
+							<fa-icon class="donate-point__check" [icon]="faCheck"></fa-icon>
+							<h2>Monthly Donation</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="donate-right">
+				<!-- <div id="donate-form" [formGroup]="form" (ngSubmit)="submit()" novalidate="novalidate"> -->
+				<div id="donate-form" (ngSubmit)="submit()" novalidate="novalidate">
+					<div id="donate-form__title">
+						<label>Choose your donation amount</label>
+					</div>
+
+					<div id="donate-form__buttons">
+						<div class="donate-form-button">
+							<h2>$5</h2>
+						</div>
+						<div class="donate-form-button">
+							<h2>$10</h2>
+						</div>
+						<div class="donate-form-button">
+							<h2>$15</h2>
+						</div>
+						<div class="donate-form-button">
+							<h2>$25</h2>
+						</div>
+						<div class="donate-form-button">
+							<h2>$50</h2>
+						</div>
+						<div class="donate-form-button">
+							<h2>$100</h2>
+						</div>
+					</div>
+
+					<div class="donate-form-section">
+						<label for="donate-form-other">Other Amount</label>
+						<div class="donate-form-field">
+							<!-- <input id="donate-form-other" formControlName="other_amount" (focus)="clearAmounts()" /> -->
+							<input id="donate-form-other" />
+						</div>
+					</div>
+
+					<div class="donate-form-section">
+						<button type="submit" tabindex="8">Enter</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
